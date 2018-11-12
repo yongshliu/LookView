@@ -1,0 +1,15 @@
+.pro_header h1{
+	text-align:center;
+	margin:20px 0;
+}
+.pro_img{
+	float:left;
+	margin:5px;
+}
+.pro_source_link{
+	clear:both;
+	margin:5px 20px;
+}
+.coms_all .com{
+	margin:2px 20px 2px 50px;
+}

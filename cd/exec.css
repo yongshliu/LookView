@@ -1,0 +1,85 @@
+
+.exec_main{
+	position:relative;
+	width: 1100px;
+}
+.exec_contents{
+	position:relative;
+}
+.exec_path_container{
+	float:left;
+	width:345px;
+	margin:3px;
+	padding:2px;
+		
+}
+.fc_item_cmd.active{
+	position:relative;
+	margin-top:5px;
+	display:block;
+}
+.fc_item_cmd{
+	display:none;
+}
+.fc_item_cmd .btn{
+	padding:3px;
+	width:20px;
+	height:20px;
+}
+.nav-fc-item-add{
+	position:relative;
+	margin:8px 20px 0px 20px;
+	padding:2px 20px 2px 2px;
+	border:1px dotted #ddd;
+	z-index:1000;
+}
+.nav-fc-item-add:hover{
+	cursor:pointer;
+	background-color:#F7F7F9;
+}
+.nav-vertical-bar{
+	position:relative;
+	top:-30px;
+	padding:30px 0 20px 0;
+	border-right:1px solid #ddd;
+	width:340px;
+	
+}
+
+.fc-item{
+	position:relative;
+	margin:8px -1px 4px 4px;
+	display:block;
+	border:1px solid transparent;
+	border:radius:4px 4px 0 0;
+	padding:1px 2px;
+	color:#337ab7;
+	text-overflow:ellipsis;
+	word-break:break-all;
+}
+.fc-item:hover{
+	cursor:pointer;
+	background-color:#F7F7F9;
+}
+.fc-item.active, .fc-item.active:focus, .fc-item.active:hover{
+	color:#555;
+	cursor:default;
+	background-color:#fff;
+	border:1px solid #ddd;
+	border-right-color:transparent;
+	text-overflow:inherit;
+}
+
+
+.exec_source_container{
+	box-sizing:border-box;
+	float:right;
+	width:740px;
+	height: 555px;
+	background-color:#F7F7F9;
+	overflow-y:auto;
+}
+.fc_file_cmd_bar{
+	width:735px;
+	height:	
+}

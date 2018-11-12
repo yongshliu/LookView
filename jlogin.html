@@ -1,0 +1,49 @@
+<div id="login-dialog" class="modal fade" role="dialog" aria-labelledby="gridSystemModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="my-dia-title">Login</h4>
+      </div>
+      <div class="modal-body" id="my-dia-body">
+        <div class="container-fluid">
+		<p id="loging_indicator" style="text-align:center;display:block;" ></p>
+		<form id="form_login" action="javascript:;" class="form_login" method="get">
+			<div class="input-group input-group-lg">
+  				<span class="input-group-addon">Username:</span>
+  				<input type="text" class="form-control" id="input_login_user" placeholder="Username" aria-describedby="basic-addon1">
+			</div>
+			<div class="input-group input-group-lg">
+  				<span class="input-group-addon"> Password:</span>
+  				<input type="password" class="form-control" id="input_login_pwd" placeholder="Password" aria-describedby="basic-addon1">
+			</div>
+
+	<!--	
+		<table>
+			<tr>
+				<td class="login_lab_td"><label>user:</label></td>
+				<td class="login_conts_td"><input type="text" id="input_login_user" class="input_login_user"></td>
+			</tr>
+			<tr>
+				<td class="login_lab_td"><label>password:</label></td>
+				<td  class="login_conts_td"><input type="password" id="input_login_pwd" class="input_login_pwd"></td>
+			</tr>
+		</table>
+   -->
+			<input type="submit" value="login" class="btn btn-danger login-sumbit"> 
+		</form>
+
+
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-warning" onclick=on_pwd_lost(this)>Forget Password</button>
+        <button type="button" class="btn btn-success" onclick=on_reg_open(this)>Register New</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+

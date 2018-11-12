@@ -1,0 +1,2615 @@
+([
+{tag:"d5530_notify",ref:
+	[
+		{fp:"ofono/plugins/mbm.c",ki:"function",ln:"113",sig:"(GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"da_addr",ref:
+	[
+		{fp:"ofono/unit/test-sms.c",ki:"variable",ln:"1124",},
+	],
+},
+{tag:"daddr",ref:
+	[
+		{fp:"ofono/src/cdma-smsutil.h",ki:"member",ln:"275",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"284",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"312",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"51",},
+	],
+},
+{tag:"data",ref:
+	[
+		{fp:"ofono/drivers/atmodem/atutil.h",ki:"member",ln:"88",},
+		{fp:"ofono/drivers/atmodem/voicecall.c",ki:"member",ln:"80",},
+		{fp:"ofono/drivers/atmodem/voicecall.c",ki:"member",ln:"87",},
+		{fp:"ofono/drivers/hfpmodem/voicecall.c",ki:"member",ln:"70",},
+		{fp:"ofono/drivers/hfpmodem/voicecall.c",ki:"member",ln:"77",},
+		{fp:"ofono/drivers/ifxmodem/voicecall.c",ki:"member",ln:"57",},
+		{fp:"ofono/drivers/ifxmodem/voicecall.c",ki:"member",ln:"64",},
+		{fp:"ofono/drivers/isimodem/gprs-context.c",ki:"member",ln:"66",},
+		{fp:"ofono/drivers/isimodem/isiutil.h",ki:"member",ln:"27",},
+		{fp:"ofono/drivers/isimodem/phonebook.c",ki:"member",ln:"53",},
+		{fp:"ofono/drivers/isimodem/sms.c",ki:"member",ln:"101",},
+		{fp:"ofono/drivers/isimodem/sms.c",ki:"member",ln:"96",},
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"member",ln:"134",},
+		{fp:"ofono/drivers/isimodem/voicecall.c",ki:"member",ln:"103",},
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"131",},
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"78",},
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"86",},
+		{fp:"ofono/drivers/qmimodem/util.h",ki:"member",ln:"26",},
+		{fp:"ofono/drivers/stemodem/caif_rtnl.c",ki:"member",ln:"49",},
+		{fp:"ofono/drivers/stemodem/voicecall.c",ki:"member",ln:"68",},
+		{fp:"ofono/drivers/stemodem/voicecall.c",ki:"member",ln:"75",},
+		{fp:"ofono/dundee/device.c",ki:"member",ln:"65",},
+		{fp:"ofono/dundee/dundee.h",ki:"member",ln:"45",},
+		{fp:"ofono/gatchat/ppp_auth.c",ki:"member",ln:"42",},
+		{fp:"ofono/gatchat/ppp_auth.c",ki:"member",ln:"61",},
+		{fp:"ofono/gatchat/ppp_cp.c",ki:"member",ln:"165",},
+		{fp:"ofono/gatchat/ppp_cp.h",ki:"member",ln:"29",},
+		{fp:"ofono/gatchat/ppp_cp.h",ki:"member",ln:"56",},
+		{fp:"ofono/gdbus/watch.c",ki:"member",ln:"60",},
+		{fp:"ofono/gisi/message.h",ki:"member",ln:"44",},
+		{fp:"ofono/gisi/modem.c",ki:"member",ln:"82",},
+		{fp:"ofono/include/history.h",ki:"member",ln:"46",},
+		{fp:"ofono/include/nettime.h",ki:"member",ln:"34",},
+		{fp:"ofono/plugins/connman.c",ki:"member",ln:"57",},
+		{fp:"ofono/plugins/nokia-gpio.c",ki:"member",ln:"78",},
+		{fp:"ofono/src/cdma-smsutil.c",ki:"member",ln:"461",},
+		{fp:"ofono/src/cdma-smsutil.c",ki:"member",ln:"51",},
+		{fp:"ofono/src/emulator.c",ki:"member",ln:"1064",},
+		{fp:"ofono/src/message.c",ki:"member",ln:"38",},
+		{fp:"ofono/src/modem.c",ki:"member",ln:"108",},
+		{fp:"ofono/src/simutil.h",ki:"member",ln:"307",},
+		{fp:"ofono/src/simutil.h",ki:"member",ln:"317",},
+		{fp:"ofono/src/simutil.h",ki:"member",ln:"328",},
+		{fp:"ofono/src/sms.c",ki:"member",ln:"107",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"357",},
+		{fp:"ofono/src/stkutil.c",ki:"member",ln:"2347",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1336",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"866",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"877",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"16036",},
+	],
+},
+{tag:"data_available",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1695",},
+	],
+},
+{tag:"data_capa",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"member",ln:"82",},
+	],
+},
+{tag:"data_chat",ref:
+	[
+		{fp:"ofono/drivers/mbmmodem/location-reporting.c",ki:"member",ln:"51",},
+	],
+},
+{tag:"data_dest_addr",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1313",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"15592",},
+	],
+},
+{tag:"data_len",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1328",},
+		{fp:"ofono/unit/test-sms.c",ki:"member",ln:"580",},
+		{fp:"ofono/unit/test-sms.c",ki:"member",ln:"805",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"15964",},
+	],
+},
+{tag:"data_mode",ref:
+	[
+		{fp:"ofono/gatchat/test-server.c",ki:"variable",ln:"55",},
+	],
+},
+{tag:"data_nw_num_type",ref:
+	[
+		{fp:"ofono/src/cdma-smsutil.h",ki:"member",ln:"205",},
+	],
+},
+{tag:"data_port",ref:
+	[
+		{fp:"ofono/plugins/mbm.c",ki:"member",ln:"67",},
+	],
+},
+{tag:"data_read_cb",ref:
+	[
+		{fp:"ofono/tools/get-location.c",ki:"function",ln:"99",sig:"(GIOChannel *channel, GIOCondition cond, gpointer data)",},
+	],
+},
+{tag:"datagram_handlers",ref:
+	[
+		{fp:"ofono/src/sms.c",ki:"member",ln:"89",},
+	],
+},
+{tag:"DATAOBJ_FLAG_CR",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"enumerator",ln:"41",},
+	],
+},
+{tag:"DATAOBJ_FLAG_LIST",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"enumerator",ln:"42",},
+	],
+},
+{tag:"DATAOBJ_FLAG_MANDATORY",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"enumerator",ln:"39",},
+	],
+},
+{tag:"DATAOBJ_FLAG_MINIMUM",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"enumerator",ln:"40",},
+	],
+},
+{tag:"dataobj_handler",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"typedef",ln:"60",},
+	],
+},
+{tag:"dataobj_handler_entry",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"struct",ln:"2344",},
+	],
+},
+{tag:"dataobj_writer",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"typedef",ln:"61",},
+	],
+},
+{tag:"datetime",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1513",},
+	],
+},
+{tag:"day",ref:
+	[
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"229",},
+	],
+},
+{tag:"DBG",ref:
+	[
+		{fp:"ofono/gatchat/ppp.h",ki:"macro",ln:"33",},
+		{fp:"ofono/include/log.h",ki:"macro",ln:"60",},
+	],
+},
+{tag:"dbg",ref:
+	[
+		{fp:"ofono/drivers/stemodem/caif_socket.h",ki:"member",ln:"177",},
+	],
+},
+{tag:"dbm",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"member",ln:"42",},
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"member",ln:"51",},
+	],
+},
+{tag:"dbm_to_strength",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/network-registration.c",ki:"function",ln:"377",sig:"(int8_t dbm)",},
+	],
+},
+{tag:"dbus_apply_text_attributes",ref:
+	[
+		{fp:"ofono/src/stk.c",ki:"function",ln:"327",sig:"(const char *text, const struct stk_text_attribute *attr)",},
+	],
+},
+{tag:"dbus_conn",ref:
+	[
+		{fp:"ofono/gdbus/client.c",ki:"member",ln:"42",},
+	],
+},
+{tag:"DBUS_ERROR_PROPERTY_READ_ONLY",ref:
+	[
+		{fp:"ofono/gdbus/object.c",ki:"macro",ln:"47",},
+	],
+},
+{tag:"DBUS_ERROR_UNKNOWN_PROPERTY",ref:
+	[
+		{fp:"ofono/gdbus/object.c",ki:"macro",ln:"43",},
+	],
+},
+{tag:"dbus_gsm_set_connection",ref:
+	[
+		{fp:"ofono/src/dbus.c",ki:"function",ln:"508",sig:"(DBusConnection *conn)",},
+	],
+},
+{tag:"DBUS_INTERFACE_OBJECT_MANAGER",ref:
+	[
+		{fp:"ofono/gdbus/client.c",ki:"macro",ln:"37",},
+		{fp:"ofono/gdbus/object.c",ki:"macro",ln:"40",},
+	],
+},
+{tag:"DBUS_TIMEOUT",ref:
+	[
+		{fp:"ofono/plugins/bluez4.h",ki:"macro",ln:"32",},
+	],
+},
+{tag:"DBUS_TIMEOUT_INFINITE",ref:
+	[
+		{fp:"ofono/src/stkagent.c",ki:"macro",ln:"42",},
+	],
+},
+{tag:"DBUS_TYPE_UNIX_FD",ref:
+	[
+		{fp:"ofono/plugins/connman.c",ki:"macro",ln:"40",},
+		{fp:"ofono/plugins/dun_gw_bluez5.c",ki:"macro",ln:"42",},
+		{fp:"ofono/plugins/hfp_ag_bluez5.c",ki:"macro",ln:"43",},
+		{fp:"ofono/plugins/hfp_hf_bluez4.c",ki:"macro",ln:"59",},
+		{fp:"ofono/plugins/hfp_hf_bluez5.c",ki:"macro",ln:"61",},
+		{fp:"ofono/plugins/sap.c",ki:"macro",ln:"44",},
+		{fp:"ofono/src/location-reporting.c",ki:"macro",ln:"39",},
+		{fp:"ofono/tools/get-location.c",ki:"macro",ln:"41",},
+	],
+},
+{tag:"dcs",ref:
+	[
+		{fp:"ofono/drivers/isimodem/ussd.c",ki:"member",ln:"51",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"252",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"263",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"272",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"300",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"314",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"325",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"336",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"394",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1471",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"738",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"53",},
+	],
+},
+{tag:"deactivate",ref:
+	[
+		{fp:"ofono/include/cdma-connman.h",ki:"member",ln:"57",},
+	],
+},
+{tag:"deactivate_callback",ref:
+	[
+		{fp:"ofono/src/cdma-connman.c",ki:"function",ln:"292",sig:"(const struct ofono_error *error, void *data)",},
+	],
+},
+{tag:"deactivate_cb",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/gprs-context.c",ki:"function",ln:"377",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"deactivate_ind_cb",ref:
+	[
+		{fp:"ofono/drivers/isimodem/gprs-context.c",ki:"function",ln:"186",sig:"(const GIsiMessage *msg, void *opaque)",},
+	],
+},
+{tag:"deactivate_primary",ref:
+	[
+		{fp:"ofono/include/gprs-context.h",ki:"member",ln:"77",},
+	],
+},
+{tag:"deactivate_reception",ref:
+	[
+		{fp:"ofono/drivers/isimodem/sms.c",ki:"function",ln:"1025",sig:"(GIsiClient *client)",},
+	],
+},
+{tag:"deactivation",ref:
+	[
+		{fp:"ofono/include/call-forwarding.h",ki:"member",ln:"61",},
+	],
+},
+{tag:"debug",ref:
+	[
+		{fp:"ofono/dundee/device.c",ki:"function",ln:"207",sig:"(const char *str, void *data)",},
+		{fp:"ofono/gatchat/gatmux.c",ki:"function",ln:"101",sig:"(GAtMux *mux, const char *format, ...)",},
+		{fp:"ofono/gdbus/mainloop.c",ki:"macro",ln:"35",},
+		{fp:"ofono/gdbus/object.c",ki:"macro",ln:"38",},
+		{fp:"ofono/gdbus/watch.c",ki:"macro",ln:"38",},
+		{fp:"ofono/gisi/modem.c",ki:"member",ln:"69",},
+	],
+},
+{tag:"debug_data",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"55",},
+		{fp:"ofono/gatchat/gatchat.c",ki:"member",ln:"92",},
+		{fp:"ofono/gatchat/gathdlc.c",ki:"member",ln:"69",},
+		{fp:"ofono/gatchat/gatio.c",ki:"member",ln:"54",},
+		{fp:"ofono/gatchat/gatmux.c",ki:"member",ln:"82",},
+		{fp:"ofono/gatchat/gatppp.c",ki:"member",ln:"80",},
+		{fp:"ofono/gatchat/gatrawip.c",ki:"member",ln:"46",},
+		{fp:"ofono/gatchat/gatserver.c",ki:"member",ln:"117",},
+	],
+},
+{tag:"debug_func",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"54",},
+	],
+},
+{tag:"debug_prefixes",ref:
+	[
+		{fp:"ofono/plugins/calypso.c",ki:"variable",ln:"80",},
+	],
+},
+{tag:"debug_start",ref:
+	[
+		{fp:"ofono/include/plugin.h",ki:"member",ln:"54",},
+	],
+},
+{tag:"debug_stop",ref:
+	[
+		{fp:"ofono/include/plugin.h",ki:"member",ln:"55",},
+	],
+},
+{tag:"debugf",ref:
+	[
+		{fp:"ofono/gatchat/gatchat.c",ki:"member",ln:"91",},
+		{fp:"ofono/gatchat/gathdlc.c",ki:"member",ln:"68",},
+		{fp:"ofono/gatchat/gatio.c",ki:"member",ln:"53",},
+		{fp:"ofono/gatchat/gatmux.c",ki:"member",ln:"81",},
+		{fp:"ofono/gatchat/gatppp.c",ki:"member",ln:"79",},
+		{fp:"ofono/gatchat/gatrawip.c",ki:"member",ln:"45",},
+		{fp:"ofono/gatchat/gatserver.c",ki:"member",ln:"116",},
+	],
+},
+{tag:"declare_service",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1442",},
+	],
+},
+{tag:"DECLARE_SMS_ADDR_STR",ref:
+	[
+		{fp:"ofono/src/smsutil.h",ki:"macro",ln:"453",},
+	],
+},
+{tag:"decode_at_error",ref:
+	[
+		{fp:"ofono/drivers/atmodem/atutil.c",ki:"function",ln:"53",sig:"(struct ofono_error *error, const char *final)",},
+	],
+},
+{tag:"decode_buffer",ref:
+	[
+		{fp:"ofono/gatchat/gathdlc.c",ki:"member",ln:"60",},
+	],
+},
+{tag:"decode_chv_sb",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"function",ln:"1125",sig:"(const GIsiSubBlockIter *iter, int app_type, uint8_t *pin1, uint8_t *pin2)",},
+	],
+},
+{tag:"decode_command",ref:
+	[
+		{fp:"ofono/src/smsutil.c",ki:"function",ln:"1415",sig:"(const unsigned char *pdu, int len, struct sms *out)",},
+	],
+},
+{tag:"decode_cug_info",ref:
+	[
+		{fp:"ofono/drivers/isimodem/voicecall.c",ki:"function",ln:"1019",sig:"(GIsiSubBlockIter *iter, int *index, int *cssu)",},
+	],
+},
+{tag:"decode_deliver",ref:
+	[
+		{fp:"ofono/src/smsutil.c",ki:"function",ln:"733",sig:"(const unsigned char *pdu, int len, struct sms *out)",},
+	],
+},
+{tag:"decode_deliver_report",ref:
+	[
+		{fp:"ofono/src/smsutil.c",ki:"function",ln:"1138",sig:"(const unsigned char *pdu, int len, struct sms *out)",},
+	],
+},
+{tag:"decode_escape",ref:
+	[
+		{fp:"ofono/gatchat/gathdlc.c",ki:"member",ln:"63",},
+	],
+},
+{tag:"decode_fci_sb",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"function",ln:"1085",sig:"(const GIsiSubBlockIter *iter, int app_type, uint8_t *pin1, uint8_t *pin2)",},
+	],
+},
+{tag:"decode_fcp_pin_status",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"function",ln:"1043",sig:"(const GIsiSubBlockIter *iter, uint8_t read, uint8_t *pin1, uint8_t *pin2)",},
+	],
+},
+{tag:"decode_fcs",ref:
+	[
+		{fp:"ofono/gatchat/gathdlc.c",ki:"member",ln:"62",},
+	],
+},
+{tag:"decode_gsm_barring_info",ref:
+	[
+		{fp:"ofono/drivers/isimodem/call-barring.c",ki:"function",ln:"155",sig:"(GIsiSubBlockIter *outer, uint32_t *mask)",},
+	],
+},
+{tag:"decode_gsm_bsc_info",ref:
+	[
+		{fp:"ofono/drivers/isimodem/call-barring.c",ki:"function",ln:"138",sig:"(GIsiSubBlockIter *iter, uint32_t *mask)",},
+		{fp:"ofono/drivers/isimodem/call-settings.c",ki:"function",ln:"114",sig:"(GIsiSubBlockIter *iter, uint32_t *mask)",},
+	],
+},
+{tag:"decode_gsm_forwarding_info",ref:
+	[
+		{fp:"ofono/drivers/isimodem/call-forwarding.c",ki:"function",ln:"116",sig:"(GIsiSubBlockIter *parent, uint8_t *status, uint8_t *ton, uint8_t *noreply, char **number)",},
+	],
+},
+{tag:"decode_hex",ref:
+	[
+		{fp:"ofono/src/util.c",ki:"function",ln:"927",sig:"(const char *in, long len, long *items_written, unsigned char terminator)",},
+	],
+},
+{tag:"decode_hex_own_buf",ref:
+	[
+		{fp:"ofono/src/util.c",ki:"function",ln:"881",sig:"(const char *in, long len, long *items_written, unsigned char terminator, unsigned char *buf)",},
+	],
+},
+{tag:"decode_imsi",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"function",ln:"735",sig:"(uint8_t *data, int len, char *imsi)",},
+	],
+},
+{tag:"decode_notify",ref:
+	[
+		{fp:"ofono/drivers/isimodem/voicecall.c",ki:"function",ln:"796",sig:"(GIsiSubBlockIter *iter)",},
+	],
+},
+{tag:"decode_offset",ref:
+	[
+		{fp:"ofono/gatchat/gathdlc.c",ki:"member",ln:"61",},
+	],
+},
+{tag:"decode_remote_address",ref:
+	[
+		{fp:"ofono/drivers/isimodem/voicecall.c",ki:"function",ln:"991",sig:"(GIsiSubBlockIter *iter, struct ofono_phone_number *number, int *index)",},
+	],
+},
+{tag:"decode_response",ref:
+	[
+		{fp:"ofono/drivers/isimodem/phonebook.c",ki:"function",ln:"117",sig:"(const GIsiMessage *msg, uint16_t *location, void *data)",},
+	],
+},
+{tag:"decode_ss_code",ref:
+	[
+		{fp:"ofono/drivers/isimodem/voicecall.c",ki:"function",ln:"823",sig:"(GIsiSubBlockIter *iter, int *cssi, int *cssu)",},
+	],
+},
+{tag:"decode_ss_ect_indicator",ref:
+	[
+		{fp:"ofono/drivers/isimodem/voicecall.c",ki:"function",ln:"969",sig:"(GIsiSubBlockIter *iter, int *cssu)",},
+	],
+},
+{tag:"decode_ss_hold_indicator",ref:
+	[
+		{fp:"ofono/drivers/isimodem/voicecall.c",ki:"function",ln:"949",sig:"(GIsiSubBlockIter *iter, int *cssu)",},
+	],
+},
+{tag:"decode_ss_notify",ref:
+	[
+		{fp:"ofono/drivers/isimodem/voicecall.c",ki:"function",ln:"903",sig:"(GIsiSubBlockIter *iter, int *cssi, int *cssu)",},
+	],
+},
+{tag:"decode_ss_notify_indicator",ref:
+	[
+		{fp:"ofono/drivers/isimodem/voicecall.c",ki:"function",ln:"926",sig:"(GIsiSubBlockIter *iter, int *cssi)",},
+	],
+},
+{tag:"decode_ss_status",ref:
+	[
+		{fp:"ofono/drivers/isimodem/voicecall.c",ki:"function",ln:"881",sig:"(GIsiSubBlockIter *iter)",},
+	],
+},
+{tag:"decode_status_report",ref:
+	[
+		{fp:"ofono/src/smsutil.c",ki:"function",ln:"997",sig:"(const unsigned char *pdu, int len, struct sms *out)",},
+	],
+},
+{tag:"decode_submit",ref:
+	[
+		{fp:"ofono/src/smsutil.c",ki:"function",ln:"1328",sig:"(const unsigned char *pdu, int len, struct sms *out)",},
+	],
+},
+{tag:"decode_submit_report",ref:
+	[
+		{fp:"ofono/src/smsutil.c",ki:"function",ln:"846",sig:"(const unsigned char *pdu, int len, struct sms *out)",},
+	],
+},
+{tag:"decode_subparams",ref:
+	[
+		{fp:"ofono/src/cdma-smsutil.c",ki:"function",ln:"464",sig:"(struct simple_iter *iter, guint32 *bitmap, void *data, ...)",},
+	],
+},
+{tag:"decode_text",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"84",sig:"(unsigned char dcs, int len, const unsigned char *data)",},
+	],
+},
+{tag:"decode_text_7bit_ascii",ref:
+	[
+		{fp:"ofono/src/cdma-smsutil.c",ki:"function",ln:"268",sig:"(const struct cdma_sms_ud *ud)",},
+	],
+},
+{tag:"decode_uicc_usim_type",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"function",ln:"139",sig:"(GIsiSubBlockIter *iter, uint16_t *length, uint16_t *file_id, uint16_t *record_length, uint8_t *records, uint8_t *structure)",},
+	],
+},
+{tag:"decode_validity_period",ref:
+	[
+		{fp:"ofono/src/smsutil.c",ki:"function",ln:"460",sig:"(const unsigned char *pdu, int len, int *offset, enum sms_validity_period_format vpf, struct sms_validity_period *vp)",},
+	],
+},
+{tag:"def_ext_gsm",ref:
+	[
+		{fp:"ofono/src/util.c",ki:"variable",ln:"94",},
+	],
+},
+{tag:"def_ext_unicode",ref:
+	[
+		{fp:"ofono/src/util.c",ki:"variable",ln:"108",},
+	],
+},
+{tag:"def_gsm",ref:
+	[
+		{fp:"ofono/src/util.c",ki:"variable",ln:"292",},
+	],
+},
+{tag:"def_unicode",ref:
+	[
+		{fp:"ofono/src/util.c",ki:"variable",ln:"312",},
+	],
+},
+{tag:"default_agent",ref:
+	[
+		{fp:"ofono/src/stk.c",ki:"member",ln:"68",},
+	],
+},
+{tag:"default_agent_notify",ref:
+	[
+		{fp:"ofono/src/stk.c",ki:"function",ln:"654",sig:"(gpointer user_data)",},
+	],
+},
+{tag:"DEFAULT_DEFER_TIMEOUT",ref:
+	[
+		{fp:"ofono/btio/btio.c",ki:"macro",ln:"49",},
+	],
+},
+{tag:"default_en_list",ref:
+	[
+		{fp:"ofono/src/voicecall.c",ki:"variable",ln:"118",},
+	],
+},
+{tag:"default_en_list_no_sim",ref:
+	[
+		{fp:"ofono/src/voicecall.c",ki:"variable",ln:"119",},
+	],
+},
+{tag:"default_item",ref:
+	[
+		{fp:"ofono/src/stkagent.h",ki:"member",ln:"42",},
+	],
+},
+{tag:"DEFAULT_MRU",ref:
+	[
+		{fp:"ofono/gatchat/gatppp.c",ki:"macro",ln:"43",},
+	],
+},
+{tag:"DEFAULT_MTU",ref:
+	[
+		{fp:"ofono/gatchat/gatppp.c",ki:"macro",ln:"44",},
+	],
+},
+{tag:"DEFAULT_NO_REPLY_TIMEOUT",ref:
+	[
+		{fp:"ofono/src/call-forwarding.c",ki:"macro",ln:"43",},
+	],
+},
+{tag:"DEFAULT_SOCK_PATH",ref:
+	[
+		{fp:"ofono/gatchat/test-server.c",ki:"macro",ln:"52",},
+	],
+},
+{tag:"DEFAULT_TCP_PORT",ref:
+	[
+		{fp:"ofono/gatchat/test-server.c",ki:"macro",ln:"51",},
+	],
+},
+{tag:"default_text",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1159",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"1549",},
+	],
+},
+{tag:"defer",ref:
+	[
+		{fp:"ofono/btio/btio.c",ki:"member",ln:"54",},
+	],
+},
+{tag:"defer_setup",ref:
+	[
+		{fp:"ofono/src/handsfree-audio.c",ki:"variable",ln:"69",},
+	],
+},
+{tag:"deferred",ref:
+	[
+		{fp:"ofono/src/emulator.c",ki:"member",ln:"63",},
+	],
+},
+{tag:"deflect",ref:
+	[
+		{fp:"ofono/include/voicecall.h",ki:"member",ln:"125",},
+	],
+},
+{tag:"delay",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"910",},
+	],
+},
+{tag:"deliver",ref:
+	[
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"345",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"63",},
+	],
+},
+{tag:"deliver_ack_report",ref:
+	[
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"346",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"64",},
+	],
+},
+{tag:"deliver_err_report",ref:
+	[
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"347",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"65",},
+	],
+},
+{tag:"deliverable",ref:
+	[
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"381",},
+	],
+},
+{tag:"DEPRECATED_QUAL_PROTO",ref:
+	[
+		{fp:"ofono/gatchat/ppp_lcp.c",ki:"enumerator",ln:"56",},
+	],
+},
+{tag:"desc",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"member",ln:"138",},
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"member",ln:"153",},
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"member",ln:"82",},
+		{fp:"ofono/src/plugin.c",ki:"member",ln:"37",},
+	],
+},
+{tag:"desc_len",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"member",ln:"137",},
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"member",ln:"152",},
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"member",ln:"81",},
+	],
+},
+{tag:"description",ref:
+	[
+		{fp:"ofono/include/plugin.h",ki:"member",ln:"49",},
+	],
+},
+{tag:"dest_address",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1630",},
+	],
+},
+{tag:"destroy",ref:
+	[
+		{fp:"ofono/btio/btio.c",ki:"member",ln:"71",},
+		{fp:"ofono/btio/btio.c",ki:"member",ln:"77",},
+		{fp:"ofono/btio/btio.c",ki:"member",ln:"84",},
+		{fp:"ofono/drivers/atmodem/atutil.c",ki:"member",ln:"48",},
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"104",},
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"1184",},
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"1511",},
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"1686",},
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"1819",},
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"993",},
+		{fp:"ofono/gatchat/gatmux.c",ki:"member",ln:"96",},
+		{fp:"ofono/gdbus/client.c",ki:"member",ln:"641",},
+		{fp:"ofono/gdbus/client.c",ki:"member",ln:"820",},
+		{fp:"ofono/gdbus/object.c",ki:"member",ln:"71",},
+		{fp:"ofono/gisi/modem.c",ki:"member",ln:"81",},
+		{fp:"ofono/src/emulator.c",ki:"member",ln:"1065",},
+		{fp:"ofono/src/ofono.h",ki:"member",ln:"85",},
+		{fp:"ofono/src/ofono.h",ki:"member",ln:"91",},
+		{fp:"ofono/src/sms.c",ki:"member",ln:"108",},
+		{fp:"ofono/src/smsagent.c",ki:"member",ln:"55",},
+		{fp:"ofono/src/ussd.c",ki:"member",ln:"73",},
+		{fp:"ofono/src/voicecall.c",ki:"member",ln:"109",},
+	],
+},
+{tag:"destroy_call",ref:
+	[
+		{fp:"ofono/tools/huawei-audio.c",ki:"function",ln:"226",sig:"(gpointer data)",},
+	],
+},
+{tag:"destroy_close_channel",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"3388",sig:"(struct stk_command *command)",},
+	],
+},
+{tag:"destroy_declare_service",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"3590",sig:"(struct stk_command *command)",},
+	],
+},
+{tag:"destroy_device",ref:
+	[
+		{fp:"ofono/dundee/bluez4.c",ki:"function",ln:"206",sig:"(gpointer user)",},
+		{fp:"ofono/dundee/device.c",ki:"function",ln:"573",sig:"(gpointer user)",},
+	],
+},
+{tag:"destroy_display_mms",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"3744",sig:"(struct stk_command *command)",},
+	],
+},
+{tag:"destroy_display_text",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"2434",sig:"(struct stk_command *command)",},
+	],
+},
+{tag:"destroy_func",ref:
+	[
+		{fp:"ofono/gdbus/watch.c",ki:"member",ln:"59",},
+	],
+},
+{tag:"destroy_get_inkey",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"2474",sig:"(struct stk_command *command)",},
+	],
+},
+{tag:"destroy_get_input",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"2512",sig:"(struct stk_command *command)",},
+	],
+},
+{tag:"destroy_get_service_info",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"3556",sig:"(struct stk_command *command)",},
+	],
+},
+{tag:"destroy_launch_browser",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"3263",sig:"(struct stk_command *command)",},
+	],
+},
+{tag:"destroy_merged_entry",ref:
+	[
+		{fp:"ofono/src/phonebook.c",ki:"function",ln:"260",sig:"(struct phonebook_person *person)",},
+	],
+},
+{tag:"destroy_modem",ref:
+	[
+		{fp:"ofono/plugins/udevng.c",ki:"function",ln:"835",sig:"(gpointer data)",},
+		{fp:"ofono/tools/auto-enable.c",ki:"function",ln:"221",sig:"(gpointer data)",},
+		{fp:"ofono/tools/huawei-audio.c",ki:"function",ln:"478",sig:"(gpointer data)",},
+	],
+},
+{tag:"destroy_notify",ref:
+	[
+		{fp:"ofono/gatchat/gatserver.c",ki:"member",ln:"106",},
+	],
+},
+{tag:"destroy_number",ref:
+	[
+		{fp:"ofono/src/phonebook.c",ki:"function",ln:"241",sig:"(struct phonebook_number *pn)",},
+	],
+},
+{tag:"destroy_open_channel",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"3324",sig:"(struct stk_command *command)",},
+	],
+},
+{tag:"destroy_play_tone",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"2567",sig:"(struct stk_command *command)",},
+	],
+},
+{tag:"destroy_receive_data",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"3424",sig:"(struct stk_command *command)",},
+	],
+},
+{tag:"destroy_refresh",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"2949",sig:"(struct stk_command *command)",},
+	],
+},
+{tag:"destroy_retrieve_mms",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"3652",sig:"(struct stk_command *command)",},
+	],
+},
+{tag:"destroy_run_at_command",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"3167",sig:"(struct stk_command *command)",},
+	],
+},
+{tag:"destroy_select_item",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"2671",sig:"(struct stk_command *command)",},
+	],
+},
+{tag:"destroy_send_data",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"3463",sig:"(struct stk_command *command)",},
+	],
+},
+{tag:"destroy_send_dtmf",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"3206",sig:"(struct stk_command *command)",},
+	],
+},
+{tag:"destroy_send_sms",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"2724",sig:"(struct stk_command *command)",},
+	],
+},
+{tag:"destroy_send_ss",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"2829",sig:"(struct stk_command *command)",},
+	],
+},
+{tag:"destroy_send_ussd",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"2862",sig:"(struct stk_command *command)",},
+	],
+},
+{tag:"destroy_service_search",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"3519",sig:"(struct stk_command *command)",},
+	],
+},
+{tag:"destroy_setup_call",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"2895",sig:"(struct stk_command *command)",},
+	],
+},
+{tag:"destroy_setup_idle_mode_text",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"3130",sig:"(struct stk_command *command)",},
+	],
+},
+{tag:"destroy_setup_menu",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"2624",sig:"(struct stk_command *command)",},
+	],
+},
+{tag:"destroy_stemodem",ref:
+	[
+		{fp:"ofono/plugins/stemgr.c",ki:"function",ln:"356",sig:"(gpointer data)",},
+	],
+},
+{tag:"destroy_stk_item",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"2256",sig:"(struct stk_item *item)",},
+	],
+},
+{tag:"destroy_submit_mms",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"3701",sig:"(struct stk_command *command)",},
+	],
+},
+{tag:"destroyed",ref:
+	[
+		{fp:"ofono/gatchat/gatchat.c",ki:"member",ln:"101",},
+		{fp:"ofono/gatchat/gatchat.c",ki:"member",ln:"67",},
+		{fp:"ofono/gatchat/gathdlc.c",ki:"member",ln:"72",},
+		{fp:"ofono/gatchat/gatio.c",ki:"member",ln:"57",},
+		{fp:"ofono/gatchat/gatserver.c",ki:"member",ln:"122",},
+	],
+},
+{tag:"destruct",ref:
+	[
+		{fp:"ofono/src/modem.c",ki:"member",ln:"106",},
+	],
+},
+{tag:"destructor",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1450",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1610",},
+	],
+},
+{tag:"detach_ind_cb",ref:
+	[
+		{fp:"ofono/drivers/isimodem/gprs.c",ki:"function",ln:"100",sig:"(const GIsiMessage *msg, void *opaque)",},
+	],
+},
+{tag:"detach_resp_cb",ref:
+	[
+		{fp:"ofono/drivers/isimodem/gprs.c",ki:"function",ln:"359",sig:"(const GIsiMessage *msg, void *opaque)",},
+	],
+},
+{tag:"detach_shutdown",ref:
+	[
+		{fp:"ofono/include/gprs-context.h",ki:"member",ln:"80",},
+	],
+},
+{tag:"detect_exit",ref:
+	[
+		{fp:"ofono/plugins/udevng.c",ki:"function",ln:"1307",sig:"(void)",},
+	],
+},
+{tag:"detect_init",ref:
+	[
+		{fp:"ofono/plugins/udevng.c",ki:"function",ln:"1277",sig:"(void)",},
+	],
+},
+{tag:"detect_time",ref:
+	[
+		{fp:"ofono/src/voicecall.c",ki:"member",ln:"84",},
+	],
+},
+{tag:"DEV_CMT",ref:
+	[
+		{fp:"ofono/plugins/nokia-gpio.c",ki:"macro",ln:"45",},
+	],
+},
+{tag:"dev_filter",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1345",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"980",},
+	],
+},
+{tag:"device",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"1181",},
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"1504",},
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"67",},
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"990",},
+		{fp:"ofono/dundee/bluez4.c",ki:"member",ln:"42",},
+		{fp:"ofono/dundee/bluez5.c",ki:"member",ln:"39",},
+		{fp:"ofono/gisi/modem.c",ki:"member",ln:"62",},
+		{fp:"ofono/plugins/gobi.c",ki:"member",ln:"64",},
+		{fp:"ofono/plugins/ifx.c",ki:"member",ln:"87",},
+		{fp:"ofono/plugins/sim900.c",ki:"member",ln:"64",},
+	],
+},
+{tag:"device1",ref:
+	[
+		{fp:"ofono/gisi/pipe.c",ki:"member",ln:"41",},
+	],
+},
+{tag:"device2",ref:
+	[
+		{fp:"ofono/gisi/pipe.c",ki:"member",ln:"46",},
+	],
+},
+{tag:"device_address",ref:
+	[
+		{fp:"ofono/drivers/hfpmodem/devinfo.c",ki:"member",ln:"40",},
+	],
+},
+{tag:"device_dial_setup",ref:
+	[
+		{fp:"ofono/dundee/device.c",ki:"function",ln:"400",sig:"(struct dundee_device *device, int fd)",},
+	],
+},
+{tag:"device_fd",ref:
+	[
+		{fp:"ofono/tools/tty-redirector.c",ki:"variable",ln:"50",},
+	],
+},
+{tag:"device_get_properties",ref:
+	[
+		{fp:"ofono/dundee/device.c",ki:"function",ln:"181",sig:"(DBusConnection *conn, DBusMessage *msg, void *data)",},
+	],
+},
+{tag:"device_handler",ref:
+	[
+		{fp:"ofono/tools/tty-redirector.c",ki:"function",ln:"201",sig:"(GIOChannel *channel, GIOCondition cond, gpointer user_data)",},
+	],
+},
+{tag:"device_hash",ref:
+	[
+		{fp:"ofono/dundee/device.c",ki:"variable",ln:"41",},
+	],
+},
+{tag:"device_info",ref:
+	[
+		{fp:"ofono/plugins/udevng.c",ki:"struct",ln:"51",},
+	],
+},
+{tag:"device_methods",ref:
+	[
+		{fp:"ofono/dundee/device.c",ki:"variable",ln:"501",},
+	],
+},
+{tag:"device_path_compare",ref:
+	[
+		{fp:"ofono/plugins/hfp_hf_bluez5.c",ki:"function",ln:"413",sig:"(struct ofono_modem *modem, void *userdata)",},
+	],
+},
+{tag:"device_properties_cb",ref:
+	[
+		{fp:"ofono/plugins/bluez4.c",ki:"function",ln:"286",sig:"(DBusPendingCall *call, gpointer user_data)",},
+	],
+},
+{tag:"device_removed",ref:
+	[
+		{fp:"ofono/plugins/bluez4.c",ki:"function",ln:"738",sig:"(DBusConnection *conn, DBusMessage *message, void *user_data)",},
+	],
+},
+{tag:"device_removed_watch",ref:
+	[
+		{fp:"ofono/plugins/bluez4.c",ki:"variable",ln:"829",},
+	],
+},
+{tag:"device_send_message",ref:
+	[
+		{fp:"ofono/plugins/bluez5.c",ki:"function",ln:"199",sig:"(DBusConnection *conn, const char *device, const char *member, const char *uuid, bt_finish_cb cb, gpointer user_data)",},
+	],
+},
+{tag:"device_set_property",ref:
+	[
+		{fp:"ofono/dundee/device.c",ki:"function",ln:"474",sig:"(DBusConnection *conn, DBusMessage *msg, void *data)",},
+	],
+},
+{tag:"device_shutdown",ref:
+	[
+		{fp:"ofono/dundee/device.c",ki:"function",ln:"672",sig:"(gpointer key, gpointer value, gpointer user_data)",},
+	],
+},
+{tag:"device_signals",ref:
+	[
+		{fp:"ofono/dundee/device.c",ki:"variable",ln:"511",},
+	],
+},
+{tag:"device_watch",ref:
+	[
+		{fp:"ofono/tools/tty-redirector.c",ki:"variable",ln:"53",},
+	],
+},
+{tag:"devices",ref:
+	[
+		{fp:"ofono/plugins/udevng.c",ki:"member",ln:"46",},
+	],
+},
+{tag:"devinfo_data",ref:
+	[
+		{fp:"ofono/drivers/hfpmodem/devinfo.c",ki:"struct",ln:"39",},
+		{fp:"ofono/drivers/isimodem/devinfo.c",ki:"struct",ln:"47",},
+		{fp:"ofono/drivers/qmimodem/devinfo.c",ki:"struct",ln:"35",},
+		{fp:"ofono/plugins/u8500.c",ki:"struct",ln:"76",},
+	],
+},
+{tag:"devinfo_driver",ref:
+	[
+		{fp:"ofono/plugins/u8500.c",ki:"variable",ln:"673",},
+	],
+},
+{tag:"devinfo_remove",ref:
+	[
+		{fp:"ofono/src/modem.c",ki:"function",ln:"1561",sig:"(struct ofono_atom *atom)",},
+	],
+},
+{tag:"devinfo_unregister",ref:
+	[
+		{fp:"ofono/src/modem.c",ki:"function",ln:"1607",sig:"(struct ofono_atom *atom)",},
+	],
+},
+{tag:"devname",ref:
+	[
+		{fp:"ofono/plugins/udevng.c",ki:"member",ln:"42",},
+	],
+},
+{tag:"devnode",ref:
+	[
+		{fp:"ofono/plugins/udevng.c",ki:"member",ln:"53",},
+	],
+},
+{tag:"devpath",ref:
+	[
+		{fp:"ofono/plugins/udevng.c",ki:"member",ln:"52",},
+	],
+},
+{tag:"devpath_list",ref:
+	[
+		{fp:"ofono/plugins/udev.c",ki:"variable",ln:"41",},
+	],
+},
+{tag:"devpath_remove",ref:
+	[
+		{fp:"ofono/plugins/udev.c",ki:"function",ln:"318",sig:"(gpointer key, gpointer value, gpointer user_data)",},
+	],
+},
+{tag:"DF",ref:
+	[
+		{fp:"ofono/src/simutil.c",ki:"macro",ln:"57",},
+	],
+},
+{tag:"DFGSM",ref:
+	[
+		{fp:"ofono/src/sim.c",ki:"macro",ln:"3113",},
+	],
+},
+{tag:"DFTEL",ref:
+	[
+		{fp:"ofono/src/sim.c",ki:"macro",ln:"3114",},
+	],
+},
+{tag:"dgm",ref:
+	[
+		{fp:"ofono/drivers/stemodem/caif_socket.h",ki:"member",ln:"169",},
+	],
+},
+{tag:"dhcp_count",ref:
+	[
+		{fp:"ofono/drivers/huaweimodem/gprs-context.c",ki:"member",ln:"51",},
+	],
+},
+{tag:"dhcp_poll",ref:
+	[
+		{fp:"ofono/drivers/huaweimodem/gprs-context.c",ki:"function",ln:"59",sig:"(gpointer user_data)",},
+	],
+},
+{tag:"dhcp_prefix",ref:
+	[
+		{fp:"ofono/drivers/huaweimodem/gprs-context.c",ki:"variable",ln:"45",},
+	],
+},
+{tag:"dhcp_query_cb",ref:
+	[
+		{fp:"ofono/drivers/huaweimodem/gprs-context.c",ki:"function",ln:"95",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"dhcp_source",ref:
+	[
+		{fp:"ofono/drivers/huaweimodem/gprs-context.c",ki:"member",ln:"50",},
+	],
+},
+{tag:"dial",ref:
+	[
+		{fp:"ofono/include/cdma-voicecall.h",ki:"member",ln:"51",},
+		{fp:"ofono/include/voicecall.h",ki:"member",ln:"59",},
+	],
+},
+{tag:"dial_call",ref:
+	[
+		{fp:"ofono/src/emulator.c",ki:"function",ln:"177",sig:"(struct ofono_emulator *em, const char *dial_str)",},
+	],
+},
+{tag:"dial_cb",ref:
+	[
+		{fp:"ofono/dundee/device.c",ki:"function",ln:"353",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+		{fp:"ofono/gatchat/test-server.c",ki:"function",ln:"766",sig:"(GAtServer *server, GAtServerRequestType type, GAtResult *cmd, gpointer user)",},
+		{fp:"ofono/src/emulator.c",ki:"function",ln:"192",sig:"(GAtServer *server, GAtServerRequestType type, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"dial_handle_result",ref:
+	[
+		{fp:"ofono/src/voicecall.c",ki:"function",ln:"1406",sig:"(struct ofono_voicecall *vc, const struct ofono_error *error, const char *number, gboolean *need_to_emit)",},
+	],
+},
+{tag:"dial_mode",ref:
+	[
+		{fp:"ofono/gatchat/gatserver.c",ki:"member",ln:"99",},
+	],
+},
+{tag:"dial_req",ref:
+	[
+		{fp:"ofono/src/voicecall.c",ki:"member",ln:"69",},
+	],
+},
+{tag:"dial_req_disconnect_cb",ref:
+	[
+		{fp:"ofono/src/voicecall.c",ki:"function",ln:"3694",sig:"(const struct ofono_error *error, void *data)",},
+	],
+},
+{tag:"dial_request",ref:
+	[
+		{fp:"ofono/src/voicecall.c",ki:"function",ln:"3680",sig:"(struct ofono_voicecall *vc)",},
+		{fp:"ofono/src/voicecall.c",ki:"struct",ln:"93",},
+	],
+},
+{tag:"dial_request_cb",ref:
+	[
+		{fp:"ofono/src/voicecall.c",ki:"function",ln:"3639",sig:"(const struct ofono_error *error, void *data)",},
+	],
+},
+{tag:"dial_request_finish",ref:
+	[
+		{fp:"ofono/src/voicecall.c",ki:"function",ln:"316",sig:"(struct ofono_voicecall *vc)",},
+	],
+},
+{tag:"dial_result_handled",ref:
+	[
+		{fp:"ofono/src/voicecall.c",ki:"member",ln:"88",},
+	],
+},
+{tag:"dialmode_prefix",ref:
+	[
+		{fp:"ofono/plugins/huawei.c",ki:"variable",ln:"65",},
+	],
+},
+{tag:"dialmode_query_cb",ref:
+	[
+		{fp:"ofono/plugins/huawei.c",ki:"function",ln:"175",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"dialmode_support_cb",ref:
+	[
+		{fp:"ofono/plugins/huawei.c",ki:"function",ln:"227",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"digi_num_type",ref:
+	[
+		{fp:"ofono/src/cdma-smsutil.h",ki:"member",ln:"204",},
+	],
+},
+{tag:"digit_mode",ref:
+	[
+		{fp:"ofono/src/cdma-smsutil.h",ki:"member",ln:"201",},
+	],
+},
+{tag:"dir_exists",ref:
+	[
+		{fp:"ofono/plugins/nokia-gpio.c",ki:"function",ln:"146",sig:"(char const *filename)",},
+	],
+},
+{tag:"direction",ref:
+	[
+		{fp:"ofono/include/gprs-context.h",ki:"member",ln:"58",},
+		{fp:"ofono/include/types.h",ki:"member",ln:"92",},
+		{fp:"ofono/src/cdma-voicecall.c",ki:"member",ln:"44",},
+	],
+},
+{tag:"disable",ref:
+	[
+		{fp:"ofono/include/location-reporting.h",ki:"member",ln:"53",},
+		{fp:"ofono/include/modem.h",ki:"member",ln:"61",},
+		{fp:"ofono/plugins/bluez4.h",ki:"member",ln:"56",},
+	],
+},
+{tag:"disable_all_callback",ref:
+	[
+		{fp:"ofono/src/call-barring.c",ki:"function",ln:"879",sig:"(const struct ofono_error *error, void *data)",},
+		{fp:"ofono/src/call-forwarding.c",ki:"function",ln:"829",sig:"(const struct ofono_error *error, void *data)",},
+	],
+},
+{tag:"disable_conditional_callback",ref:
+	[
+		{fp:"ofono/src/call-forwarding.c",ki:"function",ln:"810",sig:"(const struct ofono_error *error, void *data)",},
+	],
+},
+{tag:"disable_data_stream",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/location-reporting.c",ki:"function",ln:"92",sig:"(struct ofono_location_reporting *lr)",},
+	],
+},
+{tag:"disable_nrec",ref:
+	[
+		{fp:"ofono/include/handsfree.h",ki:"member",ln:"57",},
+	],
+},
+{tag:"disc_func",ref:
+	[
+		{fp:"ofono/gdbus/watch.c",ki:"member",ln:"57",},
+	],
+},
+{tag:"disconn_data",ref:
+	[
+		{fp:"ofono/gdbus/client.c",ki:"member",ln:"54",},
+	],
+},
+{tag:"disconn_func",ref:
+	[
+		{fp:"ofono/gdbus/client.c",ki:"member",ln:"53",},
+	],
+},
+{tag:"disconnect",ref:
+	[
+		{fp:"ofono/dundee/dundee.h",ki:"member",ln:"126",},
+	],
+},
+{tag:"disconnect_callback",ref:
+	[
+		{fp:"ofono/dundee/device.c",ki:"function",ln:"300",sig:"(const struct dundee_error *error, void *data)",},
+		{fp:"ofono/tools/auto-enable.c",ki:"function",ln:"469",sig:"(DBusConnection *conn, void *user_data)",},
+		{fp:"ofono/tools/huawei-audio.c",ki:"function",ln:"754",sig:"(DBusConnection *conn, void *user_data)",},
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1116",sig:"(DBusConnection *conn, void *user_data)",},
+	],
+},
+{tag:"disconnect_cb",ref:
+	[
+		{fp:"ofono/gatchat/gatppp.c",ki:"member",ln:"76",},
+	],
+},
+{tag:"disconnect_data",ref:
+	[
+		{fp:"ofono/gatchat/gatppp.c",ki:"member",ln:"77",},
+		{fp:"ofono/gdbus/mainloop.c",ki:"struct",ln:"48",},
+	],
+},
+{tag:"disconnect_reason",ref:
+	[
+		{fp:"ofono/gatchat/gatppp.c",ki:"member",ln:"78",},
+	],
+},
+{tag:"disconnect_reason_to_string",ref:
+	[
+		{fp:"ofono/src/cdma-voicecall.c",ki:"function",ln:"53",sig:"(enum ofono_disconnect_reason r)",},
+		{fp:"ofono/src/voicecall.c",ki:"function",ln:"165",sig:"(enum ofono_disconnect_reason r)",},
+	],
+},
+{tag:"disconnect_watch",ref:
+	[
+		{fp:"ofono/src/gnssagent.c",ki:"member",ln:"41",},
+		{fp:"ofono/src/location-reporting.c",ki:"member",ln:"51",},
+		{fp:"ofono/src/smsagent.c",ki:"member",ln:"43",},
+		{fp:"ofono/src/stkagent.c",ki:"member",ln:"54",},
+	],
+},
+{tag:"disconnected_signal",ref:
+	[
+		{fp:"ofono/gdbus/mainloop.c",ki:"function",ln:"53",sig:"(DBusConnection *conn, DBusMessage *msg, void *data)",},
+	],
+},
+{tag:"discover_attempts",ref:
+	[
+		{fp:"ofono/plugins/gobi.c",ki:"member",ln:"67",},
+	],
+},
+{tag:"discover_callback",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"997",sig:"(uint16_t message, uint16_t length, const void *buffer, void *user_data)",},
+	],
+},
+{tag:"discover_cb",ref:
+	[
+		{fp:"ofono/plugins/gobi.c",ki:"function",ln:"242",sig:"(uint8_t count, const struct qmi_version *list, void *user_data)",},
+	],
+},
+{tag:"discover_data",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"struct",ln:"989",},
+	],
+},
+{tag:"discover_reply",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"1088",sig:"(gpointer user_data)",},
+	],
+},
+{tag:"disp_home",ref:
+	[
+		{fp:"ofono/drivers/isimodem/sim.c",ki:"member",ln:"70",},
+	],
+},
+{tag:"disp_roam",ref:
+	[
+		{fp:"ofono/drivers/isimodem/sim.c",ki:"member",ln:"71",},
+	],
+},
+{tag:"dispatch_app_datagram",ref:
+	[
+		{fp:"ofono/src/sms.c",ki:"function",ln:"1172",sig:"(struct ofono_sms *sms, const struct ofono_uuid *uuid, int dst, int src, unsigned char *buf, unsigned len, const struct sms_address *addr, const struct sms_scts *scts)",},
+	],
+},
+{tag:"dispatch_cb",ref:
+	[
+		{fp:"ofono/src/smsagent.c",ki:"member",ln:"53",},
+	],
+},
+{tag:"dispatch_data",ref:
+	[
+		{fp:"ofono/src/smsagent.c",ki:"member",ln:"54",},
+	],
+},
+{tag:"dispatch_sources",ref:
+	[
+		{fp:"ofono/gatchat/gatmux.c",ki:"function",ln:"117",sig:"(GAtMuxChannel *channel, GIOCondition condition)",},
+	],
+},
+{tag:"dispatch_status",ref:
+	[
+		{fp:"ofono/gdbus/mainloop.c",ki:"function",ln:"233",sig:"(DBusConnection *conn, DBusDispatchStatus status, void *data)",},
+	],
+},
+{tag:"dispatch_text_message",ref:
+	[
+		{fp:"ofono/src/sms.c",ki:"function",ln:"1203",sig:"(struct ofono_sms *sms, const struct ofono_uuid *uuid, const char *message, enum sms_class cls, const struct sms_address *addr, const struct sms_scts *scts)",},
+	],
+},
+{tag:"display_action_cb",ref:
+	[
+		{fp:"ofono/src/stkagent.c",ki:"function",ln:"1174",sig:"(DBusPendingCall *call, void *data)",},
+	],
+},
+{tag:"display_mms",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1446",},
+	],
+},
+{tag:"display_params_changed",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1702",},
+	],
+},
+{tag:"display_text",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1416",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1583",},
+	],
+},
+{tag:"display_text_1011",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"292",},
+	],
+},
+{tag:"display_text_111",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"1",},
+	],
+},
+{tag:"display_text_131",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"16",},
+	],
+},
+{tag:"display_text_141",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"26",},
+	],
+},
+{tag:"display_text_151",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"34",},
+	],
+},
+{tag:"display_text_161",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"44",},
+	],
+},
+{tag:"display_text_171",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"64",},
+	],
+},
+{tag:"display_text_181",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"74",},
+	],
+},
+{tag:"display_text_191",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"83",},
+	],
+},
+{tag:"display_text_211",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"92",},
+	],
+},
+{tag:"display_text_311",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"101",},
+	],
+},
+{tag:"display_text_411",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"128",},
+	],
+},
+{tag:"display_text_421",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"136",},
+	],
+},
+{tag:"display_text_431",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"144",},
+	],
+},
+{tag:"display_text_511",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"152",},
+	],
+},
+{tag:"display_text_521",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"164",},
+	],
+},
+{tag:"display_text_531",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"173",},
+	],
+},
+{tag:"display_text_611",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"182",},
+	],
+},
+{tag:"display_text_711",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"191",},
+	],
+},
+{tag:"display_text_8101",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"277",},
+	],
+},
+{tag:"display_text_811",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"199",},
+	],
+},
+{tag:"display_text_812",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"205",},
+	],
+},
+{tag:"display_text_821",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"213",},
+	],
+},
+{tag:"display_text_831",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"221",},
+	],
+},
+{tag:"display_text_841",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"229",},
+	],
+},
+{tag:"display_text_851",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"237",},
+	],
+},
+{tag:"display_text_861",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"245",},
+	],
+},
+{tag:"display_text_871",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"253",},
+	],
+},
+{tag:"display_text_881",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"261",},
+	],
+},
+{tag:"display_text_891",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"269",},
+	],
+},
+{tag:"display_text_911",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"285",},
+	],
+},
+{tag:"display_text_cb",ref:
+	[
+		{fp:"ofono/src/stk.c",ki:"function",ln:"1308",sig:"(enum stk_agent_result result, void *user_data)",},
+		{fp:"ofono/src/stkagent.c",ki:"function",ln:"385",sig:"(DBusPendingCall *call, void *data)",},
+	],
+},
+{tag:"display_text_cb_t",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"typedef",ln:"67",},
+	],
+},
+{tag:"display_text_data_1011",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"841",},
+	],
+},
+{tag:"display_text_data_111",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"612",},
+	],
+},
+{tag:"display_text_data_131",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"619",},
+	],
+},
+{tag:"display_text_data_141",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"626",},
+	],
+},
+{tag:"display_text_data_151",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"633",},
+	],
+},
+{tag:"display_text_data_161",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"640",},
+	],
+},
+{tag:"display_text_data_171",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"650",},
+	],
+},
+{tag:"display_text_data_511",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"657",},
+	],
+},
+{tag:"display_text_data_521",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"668",},
+	],
+},
+{tag:"display_text_data_531",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"679",},
+	],
+},
+{tag:"display_text_data_611",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"690",},
+	],
+},
+{tag:"display_text_data_711",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"697",},
+	],
+},
+{tag:"display_text_data_811",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"708",},
+	],
+},
+{tag:"display_text_data_821",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"722",},
+	],
+},
+{tag:"display_text_data_831",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"736",},
+	],
+},
+{tag:"display_text_data_841",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"750",},
+	],
+},
+{tag:"display_text_data_851",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"764",},
+	],
+},
+{tag:"display_text_data_861",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"778",},
+	],
+},
+{tag:"display_text_data_871",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"792",},
+	],
+},
+{tag:"display_text_data_881",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"806",},
+	],
+},
+{tag:"display_text_data_891",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"820",},
+	],
+},
+{tag:"display_text_data_911",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"834",},
+	],
+},
+{tag:"display_text_destroy",ref:
+	[
+		{fp:"ofono/src/stk.c",ki:"function",ln:"1301",sig:"(void *user_data)",},
+	],
+},
+{tag:"display_text_response_1011",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"macro",ln:"297",},
+	],
+},
+{tag:"display_text_response_111",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"7",},
+	],
+},
+{tag:"display_text_response_121",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"11",},
+	],
+},
+{tag:"display_text_response_131",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"22",},
+	],
+},
+{tag:"display_text_response_141",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"macro",ln:"32",},
+	],
+},
+{tag:"display_text_response_151",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"40",},
+	],
+},
+{tag:"display_text_response_161",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"macro",ln:"62",},
+	],
+},
+{tag:"display_text_response_171",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"70",},
+	],
+},
+{tag:"display_text_response_181",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"79",},
+	],
+},
+{tag:"display_text_response_191",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"88",},
+	],
+},
+{tag:"display_text_response_211",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"97",},
+	],
+},
+{tag:"display_text_response_311",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"macro",ln:"126",},
+	],
+},
+{tag:"display_text_response_411",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"macro",ln:"134",},
+	],
+},
+{tag:"display_text_response_421",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"macro",ln:"142",},
+	],
+},
+{tag:"display_text_response_431",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"macro",ln:"150",},
+	],
+},
+{tag:"display_text_response_511a",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"macro",ln:"158",},
+	],
+},
+{tag:"display_text_response_511b",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"variable",ln:"160",},
+	],
+},
+{tag:"display_text_response_521a",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"macro",ln:"170",},
+	],
+},
+{tag:"display_text_response_521b",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"macro",ln:"171",},
+	],
+},
+{tag:"display_text_response_531a",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"macro",ln:"179",},
+	],
+},
+{tag:"display_text_response_531b",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"macro",ln:"180",},
+	],
+},
+{tag:"display_text_response_611",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"macro",ln:"189",},
+	],
+},
+{tag:"display_text_response_711",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"macro",ln:"197",},
+	],
+},
+{tag:"display_text_response_8101",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"macro",ln:"283",},
+	],
+},
+{tag:"display_text_response_811",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"macro",ln:"211",},
+	],
+},
+{tag:"display_text_response_821",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"macro",ln:"219",},
+	],
+},
+{tag:"display_text_response_831",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"macro",ln:"227",},
+	],
+},
+{tag:"display_text_response_841",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"macro",ln:"235",},
+	],
+},
+{tag:"display_text_response_851",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"macro",ln:"243",},
+	],
+},
+{tag:"display_text_response_861",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"macro",ln:"251",},
+	],
+},
+{tag:"display_text_response_871",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"macro",ln:"259",},
+	],
+},
+{tag:"display_text_response_881",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"macro",ln:"267",},
+	],
+},
+{tag:"display_text_response_891",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"macro",ln:"275",},
+	],
+},
+{tag:"display_text_response_911",ref:
+	[
+		{fp:"ofono/unit/stk-test-data.h",ki:"macro",ln:"290",},
+	],
+},
+{tag:"display_text_response_data_111",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"16235",},
+	],
+},
+{tag:"display_text_response_data_121",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"16250",},
+	],
+},
+{tag:"display_text_response_data_131",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"16267",},
+	],
+},
+{tag:"display_text_response_data_151",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"16282",},
+	],
+},
+{tag:"display_text_response_data_171",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"16297",},
+	],
+},
+{tag:"display_text_response_data_181",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"16312",},
+	],
+},
+{tag:"display_text_response_data_191",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"16327",},
+	],
+},
+{tag:"display_text_response_data_211",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"16342",},
+	],
+},
+{tag:"display_text_response_data_511b",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"16357",},
+	],
+},
+{tag:"display_text_test",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"struct",ln:"599",},
+	],
+},
+{tag:"dlc",ref:
+	[
+		{fp:"ofono/gatchat/gatmux.c",ki:"member",ln:"64",},
+	],
+},
+{tag:"dlc_disconnect",ref:
+	[
+		{fp:"ofono/plugins/ifx.c",ki:"function",ln:"257",sig:"(gpointer user_data)",},
+	],
+},
+{tag:"dlc_init_source",ref:
+	[
+		{fp:"ofono/plugins/ifx.c",ki:"member",ln:"92",},
+	],
+},
+{tag:"dlc_nodes",ref:
+	[
+		{fp:"ofono/plugins/ifx.c",ki:"variable",ln:"78",},
+	],
+},
+{tag:"dlc_poll_count",ref:
+	[
+		{fp:"ofono/plugins/ifx.c",ki:"member",ln:"90",},
+	],
+},
+{tag:"dlc_poll_source",ref:
+	[
+		{fp:"ofono/plugins/ifx.c",ki:"member",ln:"91",},
+	],
+},
+{tag:"dlc_prefixes",ref:
+	[
+		{fp:"ofono/plugins/ifx.c",ki:"variable",ln:"75",},
+		{fp:"ofono/plugins/sim900.c",ki:"variable",ln:"58",},
+	],
+},
+{tag:"dlc_ready_check",ref:
+	[
+		{fp:"ofono/plugins/ifx.c",ki:"function",ln:"385",sig:"(gpointer user_data)",},
+	],
+},
+{tag:"dlc_setup",ref:
+	[
+		{fp:"ofono/plugins/ifx.c",ki:"function",ln:"361",sig:"(gpointer user_data)",},
+	],
+},
+{tag:"dlcs",ref:
+	[
+		{fp:"ofono/gatchat/gatmux.c",ki:"member",ln:"83",},
+		{fp:"ofono/plugins/calypso.c",ki:"member",ln:"84",},
+		{fp:"ofono/plugins/ifx.c",ki:"member",ln:"89",},
+		{fp:"ofono/plugins/sim900.c",ki:"member",ln:"66",},
+	],
+},
+{tag:"dmat_mode",ref:
+	[
+		{fp:"ofono/plugins/novatel.c",ki:"member",ln:"57",},
+	],
+},
+{tag:"dms",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/devinfo.c",ki:"member",ln:"36",},
+		{fp:"ofono/drivers/qmimodem/sim-legacy.c",ki:"member",ln:"40",},
+		{fp:"ofono/plugins/gobi.c",ki:"member",ln:"65",},
+	],
+},
+{tag:"dns",ref:
+	[
+		{fp:"ofono/src/cdma-connman.c",ki:"member",ln:"49",},
+		{fp:"ofono/src/gprs.c",ki:"member",ln:"106",},
+		{fp:"ofono/src/gprs.c",ki:"member",ln:"114",},
+	],
+},
+{tag:"dns1",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/gprs-context.c",ki:"member",ln:"69",},
+		{fp:"ofono/gatchat/ppp_ipcp.c",ki:"member",ln:"74",},
+	],
+},
+{tag:"dns2",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/gprs-context.c",ki:"member",ln:"70",},
+		{fp:"ofono/gatchat/ppp_ipcp.c",ki:"member",ln:"75",},
+	],
+},
+{tag:"dns_cb",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/gprs-context.c",ki:"function",ln:"168",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"dns_server1",ref:
+	[
+		{fp:"ofono/drivers/stemodem/gprs-context.c",ki:"member",ln:"78",},
+	],
+},
+{tag:"dns_server2",ref:
+	[
+		{fp:"ofono/drivers/stemodem/gprs-context.c",ki:"member",ln:"79",},
+	],
+},
+{tag:"DNS_SERVER_1",ref:
+	[
+		{fp:"ofono/examples/private-network.c",ki:"macro",ln:"46",},
+	],
+},
+{tag:"DNS_SERVER_2",ref:
+	[
+		{fp:"ofono/examples/private-network.c",ki:"macro",ln:"47",},
+	],
+},
+{tag:"do_connect",ref:
+	[
+		{fp:"ofono/unit/test-caif.c",ki:"function",ln:"57",sig:"(void)",},
+		{fp:"ofono/unit/test-mux.c",ki:"function",ln:"41",sig:"(const char *address, unsigned short port)",},
+	],
+},
+{tag:"do_netreg",ref:
+	[
+		{fp:"ofono/gatchat/test-server.c",ki:"function",ln:"332",sig:"(gpointer user)",},
+	],
+},
+{tag:"do_open",ref:
+	[
+		{fp:"ofono/unit/test-caif.c",ki:"function",ln:"44",sig:"(void)",},
+	],
+},
+{tag:"do_terminate",ref:
+	[
+		{fp:"ofono/tools/tty-redirector.c",ki:"function",ln:"63",sig:"(void)",},
+	],
+},
+{tag:"domain_to_bearer",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/sms.c",ki:"function",ln:"216",sig:"(uint8_t domain)",},
+	],
+},
+{tag:"dormant",ref:
+	[
+		{fp:"ofono/src/cdma-connman.c",ki:"member",ln:"54",},
+	],
+},
+{tag:"DOWN",ref:
+	[
+		{fp:"ofono/gatchat/ppp_cp.c",ki:"enumerator",ln:"147",},
+	],
+},
+{tag:"down_cb",ref:
+	[
+		{fp:"ofono/drivers/cdmamodem/connman.c",ki:"member",ln:"67",},
+	],
+},
+{tag:"driver",ref:
+	[
+		{fp:"ofono/drivers/atmodem/call-barring.c",ki:"variable",ln:"215",},
+		{fp:"ofono/drivers/atmodem/call-forwarding.c",ki:"variable",ln:"267",},
+		{fp:"ofono/drivers/atmodem/call-meter.c",ki:"variable",ln:"334",},
+		{fp:"ofono/drivers/atmodem/call-settings.c",ki:"variable",ln:"401",},
+		{fp:"ofono/drivers/atmodem/call-volume.c",ki:"variable",ln:"210",},
+		{fp:"ofono/drivers/atmodem/cbs.c",ki:"variable",ln:"242",},
+		{fp:"ofono/drivers/atmodem/devinfo.c",ki:"variable",ln:"156",},
+		{fp:"ofono/drivers/atmodem/gnss.c",ki:"variable",ln:"266",},
+		{fp:"ofono/drivers/atmodem/gprs-context.c",ki:"variable",ln:"405",},
+		{fp:"ofono/drivers/atmodem/gprs.c",ki:"variable",ln:"498",},
+		{fp:"ofono/drivers/atmodem/network-registration.c",ki:"variable",ln:"2020",},
+		{fp:"ofono/drivers/atmodem/phonebook.c",ki:"variable",ln:"596",},
+		{fp:"ofono/drivers/atmodem/sim-auth.c",ki:"variable",ln:"149",},
+		{fp:"ofono/drivers/atmodem/sim.c",ki:"variable",ln:"1514",},
+		{fp:"ofono/drivers/atmodem/sms.c",ki:"variable",ln:"1288",},
+		{fp:"ofono/drivers/atmodem/stk.c",ki:"variable",ln:"226",},
+		{fp:"ofono/drivers/atmodem/ussd.c",ki:"variable",ln:"330",},
+		{fp:"ofono/drivers/atmodem/voicecall.c",ki:"variable",ln:"1159",},
+		{fp:"ofono/drivers/calypsomodem/stk.c",ki:"variable",ln:"295",},
+		{fp:"ofono/drivers/calypsomodem/voicecall.c",ki:"variable",ln:"405",},
+		{fp:"ofono/drivers/cdmamodem/connman.c",ki:"variable",ln:"326",},
+		{fp:"ofono/drivers/cdmamodem/devinfo.c",ki:"variable",ln:"156",},
+		{fp:"ofono/drivers/cdmamodem/voicecall.c",ki:"variable",ln:"146",},
+		{fp:"ofono/drivers/dunmodem/gprs.c",ki:"variable",ln:"76",},
+		{fp:"ofono/drivers/dunmodem/network-registration.c",ki:"variable",ln:"110",},
+		{fp:"ofono/drivers/hfpmodem/call-volume.c",ki:"variable",ln:"221",},
+		{fp:"ofono/drivers/hfpmodem/devinfo.c",ki:"variable",ln:"94",},
+		{fp:"ofono/drivers/hfpmodem/handsfree.c",ki:"variable",ln:"363",},
+		{fp:"ofono/drivers/hfpmodem/network-registration.c",ki:"variable",ln:"345",},
+		{fp:"ofono/drivers/hfpmodem/siri.c",ki:"variable",ln:"199",},
+		{fp:"ofono/drivers/hfpmodem/voicecall.c",ki:"variable",ln:"1214",},
+		{fp:"ofono/drivers/hsomodem/gprs-context.c",ki:"variable",ln:"382",},
+		{fp:"ofono/drivers/hsomodem/radio-settings.c",ki:"variable",ln:"202",},
+		{fp:"ofono/drivers/huaweimodem/audio-settings.c",ki:"variable",ln:"116",},
+		{fp:"ofono/drivers/huaweimodem/cdma-netreg.c",ki:"variable",ln:"213",},
+		{fp:"ofono/drivers/huaweimodem/gprs-context.c",ki:"variable",ln:"342",},
+		{fp:"ofono/drivers/huaweimodem/radio-settings.c",ki:"variable",ln:"397",},
+		{fp:"ofono/drivers/huaweimodem/ussd.c",ki:"variable",ln:"207",},
+		{fp:"ofono/drivers/huaweimodem/voicecall.c",ki:"variable",ln:"500",},
+		{fp:"ofono/drivers/iceramodem/gprs-context.c",ki:"variable",ln:"406",},
+		{fp:"ofono/drivers/iceramodem/radio-settings.c",ki:"variable",ln:"215",},
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"variable",ln:"385",},
+		{fp:"ofono/drivers/ifxmodem/ctm.c",ki:"variable",ln:"170",},
+		{fp:"ofono/drivers/ifxmodem/gprs-context.c",ki:"variable",ln:"513",},
+		{fp:"ofono/drivers/ifxmodem/radio-settings.c",ki:"variable",ln:"204",},
+		{fp:"ofono/drivers/ifxmodem/stk.c",ki:"variable",ln:"310",},
+		{fp:"ofono/drivers/ifxmodem/voicecall.c",ki:"variable",ln:"1023",},
+		{fp:"ofono/drivers/isimodem/audio-settings.c",ki:"variable",ln:"120",},
+		{fp:"ofono/drivers/isimodem/call-barring.c",ki:"variable",ln:"432",},
+		{fp:"ofono/drivers/isimodem/call-forwarding.c",ki:"variable",ln:"460",},
+		{fp:"ofono/drivers/isimodem/call-meter.c",ki:"variable",ln:"121",},
+		{fp:"ofono/drivers/isimodem/call-settings.c",ki:"variable",ln:"408",},
+		{fp:"ofono/drivers/isimodem/cbs.c",ki:"variable",ln:"230",},
+		{fp:"ofono/drivers/isimodem/devinfo.c",ki:"variable",ln:"255",},
+		{fp:"ofono/drivers/isimodem/gprs-context.c",ki:"variable",ln:"662",},
+		{fp:"ofono/drivers/isimodem/gprs.c",ki:"variable",ln:"493",},
+		{fp:"ofono/drivers/isimodem/phonebook.c",ki:"variable",ln:"343",},
+		{fp:"ofono/drivers/isimodem/radio-settings.c",ki:"variable",ln:"368",},
+		{fp:"ofono/drivers/isimodem/sim.c",ki:"variable",ln:"949",},
+		{fp:"ofono/drivers/isimodem/sms.c",ki:"variable",ln:"1124",},
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"variable",ln:"1662",},
+		{fp:"ofono/drivers/isimodem/ussd.c",ki:"variable",ln:"279",},
+		{fp:"ofono/drivers/isimodem/voicecall.c",ki:"variable",ln:"1938",},
+		{fp:"ofono/drivers/mbmmodem/gprs-context.c",ki:"variable",ln:"514",},
+		{fp:"ofono/drivers/mbmmodem/location-reporting.c",ki:"variable",ln:"234",},
+		{fp:"ofono/drivers/mbmmodem/stk.c",ki:"variable",ln:"265",},
+		{fp:"ofono/drivers/nwmodem/radio-settings.c",ki:"variable",ln:"198",},
+		{fp:"ofono/drivers/qmimodem/devinfo.c",ki:"variable",ln:"207",},
+		{fp:"ofono/drivers/qmimodem/gprs-context.c",ki:"variable",ln:"298",},
+		{fp:"ofono/drivers/qmimodem/gprs.c",ki:"variable",ln:"217",},
+		{fp:"ofono/drivers/qmimodem/location-reporting.c",ki:"variable",ln:"281",},
+		{fp:"ofono/drivers/qmimodem/network-registration.c",ki:"variable",ln:"567",},
+		{fp:"ofono/drivers/qmimodem/radio-settings.c",ki:"variable",ln:"98",},
+		{fp:"ofono/drivers/qmimodem/sim-legacy.c",ki:"variable",ln:"382",},
+		{fp:"ofono/drivers/qmimodem/sim.c",ki:"variable",ln:"511",},
+		{fp:"ofono/drivers/qmimodem/sms.c",ki:"variable",ln:"517",},
+		{fp:"ofono/drivers/qmimodem/ussd.c",ki:"variable",ln:"96",},
+		{fp:"ofono/drivers/qmimodem/voicecall.c",ki:"variable",ln:"98",},
+		{fp:"ofono/drivers/speedupmodem/ussd.c",ki:"variable",ln:"207",},
+		{fp:"ofono/drivers/stemodem/gprs-context.c",ki:"variable",ln:"430",},
+		{fp:"ofono/drivers/stemodem/radio-settings.c",ki:"variable",ln:"226",},
+		{fp:"ofono/drivers/stemodem/voicecall.c",ki:"variable",ln:"586",},
+		{fp:"ofono/drivers/swmodem/gprs-context.c",ki:"variable",ln:"248",},
+		{fp:"ofono/drivers/ztemodem/radio-settings.c",ki:"variable",ln:"198",},
+		{fp:"ofono/dundee/device.c",ki:"member",ln:"53",},
+		{fp:"ofono/gatchat/gatmux.c",ki:"member",ln:"85",},
+		{fp:"ofono/gatchat/ppp_cp.c",ki:"member",ln:"187",},
+		{fp:"ofono/include/history.h",ki:"member",ln:"44",},
+		{fp:"ofono/include/nettime.h",ki:"member",ln:"32",},
+		{fp:"ofono/plugins/isiusb.c",ki:"variable",ln:"452",},
+		{fp:"ofono/plugins/u8500.c",ki:"variable",ln:"661",},
+		{fp:"ofono/plugins/udevng.c",ki:"member",ln:"43",},
+		{fp:"ofono/plugins/udevng.c",ki:"member",ln:"981",},
+		{fp:"ofono/src/audio-settings.c",ki:"member",ln:"41",},
+		{fp:"ofono/src/call-barring.c",ki:"member",ln:"61",},
+		{fp:"ofono/src/call-forwarding.c",ki:"member",ln:"71",},
+		{fp:"ofono/src/call-meter.c",ki:"member",ln:"51",},
+		{fp:"ofono/src/call-settings.c",ki:"member",ln:"112",},
+		{fp:"ofono/src/call-volume.c",ki:"member",ln:"52",},
+		{fp:"ofono/src/cbs.c",ki:"member",ln:"80",},
+		{fp:"ofono/src/cdma-connman.c",ki:"member",ln:"57",},
+		{fp:"ofono/src/cdma-netreg.c",ki:"member",ln:"39",},
+		{fp:"ofono/src/cdma-sms.c",ki:"member",ln:"41",},
+		{fp:"ofono/src/cdma-voicecall.c",ki:"member",ln:"48",},
+		{fp:"ofono/src/ctm.c",ki:"member",ln:"45",},
+		{fp:"ofono/src/gnss.c",ki:"member",ln:"45",},
+		{fp:"ofono/src/gprs.c",ki:"member",ln:"127",},
+		{fp:"ofono/src/gprs.c",ki:"member",ln:"95",},
+		{fp:"ofono/src/handsfree-audio.c",ki:"member",ln:"53",},
+		{fp:"ofono/src/handsfree.c",ki:"member",ln:"59",},
+		{fp:"ofono/src/location-reporting.c",ki:"member",ln:"46",},
+		{fp:"ofono/src/modem.c",ki:"member",ln:"86",},
+		{fp:"ofono/src/modem.c",ki:"member",ln:"98",},
+		{fp:"ofono/src/network.c",ki:"member",ln:"81",},
+		{fp:"ofono/src/phonebook.c",ki:"member",ln:"61",},
+		{fp:"ofono/src/radio-settings.c",ki:"member",ln:"51",},
+		{fp:"ofono/src/sim-auth.c",ki:"member",ln:"39",},
+		{fp:"ofono/src/sim.c",ki:"member",ln:"113",},
+		{fp:"ofono/src/simfs.c",ki:"member",ln:"89",},
+		{fp:"ofono/src/siri.c",ki:"member",ln:"49",},
+		{fp:"ofono/src/sms.c",ki:"member",ln:"82",},
+		{fp:"ofono/src/stk.c",ki:"member",ln:"54",},
+		{fp:"ofono/src/ussd.c",ki:"member",ln:"63",},
+		{fp:"ofono/src/voicecall.c",ki:"member",ln:"66",},
+	],
+},
+{tag:"driver_attached",ref:
+	[
+		{fp:"ofono/src/gprs.c",ki:"member",ln:"76",},
+	],
+},
+{tag:"driver_data",ref:
+	[
+		{fp:"ofono/gatchat/gatmux.c",ki:"member",ln:"86",},
+		{fp:"ofono/src/audio-settings.c",ki:"member",ln:"42",},
+		{fp:"ofono/src/call-barring.c",ki:"member",ln:"62",},
+		{fp:"ofono/src/call-forwarding.c",ki:"member",ln:"72",},
+		{fp:"ofono/src/call-meter.c",ki:"member",ln:"52",},
+		{fp:"ofono/src/call-settings.c",ki:"member",ln:"113",},
+		{fp:"ofono/src/call-volume.c",ki:"member",ln:"53",},
+		{fp:"ofono/src/cbs.c",ki:"member",ln:"81",},
+		{fp:"ofono/src/cdma-connman.c",ki:"member",ln:"58",},
+		{fp:"ofono/src/cdma-netreg.c",ki:"member",ln:"40",},
+		{fp:"ofono/src/cdma-sms.c",ki:"member",ln:"42",},
+		{fp:"ofono/src/cdma-voicecall.c",ki:"member",ln:"49",},
+		{fp:"ofono/src/ctm.c",ki:"member",ln:"46",},
+		{fp:"ofono/src/gnss.c",ki:"member",ln:"46",},
+		{fp:"ofono/src/gprs.c",ki:"member",ln:"128",},
+		{fp:"ofono/src/gprs.c",ki:"member",ln:"96",},
+		{fp:"ofono/src/handsfree-audio.c",ki:"member",ln:"54",},
+		{fp:"ofono/src/handsfree.c",ki:"member",ln:"60",},
+		{fp:"ofono/src/location-reporting.c",ki:"member",ln:"47",},
+		{fp:"ofono/src/modem.c",ki:"member",ln:"87",},
+		{fp:"ofono/src/modem.c",ki:"member",ln:"99",},
+		{fp:"ofono/src/network.c",ki:"member",ln:"82",},
+		{fp:"ofono/src/phonebook.c",ki:"member",ln:"62",},
+		{fp:"ofono/src/radio-settings.c",ki:"member",ln:"52",},
+		{fp:"ofono/src/sim-auth.c",ki:"member",ln:"40",},
+		{fp:"ofono/src/sim.c",ki:"member",ln:"114",},
+		{fp:"ofono/src/siri.c",ki:"member",ln:"50",},
+		{fp:"ofono/src/sms.c",ki:"member",ln:"83",},
+		{fp:"ofono/src/stk.c",ki:"member",ln:"55",},
+		{fp:"ofono/src/ussd.c",ki:"member",ln:"64",},
+		{fp:"ofono/src/voicecall.c",ki:"member",ln:"67",},
+	],
+},
+{tag:"driver_list",ref:
+	[
+		{fp:"ofono/plugins/udevng.c",ki:"variable",ln:"798",},
+	],
+},
+{tag:"driver_noef",ref:
+	[
+		{fp:"ofono/drivers/atmodem/sim.c",ki:"variable",ln:"1535",},
+	],
+},
+{tag:"driver_type",ref:
+	[
+		{fp:"ofono/src/modem.c",ki:"member",ln:"88",},
+	],
+},
+{tag:"drivers",ref:
+	[
+		{fp:"ofono/src/handsfree-audio.c",ki:"variable",ln:"67",},
+	],
+},
+{tag:"drv",ref:
+	[
+		{fp:"ofono/plugins/udevng.c",ki:"member",ln:"982",},
+	],
+},
+{tag:"dsp_out",ref:
+	[
+		{fp:"ofono/tools/huawei-audio.c",ki:"member",ln:"66",},
+	],
+},
+{tag:"dst",ref:
+	[
+		{fp:"ofono/btio/btio.c",ki:"member",ln:"53",},
+		{fp:"ofono/drivers/isimodem/network-registration.c",ki:"member",ln:"73",},
+		{fp:"ofono/drivers/isimodem/sms.c",ki:"member",ln:"58",},
+		{fp:"ofono/drivers/isimodem/sms.c",ki:"member",ln:"71",},
+		{fp:"ofono/include/types.h",ki:"member",ln:"108",},
+		{fp:"ofono/src/sms.c",ki:"member",ln:"59",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1412",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1579",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1758",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"11876",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"15895",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"15961",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"16033",},
+	],
+},
+{tag:"dt",ref:
+	[
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"296",},
+	],
+},
+{tag:"dtmf",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1278",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"14194",},
+	],
+},
+{tag:"dtmf_id",ref:
+	[
+		{fp:"ofono/src/stk.c",ki:"member",ln:"78",},
+	],
+},
+{tag:"dtmf_sent_cb",ref:
+	[
+		{fp:"ofono/src/stk.c",ki:"function",ln:"2447",sig:"(int error, void *user_data)",},
+	],
+},
+{tag:"dtmf_to_ascii",ref:
+	[
+		{fp:"ofono/src/cdma-smsutil.c",ki:"function",ln:"138",sig:"(char *buf, const guint8 *addr, guint8 num_fields)",},
+	],
+},
+{tag:"dump_details",ref:
+	[
+		{fp:"ofono/unit/test-sms.c",ki:"function",ln:"98",sig:"(struct sms *sms)",},
+	],
+},
+{tag:"dun_ath_cb",ref:
+	[
+		{fp:"ofono/src/emulator.c",ki:"function",ln:"225",sig:"(GAtServer *server, GAtServerRequestType type, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"dun_ato_cb",ref:
+	[
+		{fp:"ofono/src/emulator.c",ki:"function",ln:"275",sig:"(GAtServer *server, GAtServerRequestType type, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"dun_current_operator",ref:
+	[
+		{fp:"ofono/drivers/dunmodem/network-registration.c",ki:"function",ln:"55",sig:"(struct ofono_netreg *netreg, ofono_netreg_operator_cb_t cb, void *data)",},
+	],
+},
+{tag:"DUN_DT_PROFILE_PATH",ref:
+	[
+		{fp:"ofono/dundee/bluez5.c",ki:"macro",ln:"33",},
+	],
+},
+{tag:"dun_gprs_attached_status",ref:
+	[
+		{fp:"ofono/drivers/dunmodem/gprs.c",ki:"function",ln:"67",sig:"(struct ofono_gprs *gprs, ofono_gprs_status_cb_t cb, void *data)",},
+	],
+},
+{tag:"dun_gprs_exit",ref:
+	[
+		{fp:"ofono/drivers/dunmodem/gprs.c",ki:"function",ln:"89",sig:"(void)",},
+	],
+},
+{tag:"dun_gprs_finish_registration",ref:
+	[
+		{fp:"ofono/drivers/dunmodem/gprs.c",ki:"function",ln:"43",sig:"(gpointer user_data)",},
+	],
+},
+{tag:"dun_gprs_init",ref:
+	[
+		{fp:"ofono/drivers/dunmodem/gprs.c",ki:"function",ln:"84",sig:"(void)",},
+	],
+},
+{tag:"dun_gprs_probe",ref:
+	[
+		{fp:"ofono/drivers/dunmodem/gprs.c",ki:"function",ln:"52",sig:"(struct ofono_gprs *gprs, unsigned int vendor, void *data)",},
+	],
+},
+{tag:"dun_gprs_remove",ref:
+	[
+		{fp:"ofono/drivers/dunmodem/gprs.c",ki:"function",ln:"62",sig:"(struct ofono_gprs *gprs)",},
+	],
+},
+{tag:"dun_gprs_set_attached",ref:
+	[
+		{fp:"ofono/drivers/dunmodem/gprs.c",ki:"function",ln:"35",sig:"(struct ofono_gprs *gprs, int attached, ofono_gprs_cb_t cb, void *data)",},
+	],
+},
+{tag:"DUN_GW_CHANNEL",ref:
+	[
+		{fp:"ofono/plugins/dun_gw_bluez4.c",ki:"macro",ln:"38",},
+		{fp:"ofono/plugins/dun_gw_bluez5.c",ki:"macro",ln:"46",},
+	],
+},
+{tag:"dun_gw_connect_cb",ref:
+	[
+		{fp:"ofono/plugins/dun_gw_bluez4.c",ki:"function",ln:"79",sig:"(GIOChannel *io, GError *err, gpointer user_data)",},
+	],
+},
+{tag:"dun_gw_exit",ref:
+	[
+		{fp:"ofono/plugins/dun_gw_bluez4.c",ki:"function",ln:"159",sig:"(void)",},
+		{fp:"ofono/plugins/dun_gw_bluez5.c",ki:"function",ln:"220",sig:"(void)",},
+	],
+},
+{tag:"DUN_GW_EXT_PROFILE_PATH",ref:
+	[
+		{fp:"ofono/plugins/dun_gw_bluez5.c",ki:"macro",ln:"47",},
+	],
+},
+{tag:"dun_gw_init",ref:
+	[
+		{fp:"ofono/plugins/dun_gw_bluez4.c",ki:"function",ln:"148",sig:"(void)",},
+		{fp:"ofono/plugins/dun_gw_bluez5.c",ki:"function",ln:"194",sig:"(void)",},
+	],
+},
+{tag:"DUN_GW_UUID",ref:
+	[
+		{fp:"ofono/plugins/bluez4.h",ki:"macro",ln:"34",},
+		{fp:"ofono/plugins/bluez5.h",ki:"macro",ln:"28",},
+	],
+},
+{tag:"DUN_GW_VERSION_1_0",ref:
+	[
+		{fp:"ofono/plugins/dun_gw_bluez5.c",ki:"macro",ln:"45",},
+	],
+},
+{tag:"dun_netreg_exit",ref:
+	[
+		{fp:"ofono/drivers/dunmodem/network-registration.c",ki:"function",ln:"123",sig:"(void)",},
+	],
+},
+{tag:"dun_netreg_init",ref:
+	[
+		{fp:"ofono/drivers/dunmodem/network-registration.c",ki:"function",ln:"118",sig:"(void)",},
+	],
+},
+{tag:"dun_netreg_probe",ref:
+	[
+		{fp:"ofono/drivers/dunmodem/network-registration.c",ki:"function",ln:"81",sig:"(struct ofono_netreg *netreg, unsigned int vendor, void *user_data)",},
+	],
+},
+{tag:"dun_netreg_remove",ref:
+	[
+		{fp:"ofono/drivers/dunmodem/network-registration.c",ki:"function",ln:"101",sig:"(struct ofono_netreg *netreg)",},
+	],
+},
+{tag:"DUN_PORT",ref:
+	[
+		{fp:"ofono/examples/emulator.c",ki:"macro",ln:"43",},
+	],
+},
+{tag:"dun_profile",ref:
+	[
+		{fp:"ofono/dundee/bluez4.c",ki:"variable",ln:"268",},
+	],
+},
+{tag:"dun_record",ref:
+	[
+		{fp:"ofono/plugins/dun_gw_bluez4.c",ki:"variable",ln:"44",},
+	],
+},
+{tag:"dun_registration_status",ref:
+	[
+		{fp:"ofono/drivers/dunmodem/network-registration.c",ki:"function",ln:"45",sig:"(struct ofono_netreg *netreg, ofono_netreg_status_cb_t cb, void *data)",},
+	],
+},
+{tag:"DUN_VERSION_1_2",ref:
+	[
+		{fp:"ofono/dundee/dundee.h",ki:"macro",ln:"29",},
+	],
+},
+{tag:"dun_watch",ref:
+	[
+		{fp:"ofono/src/modem.c",ki:"function",ln:"1528",sig:"(struct ofono_atom *atom, enum ofono_atom_watch_condition cond, void *data)",},
+		{fp:"ofono/src/modem.c",ki:"member",ln:"97",},
+	],
+},
+{tag:"dundee_device",ref:
+	[
+		{fp:"ofono/dundee/device.c",ki:"struct",ln:"51",},
+	],
+},
+{tag:"dundee_device_connect_cb_t",ref:
+	[
+		{fp:"ofono/dundee/dundee.h",ki:"typedef",ln:"113",},
+	],
+},
+{tag:"dundee_device_create",ref:
+	[
+		{fp:"ofono/dundee/device.c",ki:"function",ln:"596",sig:"(struct dundee_device_driver *d)",},
+	],
+},
+{tag:"dundee_device_disconnect",ref:
+	[
+		{fp:"ofono/dundee/device.c",ki:"function",ln:"273",sig:"(const struct dundee_error *error, struct dundee_device *device)",},
+	],
+},
+{tag:"dundee_device_disconnect_cb_t",ref:
+	[
+		{fp:"ofono/dundee/dundee.h",ki:"typedef",ln:"115",},
+	],
+},
+{tag:"dundee_device_driver",ref:
+	[
+		{fp:"ofono/dundee/dundee.h",ki:"struct",ln:"118",},
+	],
+},
+{tag:"dundee_device_foreach_func",ref:
+	[
+		{fp:"ofono/dundee/dundee.h",ki:"typedef",ln:"142",},
+	],
+},
+{tag:"dundee_device_get_data",ref:
+	[
+		{fp:"ofono/dundee/device.c",ki:"function",ln:"648",sig:"(struct dundee_device *device)",},
+	],
+},
+{tag:"DUNDEE_DEVICE_INTERFACE",ref:
+	[
+		{fp:"ofono/dundee/dundee.h",ki:"macro",ln:"89",},
+	],
+},
+{tag:"dundee_device_register",ref:
+	[
+		{fp:"ofono/dundee/device.c",ki:"function",ln:"617",sig:"(struct dundee_device *device)",},
+	],
+},
+{tag:"dundee_device_set_data",ref:
+	[
+		{fp:"ofono/dundee/device.c",ki:"function",ln:"643",sig:"(struct dundee_device *device, void *data)",},
+	],
+},
+{tag:"dundee_device_set_name",ref:
+	[
+		{fp:"ofono/dundee/device.c",ki:"function",ln:"653",sig:"(struct dundee_device *device, const char *name)",},
+	],
+},
+{tag:"dundee_device_unregister",ref:
+	[
+		{fp:"ofono/dundee/device.c",ki:"function",ln:"632",sig:"(struct dundee_device *device)",},
+	],
+},
+{tag:"dundee_error",ref:
+	[
+		{fp:"ofono/dundee/dundee.h",ki:"struct",ln:"38",},
+	],
+},
+{tag:"DUNDEE_ERROR_INTERFACE",ref:
+	[
+		{fp:"ofono/dundee/dbus.c",ki:"macro",ln:"31",},
+	],
+},
+{tag:"dundee_error_type",ref:
+	[
+		{fp:"ofono/dundee/dundee.h",ki:"enum",ln:"33",},
+	],
+},
+{tag:"DUNDEE_ERROR_TYPE_FAILURE",ref:
+	[
+		{fp:"ofono/dundee/dundee.h",ki:"enumerator",ln:"35",},
+	],
+},
+{tag:"DUNDEE_ERROR_TYPE_NO_ERROR",ref:
+	[
+		{fp:"ofono/dundee/dundee.h",ki:"enumerator",ln:"34",},
+	],
+},
+{tag:"DUNDEE_MANAGER_INTERFACE",ref:
+	[
+		{fp:"ofono/dundee/dundee.h",ki:"macro",ln:"88",},
+	],
+},
+{tag:"DUNDEE_MANAGER_PATH",ref:
+	[
+		{fp:"ofono/dundee/dundee.h",ki:"macro",ln:"90",},
+	],
+},
+{tag:"DUNDEE_SERVICE",ref:
+	[
+		{fp:"ofono/dundee/dundee.h",ki:"macro",ln:"87",},
+	],
+},
+{tag:"dunmodem_exit",ref:
+	[
+		{fp:"ofono/drivers/dunmodem/dunmodem.c",ki:"function",ln:"43",sig:"(void)",},
+	],
+},
+{tag:"dunmodem_init",ref:
+	[
+		{fp:"ofono/drivers/dunmodem/dunmodem.c",ki:"function",ln:"35",sig:"(void)",},
+	],
+},
+{tag:"duration",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1143",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1151",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1168",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1175",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1230",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1482",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"10305",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"2505",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"3315",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"606",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"888",},
+	],
+},
+{tag:"duration_to_msecs",ref:
+	[
+		{fp:"ofono/src/stk.c",ki:"function",ln:"580",sig:"(const struct stk_duration *duration)",},
+	],
+},
+])

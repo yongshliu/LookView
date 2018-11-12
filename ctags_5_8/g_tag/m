@@ -1,0 +1,419 @@
+([
+{tag:"MACROS_USE_PATTERNS",ref:
+	[
+		{fp:"ctags/e_mac.h",ki:"macro",ln:"20",},
+		{fp:"ctags/e_riscos.h",ki:"macro",ln:"20",},
+	],
+},
+{tag:"main",ref:
+	[
+		{fp:"ctags/eiffel.c",ki:"function",ln:"1292",sig:"(int argc, char** argv)",},
+		{fp:"ctags/main.c",ki:"function",ln:"525",sig:"(int __unused__ argc, char **argv)",},
+		{fp:"ctags/readtags.c",ki:"function",ln:"880",sig:"(int argc, char **argv)",},
+	],
+},
+{tag:"makeAsmTag",ref:
+	[
+		{fp:"ctags/asm.c",ki:"function",ln:"211",sig:"( const vString *const name, const vString *const operator, const boolean labelCandidate, const boolean nameFollows)",},
+	],
+},
+{tag:"makeBetaTag",ref:
+	[
+		{fp:"ctags/beta.c",ki:"function",ln:"70",sig:"(const char* const name, const betaKind kind)",},
+	],
+},
+{tag:"makeClassTag",ref:
+	[
+		{fp:"ctags/flex.c",ki:"function",ln:"300",sig:"(tokenInfo *const token)",},
+		{fp:"ctags/jscript.c",ki:"function",ln:"259",sig:"(tokenInfo *const token)",},
+		{fp:"ctags/python.c",ki:"function",ln:"183",sig:"(vString *const class, vString *const inheritance, vString *const parent, int is_class_parent)",},
+	],
+},
+{tag:"makeConstTag",ref:
+	[
+		{fp:"ctags/flex.c",ki:"function",ln:"247",sig:"(tokenInfo *const token, const flexKind kind)",},
+		{fp:"ctags/jscript.c",ki:"function",ln:"218",sig:"(tokenInfo *const token, const jsKind kind)",},
+		{fp:"ctags/sql.c",ki:"function",ln:"429",sig:"(tokenInfo *const token, const sqlKind kind)",},
+		{fp:"ctags/tex.c",ki:"function",ln:"193",sig:"(tokenInfo *const token, const texKind kind)",},
+		{fp:"ctags/vhdl.c",ki:"function",ln:"535",sig:"(tokenInfo * const token, const vhdlKind kind)",},
+	],
+},
+{tag:"makeDefineTag",ref:
+	[
+		{fp:"ctags/get.c",ki:"function",ln:"299",sig:"(const char *const name)",},
+	],
+},
+{tag:"makeEiffelClassTag",ref:
+	[
+		{fp:"ctags/eiffel.c",ki:"function",ln:"289",sig:"(tokenInfo *const token)",},
+	],
+},
+{tag:"makeEiffelFeatureTag",ref:
+	[
+		{fp:"ctags/eiffel.c",ki:"function",ln:"306",sig:"(tokenInfo *const token)",},
+	],
+},
+{tag:"makeEiffelLocalTag",ref:
+	[
+		{fp:"ctags/eiffel.c",ki:"function",ln:"337",sig:"(tokenInfo *const token)",},
+	],
+},
+{tag:"makeExtraTagEntry",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"1098",sig:"(const tagType type, tagEntryInfo *const e, vString *const scope)",},
+	],
+},
+{tag:"MakefileParser",ref:
+	[
+		{fp:"ctags/make.c",ki:"function",ln:"204",sig:"(void)",},
+	],
+},
+{tag:"makeFileTag",ref:
+	[
+		{fp:"ctags/parse.c",ki:"function",ln:"585",sig:"(const char *const fileName)",},
+	],
+},
+{tag:"makeFlexTag",ref:
+	[
+		{fp:"ctags/flex.c",ki:"function",ln:"264",sig:"(tokenInfo *const token, flexKind kind)",},
+	],
+},
+{tag:"makeFortranTag",ref:
+	[
+		{fp:"ctags/fortran.c",ki:"function",ln:"463",sig:"(tokenInfo *const token, tagType tag)",},
+	],
+},
+{tag:"makeFunctionTag",ref:
+	[
+		{fp:"ctags/flex.c",ki:"function",ln:"350",sig:"(tokenInfo *const token)",},
+		{fp:"ctags/jscript.c",ki:"function",ln:"286",sig:"(tokenInfo *const token)",},
+		{fp:"ctags/python.c",ki:"function",ln:"137",sig:"(vString *const function, vString *const parent, int is_class_parent, const char *arglist __unused__)",},
+	],
+},
+{tag:"makeJsTag",ref:
+	[
+		{fp:"ctags/jscript.c",ki:"function",ln:"235",sig:"(tokenInfo *const token, const jsKind kind)",},
+	],
+},
+{tag:"MakeKinds",ref:
+	[
+		{fp:"ctags/make.c",ki:"variable",ln:"32",},
+	],
+},
+{tag:"makeLabelTag",ref:
+	[
+		{fp:"ctags/fortran.c",ki:"function",ln:"512",sig:"(vString *const label)",},
+	],
+},
+{tag:"makeMemberTag",ref:
+	[
+		{fp:"ctags/erlang.c",ki:"function",ln:"77",sig:"( vString *const identifier, erlangKind kind, vString *const module)",},
+	],
+},
+{tag:"makeMXTag",ref:
+	[
+		{fp:"ctags/flex.c",ki:"function",ln:"327",sig:"(tokenInfo *const token)",},
+	],
+},
+{tag:"makePascalTag",ref:
+	[
+		{fp:"ctags/pascal.c",ki:"function",ln:"54",sig:"(const tagEntryInfo* const tag)",},
+	],
+},
+{tag:"makeRegexTag",ref:
+	[
+		{fp:"ctags/lregex.c",ki:"function",ln:"141",sig:"( const vString* const name, const struct sKind* const kind)",},
+	],
+},
+{tag:"makeSimpleTag",ref:
+	[
+		{fp:"ctags/parse.c",ki:"function",ln:"41",sig:"( const vString* const name, kindOption* const kinds, const int kind)",},
+	],
+},
+{tag:"makeSmlTag",ref:
+	[
+		{fp:"ctags/sml.c",ki:"function",ln:"74",sig:"(smlKind type, vString *name)",},
+	],
+},
+{tag:"makeSqlTag",ref:
+	[
+		{fp:"ctags/sql.c",ki:"function",ln:"446",sig:"(tokenInfo *const token, const sqlKind kind)",},
+	],
+},
+{tag:"makeTag",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"1131",sig:"(const tokenInfo *const token, const statementInfo *const st, boolean isFileScope, const tagType type)",},
+	],
+},
+{tag:"makeTagEntry",ref:
+	[
+		{fp:"ctags/entry.c",ki:"function",ln:"809",sig:"(const tagEntryInfo *const tag)",},
+	],
+},
+{tag:"makeTags",ref:
+	[
+		{fp:"ctags/main.c",ki:"function",ln:"469",sig:"(cookedArgs *args)",},
+	],
+},
+{tag:"makeTclTag",ref:
+	[
+		{fp:"ctags/tcl.c",ki:"function",ln:"40",sig:"( const unsigned char *cp, vString *const name, const tclKind kind)",},
+	],
+},
+{tag:"makeTexTag",ref:
+	[
+		{fp:"ctags/tex.c",ki:"function",ln:"210",sig:"(tokenInfo *const token, texKind kind)",},
+	],
+},
+{tag:"makeVariableTag",ref:
+	[
+		{fp:"ctags/python.c",ki:"function",ln:"207",sig:"(vString *const var, vString *const parent)",},
+	],
+},
+{tag:"makeVhdlTag",ref:
+	[
+		{fp:"ctags/vhdl.c",ki:"function",ln:"550",sig:"(tokenInfo * const token, const vhdlKind kind)",},
+	],
+},
+{tag:"MAN2HTML",ref:
+	[
+		{fp:"ctags/maintainer.mak",ki:"macro",ln:"84",},
+	],
+},
+{tag:"MANUAL_GLOBBING",ref:
+	[
+		{fp:"ctags/e_msoft.h",ki:"macro",ln:"20",},
+	],
+},
+{tag:"map_notascii",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"368",},
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"654",},
+	],
+},
+{tag:"mark_opt_subexp",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"function",ln:"3741",sig:"(void *extra, bin_tree_t *node)",},
+	],
+},
+{tag:"match",ref:
+	[
+		{fp:"ctags/tcl.c",ki:"function",ln:"56",sig:"(const unsigned char *line, const char *word)",},
+	],
+},
+{tag:"match_colon_label",ref:
+	[
+		{fp:"ctags/basic.c",ki:"function",ln:"129",sig:"(char const *p)",},
+	],
+},
+{tag:"match_ctx_add_entry",ref:
+	[
+		{fp:"ctags/gnu_regex/regexec.c",ki:"function",ln:"4201",sig:"(re_match_context_t *mctx, int node, int str_idx, int from, int to)",},
+	],
+},
+{tag:"match_ctx_add_sublast",ref:
+	[
+		{fp:"ctags/gnu_regex/regexec.c",ki:"function",ln:"4303",sig:"(re_sub_match_top_t *subtop, int node, int str_idx)",},
+	],
+},
+{tag:"match_ctx_add_subtop",ref:
+	[
+		{fp:"ctags/gnu_regex/regexec.c",ki:"function",ln:"4273",sig:"(re_match_context_t *mctx, int node, int str_idx)",},
+	],
+},
+{tag:"match_ctx_clean",ref:
+	[
+		{fp:"ctags/gnu_regex/regexec.c",ki:"function",ln:"4156",sig:"(re_match_context_t *mctx)",},
+	],
+},
+{tag:"match_ctx_free",ref:
+	[
+		{fp:"ctags/gnu_regex/regexec.c",ki:"function",ln:"4186",sig:"(re_match_context_t *mctx)",},
+	],
+},
+{tag:"match_ctx_init",ref:
+	[
+		{fp:"ctags/gnu_regex/regexec.c",ki:"function",ln:"4128",sig:"(re_match_context_t *mctx, int eflags, int n)",},
+	],
+},
+{tag:"match_dot_label",ref:
+	[
+		{fp:"ctags/basic.c",ki:"function",ln:"144",sig:"(char const *p)",},
+	],
+},
+{tag:"match_keyword",ref:
+	[
+		{fp:"ctags/basic.c",ki:"function",ln:"107",sig:"(const char *p, KeyWord const *kw)",},
+	],
+},
+{tag:"match_last",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"580",},
+	],
+},
+{tag:"matchCallbackPattern",ref:
+	[
+		{fp:"ctags/lregex.c",ki:"function",ln:"470",sig:"( const vString* const line, const regexPattern* const patbuf, const regmatch_t* const pmatch)",},
+	],
+},
+{tag:"matchRegex",ref:
+	[
+		{fp:"ctags/lregex.c",ki:"function",ln:"516",sig:"(const vString* const line, const langType language)",},
+	],
+},
+{tag:"matchRegexPattern",ref:
+	[
+		{fp:"ctags/lregex.c",ki:"function",ln:"486",sig:"(const vString* const line, const regexPattern* const patbuf)",},
+	],
+},
+{tag:"matchTagPattern",ref:
+	[
+		{fp:"ctags/lregex.c",ki:"function",ln:"453",sig:"(const vString* const line, const regexPattern* const patbuf, const regmatch_t* const pmatch)",},
+	],
+},
+{tag:"MatLabParser",ref:
+	[
+		{fp:"ctags/matlab.c",ki:"function",ln:"34",},
+	],
+},
+{tag:"max",ref:
+	[
+		{fp:"ctags/entry.h",ki:"member",ln:"39",},
+		{fp:"ctags/fortran.c",ki:"member",ln:"301",},
+		{fp:"ctags/readtags.c",ki:"member",ln:"71",},
+		{fp:"ctags/strlist.h",ki:"member",ln:"25",},
+	],
+},
+{tag:"max_mb_elem_len",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"589",},
+	],
+},
+{tag:"MaxCppNestingLevel",ref:
+	[
+		{fp:"ctags/get.c",ki:"enumerator",ln:"39",},
+	],
+},
+{tag:"MaxDirectiveName",ref:
+	[
+		{fp:"ctags/get.c",ki:"enumerator",ln:"40",},
+	],
+},
+{tag:"MaxHeaderExtensions",ref:
+	[
+		{fp:"ctags/options.c",ki:"enumerator",ln:"67",},
+	],
+},
+{tag:"MaxSupportedTagFormat",ref:
+	[
+		{fp:"ctags/options.c",ki:"enumerator",ln:"68",},
+	],
+},
+{tag:"mayRedeclare",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"function",ln:"1268",sig:"(vString * const ident, ocaToken what)",},
+	],
+},
+{tag:"MB_CHAR",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"676",},
+	],
+},
+{tag:"mb_cur_max",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"373",},
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"656",},
+	],
+},
+{tag:"mb_partial",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"313",},
+	],
+},
+{tag:"mbchars",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"245",},
+	],
+},
+{tag:"mbcset",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"296",},
+	],
+},
+{tag:"mbs",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"328",},
+	],
+},
+{tag:"mbs_allocated",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"369",},
+	],
+},
+{tag:"member",ref:
+	[
+		{fp:"ctags/c.c",ki:"member",ln:"206",},
+	],
+},
+{tag:"memberInfo",ref:
+	[
+		{fp:"ctags/c.c",ki:"typedef",ln:"170",},
+	],
+},
+{tag:"merge_state_array",ref:
+	[
+		{fp:"ctags/gnu_regex/regexec.c",ki:"function",ln:"1734",sig:"(const re_dfa_t *dfa, re_dfastate_t **dst, re_dfastate_t **src, int num)",},
+	],
+},
+{tag:"merge_state_with_log",ref:
+	[
+		{fp:"ctags/gnu_regex/regexec.c",ki:"function",ln:"2306",sig:"(reg_errcode_t *err, re_match_context_t *mctx, re_dfastate_t *next_state)",},
+	],
+},
+{tag:"methodDecl",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"function",ln:"1389",sig:"(vString * const ident, ocaToken what)",},
+	],
+},
+{tag:"mfopen",ref:
+	[
+		{fp:"ctags/mac.c",ki:"function",ln:"194",sig:"(const char* file, const char* mode)",},
+	],
+},
+{tag:"mode_t",ref:
+	[
+		{fp:"ctags/e_mac.h",ki:"typedef",ln:"57",},
+	],
+},
+{tag:"moduleDecl",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"function",ln:"1468",sig:"(vString * const ident, ocaToken what)",},
+	],
+},
+{tag:"moduleSpecif",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"function",ln:"1436",sig:"(vString * const ident, ocaToken what)",},
+	],
+},
+{tag:"more",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"563",},
+	],
+},
+{tag:"MOTIVATION",ref:
+	[
+		{fp:"ctags/ctags.html",ki:"anchor",ln:"2048",},
+	],
+},
+{tag:"MSDOS_STYLE_PATH",ref:
+	[
+		{fp:"ctags/e_djgpp.h",ki:"macro",ln:"15",},
+		{fp:"ctags/e_msoft.h",ki:"macro",ln:"21",},
+	],
+},
+{tag:"mstat",ref:
+	[
+		{fp:"ctags/mac.c",ki:"function",ln:"145",sig:"(const char* file, struct stat* st)",},
+	],
+},
+])

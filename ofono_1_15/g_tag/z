@@ -1,0 +1,172 @@
+([
+{tag:"zoprt_disable",ref:
+	[
+		{fp:"ofono/plugins/zte.c",ki:"function",ln:"271",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"zoprt_enable",ref:
+	[
+		{fp:"ofono/plugins/zte.c",ki:"function",ln:"149",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"zpas_prefix",ref:
+	[
+		{fp:"ofono/drivers/atmodem/network-registration.c",ki:"variable",ln:"51",},
+	],
+},
+{tag:"zpinpuk_cb",ref:
+	[
+		{fp:"ofono/drivers/atmodem/sim.c",ki:"function",ln:"581",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"zpinpuk_prefix",ref:
+	[
+		{fp:"ofono/drivers/atmodem/sim.c",ki:"variable",ln:"62",},
+	],
+},
+{tag:"ZRC",ref:
+	[
+		{fp:"ofono/gatchat/ppp_cp.c",ki:"enumerator",ln:"89",},
+	],
+},
+{tag:"zsnt_modify_cb",ref:
+	[
+		{fp:"ofono/drivers/ztemodem/radio-settings.c",ki:"function",ln:"111",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"zsnt_prefix",ref:
+	[
+		{fp:"ofono/drivers/ztemodem/radio-settings.c",ki:"variable",ln:"44",},
+	],
+},
+{tag:"zsnt_query_cb",ref:
+	[
+		{fp:"ofono/drivers/ztemodem/radio-settings.c",ki:"function",ln:"50",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"zsnt_support_cb",ref:
+	[
+		{fp:"ofono/drivers/ztemodem/radio-settings.c",ki:"function",ln:"156",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"zte_data",ref:
+	[
+		{fp:"ofono/plugins/zte.c",ki:"struct",ln:"53",},
+	],
+},
+{tag:"zte_debug",ref:
+	[
+		{fp:"ofono/plugins/zte.c",ki:"function",ln:"92",sig:"(const char *str, void *user_data)",},
+	],
+},
+{tag:"zte_disable",ref:
+	[
+		{fp:"ofono/plugins/zte.c",ki:"function",ln:"282",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"zte_driver",ref:
+	[
+		{fp:"ofono/plugins/zte.c",ki:"variable",ln:"382",},
+	],
+},
+{tag:"zte_enable",ref:
+	[
+		{fp:"ofono/plugins/zte.c",ki:"function",ln:"225",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"zte_exit",ref:
+	[
+		{fp:"ofono/plugins/zte.c",ki:"function",ln:"399",sig:"(void)",},
+	],
+},
+{tag:"zte_init",ref:
+	[
+		{fp:"ofono/plugins/zte.c",ki:"function",ln:"394",sig:"(void)",},
+	],
+},
+{tag:"zte_parse_tech",ref:
+	[
+		{fp:"ofono/drivers/atmodem/network-registration.c",ki:"function",ln:"86",sig:"(GAtResult *result)",},
+	],
+},
+{tag:"zte_post_online",ref:
+	[
+		{fp:"ofono/plugins/zte.c",ki:"function",ln:"368",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"zte_post_sim",ref:
+	[
+		{fp:"ofono/plugins/zte.c",ki:"function",ln:"346",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"zte_pre_sim",ref:
+	[
+		{fp:"ofono/plugins/zte.c",ki:"function",ln:"332",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"zte_probe",ref:
+	[
+		{fp:"ofono/plugins/zte.c",ki:"function",ln:"60",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"zte_query_rat_mode",ref:
+	[
+		{fp:"ofono/drivers/ztemodem/radio-settings.c",ki:"function",ln:"97",sig:"(struct ofono_radio_settings *rs, ofono_radio_settings_rat_mode_query_cb_t cb, void *data)",},
+	],
+},
+{tag:"zte_query_tech_cb",ref:
+	[
+		{fp:"ofono/drivers/atmodem/network-registration.c",ki:"function",ln:"1392",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"zte_radio_settings_exit",ref:
+	[
+		{fp:"ofono/drivers/ztemodem/radio-settings.c",ki:"function",ln:"211",sig:"(void)",},
+	],
+},
+{tag:"zte_radio_settings_init",ref:
+	[
+		{fp:"ofono/drivers/ztemodem/radio-settings.c",ki:"function",ln:"206",sig:"(void)",},
+	],
+},
+{tag:"zte_radio_settings_probe",ref:
+	[
+		{fp:"ofono/drivers/ztemodem/radio-settings.c",ki:"function",ln:"168",sig:"(struct ofono_radio_settings *rs, unsigned int vendor, void *data)",},
+	],
+},
+{tag:"zte_radio_settings_remove",ref:
+	[
+		{fp:"ofono/drivers/ztemodem/radio-settings.c",ki:"function",ln:"188",sig:"(struct ofono_radio_settings *rs)",},
+	],
+},
+{tag:"zte_remove",ref:
+	[
+		{fp:"ofono/plugins/zte.c",ki:"function",ln:"75",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"zte_set_online",ref:
+	[
+		{fp:"ofono/plugins/zte.c",ki:"function",ln:"314",sig:"(struct ofono_modem *modem, ofono_bool_t online, ofono_modem_online_cb_t cb, void *user_data)",},
+	],
+},
+{tag:"zte_set_rat_mode",ref:
+	[
+		{fp:"ofono/drivers/ztemodem/radio-settings.c",ki:"function",ln:"121",sig:"(struct ofono_radio_settings *rs, enum ofono_radio_access_mode mode, ofono_radio_settings_rat_mode_set_cb_t cb, void *data)",},
+	],
+},
+{tag:"zte_tech_cb",ref:
+	[
+		{fp:"ofono/drivers/atmodem/network-registration.c",ki:"function",ln:"208",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"ztemodem_exit",ref:
+	[
+		{fp:"ofono/drivers/ztemodem/ztemodem.c",ki:"function",ln:"42",sig:"(void)",},
+	],
+},
+{tag:"ztemodem_init",ref:
+	[
+		{fp:"ofono/drivers/ztemodem/ztemodem.c",ki:"function",ln:"35",sig:"(void)",},
+	],
+},
+])

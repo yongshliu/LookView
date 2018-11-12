@@ -1,0 +1,2199 @@
+([
+{tag:"u",ref:
+	[
+		{fp:"ofono/drivers/stemodem/caif_socket.h",ki:"member",ln:"178",},
+	],
+},
+{tag:"u8500_devinfo_probe",ref:
+	[
+		{fp:"ofono/plugins/u8500.c",ki:"function",ln:"619",sig:"(struct ofono_devinfo *info, unsigned int vendor, void *user)",},
+	],
+},
+{tag:"u8500_devinfo_reachable_cb",ref:
+	[
+		{fp:"ofono/plugins/u8500.c",ki:"function",ln:"534",sig:"(const GIsiMessage *msg, void *data)",},
+	],
+},
+{tag:"u8500_devinfo_remove",ref:
+	[
+		{fp:"ofono/plugins/u8500.c",ki:"function",ln:"648",sig:"(struct ofono_devinfo *info)",},
+	],
+},
+{tag:"u8500_disable",ref:
+	[
+		{fp:"ofono/plugins/u8500.c",ki:"function",ln:"474",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"u8500_enable",ref:
+	[
+		{fp:"ofono/plugins/u8500.c",ki:"function",ln:"469",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"u8500_exit",ref:
+	[
+		{fp:"ofono/plugins/u8500.c",ki:"function",ln:"697",sig:"(void)",},
+	],
+},
+{tag:"u8500_info_resp_cb",ref:
+	[
+		{fp:"ofono/plugins/u8500.c",ki:"function",ln:"479",sig:"(const GIsiMessage *msg, void *data)",},
+	],
+},
+{tag:"u8500_init",ref:
+	[
+		{fp:"ofono/plugins/u8500.c",ki:"function",ln:"683",sig:"(void)",},
+	],
+},
+{tag:"u8500_online",ref:
+	[
+		{fp:"ofono/plugins/u8500.c",ki:"function",ln:"403",sig:"(struct ofono_modem *modem, ofono_bool_t online, ofono_modem_online_cb_t cb, void *data)",},
+	],
+},
+{tag:"u8500_post_online",ref:
+	[
+		{fp:"ofono/plugins/u8500.c",ki:"function",ln:"453",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"u8500_post_sim",ref:
+	[
+		{fp:"ofono/plugins/u8500.c",ki:"function",ln:"442",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"u8500_pre_sim",ref:
+	[
+		{fp:"ofono/plugins/u8500.c",ki:"function",ln:"431",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"u8500_probe",ref:
+	[
+		{fp:"ofono/plugins/u8500.c",ki:"function",ln:"275",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"u8500_query_manufacturer",ref:
+	[
+		{fp:"ofono/plugins/u8500.c",ki:"function",ln:"546",sig:"(struct ofono_devinfo *info, ofono_devinfo_query_cb_t cb, void *data)",},
+	],
+},
+{tag:"u8500_query_model",ref:
+	[
+		{fp:"ofono/plugins/u8500.c",ki:"function",ln:"553",sig:"(struct ofono_devinfo *info, ofono_devinfo_query_cb_t cb, void *data)",},
+	],
+},
+{tag:"u8500_query_revision",ref:
+	[
+		{fp:"ofono/plugins/u8500.c",ki:"function",ln:"560",sig:"(struct ofono_devinfo *info, ofono_devinfo_query_cb_t cb, void *data)",},
+	],
+},
+{tag:"u8500_query_serial",ref:
+	[
+		{fp:"ofono/plugins/u8500.c",ki:"function",ln:"587",sig:"(struct ofono_devinfo *info, ofono_devinfo_query_cb_t cb, void *data)",},
+	],
+},
+{tag:"u8500_remove",ref:
+	[
+		{fp:"ofono/plugins/u8500.c",ki:"function",ln:"355",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"ucs2_gsm_to_packed",ref:
+	[
+		{fp:"ofono/drivers/atmodem/ussd.c",ki:"function",ln:"66",sig:"(const char *content, long *msg_len, unsigned char *msg)",},
+	],
+},
+{tag:"ud",ref:
+	[
+		{fp:"ofono/src/cdma-smsutil.h",ki:"member",ln:"239",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"255",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"265",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"274",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"302",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"317",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"327",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"338",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"397",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"56",},
+	],
+},
+{tag:"udev_ctx",ref:
+	[
+		{fp:"ofono/plugins/udev.c",ki:"variable",ln:"400",},
+		{fp:"ofono/plugins/udevng.c",ki:"variable",ln:"1199",},
+	],
+},
+{tag:"udev_delay",ref:
+	[
+		{fp:"ofono/plugins/udevng.c",ki:"variable",ln:"1202",},
+	],
+},
+{tag:"udev_event",ref:
+	[
+		{fp:"ofono/plugins/udev.c",ki:"function",ln:"404",sig:"(GIOChannel *channel, GIOCondition cond, gpointer user_data)",},
+		{fp:"ofono/plugins/udevng.c",ki:"function",ln:"1215",sig:"(GIOChannel *channel, GIOCondition cond, gpointer user_data)",},
+	],
+},
+{tag:"udev_exit",ref:
+	[
+		{fp:"ofono/plugins/udev.c",ki:"function",ln:"511",sig:"(void)",},
+	],
+},
+{tag:"udev_init",ref:
+	[
+		{fp:"ofono/plugins/udev.c",ki:"function",ln:"475",sig:"(void)",},
+	],
+},
+{tag:"udev_mon",ref:
+	[
+		{fp:"ofono/plugins/udev.c",ki:"variable",ln:"401",},
+		{fp:"ofono/plugins/udevng.c",ki:"variable",ln:"1200",},
+	],
+},
+{tag:"udev_start",ref:
+	[
+		{fp:"ofono/plugins/udev.c",ki:"function",ln:"450",sig:"(void)",},
+		{fp:"ofono/plugins/udevng.c",ki:"function",ln:"1250",sig:"(void)",},
+	],
+},
+{tag:"udev_watch",ref:
+	[
+		{fp:"ofono/plugins/udev.c",ki:"variable",ln:"402",},
+		{fp:"ofono/plugins/udevng.c",ki:"variable",ln:"1201",},
+	],
+},
+{tag:"udhi",ref:
+	[
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"248",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"259",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"269",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"278",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"290",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"309",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"321",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"331",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"48",},
+	],
+},
+{tag:"udhl",ref:
+	[
+		{fp:"ofono/unit/test-sms.c",ki:"member",ln:"804",},
+	],
+},
+{tag:"udl",ref:
+	[
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"254",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"264",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"273",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"301",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"316",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"326",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"337",},
+		{fp:"ofono/unit/test-sms.c",ki:"member",ln:"803",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"55",},
+	],
+},
+{tag:"UICC_APDU_ATR_GET",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"176",},
+	],
+},
+{tag:"UICC_APDU_CONTROL",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"177",},
+	],
+},
+{tag:"UICC_APDU_REQ",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"121",},
+	],
+},
+{tag:"UICC_APDU_RESET_IND",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"123",},
+	],
+},
+{tag:"UICC_APDU_RESP",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"122",},
+	],
+},
+{tag:"UICC_APDU_SAP_ACTIVATE",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"210",},
+	],
+},
+{tag:"UICC_APDU_SAP_APDU_SEND",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"215",},
+	],
+},
+{tag:"UICC_APDU_SAP_ATR_GET",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"212",},
+	],
+},
+{tag:"UICC_APDU_SAP_COLD_RESET",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"213",},
+	],
+},
+{tag:"UICC_APDU_SAP_CONFIG_GET",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"217",},
+	],
+},
+{tag:"UICC_APDU_SAP_DEACTIVATE",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"211",},
+	],
+},
+{tag:"UICC_APDU_SAP_IND",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"131",},
+	],
+},
+{tag:"UICC_APDU_SAP_RECOVERY",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"216",},
+	],
+},
+{tag:"UICC_APDU_SAP_REQ",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"129",},
+	],
+},
+{tag:"UICC_APDU_SAP_RESP",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"130",},
+	],
+},
+{tag:"UICC_APDU_SAP_WARM_RESET",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"214",},
+	],
+},
+{tag:"UICC_APDU_SEND",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"175",},
+	],
+},
+{tag:"uicc_apdu_status_word",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enum",ln:"262",},
+	],
+},
+{tag:"uicc_app_param",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enum",ln:"287",},
+	],
+},
+{tag:"UICC_APP_PARAM_COMMAND",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"291",},
+	],
+},
+{tag:"UICC_APP_PARAM_DISC_DATA",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"292",},
+	],
+},
+{tag:"UICC_APP_PARAM_DISC_TEMPLATE",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"293",},
+	],
+},
+{tag:"UICC_APP_PARAM_ID",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"288",},
+	],
+},
+{tag:"UICC_APP_PARAM_LABEL",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"289",},
+	],
+},
+{tag:"UICC_APP_PARAM_PATH",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"290",},
+	],
+},
+{tag:"UICC_APP_PARAM_URL",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"294",},
+	],
+},
+{tag:"uicc_app_started",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc-util.h",ki:"member",ln:"58",},
+	],
+},
+{tag:"UICC_APPL_ACTIVATED",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"181",},
+	],
+},
+{tag:"UICC_APPL_APDU_SEND",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"158",},
+	],
+},
+{tag:"UICC_APPL_CLEAR_CACHE",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"159",},
+	],
+},
+{tag:"UICC_APPL_CMD_IND",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"115",},
+	],
+},
+{tag:"UICC_APPL_CMD_REQ",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"113",},
+	],
+},
+{tag:"UICC_APPL_CMD_RESP",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"114",},
+	],
+},
+{tag:"UICC_APPL_CONFLICT",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"251",},
+	],
+},
+{tag:"UICC_APPL_FILE_INFO",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"157",},
+	],
+},
+{tag:"UICC_APPL_HOST_ACTIVATE",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"140",},
+	],
+},
+{tag:"UICC_APPL_HOST_DEACTIVATE",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"144",},
+	],
+},
+{tag:"UICC_APPL_ID_UNKNOWN",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"macro",ln:"35",},
+	],
+},
+{tag:"UICC_APPL_LIST",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"139",},
+	],
+},
+{tag:"UICC_APPL_READ_CYCLIC",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"162",},
+	],
+},
+{tag:"UICC_APPL_READ_LINEAR_FIXED",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"155",},
+	],
+},
+{tag:"UICC_APPL_READ_TRANSPARENT",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"153",},
+	],
+},
+{tag:"UICC_APPL_RECOVERED",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"180",},
+	],
+},
+{tag:"UICC_APPL_SESSION_END",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"161",},
+	],
+},
+{tag:"UICC_APPL_SESSION_START",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"160",},
+	],
+},
+{tag:"UICC_APPL_SHUT_DOWN_INITIATED",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"142",},
+	],
+},
+{tag:"UICC_APPL_START_UP_COMPLETE",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"141",},
+	],
+},
+{tag:"UICC_APPL_START_UP_INIT_PROC",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"238",},
+	],
+},
+{tag:"UICC_APPL_START_UP_NO_INIT_PROC",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"237",},
+	],
+},
+{tag:"uicc_appl_start_up_type",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enum",ln:"236",},
+	],
+},
+{tag:"UICC_APPL_STATUS_GET",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"143",},
+	],
+},
+{tag:"UICC_APPL_TERMINATED",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"179",},
+	],
+},
+{tag:"UICC_APPL_TYPE_ICC_SIM",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"227",},
+	],
+},
+{tag:"uicc_appl_type_table",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enum",ln:"225",},
+	],
+},
+{tag:"UICC_APPL_TYPE_UICC_USIM",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"228",},
+	],
+},
+{tag:"UICC_APPL_TYPE_UNKNOWN",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"226",},
+	],
+},
+{tag:"UICC_APPL_UPDATE_CYCLIC",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"163",},
+	],
+},
+{tag:"UICC_APPL_UPDATE_LINEAR_FIXED",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"156",},
+	],
+},
+{tag:"UICC_APPL_UPDATE_TRANSPARENT",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"154",},
+	],
+},
+{tag:"uicc_application_activate_resp",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"function",ln:"1161",sig:"(const GIsiMessage *msg, void *opaque)",},
+	],
+},
+{tag:"UICC_APPLICATION_IND",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"109",},
+	],
+},
+{tag:"uicc_application_list_resp",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"function",ln:"1281",sig:"(const GIsiMessage *msg, void *data)",},
+	],
+},
+{tag:"UICC_APPLICATION_REQ",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"107",},
+	],
+},
+{tag:"UICC_APPLICATION_RESP",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"108",},
+	],
+},
+{tag:"UICC_CARD_DISCONNECTED",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"202",},
+	],
+},
+{tag:"UICC_CARD_ERROR",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"252",},
+	],
+},
+{tag:"UICC_CARD_IND",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"106",},
+	],
+},
+{tag:"uicc_card_ind_cb",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"function",ln:"1468",sig:"(const GIsiMessage *msg, void *data)",},
+	],
+},
+{tag:"UICC_CARD_INFO_GET",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"208",},
+	],
+},
+{tag:"UICC_CARD_NOT_PRESENT",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"204",},
+	],
+},
+{tag:"UICC_CARD_READER_IND",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"135",},
+	],
+},
+{tag:"UICC_CARD_READY",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"205",},
+	],
+},
+{tag:"UICC_CARD_REJECTED",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"207",},
+	],
+},
+{tag:"UICC_CARD_REMOVED",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"203",},
+	],
+},
+{tag:"UICC_CARD_REQ",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"104",},
+	],
+},
+{tag:"UICC_CARD_RESP",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"105",},
+	],
+},
+{tag:"UICC_CARD_STATUS_GET",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"206",},
+	],
+},
+{tag:"uicc_card_status_req",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"function",ln:"1447",sig:"(struct ofono_sim *sim, struct uicc_sim_data *sd)",},
+	],
+},
+{tag:"uicc_card_status_resp",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"function",ln:"1378",sig:"(const GIsiMessage *msg, void *data)",},
+	],
+},
+{tag:"uicc_card_type",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enum",ln:"241",},
+	],
+},
+{tag:"UICC_CARD_TYPE_ICC",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"242",},
+	],
+},
+{tag:"UICC_CARD_TYPE_UICC",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"243",},
+	],
+},
+{tag:"UICC_CAT_DISABLE",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"168",},
+	],
+},
+{tag:"UICC_CAT_ENABLE",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"167",},
+	],
+},
+{tag:"UICC_CAT_ENVELOPE",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"171",},
+	],
+},
+{tag:"UICC_CAT_FETCHED_CMD",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"186",},
+	],
+},
+{tag:"UICC_CAT_IND",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"120",},
+	],
+},
+{tag:"UICC_CAT_NOT_SUPPORTED",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"187",},
+	],
+},
+{tag:"UICC_CAT_POLL",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"174",},
+	],
+},
+{tag:"UICC_CAT_POLLING_SET",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"172",},
+	],
+},
+{tag:"UICC_CAT_REFRESH",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"173",},
+	],
+},
+{tag:"UICC_CAT_REG_FAILED",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"188",},
+	],
+},
+{tag:"UICC_CAT_REG_OK",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"189",},
+	],
+},
+{tag:"UICC_CAT_REQ",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"118",},
+	],
+},
+{tag:"UICC_CAT_RESP",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"119",},
+	],
+},
+{tag:"UICC_CAT_TERMINAL_PROFILE",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"169",},
+	],
+},
+{tag:"UICC_CAT_TERMINAL_RESPONSE",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"170",},
+	],
+},
+{tag:"uicc_change_passwd",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"function",ln:"1018",sig:"(struct ofono_sim *sim, enum ofono_sim_password_type passwd_type, const char *old, const char *new, ofono_sim_lock_unlock_cb_t cb, void *data)",},
+	],
+},
+{tag:"UICC_CONNECT",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"164",},
+	],
+},
+{tag:"UICC_CONNECTOR_REQ",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"116",},
+	],
+},
+{tag:"UICC_CONNECTOR_RESP",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"117",},
+	],
+},
+{tag:"uicc_details",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enum",ln:"246",},
+	],
+},
+{tag:"uicc_details_name",ref:
+	[
+		{fp:"ofono/drivers/isimodem/debug.c",ki:"function",ln:"328",sig:"(uint8_t value)",},
+	],
+},
+{tag:"UICC_DISCONNECT",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"165",},
+	],
+},
+{tag:"UICC_ERROR",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"201",},
+	],
+},
+{tag:"uicc_fcp_param",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enum",ln:"274",},
+	],
+},
+{tag:"UICC_FCP_PARAM_AID",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"279",},
+	],
+},
+{tag:"UICC_FCP_PARAM_FILE_DESC",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"277",},
+	],
+},
+{tag:"UICC_FCP_PARAM_FILE_ID",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"278",},
+	],
+},
+{tag:"UICC_FCP_PARAM_FILE_SIZE_DATA",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"275",},
+	],
+},
+{tag:"UICC_FCP_PARAM_FILE_SIZE_TOTAL",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"276",},
+	],
+},
+{tag:"UICC_FCP_PARAM_LIFECYCLE",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"280",},
+	],
+},
+{tag:"UICC_FCP_PARAM_PIN_STATUS",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"284",},
+	],
+},
+{tag:"UICC_FCP_PARAM_SECURITY_COMPACT",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"282",},
+	],
+},
+{tag:"UICC_FCP_PARAM_SECURITY_EXPANDED",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"283",},
+	],
+},
+{tag:"UICC_FCP_PARAM_SECURITY_REFERENCE",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"281",},
+	],
+},
+{tag:"uicc_file_info_cb_data",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"struct",ln:"132",},
+	],
+},
+{tag:"uicc_file_info_resp_cb",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"function",ln:"240",sig:"(const GIsiMessage *msg, void *opaque)",},
+	],
+},
+{tag:"UICC_FILE_NOT_FOUND",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"249",},
+	],
+},
+{tag:"uicc_flag",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"enum",ln:"65",},
+	],
+},
+{tag:"UICC_FLAG_APP_STARTED",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"enumerator",ln:"66",},
+	],
+},
+{tag:"UICC_FLAG_PASSWD_REQUIRED",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"enumerator",ln:"68",},
+	],
+},
+{tag:"UICC_FLAG_PIN_STATE_RECEIVED",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"enumerator",ln:"67",},
+	],
+},
+{tag:"uicc_get_fileid_path",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc-util.c",ki:"function",ln:"47",sig:"(struct uicc_sim_data *sd, int *mf_path, int *df1_path, int *df2_path, unsigned char *df_len, int fileid)",},
+	],
+},
+{tag:"uicc_get_sfi",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc-util.c",ki:"function",ln:"125",sig:"(const int fileid)",},
+	],
+},
+{tag:"UICC_IND",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"103",},
+	],
+},
+{tag:"uicc_ind_cb",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"function",ln:"1538",sig:"(const GIsiMessage *msg, void *data)",},
+	],
+},
+{tag:"UICC_INITIALIZED",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"198",},
+	],
+},
+{tag:"UICC_INVALID_PARAMETERS",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"248",},
+	],
+},
+{tag:"uicc_lock",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"function",ln:"1027",sig:"(struct ofono_sim *sim, enum ofono_sim_password_type type, int enable, const char *passwd, ofono_sim_lock_unlock_cb_t cb, void *data)",},
+	],
+},
+{tag:"uicc_message_id",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enum",ln:"100",},
+	],
+},
+{tag:"uicc_message_id_name",ref:
+	[
+		{fp:"ofono/drivers/isimodem/debug.c",ki:"function",ln:"352",sig:"(enum uicc_message_id value)",},
+	],
+},
+{tag:"UICC_NO_DETAILS",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"247",},
+	],
+},
+{tag:"UICC_PIN_CHANGE",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"149",},
+	],
+},
+{tag:"UICC_PIN_DISABLE",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"147",},
+	],
+},
+{tag:"UICC_PIN_ENABLE",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"148",},
+	],
+},
+{tag:"UICC_PIN_IND",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"112",},
+	],
+},
+{tag:"UICC_PIN_INFO",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"151",},
+	],
+},
+{tag:"UICC_PIN_NEW",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"232",},
+	],
+},
+{tag:"UICC_PIN_OLD",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"233",},
+	],
+},
+{tag:"UICC_PIN_PERMANENTLY_BLOCKED",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"184",},
+	],
+},
+{tag:"UICC_PIN_PROMPT_VERIFY",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"152",},
+	],
+},
+{tag:"uicc_pin_qualifier",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enum",ln:"231",},
+	],
+},
+{tag:"UICC_PIN_REQ",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"110",},
+	],
+},
+{tag:"UICC_PIN_RESP",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"111",},
+	],
+},
+{tag:"UICC_PIN_STATUS_AUTH_BLOCKED",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"264",},
+	],
+},
+{tag:"UICC_PIN_STATUS_AUTH_FAILED",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"265",},
+	],
+},
+{tag:"UICC_PIN_STATUS_AUTH_RETRIES",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"263",},
+	],
+},
+{tag:"UICC_PIN_SUBSTITUTE",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"150",},
+	],
+},
+{tag:"UICC_PIN_UNBLOCK",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"146",},
+	],
+},
+{tag:"UICC_PIN_UNBLOCK_NEEDED",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"183",},
+	],
+},
+{tag:"UICC_PIN_VERIFIED",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"185",},
+	],
+},
+{tag:"UICC_PIN_VERIFY",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"145",},
+	],
+},
+{tag:"UICC_PIN_VERIFY_NEEDED",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"182",},
+	],
+},
+{tag:"UICC_PWR_CTRL_DISABLE",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"219",},
+	],
+},
+{tag:"UICC_PWR_CTRL_ENABLE",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"218",},
+	],
+},
+{tag:"UICC_PWR_CTRL_IND",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"134",},
+	],
+},
+{tag:"UICC_PWR_CTRL_PERMISSION",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"222",},
+	],
+},
+{tag:"UICC_PWR_CTRL_PROCEED",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"221",},
+	],
+},
+{tag:"UICC_PWR_CTRL_REQ",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"132",},
+	],
+},
+{tag:"UICC_PWR_CTRL_RESP",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"133",},
+	],
+},
+{tag:"UICC_PWR_CTRL_WAIT",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"220",},
+	],
+},
+{tag:"uicc_query_locked",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"function",ln:"1035",sig:"(struct ofono_sim *sim, enum ofono_sim_password_type type, ofono_sim_locked_cb_t cb, void *data)",},
+	],
+},
+{tag:"uicc_query_passwd_state",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"function",ln:"890",sig:"(struct ofono_sim *sim, ofono_sim_passwd_cb_t cb, void *data)",},
+	],
+},
+{tag:"uicc_query_passwd_state_resp",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"function",ln:"848",sig:"(const GIsiMessage *msg, void *opaque)",},
+	],
+},
+{tag:"uicc_query_pin_retries",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"function",ln:"981",sig:"(struct ofono_sim *sim, ofono_sim_pin_retries_cb_t cb, void *data)",},
+	],
+},
+{tag:"uicc_query_pin_retries_resp",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"function",ln:"925",sig:"(const GIsiMessage *msg, void *opaque)",},
+	],
+},
+{tag:"uicc_reachable_cb",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"function",ln:"1562",sig:"(const GIsiMessage *msg, void *data)",},
+	],
+},
+{tag:"uicc_read_file_cyclic",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"function",ln:"693",sig:"(struct ofono_sim *sim, int fileid, int record, int length, const unsigned char *path, unsigned int path_len, ofono_sim_read_cb_t cb, void *data)",},
+	],
+},
+{tag:"uicc_read_file_info",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"function",ln:"397",sig:"(struct ofono_sim *sim, int fileid, const unsigned char *path, unsigned int path_len, ofono_sim_file_info_cb_t cb, void *data)",},
+	],
+},
+{tag:"uicc_read_file_linear",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"function",ln:"659",sig:"(struct ofono_sim *sim, int fileid, int record, int rec_length, const unsigned char *path, unsigned int path_len, ofono_sim_read_cb_t cb, void *data)",},
+	],
+},
+{tag:"uicc_read_file_transp_resp_cb",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"function",ln:"448",sig:"(const GIsiMessage *msg, void *opaque)",},
+	],
+},
+{tag:"uicc_read_file_transparent",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"function",ln:"534",sig:"(struct ofono_sim *sim, int fileid, int start, int length, const unsigned char *path, unsigned int path_len, ofono_sim_read_cb_t cb, void *data)",},
+	],
+},
+{tag:"uicc_read_imsi",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"function",ln:"816",sig:"(struct ofono_sim *sim, ofono_sim_imsi_cb_t cb, void *data)",},
+	],
+},
+{tag:"uicc_read_imsi_resp",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"function",ln:"763",sig:"(const GIsiMessage *msg, void *opaque)",},
+	],
+},
+{tag:"UICC_READY",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"196",},
+	],
+},
+{tag:"UICC_READY_FOR_ACTIVATION",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"197",},
+	],
+},
+{tag:"UICC_RECONNECT",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"166",},
+	],
+},
+{tag:"UICC_REFRESH_CANCELLED",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"192",},
+	],
+},
+{tag:"UICC_REFRESH_IND",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"126",},
+	],
+},
+{tag:"UICC_REFRESH_NOW",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"193",},
+	],
+},
+{tag:"UICC_REFRESH_PERMISSION",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"190",},
+	],
+},
+{tag:"UICC_REFRESH_REQ",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"124",},
+	],
+},
+{tag:"UICC_REFRESH_RESP",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"125",},
+	],
+},
+{tag:"UICC_REFRESH_STARTING",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"191",},
+	],
+},
+{tag:"UICC_REFRESH_STATUS",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"178",},
+	],
+},
+{tag:"UICC_REQ",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"101",},
+	],
+},
+{tag:"uicc_reset_passwd",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"function",ln:"1010",sig:"(struct ofono_sim *sim, const char *puk, const char *passwd, ofono_sim_lock_unlock_cb_t cb, void *data)",},
+	],
+},
+{tag:"UICC_RESP",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"102",},
+	],
+},
+{tag:"UICC_SB_ACCESS_MODE",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"95",},
+	],
+},
+{tag:"UICC_SB_AID",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"89",},
+	],
+},
+{tag:"UICC_SB_APDU",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"78",},
+	],
+},
+{tag:"UICC_SB_APDU_ACTIONS",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"91",},
+	],
+},
+{tag:"UICC_SB_APDU_SAP_CONFIG",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"97",},
+	],
+},
+{tag:"UICC_SB_APDU_SAP_INFO",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"94",},
+	],
+},
+{tag:"UICC_SB_APPL_DATA_OBJECT",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"63",},
+	],
+},
+{tag:"UICC_SB_APPL_INFO",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"65",},
+	],
+},
+{tag:"UICC_SB_APPL_PATH",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"75",},
+	],
+},
+{tag:"UICC_SB_APPL_STATUS",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"66",},
+	],
+},
+{tag:"UICC_SB_APPLICATION",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"64",},
+	],
+},
+{tag:"UICC_SB_CARD_INFO",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"60",},
+	],
+},
+{tag:"UICC_SB_CARD_REJECT_CAUSE",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"61",},
+	],
+},
+{tag:"UICC_SB_CARD_STATUS",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"59",},
+	],
+},
+{tag:"UICC_SB_CHV",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"69",},
+	],
+},
+{tag:"UICC_SB_CLIENT",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"62",},
+	],
+},
+{tag:"UICC_SB_CYCLIC",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"83",},
+	],
+},
+{tag:"UICC_SB_ENVELOPE",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"86",},
+	],
+},
+{tag:"UICC_SB_FCI",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"68",},
+	],
+},
+{tag:"UICC_SB_FCP",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"67",},
+	],
+},
+{tag:"UICC_SB_FILE_DATA",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"77",},
+	],
+},
+{tag:"UICC_SB_LINEAR_FIXED",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"82",},
+	],
+},
+{tag:"UICC_SB_OBJECT_ID",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"92",},
+	],
+},
+{tag:"UICC_SB_PIN",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"70",},
+	],
+},
+{tag:"UICC_SB_PIN_INFO",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"74",},
+	],
+},
+{tag:"UICC_SB_PIN_REF",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"71",},
+	],
+},
+{tag:"UICC_SB_PIN_SUBST",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"73",},
+	],
+},
+{tag:"UICC_SB_POLLING_SET",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"87",},
+	],
+},
+{tag:"UICC_SB_PUK",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"72",},
+	],
+},
+{tag:"UICC_SB_REFRESH",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"88",},
+	],
+},
+{tag:"UICC_SB_REFRESH_RESULT",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"90",},
+	],
+},
+{tag:"UICC_SB_RESP_INFO",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"96",},
+	],
+},
+{tag:"UICC_SB_SESSION",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"76",},
+	],
+},
+{tag:"UICC_SB_SHUT_DOWN_CONFIG",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"58",},
+	],
+},
+{tag:"UICC_SB_STATUS_WORD",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"93",},
+	],
+},
+{tag:"UICC_SB_TERMINAL_PROFILE",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"84",},
+	],
+},
+{tag:"UICC_SB_TERMINAL_RESPONSE",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"85",},
+	],
+},
+{tag:"UICC_SB_TRANSPARENT",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"81",},
+	],
+},
+{tag:"UICC_SB_TRANSPARENT_READ",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"79",},
+	],
+},
+{tag:"UICC_SB_TRANSPARENT_UPDATE",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"80",},
+	],
+},
+{tag:"UICC_SECURITY_CONDITIONS_NOT_SATISFIED",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"250",},
+	],
+},
+{tag:"uicc_send_passwd",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"function",ln:"918",sig:"(struct ofono_sim *sim, const char *passwd, ofono_sim_lock_unlock_cb_t cb, void *data)",},
+	],
+},
+{tag:"UICC_SERVICE_NOT_SUPPORTED",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"253",},
+	],
+},
+{tag:"uicc_service_type",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enum",ln:"138",},
+	],
+},
+{tag:"uicc_service_type_name",ref:
+	[
+		{fp:"ofono/drivers/isimodem/debug.c",ki:"function",ln:"231",sig:"(uint8_t value)",},
+	],
+},
+{tag:"UICC_SESSION_EXPIRED",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"254",},
+	],
+},
+{tag:"UICC_SESSION_ID_NOT_USED",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"macro",ln:"37",},
+	],
+},
+{tag:"UICC_SFI_NOT_PRESENT",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"macro",ln:"36",},
+	],
+},
+{tag:"UICC_SHUT_DOWN_CONFIG",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"200",},
+	],
+},
+{tag:"UICC_SHUTTING_DOWN",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"199",},
+	],
+},
+{tag:"uicc_sim_application",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc-util.h",ki:"struct",ln:"34",},
+	],
+},
+{tag:"uicc_sim_data",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc-util.h",ki:"struct",ln:"43",},
+	],
+},
+{tag:"uicc_sim_probe",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"function",ln:"1608",sig:"(struct ofono_sim *sim, unsigned int vendor, void *user)",},
+	],
+},
+{tag:"uicc_sim_remove",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"function",ln:"1646",sig:"(struct ofono_sim *sim)",},
+	],
+},
+{tag:"UICC_SIMLOCK_ACTIVE",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"209",},
+	],
+},
+{tag:"UICC_SIMLOCK_REQ",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"127",},
+	],
+},
+{tag:"UICC_SIMLOCK_RESP",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"128",},
+	],
+},
+{tag:"uicc_simlock_status",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enum",ln:"257",},
+	],
+},
+{tag:"UICC_SIMLOCK_STATUS_ACTIVE",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"258",},
+	],
+},
+{tag:"UICC_SIMLOCK_STATUS_INACTIVE",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"259",},
+	],
+},
+{tag:"UICC_START_UP_COMPLETE",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"194",},
+	],
+},
+{tag:"uicc_status",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enum",ln:"39",},
+	],
+},
+{tag:"UICC_STATUS_APPL_ACTIVE",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"51",},
+	],
+},
+{tag:"UICC_STATUS_APPL_NOT_ACTIVE",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"52",},
+	],
+},
+{tag:"UICC_STATUS_CARD_DISCONNECTED",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"48",},
+	],
+},
+{tag:"UICC_STATUS_CARD_NOT_PRESENT",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"49",},
+	],
+},
+{tag:"UICC_STATUS_CARD_NOT_READY",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"46",},
+	],
+},
+{tag:"UICC_STATUS_CARD_READY",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"47",},
+	],
+},
+{tag:"UICC_STATUS_CARD_REJECTED",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"50",},
+	],
+},
+{tag:"UICC_STATUS_FAIL",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"41",},
+	],
+},
+{tag:"UICC_STATUS_GET",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"195",},
+	],
+},
+{tag:"uicc_status_name",ref:
+	[
+		{fp:"ofono/drivers/isimodem/debug.c",ki:"function",ln:"394",sig:"(uint8_t value)",},
+	],
+},
+{tag:"UICC_STATUS_NOT_READY",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"43",},
+	],
+},
+{tag:"UICC_STATUS_OK",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"40",},
+	],
+},
+{tag:"UICC_STATUS_PIN_DISABLED",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"54",},
+	],
+},
+{tag:"UICC_STATUS_PIN_ENABLED",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"53",},
+	],
+},
+{tag:"uicc_status_resp",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"function",ln:"1486",sig:"(const GIsiMessage *msg, void *data)",},
+	],
+},
+{tag:"UICC_STATUS_SHUTTING_DOWN",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"45",},
+	],
+},
+{tag:"UICC_STATUS_START_UP_COMPLETED",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"44",},
+	],
+},
+{tag:"UICC_STATUS_UNKNOWN",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"42",},
+	],
+},
+{tag:"uicc_subblock",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enum",ln:"57",},
+	],
+},
+{tag:"uicc_subblock_name",ref:
+	[
+		{fp:"ofono/drivers/isimodem/debug.c",ki:"function",ln:"431",sig:"(uint8_t value)",},
+	],
+},
+{tag:"uicc_template",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enum",ln:"268",},
+	],
+},
+{tag:"UICC_TEMPLATE_APPLICATION",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"269",},
+	],
+},
+{tag:"UICC_TEMPLATE_FCP",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"270",},
+	],
+},
+{tag:"UICC_TEMPLATE_SECURITY_ENVIRONMENT",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.h",ki:"enumerator",ln:"271",},
+	],
+},
+{tag:"uicc_write_file_cyclic",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"function",ln:"724",sig:"(struct ofono_sim *sim, int fileid, int length, const unsigned char *value, const unsigned char *path, unsigned int path_len, ofono_sim_write_cb_t cb, void *data)",},
+	],
+},
+{tag:"uicc_write_file_linear",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"function",ln:"714",sig:"(struct ofono_sim *sim, int fileid, int record, int length, const unsigned char *value, const unsigned char *path, unsigned int path_len, ofono_sim_write_cb_t cb, void *data)",},
+	],
+},
+{tag:"uicc_write_file_transparent",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"function",ln:"703",sig:"(struct ofono_sim *sim, int fileid, int start, int length, const unsigned char *value, const unsigned char *path, unsigned int path_len, ofono_sim_write_cb_t cb, void *data)",},
+	],
+},
+{tag:"uid",ref:
+	[
+		{fp:"ofono/plugins/connman.c",ki:"member",ln:"54",},
+	],
+},
+{tag:"uim",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/sim.c",ki:"member",ln:"42",},
+	],
+},
+{tag:"unblock_retries",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"member",ln:"125",},
+	],
+},
+{tag:"unicode_locking_shift_lookup",ref:
+	[
+		{fp:"ofono/src/util.c",ki:"function",ln:"490",sig:"(struct conversion_table *t, unsigned short k)",},
+	],
+},
+{tag:"unicode_single_shift_lookup",ref:
+	[
+		{fp:"ofono/src/util.c",ki:"function",ln:"497",sig:"(struct conversion_table *t, unsigned short k)",},
+	],
+},
+{tag:"uninitialized_var",ref:
+	[
+		{fp:"ofono/src/cdma-smsutil.c",ki:"macro",ln:"37",},
+		{fp:"ofono/src/sms.c",ki:"macro",ln:"42",},
+		{fp:"ofono/src/smsutil.c",ki:"macro",ln:"41",},
+	],
+},
+{tag:"unit",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"704",},
+	],
+},
+{tag:"univ_pin",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/uim.h",ki:"member",ln:"66",},
+	],
+},
+{tag:"unknown",ref:
+	[
+		{fp:"ofono/gatchat/test-qcdm.c",ki:"member",ln:"50",},
+	],
+},
+{tag:"unpack_7bit",ref:
+	[
+		{fp:"ofono/src/util.c",ki:"function",ln:"1094",sig:"(const unsigned char *in, long len, int byte_offset, gboolean ussd, long max_to_unpack, long *items_written, unsigned char terminator)",},
+	],
+},
+{tag:"unpack_7bit_own_buf",ref:
+	[
+		{fp:"ofono/src/util.c",ki:"function",ln:"1016",sig:"(const unsigned char *in, long len, int byte_offset, gboolean ussd, long max_to_unpack, long *items_written, unsigned char terminator, unsigned char *buf)",},
+	],
+},
+{tag:"unregister",ref:
+	[
+		{fp:"ofono/src/modem.c",ki:"member",ln:"107",},
+	],
+},
+{tag:"unregister_device",ref:
+	[
+		{fp:"ofono/dundee/device.c",ki:"function",ln:"556",sig:"(struct dundee_device *device)",},
+	],
+},
+{tag:"unregister_profile_cb",ref:
+	[
+		{fp:"ofono/plugins/bluez5.c",ki:"function",ln:"71",sig:"(DBusPendingCall *call, gpointer user_data)",},
+	],
+},
+{tag:"unregister_property",ref:
+	[
+		{fp:"ofono/src/modem.c",ki:"function",ln:"1652",sig:"(gpointer data)",},
+	],
+},
+{tag:"unset_resp_cb",ref:
+	[
+		{fp:"ofono/drivers/isimodem/call-barring.c",ki:"function",ln:"183",sig:"(const GIsiMessage *msg, void *data)",},
+	],
+},
+{tag:"unset_routing",ref:
+	[
+		{fp:"ofono/drivers/isimodem/sms.c",ki:"function",ln:"995",sig:"(GIsiClient *client)",},
+	],
+},
+{tag:"untracked",ref:
+	[
+		{fp:"ofono/src/voicecall.c",ki:"member",ln:"87",},
+	],
+},
+{tag:"UP",ref:
+	[
+		{fp:"ofono/gatchat/ppp_cp.c",ki:"enumerator",ln:"146",},
+		{fp:"ofono/gisi/netlink.c",ki:"macro",ln:"134",},
+		{fp:"ofono/gisi/netlink.c",ki:"macro",ln:"153",},
+	],
+},
+{tag:"up_cb",ref:
+	[
+		{fp:"ofono/drivers/cdmamodem/connman.c",ki:"member",ln:"68",},
+	],
+},
+{tag:"update_attach",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1723",},
+	],
+},
+{tag:"update_barrings",ref:
+	[
+		{fp:"ofono/src/call-barring.c",ki:"function",ln:"130",sig:"(struct ofono_call_barring *cb, int mask)",},
+	],
+},
+{tag:"update_fast_dormancy",ref:
+	[
+		{fp:"ofono/drivers/isimodem/radio-settings.c",ki:"function",ln:"222",sig:"(struct radio_data *rd)",},
+	],
+},
+{tag:"update_indicator_and_emit",ref:
+	[
+		{fp:"ofono/src/message-waiting.c",ki:"function",ln:"387",sig:"(struct ofono_message_waiting *mw, int mailbox, struct mailbox_state *info)",},
+	],
+},
+{tag:"update_modem_properties",ref:
+	[
+		{fp:"ofono/plugins/stemgr.c",ki:"function",ln:"200",sig:"(const char *path, DBusMessageIter *iter)",},
+	],
+},
+{tag:"update_name_cache",ref:
+	[
+		{fp:"ofono/gdbus/watch.c",ki:"function",ln:"424",sig:"(const char *name, const char *owner)",},
+	],
+},
+{tag:"update_number",ref:
+	[
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"392",},
+	],
+},
+{tag:"update_operator_list",ref:
+	[
+		{fp:"ofono/src/network.c",ki:"function",ln:"714",sig:"(struct ofono_netreg *netreg, int total, const struct ofono_network_operator *list)",},
+	],
+},
+{tag:"UPDATE_PARAMETER",ref:
+	[
+		{fp:"ofono/drivers/isimodem/sim.h",ki:"enumerator",ln:"162",},
+	],
+},
+{tag:"update_properties",ref:
+	[
+		{fp:"ofono/gdbus/client.c",ki:"function",ln:"251",sig:"(GDBusProxy *proxy, DBusMessageIter *iter, gboolean send_changed)",},
+	],
+},
+{tag:"update_property",ref:
+	[
+		{fp:"ofono/plugins/stemgr.c",ki:"function",ln:"166",sig:"(struct ste_modem *stemodem, const char *prop, DBusMessageIter *iter, enum ste_operation *op, gboolean *op_valid)",},
+	],
+},
+{tag:"update_service",ref:
+	[
+		{fp:"ofono/gdbus/watch.c",ki:"function",ln:"587",sig:"(void *user_data)",},
+	],
+},
+{tag:"update_status_mask",ref:
+	[
+		{fp:"ofono/drivers/isimodem/call-barring.c",ki:"function",ln:"74",sig:"(uint32_t *mask, uint8_t bsc)",},
+		{fp:"ofono/drivers/isimodem/call-settings.c",ki:"function",ln:"50",sig:"(uint32_t *mask, uint8_t bsc)",},
+	],
+},
+{tag:"update_suspended_property",ref:
+	[
+		{fp:"ofono/src/gprs.c",ki:"function",ln:"1452",sig:"(struct ofono_gprs *gprs, ofono_bool_t suspended)",},
+	],
+},
+{tag:"upin_retries",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/uim.h",ki:"member",ln:"48",},
+	],
+},
+{tag:"upin_state",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/uim.h",ki:"member",ln:"47",},
+	],
+},
+{tag:"upuk_retries",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/uim.h",ki:"member",ln:"49",},
+	],
+},
+{tag:"url",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1290",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"14912",},
+	],
+},
+{tag:"usage",ref:
+	[
+		{fp:"ofono/gatchat/test-server.c",ki:"function",ln:"1117",sig:"(void)",},
+	],
+},
+{tag:"usage_start",ref:
+	[
+		{fp:"ofono/plugins/mbpi.c",ki:"function",ln:"162",sig:"(GMarkupParseContext *context, const gchar **attribute_names, const gchar **attribute_values, enum ofono_gprs_context_type *type, GError **error)",},
+	],
+},
+{tag:"use_delivery_reports",ref:
+	[
+		{fp:"ofono/src/sms.c",ki:"member",ln:"85",},
+	],
+},
+{tag:"use_mux",ref:
+	[
+		{fp:"ofono/plugins/phonesim.c",ki:"member",ln:"81",},
+	],
+},
+{tag:"use_write_watch",ref:
+	[
+		{fp:"ofono/gatchat/gatio.c",ki:"member",ln:"50",},
+	],
+},
+{tag:"user",ref:
+	[
+		{fp:"ofono/drivers/atmodem/atutil.h",ki:"member",ln:"89",},
+		{fp:"ofono/drivers/isimodem/isiutil.h",ki:"member",ln:"28",},
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"member",ln:"135",},
+		{fp:"ofono/drivers/qmimodem/util.h",ki:"member",ln:"27",},
+		{fp:"ofono/dundee/dundee.h",ki:"member",ln:"46",},
+		{fp:"ofono/gatchat/gatmux.c",ki:"member",ln:"95",},
+		{fp:"ofono/src/ussd.c",ki:"member",ln:"72",},
+	],
+},
+{tag:"user_cb",ref:
+	[
+		{fp:"ofono/src/stkagent.c",ki:"member",ln:"60",},
+	],
+},
+{tag:"user_confirmation",ref:
+	[
+		{fp:"ofono/include/stk.h",ki:"member",ln:"50",},
+	],
+},
+{tag:"user_data",ref:
+	[
+		{fp:"ofono/btio/btio.c",ki:"member",ln:"70",},
+		{fp:"ofono/btio/btio.c",ki:"member",ln:"76",},
+		{fp:"ofono/btio/btio.c",ki:"member",ln:"83",},
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"103",},
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"1183",},
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"1510",},
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"1685",},
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"1818",},
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"96",},
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"992",},
+		{fp:"ofono/drivers/stemodem/caif_rtnl.c",ki:"member",ln:"54",},
+		{fp:"ofono/gatchat/gatchat.c",ki:"member",ln:"57",},
+		{fp:"ofono/gatchat/gatchat.c",ki:"member",ln:"65",},
+		{fp:"ofono/gatchat/gatserver.c",ki:"member",ln:"105",},
+		{fp:"ofono/gdbus/client.c",ki:"member",ln:"62",},
+		{fp:"ofono/gdbus/client.c",ki:"member",ln:"640",},
+		{fp:"ofono/gdbus/client.c",ki:"member",ln:"819",},
+		{fp:"ofono/gdbus/mainloop.c",ki:"member",ln:"50",},
+		{fp:"ofono/gdbus/object.c",ki:"member",ln:"70",},
+		{fp:"ofono/gdbus/polkit.c",ki:"member",ln:"110",},
+		{fp:"ofono/gdbus/watch.c",ki:"member",ln:"61",},
+		{fp:"ofono/plugins/bluez4.c",ki:"member",ln:"154",},
+		{fp:"ofono/plugins/bluez4.c",ki:"member",ln:"58",},
+		{fp:"ofono/plugins/bluez5.c",ki:"member",ln:"45",},
+		{fp:"ofono/src/stkagent.c",ki:"member",ln:"61",},
+		{fp:"ofono/src/ussd.c",ki:"member",ln:"53",},
+		{fp:"ofono/src/voicecall.c",ki:"member",ln:"108",},
+		{fp:"ofono/src/voicecall.c",ki:"member",ln:"99",},
+	],
+},
+{tag:"user_destroy",ref:
+	[
+		{fp:"ofono/src/stkagent.c",ki:"member",ln:"65",},
+	],
+},
+{tag:"user_disconnect",ref:
+	[
+		{fp:"ofono/gatchat/gatchat.c",ki:"member",ln:"87",},
+		{fp:"ofono/gatchat/gatio.c",ki:"member",ln:"44",},
+		{fp:"ofono/gatchat/gatmux.c",ki:"member",ln:"79",},
+		{fp:"ofono/gatchat/gatserver.c",ki:"member",ln:"114",},
+	],
+},
+{tag:"user_disconnect_data",ref:
+	[
+		{fp:"ofono/gatchat/gatchat.c",ki:"member",ln:"88",},
+		{fp:"ofono/gatchat/gatio.c",ki:"member",ln:"45",},
+		{fp:"ofono/gatchat/gatmux.c",ki:"member",ln:"80",},
+		{fp:"ofono/gatchat/gatserver.c",ki:"member",ln:"115",},
+	],
+},
+{tag:"user_response",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1374",sig:"(gpointer user_data)",},
+	],
+},
+{tag:"user_termination_cb",ref:
+	[
+		{fp:"ofono/src/stk.c",ki:"function",ln:"514",sig:"(enum stk_agent_result result, void *user_data)",},
+	],
+},
+{tag:"userdata",ref:
+	[
+		{fp:"ofono/drivers/atmodem/atutil.c",ki:"member",ln:"47",},
+		{fp:"ofono/drivers/hfpmodem/slc.c",ki:"member",ln:"54",},
+		{fp:"ofono/examples/private-network.c",ki:"member",ln:"54",},
+		{fp:"ofono/src/simfs.c",ki:"member",ln:"73",},
+	],
+},
+{tag:"username",ref:
+	[
+		{fp:"ofono/drivers/atmodem/gprs-context.c",ki:"member",ln:"63",},
+		{fp:"ofono/drivers/cdmamodem/connman.c",ki:"member",ln:"64",},
+		{fp:"ofono/drivers/iceramodem/gprs-context.c",ki:"member",ln:"68",},
+		{fp:"ofono/drivers/ifxmodem/gprs-context.c",ki:"member",ln:"63",},
+		{fp:"ofono/drivers/isimodem/gprs-context.c",ki:"member",ln:"73",},
+		{fp:"ofono/gatchat/gatppp.c",ki:"member",ln:"71",},
+		{fp:"ofono/include/gprs-context.h",ki:"member",ln:"60",},
+		{fp:"ofono/include/gprs-provision.h",ki:"member",ln:"36",},
+		{fp:"ofono/src/cdma-connman.c",ki:"member",ln:"60",},
+	],
+},
+{tag:"USIM_APP_DEDICATED_FILE",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc-util.c",ki:"macro",ln:"45",},
+	],
+},
+{tag:"usimstate_notify",ref:
+	[
+		{fp:"ofono/plugins/phonesim.c",ki:"function",ln:"425",sig:"(GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"ussd",ref:
+	[
+		{fp:"ofono/src/call-barring.c",ki:"member",ln:"59",},
+		{fp:"ofono/src/call-forwarding.c",ki:"member",ln:"69",},
+		{fp:"ofono/src/call-settings.c",ki:"member",ln:"110",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"9068",},
+	],
+},
+{tag:"ussd_callback",ref:
+	[
+		{fp:"ofono/src/ussd.c",ki:"function",ln:"530",sig:"(const struct ofono_error *error, void *data)",},
+	],
+},
+{tag:"ussd_cancel",ref:
+	[
+		{fp:"ofono/src/ussd.c",ki:"function",ln:"689",sig:"(DBusConnection *conn, DBusMessage *msg, void *data)",},
+	],
+},
+{tag:"ussd_cancel_callback",ref:
+	[
+		{fp:"ofono/src/ussd.c",ki:"function",ln:"660",sig:"(const struct ofono_error *error, void *data)",},
+	],
+},
+{tag:"ussd_change_state",ref:
+	[
+		{fp:"ofono/src/ussd.c",ki:"function",ln:"311",sig:"(struct ofono_ussd *ussd, int state)",},
+	],
+},
+{tag:"ussd_data",ref:
+	[
+		{fp:"ofono/drivers/atmodem/ussd.c",ki:"struct",ln:"49",},
+		{fp:"ofono/drivers/huaweimodem/ussd.c",ki:"struct",ln:"44",},
+		{fp:"ofono/drivers/isimodem/ussd.c",ki:"struct",ln:"56",},
+		{fp:"ofono/drivers/qmimodem/ussd.c",ki:"struct",ln:"34",},
+		{fp:"ofono/drivers/speedupmodem/ussd.c",ki:"struct",ln:"43",},
+	],
+},
+{tag:"ussd_data_download",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1767",},
+	],
+},
+{tag:"ussd_decode",ref:
+	[
+		{fp:"ofono/src/smsutil.c",ki:"function",ln:"4689",sig:"(int dcs, int len, const unsigned char *data)",},
+	],
+},
+{tag:"ussd_encode",ref:
+	[
+		{fp:"ofono/src/smsutil.c",ki:"function",ln:"4733",sig:"(const char *str, long *items_written, unsigned char *pdu)",},
+	],
+},
+{tag:"ussd_get_properties",ref:
+	[
+		{fp:"ofono/src/ussd.c",ki:"function",ln:"714",sig:"(DBusConnection *conn, DBusMessage *msg, void *data)",},
+	],
+},
+{tag:"ussd_get_state_string",ref:
+	[
+		{fp:"ofono/src/ussd.c",ki:"function",ln:"296",sig:"(struct ofono_ussd *ussd)",},
+	],
+},
+{tag:"ussd_ind_cb",ref:
+	[
+		{fp:"ofono/drivers/isimodem/ussd.c",ki:"function",ln:"88",sig:"(const GIsiMessage *msg, void *data)",},
+	],
+},
+{tag:"ussd_info",ref:
+	[
+		{fp:"ofono/drivers/isimodem/ussd.c",ki:"struct",ln:"50",},
+	],
+},
+{tag:"ussd_initiate",ref:
+	[
+		{fp:"ofono/src/ussd.c",ki:"function",ln:"551",sig:"(DBusConnection *conn, DBusMessage *msg, void *data)",},
+	],
+},
+{tag:"ussd_methods",ref:
+	[
+		{fp:"ofono/src/ussd.c",ki:"variable",ln:"741",},
+	],
+},
+{tag:"ussd_notify_ack",ref:
+	[
+		{fp:"ofono/drivers/isimodem/ussd.c",ki:"function",ln:"77",sig:"(struct ussd_data *ud)",},
+	],
+},
+{tag:"ussd_reachable_cb",ref:
+	[
+		{fp:"ofono/drivers/isimodem/ussd.c",ki:"function",ln:"224",sig:"(const GIsiMessage *msg, void *data)",},
+	],
+},
+{tag:"ussd_remove",ref:
+	[
+		{fp:"ofono/src/ussd.c",ki:"function",ln:"807",sig:"(struct ofono_atom *atom)",},
+	],
+},
+{tag:"ussd_request",ref:
+	[
+		{fp:"ofono/src/ussd.c",ki:"struct",ln:"51",},
+	],
+},
+{tag:"ussd_request_callback",ref:
+	[
+		{fp:"ofono/src/ussd.c",ki:"function",ln:"894",sig:"(const struct ofono_error *error, void *data)",},
+	],
+},
+{tag:"ussd_request_finish",ref:
+	[
+		{fp:"ofono/src/ussd.c",ki:"function",ln:"328",sig:"(struct ofono_ussd *ussd, int error, int dcs, const unsigned char *pdu, int len)",},
+	],
+},
+{tag:"ussd_respond",ref:
+	[
+		{fp:"ofono/src/ussd.c",ki:"function",ln:"624",sig:"(DBusConnection *conn, DBusMessage *msg, void *data)",},
+	],
+},
+{tag:"ussd_response_callback",ref:
+	[
+		{fp:"ofono/src/ussd.c",ki:"function",ln:"603",sig:"(const struct ofono_error *error, void *data)",},
+	],
+},
+{tag:"ussd_send_resp_cb",ref:
+	[
+		{fp:"ofono/drivers/isimodem/ussd.c",ki:"function",ln:"152",sig:"(const GIsiMessage *msg, void *data)",},
+	],
+},
+{tag:"ussd_signals",ref:
+	[
+		{fp:"ofono/src/ussd.c",ki:"variable",ln:"757",},
+	],
+},
+{tag:"ussd_state",ref:
+	[
+		{fp:"ofono/src/ussd.c",ki:"enum",ln:"44",},
+	],
+},
+{tag:"USSD_STATE_ACTIVE",ref:
+	[
+		{fp:"ofono/src/ussd.c",ki:"enumerator",ln:"46",},
+	],
+},
+{tag:"USSD_STATE_IDLE",ref:
+	[
+		{fp:"ofono/src/ussd.c",ki:"enumerator",ln:"45",},
+	],
+},
+{tag:"ussd_state_name",ref:
+	[
+		{fp:"ofono/src/ussd.c",ki:"function",ln:"372",sig:"(enum ussd_state state)",},
+	],
+},
+{tag:"USSD_STATE_RESPONSE_SENT",ref:
+	[
+		{fp:"ofono/src/ussd.c",ki:"enumerator",ln:"48",},
+	],
+},
+{tag:"USSD_STATE_USER_ACTION",ref:
+	[
+		{fp:"ofono/src/ussd.c",ki:"enumerator",ln:"47",},
+	],
+},
+{tag:"ussd_status_name",ref:
+	[
+		{fp:"ofono/src/ussd.c",ki:"function",ln:"352",sig:"(int status)",},
+	],
+},
+{tag:"ussd_status_to_failure_code",ref:
+	[
+		{fp:"ofono/src/ussd.c",ki:"function",ln:"340",sig:"(int status)",},
+	],
+},
+{tag:"ussd_string",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1219",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1648",},
+	],
+},
+{tag:"ussd_unregister",ref:
+	[
+		{fp:"ofono/src/ussd.c",ki:"function",ln:"786",sig:"(struct ofono_atom *atom)",},
+	],
+},
+{tag:"ussd_watch",ref:
+	[
+		{fp:"ofono/src/call-barring.c",ki:"function",ln:"1085",sig:"(struct ofono_atom *atom, enum ofono_atom_watch_condition cond, void *data)",},
+		{fp:"ofono/src/call-barring.c",ki:"member",ln:"60",},
+		{fp:"ofono/src/call-forwarding.c",ki:"function",ln:"1513",sig:"(struct ofono_atom *atom, enum ofono_atom_watch_condition cond, void *data)",},
+		{fp:"ofono/src/call-forwarding.c",ki:"member",ln:"70",},
+		{fp:"ofono/src/call-settings.c",ki:"member",ln:"111",},
+		{fp:"ofono/src/call-settings.c",ki:"function",ln:"1445",sig:"(struct ofono_atom *atom, enum ofono_atom_watch_condition cond, void *data)",},
+	],
+},
+{tag:"ussdmode_prefix",ref:
+	[
+		{fp:"ofono/plugins/huawei.c",ki:"variable",ln:"64",},
+		{fp:"ofono/plugins/icera.c",ki:"variable",ln:"51",},
+	],
+},
+{tag:"ussdmode_query",ref:
+	[
+		{fp:"ofono/plugins/icera.c",ki:"function",ln:"137",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"ussdmode_query_cb",ref:
+	[
+		{fp:"ofono/plugins/huawei.c",ki:"function",ln:"134",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"ussdmode_support",ref:
+	[
+		{fp:"ofono/plugins/icera.c",ki:"function",ln:"162",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"ussdmode_support_cb",ref:
+	[
+		{fp:"ofono/plugins/huawei.c",ki:"function",ln:"156",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"utc",ref:
+	[
+		{fp:"ofono/drivers/isimodem/network-registration.c",ki:"member",ln:"72",},
+	],
+},
+{tag:"utcoff",ref:
+	[
+		{fp:"ofono/include/types.h",ki:"member",ln:"109",},
+	],
+},
+{tag:"UTF8_LENGTH",ref:
+	[
+		{fp:"ofono/src/util.c",ki:"macro",ln:"65",},
+		{fp:"ofono/unit/test-util.c",ki:"macro",ln:"340",},
+	],
+},
+{tag:"utf8_to_sim_string",ref:
+	[
+		{fp:"ofono/src/util.c",ki:"function",ln:"1360",sig:"(const char *utf, int max_length, int *out_length)",},
+	],
+},
+{tag:"uti",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1312",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"15591",},
+	],
+},
+{tag:"utid",ref:
+	[
+		{fp:"ofono/gisi/modem.c",ki:"member",ln:"83",},
+	],
+},
+{tag:"utid_equal",ref:
+	[
+		{fp:"ofono/gisi/modem.c",ki:"function",ln:"112",sig:"(gconstpointer a, gconstpointer b)",},
+	],
+},
+{tag:"util",ref:
+	[
+		{fp:"ofono/drivers/stemodem/caif_socket.h",ki:"member",ln:"165",},
+	],
+},
+{tag:"uuid",ref:
+	[
+		{fp:"ofono/include/types.h",ki:"member",ln:"115",},
+		{fp:"ofono/src/history.c",ki:"member",ln:"48",},
+		{fp:"ofono/src/message.c",ki:"member",ln:"35",},
+		{fp:"ofono/src/sms.c",ki:"member",ln:"103",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"420",},
+	],
+},
+{tag:"uuid_equal",ref:
+	[
+		{fp:"ofono/src/sms.c",ki:"function",ln:"112",sig:"(gconstpointer v1, gconstpointer v2)",},
+	],
+},
+{tag:"uuid_hash",ref:
+	[
+		{fp:"ofono/plugins/bluez4.c",ki:"variable",ln:"43",},
+		{fp:"ofono/src/sms.c",ki:"function",ln:"122",sig:"(gconstpointer v)",},
+	],
+},
+])

@@ -1,0 +1,284 @@
+([
+{tag:"__attribute",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"127",},
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"129",},
+	],
+},
+{tag:"__btowc",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"118",},
+	],
+},
+{tag:"__compat_regexec",ref:
+	[
+		{fp:"ctags/gnu_regex/regexec.c",ki:"function",ln:"266",sig:"(const regex_t *__restrict preg, const char *__restrict string, size_t nmatch, regmatch_t pmatch[], int eflags)",},
+	],
+},
+{tag:"__iswctype",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"117",},
+	],
+},
+{tag:"__libc_lock_define",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"51",},
+	],
+},
+{tag:"__libc_lock_init",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"52",},
+	],
+},
+{tag:"__libc_lock_lock",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"53",},
+	],
+},
+{tag:"__libc_lock_unlock",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"54",},
+	],
+},
+{tag:"__libc_use_alloca",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"433",},
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"436",},
+	],
+},
+{tag:"__mbrtowc",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"119",},
+	],
+},
+{tag:"__mempcpy",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"120",},
+	],
+},
+{tag:"__pad1",ref:
+	[
+		{fp:"ctags/e_mac.h",ki:"member",ln:"82",},
+	],
+},
+{tag:"__printf__",ref:
+	[
+		{fp:"ctags/general.h",ki:"macro",ln:"61",},
+		{fp:"ctags/general.h",ki:"macro",ln:"64",},
+	],
+},
+{tag:"__RE_TRANSLATE_TYPE",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"344",},
+	],
+},
+{tag:"__regfree",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"122",},
+	],
+},
+{tag:"__REPB_PREFIX",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"351",},
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"353",},
+	],
+},
+{tag:"__restrict",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"539",},
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"541",},
+	],
+},
+{tag:"__restrict_arr",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"549",},
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"551",},
+	],
+},
+{tag:"__unused__",ref:
+	[
+		{fp:"ctags/general.h",ki:"macro",ln:"60",},
+		{fp:"ctags/general.h",ki:"macro",ln:"63",},
+	],
+},
+{tag:"__wcrtomb",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"121",},
+	],
+},
+{tag:"__wctype",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"116",},
+	],
+},
+{tag:"_ARGS_H",ref:
+	[
+		{fp:"ctags/args.h",ki:"macro",ln:"12",},
+	],
+},
+{tag:"_cmdwildcard",ref:
+	[
+		{fp:"ctags/qdos.c",ki:"variable",ln:"32",},
+	],
+},
+{tag:"_condetails",ref:
+	[
+		{fp:"ctags/qdos.c",ki:"variable",ln:"35",},
+	],
+},
+{tag:"_consetup",ref:
+	[
+		{fp:"ctags/qdos.c",ki:"variable",ln:"36",},
+	],
+},
+{tag:"_copyright",ref:
+	[
+		{fp:"ctags/qdos.c",ki:"variable",ln:"29",},
+	],
+},
+{tag:"_CTAGS_H",ref:
+	[
+		{fp:"ctags/ctags.h",ki:"macro",ln:"12",},
+	],
+},
+{tag:"_DEBUG_H",ref:
+	[
+		{fp:"ctags/debug.h",ki:"macro",ln:"12",},
+	],
+},
+{tag:"_endmsg",ref:
+	[
+		{fp:"ctags/qdos.c",ki:"variable",ln:"30",},
+	],
+},
+{tag:"_ENTRY_H",ref:
+	[
+		{fp:"ctags/entry.h",ki:"macro",ln:"12",},
+	],
+},
+{tag:"_GENERAL_H",ref:
+	[
+		{fp:"ctags/general.h",ki:"macro",ln:"12",},
+	],
+},
+{tag:"_GET_H",ref:
+	[
+		{fp:"ctags/get.h",ki:"macro",ln:"12",},
+	],
+},
+{tag:"_KEYWORD_H",ref:
+	[
+		{fp:"ctags/keyword.h",ki:"macro",ln:"12",},
+	],
+},
+{tag:"_lexingState",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"struct",ln:"172",},
+	],
+},
+{tag:"_MAIN_H",ref:
+	[
+		{fp:"ctags/main.h",ki:"macro",ln:"12",},
+	],
+},
+{tag:"_memincr",ref:
+	[
+		{fp:"ctags/qdos.c",ki:"variable",ln:"26",},
+	],
+},
+{tag:"_Open",ref:
+	[
+		{fp:"ctags/qdos.c",ki:"variable",ln:"23",},
+	],
+},
+{tag:"_OPTIONS_H",ref:
+	[
+		{fp:"ctags/options.h",ki:"macro",ln:"12",},
+	],
+},
+{tag:"_PARSE_H",ref:
+	[
+		{fp:"ctags/parse.h",ki:"macro",ln:"12",},
+	],
+},
+{tag:"_PARSERS_H",ref:
+	[
+		{fp:"ctags/parsers.h",ki:"macro",ln:"15",},
+	],
+},
+{tag:"_prog_name",ref:
+	[
+		{fp:"ctags/qdos.c",ki:"variable",ln:"27",},
+	],
+},
+{tag:"_RE_DEFINE_LOCALE_FUNCTIONS",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"64",},
+	],
+},
+{tag:"_RE_SYNTAX_POSIX_COMMON",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"229",},
+	],
+},
+{tag:"_READ_H",ref:
+	[
+		{fp:"ctags/read.h",ki:"macro",ln:"12",},
+	],
+},
+{tag:"_REGEX_H",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"23",},
+	],
+},
+{tag:"_REGEX_INTERNAL_H",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"22",},
+	],
+},
+{tag:"_ROUTINES_H",ref:
+	[
+		{fp:"ctags/routines.h",ki:"macro",ln:"12",},
+	],
+},
+{tag:"_sContextKind",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"enum",ln:"518",},
+	],
+},
+{tag:"_sContextType",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"enum",ln:"523",},
+	],
+},
+{tag:"_sOcamlContext",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"struct",ln:"533",},
+	],
+},
+{tag:"_SORT_H",ref:
+	[
+		{fp:"ctags/sort.h",ki:"macro",ln:"12",},
+	],
+},
+{tag:"_stack",ref:
+	[
+		{fp:"ctags/qdos.c",ki:"variable",ln:"25",},
+	],
+},
+{tag:"_STRLIST_H",ref:
+	[
+		{fp:"ctags/strlist.h",ki:"macro",ln:"12",},
+	],
+},
+{tag:"_version",ref:
+	[
+		{fp:"ctags/qdos.c",ki:"variable",ln:"28",},
+	],
+},
+{tag:"_VSTRING_H",ref:
+	[
+		{fp:"ctags/vstring.h",ki:"macro",ln:"12",},
+	],
+},
+])

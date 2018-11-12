@@ -1,0 +1,115 @@
+([
+{tag:"u",ref:
+	[
+		{fp:"ctags/args.h",ki:"member",ln:"42",},
+		{fp:"ctags/lregex.c",ki:"member",ln:"78",},
+	],
+},
+{tag:"uid_t",ref:
+	[
+		{fp:"ctags/e_mac.h",ki:"typedef",ln:"61",},
+	],
+},
+{tag:"Ungetc",ref:
+	[
+		{fp:"ctags/fortran.c",ki:"variable",ln:"195",},
+		{fp:"ctags/verilog.c",ki:"variable",ln:"59",},
+	],
+},
+{tag:"ungetch",ref:
+	[
+		{fp:"ctags/get.c",ki:"member",ln:"64",},
+		{fp:"ctags/read.h",ki:"member",ln:"77",},
+	],
+},
+{tag:"ungetch2",ref:
+	[
+		{fp:"ctags/get.c",ki:"member",ln:"64",},
+	],
+},
+{tag:"ungetChar",ref:
+	[
+		{fp:"ctags/fortran.c",ki:"function",ln:"759",sig:"(const int c)",},
+	],
+},
+{tag:"UNIX2DOS",ref:
+	[
+		{fp:"ctags/maintainer.mak",ki:"macro",ln:"83",},
+	],
+},
+{tag:"UNIX_FILES",ref:
+	[
+		{fp:"ctags/maintainer.mak",ki:"macro",ln:"27",},
+	],
+},
+{tag:"UNIX_PATH_SEPARATOR",ref:
+	[
+		{fp:"ctags/e_os2.h",ki:"macro",ln:"14",},
+	],
+},
+{tag:"UNUSED",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"macro",ln:"28",},
+		{fp:"ctags/ocaml.c",ki:"macro",ln:"30",},
+		{fp:"ctags/ocaml.c",ki:"macro",ln:"32",},
+		{fp:"ctags/ocaml.c",ki:"function",ln:"816",},
+	],
+},
+{tag:"unused",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"564",},
+	],
+},
+{tag:"update_cur_sifted_state",ref:
+	[
+		{fp:"ctags/gnu_regex/regexec.c",ki:"function",ln:"1761",sig:"(const re_match_context_t *mctx, re_sift_context_t *sctx, int str_idx, re_node_set *dest_nodes)",},
+	],
+},
+{tag:"update_regs",ref:
+	[
+		{fp:"ctags/gnu_regex/regexec.c",ki:"function",ln:"1517",sig:"(const re_dfa_t *dfa, regmatch_t *pmatch, regmatch_t *prev_idx_match, int cur_node, int cur_idx, int nmatch)",},
+	],
+},
+{tag:"updatePseudoTags",ref:
+	[
+		{fp:"ctags/entry.c",ki:"function",ln:"210",sig:"(FILE *const fp)",},
+	],
+},
+{tag:"updateSortedFlag",ref:
+	[
+		{fp:"ctags/entry.c",ki:"function",ln:"169",sig:"( const char *const line, FILE *const fp, fpos_t startOfLine)",},
+	],
+},
+{tag:"url",ref:
+	[
+		{fp:"ctags/readtags.c",ki:"member",ln:"82",},
+		{fp:"ctags/readtags.h",ki:"member",ln:"84",},
+	],
+},
+{tag:"Usage",ref:
+	[
+		{fp:"ctags/eiffel.c",ki:"variable",ln:"1280",},
+		{fp:"ctags/readtags.c",ki:"variable",ln:"868",},
+	],
+},
+{tag:"USE_REPLACEMENT_TRUNCATE",ref:
+	[
+		{fp:"ctags/entry.c",ki:"macro",ln:"62",},
+	],
+},
+{tag:"used_bkref_map",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"645",},
+	],
+},
+{tag:"usedByEtags",ref:
+	[
+		{fp:"ctags/options.c",ki:"member",ln:"72",},
+	],
+},
+{tag:"utf8_sb_map",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"variable",ln:"579",},
+	],
+},
+])

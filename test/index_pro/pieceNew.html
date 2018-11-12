@@ -1,0 +1,32 @@
+<md-dialog aria-label="参数类型">
+  <form ng-cloak>
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        <h2>{{funcInfo[0].val}}</h2>
+	<span flex></span>
+        <md-button class="md-icon-button" ng-click="cancel()">取消</md-button>
+      </div>
+    </md-toolbar>
+
+ <md-dialog-content>  		
+	<md-content md-scroll-y layout="column"  flex >	
+	<md-input-container>
+  		<label>程序片段名称</label>
+  		<input  md-maxlength="128" type="text" ng-model="pieceTitle" >
+	</md-input-container>
+	<md-input-container >
+  		<label>chart</label>
+  		<input  md-maxlength="128" type="text" ng-model="pieceChart" >
+       </md-input-container>
+	<md-input-container>
+  	<label>详细描述</label>
+  	<input  md-maxlength="1024" type="text" ng-model="pieceDes" >
+    </md-input-container>   
+	</md-content>
+</md-dialog-content>   
+	 <md-dialog-actions layout="row">      
+      <span flex></span>
+      <md-button ng-click="onNewPieceSave()">保存</md-button>
+    </md-dialog-actions>
+  </form>
+</md-dialog>

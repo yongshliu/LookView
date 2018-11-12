@@ -1,0 +1,1430 @@
+([
+{tag:"S_IFBLK",ref:
+	[
+		{fp:"ctags/e_mac.h",ki:"macro",ln:"70",},
+	],
+},
+{tag:"S_IFCHR",ref:
+	[
+		{fp:"ctags/e_mac.h",ki:"macro",ln:"69",},
+	],
+},
+{tag:"S_IFDIR",ref:
+	[
+		{fp:"ctags/e_mac.h",ki:"macro",ln:"68",},
+	],
+},
+{tag:"S_IFMT",ref:
+	[
+		{fp:"ctags/e_mac.h",ki:"macro",ln:"65",},
+		{fp:"ctags/routines.c",ki:"macro",ln:"99",},
+	],
+},
+{tag:"S_IFREG",ref:
+	[
+		{fp:"ctags/e_mac.h",ki:"macro",ln:"71",},
+	],
+},
+{tag:"S_IRUSR",ref:
+	[
+		{fp:"ctags/routines.c",ki:"macro",ln:"113",},
+	],
+},
+{tag:"S_ISBLK",ref:
+	[
+		{fp:"ctags/e_mac.h",ki:"macro",ln:"77",},
+	],
+},
+{tag:"S_ISCHR",ref:
+	[
+		{fp:"ctags/e_mac.h",ki:"macro",ln:"76",},
+	],
+},
+{tag:"S_ISDIR",ref:
+	[
+		{fp:"ctags/e_mac.h",ki:"macro",ln:"75",},
+		{fp:"ctags/routines.c",ki:"macro",ln:"92",},
+		{fp:"ctags/routines.c",ki:"macro",ln:"94",},
+	],
+},
+{tag:"S_ISLNK",ref:
+	[
+		{fp:"ctags/routines.c",ki:"macro",ln:"84",},
+		{fp:"ctags/routines.c",ki:"macro",ln:"86",},
+	],
+},
+{tag:"S_ISREG",ref:
+	[
+		{fp:"ctags/e_mac.h",ki:"macro",ln:"78",},
+		{fp:"ctags/routines.c",ki:"macro",ln:"76",},
+		{fp:"ctags/routines.c",ki:"macro",ln:"78",},
+	],
+},
+{tag:"S_ISTYPE",ref:
+	[
+		{fp:"ctags/e_mac.h",ki:"macro",ln:"73",},
+	],
+},
+{tag:"S_ISUID",ref:
+	[
+		{fp:"ctags/routines.c",ki:"macro",ln:"120",},
+	],
+},
+{tag:"S_IWUSR",ref:
+	[
+		{fp:"ctags/routines.c",ki:"macro",ln:"116",},
+	],
+},
+{tag:"S_IXGRP",ref:
+	[
+		{fp:"ctags/routines.c",ki:"macro",ln:"106",},
+	],
+},
+{tag:"S_IXOTH",ref:
+	[
+		{fp:"ctags/routines.c",ki:"macro",ln:"109",},
+	],
+},
+{tag:"S_IXUSR",ref:
+	[
+		{fp:"ctags/routines.c",ki:"macro",ln:"103",},
+	],
+},
+{tag:"s_reg_t",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"typedef",ln:"36",},
+	],
+},
+{tag:"sArgs",ref:
+	[
+		{fp:"ctags/args.h",ki:"struct",ln:"27",},
+	],
+},
+{tag:"sArgvArgs",ref:
+	[
+		{fp:"ctags/args.h",ki:"struct",ln:"35",},
+	],
+},
+{tag:"saveIgnoreToken",ref:
+	[
+		{fp:"ctags/options.c",ki:"function",ln:"1306",sig:"(vString *const ignoreToken)",},
+	],
+},
+{tag:"sb_char",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"636",},
+	],
+},
+{tag:"SB_CHAR",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"675",},
+	],
+},
+{tag:"SBC_MAX",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"106",},
+	],
+},
+{tag:"sbcset",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"294",},
+	],
+},
+{tag:"scanSeparators",ref:
+	[
+		{fp:"ctags/lregex.c",ki:"function",ln:"167",sig:"(char* name)",},
+	],
+},
+{tag:"schemeKind",ref:
+	[
+		{fp:"ctags/scheme.c",ki:"typedef",ln:"29",},
+	],
+},
+{tag:"SchemeKinds",ref:
+	[
+		{fp:"ctags/scheme.c",ki:"variable",ln:"31",},
+	],
+},
+{tag:"SchemeParser",ref:
+	[
+		{fp:"ctags/scheme.c",ki:"function",ln:"98",sig:"(void)",},
+	],
+},
+{tag:"sConditionalInfo",ref:
+	[
+		{fp:"ctags/get.c",ki:"struct",ln:"45",},
+	],
+},
+{tag:"sCookedArgs",ref:
+	[
+		{fp:"ctags/options.h",ki:"struct",ln:"38",},
+	],
+},
+{tag:"scope",ref:
+	[
+		{fp:"ctags/c.c",ki:"member",ln:"191",},
+		{fp:"ctags/entry.h",ki:"member",ln:"73",},
+		{fp:"ctags/flex.c",ki:"member",ln:"126",},
+		{fp:"ctags/jscript.c",ki:"member",ln:"110",},
+		{fp:"ctags/options.h",ki:"member",ln:"78",},
+		{fp:"ctags/sql.c",ki:"member",ln:"164",},
+		{fp:"ctags/tex.c",ki:"member",ln:"100",},
+		{fp:"ctags/vhdl.c",ki:"member",ln:"167",},
+	],
+},
+{tag:"SCOPE_COUNT",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"133",},
+	],
+},
+{tag:"SCOPE_EXTERN",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"130",},
+	],
+},
+{tag:"SCOPE_FRIEND",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"131",},
+	],
+},
+{tag:"SCOPE_GLOBAL",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"128",},
+	],
+},
+{tag:"SCOPE_STATIC",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"129",},
+	],
+},
+{tag:"SCOPE_TYPEDEF",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"132",},
+	],
+},
+{tag:"scopeString",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"583",sig:"(const tagScope scope)",},
+	],
+},
+{tag:"sCppState",ref:
+	[
+		{fp:"ctags/get.c",ki:"struct",ln:"63",},
+	],
+},
+{tag:"sDirective",ref:
+	[
+		{fp:"ctags/get.c",ki:"struct",ln:"67",},
+	],
+},
+{tag:"search",ref:
+	[
+		{fp:"ctags/readtags.c",ki:"member",ln:"67",},
+	],
+},
+{tag:"search_cur_bkref_entry",ref:
+	[
+		{fp:"ctags/gnu_regex/regexec.c",ki:"function",ln:"4250",sig:"(const re_match_context_t *mctx, int str_idx)",},
+	],
+},
+{tag:"search_duplicated_node",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"function",ln:"1542",sig:"(const re_dfa_t *dfa, int org_node, unsigned int constraint)",},
+	],
+},
+{tag:"secondary",ref:
+	[
+		{fp:"ctags/fortran.c",ki:"member",ln:"184",},
+	],
+},
+{tag:"SEE",ref:
+	[
+		{fp:"ALSO",ki:"anchor",ln:"ctags/ctags.html",},
+	],
+},
+{tag:"selected",ref:
+	[
+		{fp:"ctags/routines.c",ki:"macro",ln:"148",},
+	],
+},
+{tag:"SelfReferences",ref:
+	[
+		{fp:"ctags/eiffel.c",ki:"variable",ln:"129",},
+	],
+},
+{tag:"sep",ref:
+	[
+		{fp:"ctags/entry.c",ki:"macro",ln:"713",},
+		{fp:"ctags/entry.c",ki:"macro",ln:"765",},
+		{fp:"ctags/readtags.c",ki:"macro",ln:"802",},
+		{fp:"ctags/readtags.c",ki:"macro",ln:"820",},
+	],
+},
+{tag:"set_regs",ref:
+	[
+		{fp:"ctags/gnu_regex/regexec.c",ki:"function",ln:"1393",sig:"(const regex_t *preg, const re_match_context_t *mctx, size_t nmatch, regmatch_t *pmatch, int fl_backtrack)",},
+	],
+},
+{tag:"setAccess",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"1627",sig:"(statementInfo *const st, const accessType access)",},
+	],
+},
+{tag:"sEtags",ref:
+	[
+		{fp:"ctags/entry.h",ki:"struct",ln:"40",},
+	],
+},
+{tag:"setCurrentDirectory",ref:
+	[
+		{fp:"ctags/routines.c",ki:"function",ln:"374",sig:"(void)",},
+	],
+},
+{tag:"setDefaultTagFileName",ref:
+	[
+		{fp:"ctags/options.c",ki:"function",ln:"386",sig:"(void)",},
+	],
+},
+{tag:"setEtagsMode",ref:
+	[
+		{fp:"ctags/options.c",ki:"function",ln:"435",sig:"(void)",},
+	],
+},
+{tag:"setExecutableName",ref:
+	[
+		{fp:"ctags/routines.c",ki:"function",ln:"187",sig:"(const char *const path)",},
+	],
+},
+{tag:"setIgnore",ref:
+	[
+		{fp:"ctags/get.c",ki:"function",ln:"219",sig:"(const boolean ignore)",},
+	],
+},
+{tag:"setInputFileName",ref:
+	[
+		{fp:"ctags/read.c",ki:"function",ln:"57",sig:"(const char *const fileName)",},
+	],
+},
+{tag:"Sets",ref:
+	[
+		{fp:"ctags/lregex.c",ki:"variable",ln:"95",},
+	],
+},
+{tag:"setSourceFileName",ref:
+	[
+		{fp:"ctags/read.c",ki:"function",ln:"99",sig:"(vString *const fileName)",},
+	],
+},
+{tag:"setSourceFileParameters",ref:
+	[
+		{fp:"ctags/read.c",ki:"function",ln:"78",sig:"(vString *const fileName)",},
+	],
+},
+{tag:"setToken",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"510",sig:"(statementInfo *const st, const tokenType type)",},
+	],
+},
+{tag:"SetUpper",ref:
+	[
+		{fp:"ctags/lregex.c",ki:"variable",ln:"96",},
+	],
+},
+{tag:"sExtFields",ref:
+	[
+		{fp:"ctags/options.h",ki:"struct",ln:"68",},
+	],
+},
+{tag:"sFileArgs",ref:
+	[
+		{fp:"ctags/args.h",ki:"struct",ln:"39",},
+	],
+},
+{tag:"sHashEntry",ref:
+	[
+		{fp:"ctags/keyword.c",ki:"struct",ln:"32",},
+	],
+},
+{tag:"shKind",ref:
+	[
+		{fp:"ctags/make.c",ki:"typedef",ln:"30",},
+		{fp:"ctags/sh.c",ki:"typedef",ln:"30",},
+	],
+},
+{tag:"ShKinds",ref:
+	[
+		{fp:"ctags/sh.c",ki:"variable",ln:"32",},
+	],
+},
+{tag:"shortOptions",ref:
+	[
+		{fp:"ctags/options.h",ki:"member",ln:"41",},
+	],
+},
+{tag:"ShParser",ref:
+	[
+		{fp:"ctags/sh.c",ki:"function",ln:"102",sig:"(void)",},
+	],
+},
+{tag:"sift_ctx_init",ref:
+	[
+		{fp:"ctags/gnu_regex/regexec.c",ki:"function",ln:"4330",sig:"(re_sift_context_t *sctx, re_dfastate_t **sifted_sts, re_dfastate_t **limited_sts, int last_node, int last_str_idx)",},
+	],
+},
+{tag:"sift_states_backward",ref:
+	[
+		{fp:"ctags/gnu_regex/regexec.c",ki:"function",ln:"1589",sig:"(const re_match_context_t *mctx, re_sift_context_t *sctx)",},
+	],
+},
+{tag:"sift_states_bkref",ref:
+	[
+		{fp:"ctags/gnu_regex/regexec.c",ki:"function",ln:"2118",sig:"(const re_match_context_t *mctx, re_sift_context_t *sctx, int str_idx, const re_node_set *candidates)",},
+	],
+},
+{tag:"sift_states_iter_mb",ref:
+	[
+		{fp:"ctags/gnu_regex/regexec.c",ki:"function",ln:"2218",sig:"(const re_match_context_t *mctx, re_sift_context_t *sctx, int node_idx, int str_idx, int max_str_idx)",},
+	],
+},
+{tag:"sifted_states",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"597",},
+	],
+},
+{tag:"sig_child",ref:
+	[
+		{fp:"ctags/argproc.c",ki:"function",ln:"352",},
+	],
+},
+{tag:"Signature",ref:
+	[
+		{fp:"ctags/c.c",ki:"variable",ln:"260",},
+	],
+},
+{tag:"signature",ref:
+	[
+		{fp:"ctags/entry.h",ki:"member",ln:"74",},
+		{fp:"ctags/options.h",ki:"member",ln:"79",},
+	],
+},
+{tag:"simple",ref:
+	[
+		{fp:"ctags/options.h",ki:"member",ln:"42",},
+	],
+},
+{tag:"SIMPLE_BRACKET",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"197",},
+	],
+},
+{tag:"simpleParser",ref:
+	[
+		{fp:"ctags/parse.h",ki:"typedef",ln:"35",},
+	],
+},
+{tag:"sInclude",ref:
+	[
+		{fp:"ctags/options.h",ki:"struct",ln:"62",},
+	],
+},
+{tag:"SINGLE_QUOTE",ref:
+	[
+		{fp:"ctags/read.h",ki:"enumerator",ln:"60",},
+	],
+},
+{tag:"singleBranch",ref:
+	[
+		{fp:"ctags/get.c",ki:"member",ln:"47",},
+	],
+},
+{tag:"singletriple",ref:
+	[
+		{fp:"ctags/python.c",ki:"variable",ln:"62",},
+	],
+},
+{tag:"sInputFile",ref:
+	[
+		{fp:"ctags/read.h",ki:"struct",ln:"69",},
+	],
+},
+{tag:"size",ref:
+	[
+		{fp:"ctags/readtags.c",ki:"member",ln:"33",},
+		{fp:"ctags/readtags.c",ki:"member",ln:"50",},
+		{fp:"ctags/routines.h",ki:"member",ln:"78",},
+		{fp:"ctags/vstring.h",ki:"member",ln:"56",},
+	],
+},
+{tag:"SIZE_MAX",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"91",},
+	],
+},
+{tag:"sKeywordDesc",ref:
+	[
+		{fp:"ctags/c.c",ki:"struct",ln:"100",},
+		{fp:"ctags/eiffel.c",ki:"struct",ln:"76",},
+		{fp:"ctags/flex.c",ki:"struct",ln:"89",},
+		{fp:"ctags/fortran.c",ki:"struct",ln:"139",},
+		{fp:"ctags/jscript.c",ki:"struct",ln:"80",},
+		{fp:"ctags/sql.c",ki:"struct",ln:"132",},
+		{fp:"ctags/tex.c",ki:"struct",ln:"62",},
+		{fp:"ctags/vhdl.c",ki:"struct",ln:"145",},
+	],
+},
+{tag:"sKind",ref:
+	[
+		{fp:"ctags/lregex.c",ki:"struct",ln:"58",},
+	],
+},
+{tag:"sKindOption",ref:
+	[
+		{fp:"ctags/parse.h",ki:"struct",ln:"39",},
+	],
+},
+{tag:"skip",ref:
+	[
+		{fp:"ctags/basic.c",ki:"member",ln:"43",},
+	],
+},
+{tag:"skipArgumentList",ref:
+	[
+		{fp:"ctags/flex.c",ki:"function",ln:"721",sig:"(tokenInfo *const token)",},
+		{fp:"ctags/jscript.c",ki:"function",ln:"470",sig:"(tokenInfo *const token)",},
+		{fp:"ctags/sql.c",ki:"function",ln:"767",sig:"(tokenInfo *const token)",},
+	],
+},
+{tag:"skipArrayList",ref:
+	[
+		{fp:"ctags/flex.c",ki:"function",ln:"754",sig:"(tokenInfo *const token)",},
+		{fp:"ctags/jscript.c",ki:"function",ln:"503",sig:"(tokenInfo *const token)",},
+	],
+},
+{tag:"skipBraces",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"1420",sig:"(void)",},
+	],
+},
+{tag:"SkipConfiguration",ref:
+	[
+		{fp:"ctags/options.c",ki:"variable",ln:"98",},
+	],
+},
+{tag:"skipEverything",ref:
+	[
+		{fp:"ctags/python.c",ki:"function",ln:"239",sig:"(const char *cp)",},
+	],
+},
+{tag:"skipIdentifier",ref:
+	[
+		{fp:"ctags/python.c",ki:"function",ln:"255",sig:"(const char *cp)",},
+	],
+},
+{tag:"skipInitializer",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"2410",sig:"(statementInfo *const st)",},
+	],
+},
+{tag:"skipJavaThrows",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"2007",sig:"(statementInfo *const st)",},
+	],
+},
+{tag:"skipLine",ref:
+	[
+		{fp:"ctags/fortran.c",ki:"function",ln:"501",sig:"(void)",},
+		{fp:"ctags/make.c",ki:"function",ln:"52",sig:"(void)",},
+	],
+},
+{tag:"skipMacro",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"1865",sig:"(statementInfo *const st)",},
+	],
+},
+{tag:"skipMemIntializerList",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"1838",sig:"(tokenInfo *const token)",},
+	],
+},
+{tag:"skipOverCComment",ref:
+	[
+		{fp:"ctags/get.c",ki:"function",ln:"440",sig:"(void)",},
+	],
+},
+{tag:"skipOverCplusComment",ref:
+	[
+		{fp:"ctags/get.c",ki:"function",ln:"466",sig:"(void)",},
+	],
+},
+{tag:"skipOverParens",ref:
+	[
+		{fp:"ctags/fortran.c",ki:"function",ln:"1080",sig:"(tokenInfo *const token)",},
+	],
+},
+{tag:"skipParens",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"1410",sig:"(void)",},
+	],
+},
+{tag:"skipPast",ref:
+	[
+		{fp:"ctags/fortran.c",ki:"function",ln:"1059",sig:"(tokenInfo *const token, tokenType type)",},
+	],
+},
+{tag:"skipPastMap",ref:
+	[
+		{fp:"ctags/options.c",ki:"function",ln:"962",sig:"(char* p)",},
+	],
+},
+{tag:"skipPastMatch",ref:
+	[
+		{fp:"ctags/verilog.c",ki:"function",ln:"181",sig:"(const char *const pair)",},
+	],
+},
+{tag:"skipPostArgumentStuff",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"1889",sig:"( statementInfo *const st, parenInfo *const info)",},
+	],
+},
+{tag:"skipPrefix",ref:
+	[
+		{fp:"ctags/vim.c",ki:"function",ln:"88",sig:"(const unsigned char* name, int *scope)",},
+	],
+},
+{tag:"skipSpace",ref:
+	[
+		{fp:"ctags/erlang.c",ki:"function",ln:"57",sig:"(const unsigned char *cp)",},
+		{fp:"ctags/python.c",ki:"function",ln:"277",sig:"(const char *cp)",},
+		{fp:"ctags/sml.c",ki:"function",ln:"83",sig:"(const unsigned char *cp)",},
+	],
+},
+{tag:"skipStatement",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"1704",sig:"(statementInfo *const st)",},
+	],
+},
+{tag:"skipStatementIfKeyword",ref:
+	[
+		{fp:"ctags/fortran.c",ki:"function",ln:"1215",sig:"(tokenInfo *const token, keywordId keyword)",},
+	],
+},
+{tag:"skipString",ref:
+	[
+		{fp:"ctags/python.c",ki:"function",ln:"222",sig:"(const char *cp)",},
+	],
+},
+{tag:"skipToCharacter",ref:
+	[
+		{fp:"ctags/eiffel.c",ki:"function",ln:"369",sig:"(const int c)",},
+	],
+},
+{tag:"skipToEndOfChar",ref:
+	[
+		{fp:"ctags/get.c",ki:"function",ln:"501",sig:"(void)",},
+	],
+},
+{tag:"skipToEndOfString",ref:
+	[
+		{fp:"ctags/get.c",ki:"function",ln:"483",sig:"(boolean ignoreBackslash)",},
+	],
+},
+{tag:"skipToFormattedBraceMatch",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"1346",sig:"(void)",},
+	],
+},
+{tag:"skipToKeyword",ref:
+	[
+		{fp:"ctags/vhdl.c",ki:"function",ln:"481",sig:"(const keywordId keyword)",},
+	],
+},
+{tag:"skipToMatch",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"1366",sig:"(const char *const pair)",},
+		{fp:"ctags/make.c",ki:"function",ln:"89",sig:"(const char *const pair)",},
+	],
+},
+{tag:"skipToMatched",ref:
+	[
+		{fp:"ctags/sql.c",ki:"function",ln:"715",sig:"(tokenInfo *const token)",},
+		{fp:"ctags/vhdl.c",ki:"function",ln:"492",sig:"(tokenInfo * const token)",},
+	],
+},
+{tag:"skipToNextLine",ref:
+	[
+		{fp:"ctags/fortran.c",ki:"function",ln:"686",sig:"(void)",},
+	],
+},
+{tag:"skipToNextStatement",ref:
+	[
+		{fp:"ctags/fortran.c",ki:"function",ln:"1066",sig:"(tokenInfo *const token)",},
+	],
+},
+{tag:"skipToNonWhite",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"1318",sig:"(void)",},
+		{fp:"ctags/make.c",ki:"function",ln:"62",sig:"(void)",},
+	],
+},
+{tag:"skipToOneOf",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"1307",sig:"(const char *const chars)",},
+	],
+},
+{tag:"skipToToken",ref:
+	[
+		{fp:"ctags/fortran.c",ki:"function",ln:"1052",sig:"(tokenInfo *const token, tokenType type)",},
+	],
+},
+{tag:"skipTypeDecl",ref:
+	[
+		{fp:"ctags/python.c",ki:"function",ln:"581",sig:"(const char *cp, boolean *is_class)",},
+	],
+},
+{tag:"skipWhite",ref:
+	[
+		{fp:"ctags/read.c",ki:"function",ln:"120",sig:"(void)",},
+		{fp:"ctags/verilog.c",ki:"function",ln:"174",sig:"(int c)",},
+	],
+},
+{tag:"skipWhitespace",ref:
+	[
+		{fp:"ctags/ruby.c",ki:"function",ln:"163",sig:"(const unsigned char** cp)",},
+	],
+},
+{tag:"SlangParser",ref:
+	[
+		{fp:"ctags/slang.c",ki:"function",ln:"33",sig:"(void)",},
+	],
+},
+{tag:"sMax",ref:
+	[
+		{fp:"ctags/entry.h",ki:"struct",ln:"39",},
+	],
+},
+{tag:"sMemberInfo",ref:
+	[
+		{fp:"ctags/c.c",ki:"struct",ln:"167",},
+	],
+},
+{tag:"SmlKeywordTypes",ref:
+	[
+		{fp:"ctags/sml.c",ki:"variable",ln:"55",},
+	],
+},
+{tag:"smlKind",ref:
+	[
+		{fp:"ctags/sml.c",ki:"typedef",ln:"37",},
+	],
+},
+{tag:"SmlKinds",ref:
+	[
+		{fp:"ctags/sml.c",ki:"variable",ln:"42",},
+	],
+},
+{tag:"SmlParser",ref:
+	[
+		{fp:"ctags/sml.c",ki:"function",ln:"201",sig:"(void)",},
+	],
+},
+{tag:"sNumTags",ref:
+	[
+		{fp:"ctags/entry.h",ki:"struct",ln:"38",},
+	],
+},
+{tag:"SO_FOLDSORTED",ref:
+	[
+		{fp:"ctags/options.h",ki:"enumerator",ln:"59",},
+	],
+},
+{tag:"SO_SORTED",ref:
+	[
+		{fp:"ctags/options.h",ki:"enumerator",ln:"58",},
+	],
+},
+{tag:"SO_UNSORTED",ref:
+	[
+		{fp:"ctags/options.h",ki:"enumerator",ln:"57",},
+	],
+},
+{tag:"sOcaKeywordDesc",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"struct",ln:"113",},
+	],
+},
+{tag:"sOptionDescription",ref:
+	[
+		{fp:"ctags/options.c",ki:"struct",ln:"71",},
+	],
+},
+{tag:"sOptionValues",ref:
+	[
+		{fp:"ctags/options.h",ki:"struct",ln:"85",},
+	],
+},
+{tag:"sort",ref:
+	[
+		{fp:"ctags/readtags.h",ki:"member",ln:"71",},
+	],
+},
+{tag:"sorted",ref:
+	[
+		{fp:"ctags/options.h",ki:"member",ln:"94",},
+	],
+},
+{tag:"sortMethod",ref:
+	[
+		{fp:"ctags/readtags.c",ki:"member",ln:"44",},
+	],
+},
+{tag:"SortMethod",ref:
+	[
+		{fp:"ctags/readtags.c",ki:"variable",ln:"793",},
+	],
+},
+{tag:"SortOverride",ref:
+	[
+		{fp:"ctags/readtags.c",ki:"variable",ln:"792",},
+	],
+},
+{tag:"sortTagFile",ref:
+	[
+		{fp:"ctags/entry.c",ki:"function",ln:"458",sig:"(void)",},
+	],
+},
+{tag:"sortType",ref:
+	[
+		{fp:"ctags/options.h",ki:"enum",ln:"56",},
+		{fp:"ctags/options.h",ki:"typedef",ln:"60",},
+		{fp:"ctags/readtags.h",ki:"typedef",ln:"35",},
+	],
+},
+{tag:"source",ref:
+	[
+		{fp:"ctags/read.h",ki:"member",ln:"92",},
+	],
+},
+{tag:"SOURCE",ref:
+	[
+		{fp:"FILES",ki:"anchor",ln:"ctags/ctags.html",},
+	],
+},
+{tag:"sourceFileName",ref:
+	[
+		{fp:"ctags/entry.h",ki:"member",ln:"64",},
+	],
+},
+{tag:"SOURCES",ref:
+	[
+		{fp:"ctags/mk_mpw.mak",ki:"macro",ln:"12",},
+		{fp:"ctags/source.mak",ki:"macro",ln:"10",},
+	],
+},
+{tag:"SPACE",ref:
+	[
+		{fp:"ctags/read.h",ki:"enumerator",ln:"51",},
+	],
+},
+{tag:"sParenInfo",ref:
+	[
+		{fp:"ctags/c.c",ki:"struct",ln:"239",},
+	],
+},
+{tag:"SqlKeywordTable",ref:
+	[
+		{fp:"ctags/sql.c",ki:"variable",ln:"229",},
+	],
+},
+{tag:"sqlKind",ref:
+	[
+		{fp:"ctags/sql.c",ki:"typedef",ln:"202",},
+	],
+},
+{tag:"SqlKinds",ref:
+	[
+		{fp:"ctags/sql.c",ki:"variable",ln:"204",},
+	],
+},
+{tag:"SqlParser",ref:
+	[
+		{fp:"ctags/sql.c",ki:"function",ln:"2100",sig:"(void)",},
+	],
+},
+{tag:"SQLTAG_BLOCK_LABEL",ref:
+	[
+		{fp:"ctags/sql.c",ki:"enumerator",ln:"184",},
+	],
+},
+{tag:"SQLTAG_COUNT",ref:
+	[
+		{fp:"ctags/sql.c",ki:"enumerator",ln:"201",},
+	],
+},
+{tag:"SQLTAG_CURSOR",ref:
+	[
+		{fp:"ctags/sql.c",ki:"enumerator",ln:"179",},
+	],
+},
+{tag:"SQLTAG_DOMAIN",ref:
+	[
+		{fp:"ctags/sql.c",ki:"enumerator",ln:"196",},
+	],
+},
+{tag:"SQLTAG_EVENT",ref:
+	[
+		{fp:"ctags/sql.c",ki:"enumerator",ln:"193",},
+	],
+},
+{tag:"SQLTAG_FIELD",ref:
+	[
+		{fp:"ctags/sql.c",ki:"enumerator",ln:"182",},
+	],
+},
+{tag:"SQLTAG_FUNCTION",ref:
+	[
+		{fp:"ctags/sql.c",ki:"enumerator",ln:"181",},
+	],
+},
+{tag:"SQLTAG_INDEX",ref:
+	[
+		{fp:"ctags/sql.c",ki:"enumerator",ln:"192",},
+	],
+},
+{tag:"SQLTAG_LOCAL_VARIABLE",ref:
+	[
+		{fp:"ctags/sql.c",ki:"enumerator",ln:"183",},
+	],
+},
+{tag:"SQLTAG_MLCONN",ref:
+	[
+		{fp:"ctags/sql.c",ki:"enumerator",ln:"200",},
+	],
+},
+{tag:"SQLTAG_MLTABLE",ref:
+	[
+		{fp:"ctags/sql.c",ki:"enumerator",ln:"199",},
+	],
+},
+{tag:"SQLTAG_PACKAGE",ref:
+	[
+		{fp:"ctags/sql.c",ki:"enumerator",ln:"185",},
+	],
+},
+{tag:"SQLTAG_PROCEDURE",ref:
+	[
+		{fp:"ctags/sql.c",ki:"enumerator",ln:"186",},
+	],
+},
+{tag:"SQLTAG_PROTOTYPE",ref:
+	[
+		{fp:"ctags/sql.c",ki:"enumerator",ln:"180",},
+	],
+},
+{tag:"SQLTAG_PUBLICATION",ref:
+	[
+		{fp:"ctags/sql.c",ki:"enumerator",ln:"194",},
+	],
+},
+{tag:"SQLTAG_RECORD",ref:
+	[
+		{fp:"ctags/sql.c",ki:"enumerator",ln:"187",},
+	],
+},
+{tag:"SQLTAG_SERVICE",ref:
+	[
+		{fp:"ctags/sql.c",ki:"enumerator",ln:"195",},
+	],
+},
+{tag:"SQLTAG_SUBTYPE",ref:
+	[
+		{fp:"ctags/sql.c",ki:"enumerator",ln:"188",},
+	],
+},
+{tag:"SQLTAG_SYNONYM",ref:
+	[
+		{fp:"ctags/sql.c",ki:"enumerator",ln:"198",},
+	],
+},
+{tag:"SQLTAG_TABLE",ref:
+	[
+		{fp:"ctags/sql.c",ki:"enumerator",ln:"189",},
+	],
+},
+{tag:"SQLTAG_TRIGGER",ref:
+	[
+		{fp:"ctags/sql.c",ki:"enumerator",ln:"190",},
+	],
+},
+{tag:"SQLTAG_VARIABLE",ref:
+	[
+		{fp:"ctags/sql.c",ki:"enumerator",ln:"191",},
+	],
+},
+{tag:"SQLTAG_VIEW",ref:
+	[
+		{fp:"ctags/sql.c",ki:"enumerator",ln:"197",},
+	],
+},
+{tag:"sSource",ref:
+	[
+		{fp:"ctags/read.h",ki:"struct",ln:"86",},
+	],
+},
+{tag:"sStatementInfo",ref:
+	[
+		{fp:"ctags/c.c",ki:"struct",ln:"190",},
+	],
+},
+{tag:"sStringArgs",ref:
+	[
+		{fp:"ctags/args.h",ki:"struct",ln:"30",},
+	],
+},
+{tag:"sStringList",ref:
+	[
+		{fp:"ctags/strlist.h",ki:"struct",ln:"24",},
+	],
+},
+{tag:"st_atime",ref:
+	[
+		{fp:"ctags/e_mac.h",ki:"member",ln:"91",},
+	],
+},
+{tag:"st_blksize",ref:
+	[
+		{fp:"ctags/e_mac.h",ki:"member",ln:"89",},
+	],
+},
+{tag:"st_blocks",ref:
+	[
+		{fp:"ctags/e_mac.h",ki:"member",ln:"90",},
+	],
+},
+{tag:"st_ctime",ref:
+	[
+		{fp:"ctags/e_mac.h",ki:"member",ln:"93",},
+	],
+},
+{tag:"st_dev",ref:
+	[
+		{fp:"ctags/e_mac.h",ki:"member",ln:"81",},
+	],
+},
+{tag:"st_gid",ref:
+	[
+		{fp:"ctags/e_mac.h",ki:"member",ln:"87",},
+	],
+},
+{tag:"st_ino",ref:
+	[
+		{fp:"ctags/e_mac.h",ki:"member",ln:"83",},
+	],
+},
+{tag:"st_mode",ref:
+	[
+		{fp:"ctags/e_mac.h",ki:"member",ln:"84",},
+	],
+},
+{tag:"st_mtime",ref:
+	[
+		{fp:"ctags/e_mac.h",ki:"member",ln:"92",},
+	],
+},
+{tag:"st_nlink",ref:
+	[
+		{fp:"ctags/e_mac.h",ki:"member",ln:"85",},
+	],
+},
+{tag:"st_size",ref:
+	[
+		{fp:"ctags/e_mac.h",ki:"member",ln:"88",},
+	],
+},
+{tag:"st_uid",ref:
+	[
+		{fp:"ctags/e_mac.h",ki:"member",ln:"86",},
+	],
+},
+{tag:"stack",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"616",},
+		{fp:"ctags/ocaml.c",ki:"variable",ln:"542",},
+	],
+},
+{tag:"stackIndex",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"variable",ln:"544",},
+	],
+},
+{tag:"sTagEntryInfo",ref:
+	[
+		{fp:"ctags/entry.h",ki:"struct",ln:"56",},
+	],
+},
+{tag:"sTagFields",ref:
+	[
+		{fp:"ctags/entry.h",ki:"struct",ln:"48",},
+	],
+},
+{tag:"sTagFile",ref:
+	[
+		{fp:"ctags/readtags.c",ki:"struct",ln:"38",},
+	],
+},
+{tag:"start",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"member",ln:"434",},
+		{fp:"ctags/gnu_regex/regexec.c",ki:"variable",ln:"323",},
+		{fp:"ctags/gnu_regex/regexec.c",ki:"variable",ln:"336",},
+		{fp:"ctags/gnu_regex/regexec.c",ki:"variable",ln:"350",},
+		{fp:"ctags/parse.h",ki:"member",ln:"68",},
+	],
+},
+{tag:"StartOfLine",ref:
+	[
+		{fp:"ctags/read.c",ki:"variable",ln:"33",},
+	],
+},
+{tag:"starttoken",ref:
+	[
+		{fp:"ctags/pascal.c",ki:"macro",ln:"62",},
+	],
+},
+{tag:"stat",ref:
+	[
+		{fp:"ctags/e_mac.h",ki:"macro",ln:"138",},
+		{fp:"ctags/e_mac.h",ki:"struct",ln:"80",},
+		{fp:"ctags/routines.c",ki:"macro",ln:"127",},
+	],
+},
+{tag:"state",ref:
+	[
+		{fp:"ctags/get.c",ki:"member",ln:"68",},
+	],
+},
+{tag:"state_array_t",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"typedef",ln:"532",},
+	],
+},
+{tag:"state_hash_mask",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"640",},
+	],
+},
+{tag:"state_log",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"583",},
+	],
+},
+{tag:"state_log_top",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"584",},
+	],
+},
+{tag:"STATE_NODE_CONTAINS",ref:
+	[
+		{fp:"ctags/gnu_regex/regexec.c",ki:"macro",ln:"1584",},
+	],
+},
+{tag:"state_table",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"629",},
+	],
+},
+{tag:"statementInfo",ref:
+	[
+		{fp:"ctags/c.c",ki:"typedef",ln:"209",},
+	],
+},
+{tag:"status",ref:
+	[
+		{fp:"ctags/readtags.h",ki:"member",ln:"63",},
+	],
+},
+{tag:"status_address",ref:
+	[
+		{fp:"ctags/argproc.c",ki:"member",ln:"367",},
+	],
+},
+{tag:"STDC_HEADERS",ref:
+	[
+		{fp:"ctags/e_djgpp.h",ki:"macro",ln:"45",},
+		{fp:"ctags/e_mac.h",ki:"macro",ln:"25",},
+		{fp:"ctags/e_qdos.h",ki:"macro",ln:"21",},
+		{fp:"ctags/e_riscos.h",ki:"macro",ln:"26",},
+	],
+},
+{tag:"sTokenInfo",ref:
+	[
+		{fp:"ctags/c.c",ki:"struct",ln:"172",},
+		{fp:"ctags/eiffel.c",ki:"struct",ln:"108",},
+		{fp:"ctags/flex.c",ki:"struct",ln:"122",},
+		{fp:"ctags/fortran.c",ki:"struct",ln:"179",},
+		{fp:"ctags/jscript.c",ki:"struct",ln:"106",},
+		{fp:"ctags/tex.c",ki:"struct",ln:"96",},
+		{fp:"ctags/vhdl.c",ki:"struct",ln:"163",},
+	],
+},
+{tag:"sTokenInfoSQL",ref:
+	[
+		{fp:"ctags/sql.c",ki:"struct",ln:"160",},
+	],
+},
+{tag:"stop",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"355",},
+		{fp:"ctags/gnu_regex/regexec.c",ki:"variable",ln:"336",},
+		{fp:"ctags/gnu_regex/regexec.c",ki:"variable",ln:"350",},
+	],
+},
+{tag:"str_idx",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"539",},
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"549",},
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"560",},
+	],
+},
+{tag:"str_tree",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"634",},
+	],
+},
+{tag:"str_tree_storage",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"635",},
+	],
+},
+{tag:"str_tree_storage_idx",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"637",},
+	],
+},
+{tag:"strcasecmp",ref:
+	[
+		{fp:"ctags/general.h",ki:"macro",ln:"72",},
+		{fp:"ctags/general.h",ki:"macro",ln:"74",},
+	],
+},
+{tag:"string",ref:
+	[
+		{fp:"ctags/args.h",ki:"member",ln:"31",},
+		{fp:"ctags/eiffel.c",ki:"member",ln:"112",},
+		{fp:"ctags/flex.c",ki:"member",ln:"125",},
+		{fp:"ctags/fortran.c",ki:"member",ln:"183",},
+		{fp:"ctags/jscript.c",ki:"member",ln:"109",},
+		{fp:"ctags/keyword.c",ki:"member",ln:"34",},
+		{fp:"ctags/sql.c",ki:"member",ln:"163",},
+		{fp:"ctags/tex.c",ki:"member",ln:"99",},
+		{fp:"ctags/vhdl.c",ki:"member",ln:"166",},
+	],
+},
+{tag:"STRING_SYMBOL",ref:
+	[
+		{fp:"ctags/read.h",ki:"enumerator",ln:"63",},
+	],
+},
+{tag:"stringArgs",ref:
+	[
+		{fp:"ctags/args.h",ki:"member",ln:"34",},
+	],
+},
+{tag:"stringCopy",ref:
+	[
+		{fp:"ctags/options.c",ki:"function",ln:"360",sig:"(const char *const string)",},
+	],
+},
+{tag:"stringList",ref:
+	[
+		{fp:"ctags/strlist.h",ki:"typedef",ln:"28",},
+	],
+},
+{tag:"stringListAdd",ref:
+	[
+		{fp:"ctags/strlist.c",ki:"function",ln:"40",sig:"(stringList *const current, vString *string)",},
+	],
+},
+{tag:"stringListClear",ref:
+	[
+		{fp:"ctags/strlist.c",ki:"function",ln:"133",sig:"(stringList *const current)",},
+	],
+},
+{tag:"stringListCombine",ref:
+	[
+		{fp:"ctags/strlist.c",ki:"function",ln:"68",sig:"( stringList *const current, stringList *const from)",},
+	],
+},
+{tag:"stringListCount",ref:
+	[
+		{fp:"ctags/strlist.c",ki:"function",ln:"113",sig:"(const stringList *const current)",},
+	],
+},
+{tag:"stringListDelete",ref:
+	[
+		{fp:"ctags/strlist.c",ki:"function",ln:"145",sig:"(stringList *const current)",},
+	],
+},
+{tag:"stringListExtensionMatched",ref:
+	[
+		{fp:"ctags/strlist.c",ki:"function",ln:"240",sig:"( const stringList* const current, const char* const extension)",},
+	],
+},
+{tag:"stringListFileMatched",ref:
+	[
+		{fp:"ctags/strlist.c",ki:"function",ln:"263",sig:"( const stringList* const current, const char* const fileName)",},
+	],
+},
+{tag:"stringListHas",ref:
+	[
+		{fp:"ctags/strlist.c",ki:"function",ln:"189",sig:"( const stringList *const current, const char *const string)",},
+	],
+},
+{tag:"stringListHasInsensitive",ref:
+	[
+		{fp:"ctags/strlist.c",ki:"function",ln:"198",sig:"( const stringList *const current, const char *const string)",},
+	],
+},
+{tag:"stringListHasTest",ref:
+	[
+		{fp:"ctags/strlist.c",ki:"function",ln:"208",sig:"( const stringList *const current, boolean (*test)(const char *s))",},
+	],
+},
+{tag:"stringListIndex",ref:
+	[
+		{fp:"ctags/strlist.c",ki:"function",ln:"173",sig:"( const stringList *const current, const char *const string, boolean (*test)(const char *s, vString *const vs))",},
+	],
+},
+{tag:"stringListItem",ref:
+	[
+		{fp:"ctags/strlist.c",ki:"function",ln:"119",sig:"( const stringList *const current, const unsigned int indx)",},
+	],
+},
+{tag:"stringListLast",ref:
+	[
+		{fp:"ctags/strlist.c",ki:"function",ln:"126",sig:"(const stringList *const current)",},
+	],
+},
+{tag:"stringListNew",ref:
+	[
+		{fp:"ctags/strlist.c",ki:"function",ln:"31",sig:"(void)",},
+	],
+},
+{tag:"stringListNewFromArgv",ref:
+	[
+		{fp:"ctags/strlist.c",ki:"function",ln:"82",sig:"(const char* const* const argv)",},
+	],
+},
+{tag:"stringListNewFromFile",ref:
+	[
+		{fp:"ctags/strlist.c",ki:"function",ln:"92",sig:"(const char* const fileName)",},
+	],
+},
+{tag:"stringListPrint",ref:
+	[
+		{fp:"ctags/strlist.c",ki:"function",ln:"273",sig:"(const stringList *const current)",},
+	],
+},
+{tag:"stringListRemoveExtension",ref:
+	[
+		{fp:"ctags/strlist.c",ki:"function",ln:"219",sig:"( stringList* const current, const char* const extension)",},
+	],
+},
+{tag:"stringListRemoveLast",ref:
+	[
+		{fp:"ctags/strlist.c",ki:"function",ln:"59",sig:"(stringList *const current)",},
+	],
+},
+{tag:"stringListToScope",ref:
+	[
+		{fp:"ctags/ruby.c",ki:"function",ln:"58",sig:"(const stringList* list)",},
+	],
+},
+{tag:"stringMatch",ref:
+	[
+		{fp:"ctags/get.c",ki:"macro",ln:"30",},
+	],
+},
+{tag:"strncasecmp",ref:
+	[
+		{fp:"ctags/general.h",ki:"macro",ln:"80",},
+		{fp:"ctags/general.h",ki:"macro",ln:"82",},
+	],
+},
+{tag:"strnuppercmp",ref:
+	[
+		{fp:"ctags/readtags.c",ki:"function",ln:"115",sig:"(const char *s1, const char *s2, size_t n)",},
+		{fp:"ctags/routines.c",ki:"function",ln:"297",sig:"(const char *s1, const char *s2, size_t n)",},
+	],
+},
+{tag:"strstr",ref:
+	[
+		{fp:"ctags/routines.c",ki:"function",ln:"308",sig:"(const char *str, const char *substr)",},
+	],
+},
+{tag:"struppercmp",ref:
+	[
+		{fp:"ctags/readtags.c",ki:"function",ln:"105",sig:"(const char *s1, const char *s2)",},
+		{fp:"ctags/routines.c",ki:"function",ln:"287",sig:"(const char *s1, const char *s2)",},
+	],
+},
+{tag:"sub_epsilon_src_nodes",ref:
+	[
+		{fp:"ctags/gnu_regex/regexec.c",ki:"function",ln:"1834",sig:"(const re_dfa_t *dfa, int node, re_node_set *dest_nodes, const re_node_set *candidates)",},
+	],
+},
+{tag:"sub_tops",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"592",},
+	],
+},
+{tag:"SUBEXP",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"216",},
+	],
+},
+{tag:"subexp_from",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"561",},
+	],
+},
+{tag:"subexp_map",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"659",},
+	],
+},
+{tag:"subexp_to",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"562",},
+	],
+},
+{tag:"substitute",ref:
+	[
+		{fp:"ctags/lregex.c",ki:"function",ln:"429",sig:"( const char* const in, const char* out, const int nmatch, const regmatch_t* const pmatch)",},
+	],
+},
+{tag:"SVN_FILES",ref:
+	[
+		{fp:"ctags/maintainer.mak",ki:"macro",ln:"37",},
+	],
+},
+{tag:"svn_url",ref:
+	[
+		{fp:"ctags/maintainer.mak",ki:"macro",ln:"386",},
+	],
+},
+{tag:"sVString",ref:
+	[
+		{fp:"ctags/vstring.h",ki:"struct",ln:"54",},
+	],
+},
+{tag:"SYNOPSIS",ref:
+	[
+		{fp:"ctags/ctags.html",ki:"anchor",ln:"51",},
+	],
+},
+{tag:"syntax",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"658",},
+	],
+},
+])

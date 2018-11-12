@@ -1,0 +1,139 @@
+
+.main-contents{
+	position:relative;
+	margin:0 auto;
+	clear:both;
+}
+.main-page-item{
+	background:#FFFFFF;
+	margin:1.5em 0;
+	padding:1em;
+	width:100%;
+	border:thin solid;
+	border-color:#dddacf #ccc888 #bbb59f;
+	box-shadow:0 0.1em 0.3em #ccc888;
+	border-bottom-right-radius:0.5em;
+	border-bottom-left-radius:0.5em;
+
+}
+
+.contents_block{
+	float:left;
+	width:100%;
+	}
+.contents_block-inner{
+	position:relative;
+	margin:0 400px 0 0;
+	display:inline-block;
+	padding:0px;
+	border:none;
+
+}
+.app_block{
+	position:relative;
+	display:block;
+	width:100%;
+}
+.title_div{
+	clear:both;
+	position:relative;
+	height:50px;
+	background-size:100% 100%;
+	background:
+	padding:5px;
+	text-align:center;
+	color:#2c1d00;
+	text-decoration:none;
+	text-shadow:3px 3px 0 #f8f4ee;
+}
+.app_title_div{
+	//background:url(/img/app_title_back.png) no-repeat top center;
+}
+.mid_title_div{
+	//background:url(/img/mid_title_back.png) no-repeat top center;
+}
+.dep_title_div{
+	//background:url(/img/dep_title_back.png) no-repeat top center;
+}
+.ker_block{
+	text-align:center;
+	background:#FFFFFF;
+	margin:0em auto 2em auto;
+	padding:1em;
+	width:50em;
+	height:10em;
+	border:thin solid;
+	border-color:#dddacf #ccc888 #bbb59f;
+	box-shadow:0 0.1em 0.3em #ccc888;
+	border-bottom-right-radius:0.5em;
+	border-bottom-left-radius:0.5em;
+}
+#tux-gear{
+	width:6.5em;
+	height:7.5em;
+	background:url("/img/tux.png");
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:contain;
+	float:right;
+}
+.ker_block h3{
+	margin:0.5em 0 47px .05em;
+	text-shadow:3px 3px 0 #f8f4ee;
+	font-size:3em;
+}
+.common_conts{
+	position:relative;
+	width:100%;
+	border:none;
+	margin:10px 10px;
+}
+
+.img-improve{
+	display : inline-block;
+	position:relative;
+	text-align:center;
+	width:130px;
+	height:6em;
+	background:#ffd133;
+	box-shadow:-0.1em -0.3em 0.5em #839223 inset;
+	color:#4c3d00;
+	border-radius:0.5em;
+	margin:1em 2.2em 2em 0;
+	overflow:hidden;
+}
+.img-improve-name{
+	vertical-align:top;
+	font-size:1.25em;
+	padding:0.75em 0 0.3em 0;
+	color:#a23c23;
+}
+.img-improve-slip{
+	position:relative;
+	top:70px;
+	background:rgba(0,0,0,.08);
+}
+#main-page-body{
+	font-family:oxygen,sans-serif;
+	background:#f0ede3;
+	color:#33290a;
+}
+.right-side{
+	position:relative;
+	float:left;
+	margin:1.5em 0 0 -390px;
+	width:390px;
+}
+.lci-com, .lci-fcname{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.main-bottom{
+	clear:both;
+	background:#FFFFFF;
+}
+.main-bottom .ba_left{
+	background: url(/img/footback.jpg) no-repeat left bottom;
+}

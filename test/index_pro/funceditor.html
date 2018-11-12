@@ -1,0 +1,56 @@
+<md-dialog aria-label="Mango (Fruit)">
+  <form ng-cloak>
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        <h2>{{funcInfo["fun_name"].val}}</h2>
+        <span flex></span>
+        <md-button class="md-icon-button" ng-click="cancel()">取消</md-button>
+      </div>
+    </md-toolbar>
+
+    <md-dialog-content>
+<md-content md-scroll-y layout="column"  ng-if='funcInfo[changeField].at' flex >		
+      <md-input-container  >
+  	<label>{{funcInfo[changeField].tip}}</label>
+  	<input  md-maxlength="{{funcInfo[changeField].limit}}" ng-required=!funcInfo[changeField].emp type="text" ng-model="funcInfo[changeField].val" >
+    </md-input-container>
+   
+</md-content>
+<md-content md-scroll-y layout="column"  ng-if='changeField=="pro_id"' flex >		
+      <md-input-container >
+  		<label>所属项目</label>
+         	<md-select ng-model='funcInfo["pro_id"].val'> 
+			<md-option ng-value="0">空</md-option>          		 
+            		<md-option ng-repeat="pro in projectList" ng-value="pro.id"><sapn> {{pro.pro_name}}</span></md-option>
+          	</md-select>
+    </md-input-container>
+   
+</md-content>
+<md-content md-scroll-y layout="column"  ng-if='changeField=="api"' flex >		
+      <md-input-container >
+  		<label>API函数</label>
+         	<md-select ng-model='funcInfo["api"].val'> 
+			<md-option ng-value="'n'">不是</md-option>    
+			<md-option ng-value="'y'">是</md-option> 
+          	</md-select>
+    </md-input-container>
+   
+</md-content>
+<md-content md-scroll-y layout="column"  ng-if='changeField=="mod_id"' flex >		
+      <md-input-container >
+  		<label>所属模块</label>
+         	<md-select ng-model='funcInfo["pro_id"].val'> 
+			<md-option ng-value="0">空</md-option>          		 
+            		<md-option ng-repeat="mod in modList" ng-value="mod.id"><sapn> {{mod.mod_name}}</span></md-option>
+          	</md-select>
+    </md-input-container>
+   
+</md-content>
+ </md-dialog-content>
+
+    <md-dialog-actions layout="row">      
+      <span flex></span>
+      <md-button ng-click="onSave(changeField)">保存</md-button>
+    </md-dialog-actions>
+  </form>
+</md-dialog>

@@ -1,0 +1,12 @@
+([
+{tag:"key",ref:
+	[
+		{fp:"ofono/src/gprs.c",ki:"member",ln:"141",},
+	],
+},
+{tag:"kill_ppp",ref:
+	[
+		{fp:"ofono/gatchat/gsmdial.c",ki:"function",ln:"94",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+])

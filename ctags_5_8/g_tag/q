@@ -1,0 +1,37 @@
+([
+{tag:"qualifiedTags",ref:
+	[
+		{fp:"ctags/options.h",ki:"member",ln:"64",},
+	],
+},
+{tag:"qualifyBlockTag",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"1243",sig:"(statementInfo *const st, const tokenInfo *const nameToken)",},
+	],
+},
+{tag:"qualifyCompoundTag",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"1227",sig:"(const statementInfo *const st, const tokenInfo *const nameToken)",},
+	],
+},
+{tag:"qualifyEnumeratorTag",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"1188",sig:"(const statementInfo *const st, const tokenInfo *const nameToken)",},
+	],
+},
+{tag:"qualifyFunctionDeclTag",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"1214",sig:"(const statementInfo *const st, const tokenInfo *const nameToken)",},
+	],
+},
+{tag:"qualifyFunctionTag",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"1195",sig:"(const statementInfo *const st, const tokenInfo *const nameToken)",},
+	],
+},
+{tag:"qualifyVariableTag",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"1261",sig:"(const statementInfo *const st, const tokenInfo *const nameToken)",},
+	],
+},
+])

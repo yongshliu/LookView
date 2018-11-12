@@ -1,0 +1,38 @@
+
+.panel-heading{
+	text-align:center;
+}
+.alert-close{
+	float:right;
+}
+.reg-alert-gone{
+	display:none;
+}
+.alert{
+	text-align:center;
+}
+.panel-body{
+	width:100%;
+}
+.panel-body .input-group{
+	margin:10px 5px;
+	width:100%;
+}
+.panel-body .size1{
+	width:20%;
+}
+.panel-body .size2{
+	font-size:10px;
+}
+.panel-body input{
+	width:40%;
+}
+.panel-footer{
+	height:50px;
+}
+.panel-footer input{
+	float:right;
+	margin-right:20px;
+	height:30px;
+}
+	

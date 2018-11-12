@@ -1,0 +1,51 @@
+<md-dialog aria-label="参数类型">
+  <form ng-cloak>
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        <h2>{{newSelectPageTitle}}</h2>
+	<span flex></span>
+        <md-button class="md-icon-button" ng-click="cancel()">取消</md-button>
+      </div>
+    </md-toolbar>
+
+ <md-dialog-content>  	
+	<md-content ng-if='selectType=="gv"'>	
+	<md-input-container >
+          <label>全局变量</label>
+          <md-select ng-model="$parent.gvSelected">
+            <md-option ng-value=0 ><em>None</em></md-option>
+            <md-option ng-repeat="gv in $parent.gvAllForSelect" ng-value="gv.id" >
+              {{gv.gv_protype}} <sapn> {{gv.gv_path}}</span>
+            </md-option>
+          </md-select>
+        </md-input-container> 
+	</md-content>
+	<md-content ng-if='selectType=="caller"'>
+	<md-input-container >
+          <label>选择函数</label>
+          <md-select ng-model="$parent.funcSelected">
+            <md-option ng-value=0 ><em>None</em></md-option>
+            <md-option ng-repeat="func in $parent.funcAllForSelect" ng-value="func.id" >
+              {{func.fun_protype}} <sapn> {{func.fun_path}}</span>
+            </md-option>
+          </md-select>
+        </md-input-container>
+	</md-content>
+	<md-content ng-if='selectType=="callee"'>
+	<md-input-container>
+          <label>选择函数</label>
+          <md-select ng-model="$parent.funcSelected">
+            <md-option ng-value=0 ><em>None</em></md-option>
+            <md-option ng-repeat="func in $parent.funcAllForSelect" ng-value="func.id" >
+              {{func.fun_protype}} <sapn> {{func.fun_path}}</span>
+            </md-option>
+          </md-select>
+        </md-input-container>
+	</md-content>
+</md-dialog-content>   
+	 <md-dialog-actions layout="row">      
+      <span flex></span>
+      <md-button ng-click="onSelectedSave(selectType)">保存</md-button>
+    </md-dialog-actions>
+  </form>
+</md-dialog>

@@ -1,0 +1,118 @@
+
+
+.user-main{
+	padding-top:60px;
+}
+.user-photo{
+	display:inline-block;
+	width:100px;
+	height:100px;
+	border-radius:4px;
+	background-color:#eee;
+	background:url(/img/selfphoto.png) no-repeat;
+	margin:2px 20px;
+}
+.user-self .user-short-des:hover{
+	//cursor:pointer;
+}
+.user-follow-up span:hover{
+	cursor:pointer;
+	color:red;
+}
+
+.user-profile{
+	display:inline-block;
+}
+.user-short-des, .no-short-des, .short-des-edit, .short-des-conts{
+	display:inline;
+}
+.lv-hide{
+	display:none;
+}
+.user-profile .city-business{
+	position:relative;
+}
+.user-profile .long-des{
+	position:relative;
+	
+}
+.no-long-des:hover{
+	cursor:pointer;
+}
+	
+.user_contents{
+	position:relative;
+	width:80%;
+	left:10%;
+}
+.contents{
+	padding:10px 5px;
+}
+.row{
+	//text-align:center;
+}
+.com-cmd{
+	display:none;
+	font-size:12px;
+}
+.com-cmd button{
+	font-size:12px;
+}
+.com-cmd.active{
+	display:inline-block;
+}
+.fctime{
+	height:50px;
+	width:100px;
+	margin:15px 10px;
+	vertical-align:middle;
+	display:inline;
+}
+.fctime span{
+	position:relative;
+	font-size:10px;
+}
+.flowchart-cmd{
+	display:none;
+	font-size:1.1em;
+	
+}
+.flowchart-cmd.active{
+	display:inline-block;
+}
+.follows-cmd{
+	display:none;
+}
+.follows-cmd.active{
+	display:inline-block;
+}
+.fc-new-cmd{
+	display:none;
+}
+.fc-new-cmd.active{
+	display:inline-block;
+}
+#user-new-flowc .alert-gone{
+	display:none;
+}
+#user-new-flowc .modal-dialog{
+	width:80%;
+}
+#user-new-flowc .input-group{
+	margin-bottom:15px;
+	width:100%;
+}
+#user-new-flowc .size1{
+	width:200px;
+}
+#user-new-flowc input{
+	width:100%;
+}
+#user-new-flowc textarea{
+	width:100%;
+	height:200px;
+}
+#user-new-flowc .size2{
+	font-size:10px;
+}
+

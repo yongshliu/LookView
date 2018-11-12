@@ -1,0 +1,132 @@
+([
+{tag:"javaKind",ref:
+	[
+		{fp:"ctags/c.c",ki:"typedef",ln:"320",},
+	],
+},
+{tag:"JavaKinds",ref:
+	[
+		{fp:"ctags/c.c",ki:"variable",ln:"322",},
+	],
+},
+{tag:"JavaParser",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"2908",sig:"(void)",},
+	],
+},
+{tag:"JavaScriptParser",ref:
+	[
+		{fp:"ctags/jscript.c",ki:"function",ln:"1557",sig:"(void)",},
+	],
+},
+{tag:"javaTagKind",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"846",sig:"(const tagType type)",},
+	],
+},
+{tag:"JK_ACCESS",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"319",},
+	],
+},
+{tag:"JK_CLASS",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"318",},
+	],
+},
+{tag:"JK_CLASS_PREFIX",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"319",},
+	],
+},
+{tag:"JK_ENUM",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"318",},
+	],
+},
+{tag:"JK_ENUM_CONSTANT",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"318",},
+	],
+},
+{tag:"JK_FIELD",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"318",},
+	],
+},
+{tag:"JK_INTERFACE",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"318",},
+	],
+},
+{tag:"JK_LOCAL",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"319",},
+	],
+},
+{tag:"JK_METHOD",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"319",},
+	],
+},
+{tag:"JK_PACKAGE",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"319",},
+	],
+},
+{tag:"JK_UNDEFINED",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"317",},
+	],
+},
+{tag:"JsKeywordTable",ref:
+	[
+		{fp:"ctags/jscript.c",ki:"variable",ln:"142",},
+	],
+},
+{tag:"jsKind",ref:
+	[
+		{fp:"ctags/jscript.c",ki:"typedef",ln:"132",},
+	],
+},
+{tag:"JsKinds",ref:
+	[
+		{fp:"ctags/jscript.c",ki:"variable",ln:"134",},
+	],
+},
+{tag:"JSTAG_CLASS",ref:
+	[
+		{fp:"ctags/jscript.c",ki:"enumerator",ln:"127",},
+	],
+},
+{tag:"JSTAG_COUNT",ref:
+	[
+		{fp:"ctags/jscript.c",ki:"enumerator",ln:"131",},
+	],
+},
+{tag:"JSTAG_FUNCTION",ref:
+	[
+		{fp:"ctags/jscript.c",ki:"enumerator",ln:"126",},
+	],
+},
+{tag:"JSTAG_METHOD",ref:
+	[
+		{fp:"ctags/jscript.c",ki:"enumerator",ln:"128",},
+	],
+},
+{tag:"JSTAG_PROPERTY",ref:
+	[
+		{fp:"ctags/jscript.c",ki:"enumerator",ln:"129",},
+	],
+},
+{tag:"JSTAG_VARIABLE",ref:
+	[
+		{fp:"ctags/jscript.c",ki:"enumerator",ln:"130",},
+	],
+},
+{tag:"JUMP_BACK",ref:
+	[
+		{fp:"ctags/readtags.c",ki:"macro",ln:"561",},
+	],
+},
+])

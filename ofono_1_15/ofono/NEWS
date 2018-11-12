@@ -1,0 +1,5 @@
+
+<script>
+var local_symbol_set=0;
+var file_info = '({folder:0,database:"ofono1_15", table:"comments", topdir:"ofono_1_15", path:"ofono/NEWS",version:"1_15"})';
+</script>

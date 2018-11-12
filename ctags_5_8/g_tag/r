@@ -1,0 +1,1348 @@
+([
+{tag:"range",ref:
+	[
+		{fp:"ctags/gnu_regex/regexec.c",ki:"variable",ln:"323",},
+		{fp:"ctags/gnu_regex/regexec.c",ki:"variable",ln:"350",},
+	],
+},
+{tag:"range_ends",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"260",},
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"263",},
+	],
+},
+{tag:"range_starts",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"259",},
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"262",},
+	],
+},
+{tag:"raw_len",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"347",},
+	],
+},
+{tag:"raw_mbs",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"324",},
+	],
+},
+{tag:"raw_mbs_idx",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"337",},
+	],
+},
+{tag:"raw_stop",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"353",},
+	],
+},
+{tag:"re_acquire_state",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.c",ki:"function",ln:"1462",sig:"(reg_errcode_t *err, const re_dfa_t *dfa, const re_node_set *nodes)",},
+	],
+},
+{tag:"re_acquire_state_context",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.c",ki:"function",ln:"1506",sig:"(reg_errcode_t *err, const re_dfa_t *dfa, const re_node_set *nodes, unsigned int context)",},
+	],
+},
+{tag:"re_backref_cache_entry",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"struct",ln:"557",},
+	],
+},
+{tag:"RE_BACKSLASH_ESCAPE_IN_LISTS",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"49",},
+	],
+},
+{tag:"re_bitset_ptr_t",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"typedef",ln:"145",},
+	],
+},
+{tag:"RE_BK_PLUS_QM",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"54",},
+	],
+},
+{tag:"RE_CARET_ANCHORS_HERE",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"168",},
+	],
+},
+{tag:"RE_CHAR_CLASSES",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"60",},
+	],
+},
+{tag:"re_charset_t",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"typedef",ln:"286",},
+	],
+},
+{tag:"re_comp",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"function",ln:"672",},
+	],
+},
+{tag:"re_comp_buf",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"variable",ln:"663",},
+	],
+},
+{tag:"re_compile_fastmap",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.c",ki:"macro",ln:"50",},
+	],
+},
+{tag:"re_compile_fastmap_iter",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"function",ln:"303",sig:"(regex_t *bufp, const re_dfastate_t *init_state, char *fastmap)",},
+	],
+},
+{tag:"re_compile_internal",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"function",ln:"731",sig:"(regex_t *preg, const char * pattern, size_t length, reg_syntax_t syntax)",},
+	],
+},
+{tag:"re_compile_pattern",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"function",ln:"215",},
+		{fp:"ctags/gnu_regex/regex.c",ki:"macro",ln:"45",},
+	],
+},
+{tag:"re_const_bitset_ptr_t",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"typedef",ln:"146",},
+	],
+},
+{tag:"RE_CONTEXT_INDEP_ANCHORS",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"74",},
+	],
+},
+{tag:"RE_CONTEXT_INDEP_OPS",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"82",},
+	],
+},
+{tag:"RE_CONTEXT_INVALID_DUP",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"172",},
+	],
+},
+{tag:"RE_CONTEXT_INVALID_OPS",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"86",},
+	],
+},
+{tag:"re_context_type",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"typedef",ln:"181",},
+	],
+},
+{tag:"re_copy_regs",ref:
+	[
+		{fp:"ctags/gnu_regex/regexec.c",ki:"function",ln:"500",},
+	],
+},
+{tag:"RE_DEBUG",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"154",},
+	],
+},
+{tag:"re_dfa_add_node",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.c",ki:"function",ln:"1397",sig:"(re_dfa_t *dfa, re_token_t token)",},
+	],
+},
+{tag:"re_dfa_t",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"typedef",ln:"379",},
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"struct",ln:"619",},
+	],
+},
+{tag:"re_dfastate_t",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"struct",ln:"498",},
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"typedef",ln:"516",},
+	],
+},
+{tag:"RE_DOT_NEWLINE",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"90",},
+	],
+},
+{tag:"RE_DOT_NOT_NULL",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"94",},
+	],
+},
+{tag:"RE_DUP_MAX",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"261",},
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"264",},
+	],
+},
+{tag:"RE_ENABLE_I18N",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"95",},
+	],
+},
+{tag:"re_fail_stack_ent_t",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"struct",ln:"604",},
+	],
+},
+{tag:"re_fail_stack_t",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"struct",ln:"612",},
+	],
+},
+{tag:"re_free",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"442",},
+	],
+},
+{tag:"RE_HAT_LISTS_NOT_NEWLINE",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"98",},
+	],
+},
+{tag:"RE_ICASE",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"163",},
+	],
+},
+{tag:"RE_INTERVALS",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"103",},
+	],
+},
+{tag:"RE_INVALID_INTERVAL_ORD",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"159",},
+	],
+},
+{tag:"RE_LIMITED_OPS",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"107",},
+	],
+},
+{tag:"re_malloc",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"440",},
+	],
+},
+{tag:"re_match",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.c",ki:"macro",ln:"41",},
+		{fp:"ctags/gnu_regex/regexec.c",ki:"function",ln:"307",},
+	],
+},
+{tag:"re_match_2",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.c",ki:"macro",ln:"39",},
+	],
+},
+{tag:"re_match_context_t",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"typedef",ln:"593",},
+	],
+},
+{tag:"re_max_failures",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.c",ki:"variable",ln:"72",},
+	],
+},
+{tag:"RE_NEWLINE_ALT",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"111",},
+	],
+},
+{tag:"RE_NO_BK_BRACES",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"116",},
+	],
+},
+{tag:"RE_NO_BK_PARENS",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"120",},
+	],
+},
+{tag:"RE_NO_BK_REFS",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"124",},
+	],
+},
+{tag:"RE_NO_BK_VBAR",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"128",},
+	],
+},
+{tag:"RE_NO_EMPTY_RANGES",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"134",},
+	],
+},
+{tag:"RE_NO_GNU_OPS",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"146",},
+	],
+},
+{tag:"RE_NO_POSIX_BACKTRACKING",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"142",},
+	],
+},
+{tag:"RE_NO_SUB",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"176",},
+	],
+},
+{tag:"re_node_set",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"typedef",ln:"188",},
+	],
+},
+{tag:"re_node_set_add_intersect",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.c",ki:"function",ln:"1038",sig:"(re_node_set *dest, const re_node_set *src1, const re_node_set *src2)",},
+	],
+},
+{tag:"re_node_set_alloc",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.c",ki:"function",ln:"955",sig:"(re_node_set *set, int size)",},
+	],
+},
+{tag:"re_node_set_compare",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.c",ki:"function",ln:"1345",sig:"(const re_node_set *set1, const re_node_set *set2)",},
+	],
+},
+{tag:"re_node_set_contains",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.c",ki:"function",ln:"1360",sig:"(const re_node_set *set, int elem)",},
+	],
+},
+{tag:"re_node_set_empty",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"669",},
+	],
+},
+{tag:"re_node_set_free",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"670",},
+	],
+},
+{tag:"re_node_set_init_1",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.c",ki:"function",ln:"967",sig:"(re_node_set *set, int elem)",},
+	],
+},
+{tag:"re_node_set_init_2",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.c",ki:"function",ln:"983",sig:"(re_node_set *set, int elem1, int elem2)",},
+	],
+},
+{tag:"re_node_set_init_copy",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.c",ki:"function",ln:"1013",sig:"(re_node_set *dest, const re_node_set *src)",},
+	],
+},
+{tag:"re_node_set_init_empty",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"666",},
+	],
+},
+{tag:"re_node_set_init_union",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.c",ki:"function",ln:"1129",sig:"(re_node_set *dest, const re_node_set *src1, const re_node_set *src2)",},
+	],
+},
+{tag:"re_node_set_insert",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.c",ki:"function",ln:"1265",sig:"(re_node_set *set, int elem)",},
+	],
+},
+{tag:"re_node_set_insert_last",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.c",ki:"function",ln:"1322",sig:"(re_node_set *set, int elem)",},
+	],
+},
+{tag:"re_node_set_merge",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.c",ki:"function",ln:"1182",sig:"(re_node_set *dest, const re_node_set *src)",},
+	],
+},
+{tag:"re_node_set_remove",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"667",},
+	],
+},
+{tag:"re_node_set_remove_at",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.c",ki:"function",ln:"1382",sig:"(re_node_set *set, int idx)",},
+	],
+},
+{tag:"RE_NREGS",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"443",},
+	],
+},
+{tag:"re_nsub",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"member",ln:"384",},
+	],
+},
+{tag:"re_pattern_buffer",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"struct",ln:"356",},
+	],
+},
+{tag:"re_realloc",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"441",},
+	],
+},
+{tag:"re_registers",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"struct",ln:"431",},
+	],
+},
+{tag:"re_search",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.c",ki:"macro",ln:"43",},
+	],
+},
+{tag:"re_search_2",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.c",ki:"macro",ln:"48",},
+	],
+},
+{tag:"re_search_2_stub",ref:
+	[
+		{fp:"ctags/gnu_regex/regexec.c",ki:"function",ln:"361",},
+	],
+},
+{tag:"re_search_internal",ref:
+	[
+		{fp:"ctags/gnu_regex/regexec.c",ki:"function",ln:"620",},
+	],
+},
+{tag:"re_search_stub",ref:
+	[
+		{fp:"ctags/gnu_regex/regexec.c",ki:"function",ln:"411",},
+	],
+},
+{tag:"re_set_fastmap",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"function",ln:"292",sig:"(char *fastmap, int icase, int ch)",},
+	],
+},
+{tag:"re_set_registers",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.c",ki:"macro",ln:"37",},
+		{fp:"ctags/gnu_regex/regexec.c",ki:"function",ln:"569",},
+	],
+},
+{tag:"re_set_syntax",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.c",ki:"macro",ln:"47",},
+	],
+},
+{tag:"re_sift_context_t",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"typedef",ln:"602",},
+	],
+},
+{tag:"re_state_table_entry",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"struct",ln:"518",},
+	],
+},
+{tag:"re_str",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"661",},
+	],
+},
+{tag:"re_string_allocate",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.c",ki:"function",ln:"40",sig:"(re_string_t *pstr, const char *str, int len, int init_len, RE_TRANSLATE_TYPE trans, int icase, const re_dfa_t *dfa)",},
+	],
+},
+{tag:"re_string_byte_at",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"417",},
+	],
+},
+{tag:"re_string_char_size_at",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"function",ln:"723",sig:"(const re_string_t *pstr, int idx)",},
+	],
+},
+{tag:"re_string_construct",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.c",ki:"function",ln:"68",sig:"(re_string_t *pstr, const char *str, int len, RE_TRANSLATE_TYPE trans, int icase, const re_dfa_t *dfa)",},
+	],
+},
+{tag:"re_string_construct_common",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.c",ki:"function",ln:"164",sig:"(const char *str, int len, re_string_t *pstr, RE_TRANSLATE_TYPE trans, int icase, const re_dfa_t *dfa)",},
+	],
+},
+{tag:"re_string_context_at",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.c",ki:"function",ln:"910",sig:"(const re_string_t *input, int idx, int eflags)",},
+	],
+},
+{tag:"re_string_cur_idx",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"414",},
+	],
+},
+{tag:"re_string_destruct",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.c",ki:"function",ln:"896",sig:"(re_string_t *pstr)",},
+	],
+},
+{tag:"re_string_elem_size_at",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"function",ln:"746",sig:"(const re_string_t *pstr, int idx)",},
+	],
+},
+{tag:"re_string_eoi",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"413",},
+	],
+},
+{tag:"re_string_fetch_byte",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"406",},
+	],
+},
+{tag:"re_string_fetch_byte_case",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.c",ki:"function",ln:"859",sig:"(re_string_t *pstr)",},
+	],
+},
+{tag:"re_string_first_byte",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"408",},
+	],
+},
+{tag:"re_string_get_buffer",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"415",},
+	],
+},
+{tag:"re_string_is_single_byte_char",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"410",},
+	],
+},
+{tag:"re_string_length",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"416",},
+	],
+},
+{tag:"re_string_peek_byte",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"404",},
+	],
+},
+{tag:"re_string_peek_byte_case",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.c",ki:"function",ln:"823",sig:"(const re_string_t *pstr, int idx)",},
+	],
+},
+{tag:"re_string_realloc_buffers",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.c",ki:"function",ln:"131",sig:"(re_string_t *pstr, int new_buf_len)",},
+	],
+},
+{tag:"re_string_reconstruct",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.c",ki:"function",ln:"563",sig:"(re_string_t *pstr, int idx, int eflags)",},
+	],
+},
+{tag:"re_string_set_index",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"419",},
+	],
+},
+{tag:"re_string_skip_bytes",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"418",},
+	],
+},
+{tag:"re_string_skip_chars",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.c",ki:"function",ln:"480",sig:"(re_string_t *pstr, int new_raw_idx, wint_t *last_wc)",},
+	],
+},
+{tag:"re_string_t",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"struct",ln:"320",},
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"typedef",ln:"375",},
+	],
+},
+{tag:"re_string_translate_buffer",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.c",ki:"function",ln:"542",sig:"(re_string_t *pstr)",},
+	],
+},
+{tag:"re_string_wchar_at",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"function",ln:"736",sig:"(const re_string_t *pstr, int idx)",},
+	],
+},
+{tag:"re_sub_match_last_t",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"typedef",ln:"541",},
+	],
+},
+{tag:"re_sub_match_top_t",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"typedef",ln:"555",},
+	],
+},
+{tag:"RE_SYNTAX_AWK",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"192",},
+	],
+},
+{tag:"RE_SYNTAX_ED",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"224",},
+	],
+},
+{tag:"RE_SYNTAX_EGREP",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"213",},
+	],
+},
+{tag:"RE_SYNTAX_EMACS",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"190",},
+	],
+},
+{tag:"RE_SYNTAX_GNU_AWK",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"199",},
+	],
+},
+{tag:"RE_SYNTAX_GREP",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"208",},
+	],
+},
+{tag:"RE_SYNTAX_POSIX_AWK",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"204",},
+	],
+},
+{tag:"RE_SYNTAX_POSIX_BASIC",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"233",},
+	],
+},
+{tag:"RE_SYNTAX_POSIX_EGREP",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"219",},
+	],
+},
+{tag:"RE_SYNTAX_POSIX_EXTENDED",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"242",},
+	],
+},
+{tag:"RE_SYNTAX_POSIX_MINIMAL_BASIC",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"239",},
+	],
+},
+{tag:"RE_SYNTAX_POSIX_MINIMAL_EXTENDED",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"250",},
+	],
+},
+{tag:"RE_SYNTAX_SED",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"226",},
+	],
+},
+{tag:"re_token_t",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"typedef",ln:"316",},
+	],
+},
+{tag:"re_token_type_t",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"typedef",ln:"239",},
+	],
+},
+{tag:"RE_TRANSLATE_TYPE",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"346",},
+	],
+},
+{tag:"RE_UNMATCHED_RIGHT_PAREN_ORD",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"138",},
+	],
+},
+{tag:"readAndEmitTag",ref:
+	[
+		{fp:"ctags/ruby.c",ki:"function",ln:"230",sig:"(const unsigned char** cp, rubyKind expected_kind)",},
+	],
+},
+{tag:"readdir",ref:
+	[
+		{fp:"ctags/mac.c",ki:"function",ln:"111",sig:"(DIR *dirp)",},
+	],
+},
+{tag:"readDirective",ref:
+	[
+		{fp:"ctags/get.c",ki:"function",ln:"173",sig:"(int c, char *const name, unsigned int maxLength)",},
+	],
+},
+{tag:"readFeatureName",ref:
+	[
+		{fp:"ctags/eiffel.c",ki:"function",ln:"996",sig:"(tokenInfo *const token)",},
+	],
+},
+{tag:"readFieldValue",ref:
+	[
+		{fp:"ctags/readtags.c",ki:"function",ln:"510",sig:"( const tagEntry *const entry, const char *const key)",},
+	],
+},
+{tag:"readFileName",ref:
+	[
+		{fp:"ctags/read.c",ki:"function",ln:"153",sig:"(void)",},
+	],
+},
+{tag:"readIdentifier",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"1468",sig:"(tokenInfo *const token, const int firstChar)",},
+		{fp:"ctags/fortran.c",ki:"function",ln:"896",sig:"(tokenInfo *const token, const int c)",},
+		{fp:"ctags/get.c",ki:"function",ln:"198",sig:"(int c, vString *const name)",},
+		{fp:"ctags/make.c",ki:"function",ln:"76",sig:"(const int first, vString *const id)",},
+		{fp:"ctags/ocaml.c",ki:"function",ln:"323",sig:"(lexingState * st)",},
+		{fp:"ctags/scheme.c",ki:"function",ln:"47",sig:"(vString *const name, const unsigned char *cp)",},
+		{fp:"ctags/verilog.c",ki:"function",ln:"198",sig:"(vString *const name, int c)",},
+	],
+},
+{tag:"readIgnoreList",ref:
+	[
+		{fp:"ctags/options.c",ki:"function",ln:"1314",sig:"(const char *const list)",},
+	],
+},
+{tag:"readLine",ref:
+	[
+		{fp:"ctags/eiffel.c",ki:"function",ln:"278",sig:"(vString *const vLine, FILE *const fp)",},
+		{fp:"ctags/read.c",ki:"function",ln:"483",sig:"(vString *const vLine, FILE *const fp)",},
+	],
+},
+{tag:"readLineNumber",ref:
+	[
+		{fp:"ctags/read.c",ki:"function",ln:"129",sig:"(void)",},
+	],
+},
+{tag:"readNext",ref:
+	[
+		{fp:"ctags/readtags.c",ki:"function",ln:"494",sig:"(tagFile *const file, tagEntry *const entry)",},
+	],
+},
+{tag:"readOperator",ref:
+	[
+		{fp:"ctags/asm.c",ki:"function",ln:"258",sig:"( const unsigned char *const start, vString *const operator)",},
+		{fp:"ctags/c.c",ki:"function",ln:"1547",sig:"(statementInfo *const st)",},
+	],
+},
+{tag:"readOptionConfiguration",ref:
+	[
+		{fp:"ctags/options.c",ki:"function",ln:"1772",sig:"(void)",},
+	],
+},
+{tag:"readPackageName",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"1501",sig:"(tokenInfo *const token, const int firstChar)",},
+	],
+},
+{tag:"readPackageOrNamespace",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"1517",sig:"(statementInfo *const st, const declType declaration)",},
+	],
+},
+{tag:"readParents",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"1669",sig:"(statementInfo *const st, const int qualifier)",},
+	],
+},
+{tag:"readPreProc",ref:
+	[
+		{fp:"ctags/asm.c",ki:"function",ln:"152",sig:"(const unsigned char *const line)",},
+	],
+},
+{tag:"readPseudoTags",ref:
+	[
+		{fp:"ctags/readtags.c",ki:"function",ln:"371",sig:"(tagFile *const file, tagFileInfo *const info)",},
+	],
+},
+{tag:"readSourceLine",ref:
+	[
+		{fp:"ctags/read.c",ki:"function",ln:"546",sig:"( vString *const vLine, fpos_t location, long *const pSeekValue)",},
+	],
+},
+{tag:"readSubToken",ref:
+	[
+		{fp:"ctags/fortran.c",ki:"function",ln:"1039",sig:"(tokenInfo *const token)",},
+	],
+},
+{tag:"readSymbol",ref:
+	[
+		{fp:"ctags/asm.c",ki:"function",ln:"240",sig:"( const unsigned char *const start, vString *const sym)",},
+	],
+},
+{tag:"readTagLine",ref:
+	[
+		{fp:"ctags/readtags.c",ki:"function",ln:"223",sig:"(tagFile *const file)",},
+	],
+},
+{tag:"readTagLineRaw",ref:
+	[
+		{fp:"ctags/readtags.c",ki:"function",ln:"173",sig:"(tagFile *const file)",},
+	],
+},
+{tag:"readTagLineSeek",ref:
+	[
+		{fp:"ctags/readtags.c",ki:"function",ln:"525",sig:"(tagFile *const file, const off_t pos)",},
+	],
+},
+{tag:"READTAGS_H",ref:
+	[
+		{fp:"ctags/readtags.h",ki:"macro",ln:"22",},
+	],
+},
+{tag:"readToken",ref:
+	[
+		{fp:"ctags/eiffel.c",ki:"function",ln:"641",sig:"(tokenInfo *const token)",},
+		{fp:"ctags/flex.c",ki:"function",ln:"419",sig:"(tokenInfo *const token)",},
+		{fp:"ctags/fortran.c",ki:"function",ln:"921",sig:"(tokenInfo *const token)",},
+		{fp:"ctags/jscript.c",ki:"function",ln:"355",sig:"(tokenInfo *const token)",},
+		{fp:"ctags/sql.c",ki:"function",ln:"513",sig:"(tokenInfo *const token)",},
+		{fp:"ctags/tex.c",ki:"function",ln:"278",sig:"(tokenInfo *const token)",},
+		{fp:"ctags/vhdl.c",ki:"function",ln:"404",sig:"(tokenInfo * const token)",},
+	],
+},
+{tag:"readVimLine",ref:
+	[
+		{fp:"ctags/vim.c",ki:"function",ln:"211",sig:"(void)",},
+	],
+},
+{tag:"recurse",ref:
+	[
+		{fp:"ctags/options.h",ki:"member",ln:"93",},
+	],
+},
+{tag:"RECURSE_SUPPORTED",ref:
+	[
+		{fp:"ctags/options.c",ki:"macro",ln:"57",},
+	],
+},
+{tag:"recurseIntoDirectory",ref:
+	[
+		{fp:"ctags/main.c",ki:"function",ln:"247",sig:"(const char *const dirName)",},
+	],
+},
+{tag:"recurseUsingOpendir",ref:
+	[
+		{fp:"ctags/main.c",ki:"function",ln:"142",sig:"(const char *const dirName)",},
+	],
+},
+{tag:"ReferencedTypes",ref:
+	[
+		{fp:"ctags/eiffel.c",ki:"variable",ln:"132",},
+	],
+},
+{tag:"REG_BADBR",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"enumerator",ln:"326",},
+	],
+},
+{tag:"REG_BADBR_IDX",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"macro",ln:"162",},
+	],
+},
+{tag:"REG_BADPAT",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"enumerator",ln:"318",},
+	],
+},
+{tag:"REG_BADPAT_IDX",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"macro",ln:"138",},
+	],
+},
+{tag:"REG_BADRPT",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"enumerator",ln:"329",},
+	],
+},
+{tag:"REG_BADRPT_IDX",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"macro",ln:"171",},
+	],
+},
+{tag:"REG_EBRACE",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"enumerator",ln:"325",},
+	],
+},
+{tag:"REG_EBRACE_IDX",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"macro",ln:"159",},
+	],
+},
+{tag:"REG_EBRACK",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"enumerator",ln:"323",},
+	],
+},
+{tag:"REG_EBRACK_IDX",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"macro",ln:"153",},
+	],
+},
+{tag:"REG_ECOLLATE",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"enumerator",ln:"319",},
+	],
+},
+{tag:"REG_ECOLLATE_IDX",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"macro",ln:"141",},
+	],
+},
+{tag:"REG_ECTYPE",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"enumerator",ln:"320",},
+	],
+},
+{tag:"REG_ECTYPE_IDX",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"macro",ln:"144",},
+	],
+},
+{tag:"REG_EEND",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"enumerator",ln:"332",},
+	],
+},
+{tag:"REG_EEND_IDX",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"macro",ln:"174",},
+	],
+},
+{tag:"REG_EESCAPE",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"enumerator",ln:"321",},
+	],
+},
+{tag:"REG_EESCAPE_IDX",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"macro",ln:"147",},
+	],
+},
+{tag:"REG_ENOSYS",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"enumerator",ln:"310",},
+	],
+},
+{tag:"REG_EPAREN",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"enumerator",ln:"324",},
+	],
+},
+{tag:"REG_EPAREN_IDX",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"macro",ln:"156",},
+	],
+},
+{tag:"REG_ERANGE",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"enumerator",ln:"327",},
+	],
+},
+{tag:"REG_ERANGE_IDX",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"macro",ln:"165",},
+	],
+},
+{tag:"REG_ERPAREN",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"enumerator",ln:"334",},
+	],
+},
+{tag:"REG_ERPAREN_IDX",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"macro",ln:"180",},
+	],
+},
+{tag:"reg_errcode_t",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"typedef",ln:"335",},
+	],
+},
+{tag:"REG_ESIZE",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"enumerator",ln:"333",},
+	],
+},
+{tag:"REG_ESIZE_IDX",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"macro",ln:"177",},
+	],
+},
+{tag:"REG_ESPACE",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"enumerator",ln:"328",},
+	],
+},
+{tag:"REG_ESPACE_IDX",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"macro",ln:"168",},
+	],
+},
+{tag:"REG_ESUBREG",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"enumerator",ln:"322",},
+	],
+},
+{tag:"REG_ESUBREG_IDX",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"macro",ln:"150",},
+	],
+},
+{tag:"REG_EXTENDED",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"272",},
+	],
+},
+{tag:"REG_ICASE",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"276",},
+	],
+},
+{tag:"REG_NEWLINE",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"281",},
+	],
+},
+{tag:"REG_NOERROR",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"enumerator",ln:"313",},
+	],
+},
+{tag:"REG_NOERROR_IDX",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"macro",ln:"132",},
+	],
+},
+{tag:"REG_NOMATCH",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"enumerator",ln:"314",},
+	],
+},
+{tag:"REG_NOMATCH_IDX",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"macro",ln:"135",},
+	],
+},
+{tag:"REG_NOSUB",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"285",},
+	],
+},
+{tag:"REG_NOTBOL",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"295",},
+	],
+},
+{tag:"REG_NOTEOL",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"298",},
+	],
+},
+{tag:"REG_STARTEND",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"302",},
+	],
+},
+{tag:"reg_syntax_t",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"typedef",ln:"44",},
+	],
+},
+{tag:"regcomp",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"function",ln:"468",},
+		{fp:"ctags/gnu_regex/regex.c",ki:"macro",ln:"34",},
+	],
+},
+{tag:"regerror",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.c",ki:"macro",ln:"35",},
+	],
+},
+{tag:"regex",ref:
+	[
+		{fp:"ctags/parse.h",ki:"member",ln:"56",},
+	],
+},
+{tag:"REGEX_DEFINE",ref:
+	[
+		{fp:"ctags/mk_bc5.mak",ki:"macro",ln:"7",},
+	],
+},
+{tag:"REGEX_DEFINES",ref:
+	[
+		{fp:"ctags/mk_mingw.mak",ki:"macro",ln:"8",},
+		{fp:"ctags/mk_mvc.mak",ki:"macro",ln:"7",},
+	],
+},
+{tag:"REGEX_DIR",ref:
+	[
+		{fp:"ctags/maintainer.mak",ki:"macro",ln:"33",},
+	],
+},
+{tag:"REGEX_HEADERS",ref:
+	[
+		{fp:"ctags/source.mak",ki:"macro",ln:"70",},
+	],
+},
+{tag:"REGEX_NAME",ref:
+	[
+		{fp:"ctags/lregex.c",ki:"macro",ln:"51",},
+	],
+},
+{tag:"REGEX_SOURCES",ref:
+	[
+		{fp:"ctags/source.mak",ki:"macro",ln:"68",},
+	],
+},
+{tag:"regex_t",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"typedef",ln:"422",},
+	],
+},
+{tag:"regexBroken",ref:
+	[
+		{fp:"ctags/lregex.c",ki:"variable",ln:"92",},
+	],
+},
+{tag:"regexCallback",ref:
+	[
+		{fp:"ctags/parse.h",ki:"typedef",ln:"72",},
+	],
+},
+{tag:"regexec",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.c",ki:"macro",ln:"33",},
+		{fp:"ctags/gnu_regex/regexec.c",ki:"function",ln:"221",},
+	],
+},
+{tag:"regexMatch",ref:
+	[
+		{fp:"ctags/parse.h",ki:"typedef",ln:"70",},
+	],
+},
+{tag:"regexPattern",ref:
+	[
+		{fp:"ctags/lregex.c",ki:"typedef",ln:"79",},
+	],
+},
+{tag:"regfree",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"function",ln:"638",},
+		{fp:"ctags/gnu_regex/regex.c",ki:"macro",ln:"32",},
+	],
+},
+{tag:"register_state",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.c",ki:"function",ln:"1542",sig:"(const re_dfa_t *dfa, re_dfastate_t *newstate, unsigned int hash)",},
+	],
+},
+{tag:"regmatch_t",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"typedef",ln:"455",},
+	],
+},
+{tag:"regoff_t",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"typedef",ln:"425",},
+	],
+},
+{tag:"regs",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"608",},
+		{fp:"ctags/gnu_regex/regexec.c",ki:"variable",ln:"324",},
+		{fp:"ctags/gnu_regex/regexec.c",ki:"variable",ln:"337",},
+		{fp:"ctags/gnu_regex/regexec.c",ki:"variable",ln:"351",},
+	],
+},
+{tag:"REGS_FIXED",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"399",},
+	],
+},
+{tag:"REGS_REALLOCATE",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"398",},
+	],
+},
+{tag:"REGS_UNALLOCATED",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"macro",ln:"397",},
+	],
+},
+{tag:"reinitStatement",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"744",sig:"(statementInfo *const st, const boolean partial)",},
+	],
+},
+{tag:"relativeFilename",ref:
+	[
+		{fp:"ctags/routines.c",ki:"function",ln:"812",sig:"(const char *file, const char *dir)",},
+	],
+},
+{tag:"RELEASE_DIR",ref:
+	[
+		{fp:"ctags/maintainer.mak",ki:"macro",ln:"57",},
+	],
+},
+{tag:"rememberMaxLengths",ref:
+	[
+		{fp:"ctags/entry.c",ki:"function",ln:"121",sig:"(const size_t nameLength, const size_t lineLength)",},
+	],
+},
+{tag:"removeLanguageExtensionMap",ref:
+	[
+		{fp:"ctags/parse.c",ki:"function",ln:"267",sig:"(const char *const extension)",},
+	],
+},
+{tag:"replacementTruncate",ref:
+	[
+		{fp:"ctags/entry.c",ki:"function",ln:"443",sig:"(const char *const name, const long size)",},
+	],
+},
+{tag:"reportType",ref:
+	[
+		{fp:"ctags/eiffel.c",ki:"function",ln:"243",sig:"(tokenInfo *const token)",},
+	],
+},
+{tag:"requestStrongPoping",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"function",ln:"889",sig:"( void )",},
+	],
+},
+{tag:"rescanParser",ref:
+	[
+		{fp:"ctags/parse.h",ki:"typedef",ln:"36",},
+	],
+},
+{tag:"resizeTagFile",ref:
+	[
+		{fp:"ctags/entry.c",ki:"function",ln:"478",sig:"(const long newSize)",},
+	],
+},
+{tag:"resolveRequired",ref:
+	[
+		{fp:"ctags/get.c",ki:"member",ln:"65",},
+	],
+},
+{tag:"restartStatement",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"1815",sig:"(statementInfo *const st)",},
+	],
+},
+{tag:"retardToken",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"518",sig:"(statementInfo *const st)",},
+	],
+},
+{tag:"rewinddir",ref:
+	[
+		{fp:"ctags/mac.c",ki:"function",ln:"139",sig:"(DIR *dirp)",},
+	],
+},
+{tag:"RexxParser",ref:
+	[
+		{fp:"ctags/rexx.c",ki:"function",ln:"29",sig:"(void)",},
+	],
+},
+{tag:"right",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"448",},
+	],
+},
+{tag:"rm_eo",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"member",ln:"454",},
+	],
+},
+{tag:"rm_so",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"member",ln:"453",},
+	],
+},
+{tag:"RPM_ABS_ROOT",ref:
+	[
+		{fp:"ctags/maintainer.mak",ki:"macro",ln:"55",},
+	],
+},
+{tag:"RPM_ARCH",ref:
+	[
+		{fp:"ctags/maintainer.mak",ki:"macro",ln:"221",},
+	],
+},
+{tag:"RPM_DIRS",ref:
+	[
+		{fp:"ctags/maintainer.mak",ki:"macro",ln:"223",},
+	],
+},
+{tag:"RPM_FLAGS",ref:
+	[
+		{fp:"ctags/maintainer.mak",ki:"macro",ln:"76",},
+	],
+},
+{tag:"RPM_ROOT",ref:
+	[
+		{fp:"ctags/maintainer.mak",ki:"macro",ln:"54",},
+	],
+},
+{tag:"RPM_SUBDIRS",ref:
+	[
+		{fp:"ctags/maintainer.mak",ki:"macro",ln:"222",},
+	],
+},
+{tag:"rubyKind",ref:
+	[
+		{fp:"ctags/ruby.c",ki:"typedef",ln:"32",},
+	],
+},
+{tag:"RubyKinds",ref:
+	[
+		{fp:"ctags/ruby.c",ki:"variable",ln:"37",},
+	],
+},
+{tag:"RubyParser",ref:
+	[
+		{fp:"ctags/ruby.c",ki:"function",ln:"397",sig:"(void)",},
+	],
+},
+])

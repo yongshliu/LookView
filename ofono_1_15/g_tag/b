@@ -1,0 +1,1741 @@
+([
+{tag:"b",ref:
+	[
+		{fp:"ofono/src/bluetooth.h",ki:"member",ln:"48",},
+	],
+},
+{tag:"bac_cb",ref:
+	[
+		{fp:"ofono/drivers/hfpmodem/slc.c",ki:"function",ln:"278",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"band",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"member",ln:"60",},
+	],
+},
+{tag:"band_gsm",ref:
+	[
+		{fp:"ofono/drivers/huaweimodem/radio-settings.c",ki:"member",ln:"53",},
+		{fp:"ofono/src/radio-settings.c",ki:"member",ln:"44",},
+	],
+},
+{tag:"band_gsm_from_huawei",ref:
+	[
+		{fp:"ofono/drivers/huaweimodem/radio-settings.c",ki:"function",ln:"101",sig:"(unsigned int band)",},
+	],
+},
+{tag:"band_gsm_to_huawei",ref:
+	[
+		{fp:"ofono/drivers/huaweimodem/radio-settings.c",ki:"function",ln:"77",sig:"(enum ofono_radio_band_gsm band)",},
+	],
+},
+{tag:"band_huawei",ref:
+	[
+		{fp:"ofono/drivers/huaweimodem/radio-settings.c",ki:"member",ln:"54",},
+		{fp:"ofono/drivers/huaweimodem/radio-settings.c",ki:"member",ln:"66",},
+	],
+},
+{tag:"band_umts",ref:
+	[
+		{fp:"ofono/drivers/huaweimodem/radio-settings.c",ki:"member",ln:"65",},
+		{fp:"ofono/src/radio-settings.c",ki:"member",ln:"45",},
+	],
+},
+{tag:"band_umts_from_huawei",ref:
+	[
+		{fp:"ofono/drivers/huaweimodem/radio-settings.c",ki:"function",ln:"116",sig:"(unsigned int band)",},
+	],
+},
+{tag:"band_umts_to_huawei",ref:
+	[
+		{fp:"ofono/drivers/huaweimodem/radio-settings.c",ki:"function",ln:"89",sig:"(enum ofono_radio_band_umts band)",},
+	],
+},
+{tag:"barr_data",ref:
+	[
+		{fp:"ofono/drivers/isimodem/call-barring.c",ki:"struct",ln:"48",},
+	],
+},
+{tag:"barred_dialing",ref:
+	[
+		{fp:"ofono/src/sim.c",ki:"member",ln:"78",},
+	],
+},
+{tag:"base_path",ref:
+	[
+		{fp:"ofono/gdbus/client.c",ki:"member",ln:"44",},
+	],
+},
+{tag:"base_station",ref:
+	[
+		{fp:"ofono/src/network.c",ki:"member",ln:"67",},
+	],
+},
+{tag:"basic_close",ref:
+	[
+		{fp:"ofono/unit/test-mux.c",ki:"variable",ln:"236",},
+	],
+},
+{tag:"basic_command_register",ref:
+	[
+		{fp:"ofono/gatchat/gatserver.c",ki:"function",ln:"1217",sig:"(GAtServer *server)",},
+	],
+},
+{tag:"basic_data",ref:
+	[
+		{fp:"ofono/unit/test-mux.c",ki:"variable",ln:"239",},
+	],
+},
+{tag:"basic_data_result",ref:
+	[
+		{fp:"ofono/unit/test-mux.c",ki:"variable",ln:"240",},
+	],
+},
+{tag:"basic_frame_size",ref:
+	[
+		{fp:"ofono/unit/test-mux.c",ki:"variable",ln:"369",},
+	],
+},
+{tag:"basic_garbage_size",ref:
+	[
+		{fp:"ofono/unit/test-mux.c",ki:"variable",ln:"368",},
+	],
+},
+{tag:"basic_input",ref:
+	[
+		{fp:"ofono/unit/test-mux.c",ki:"variable",ln:"360",},
+	],
+},
+{tag:"basic_input2",ref:
+	[
+		{fp:"ofono/unit/test-mux.c",ki:"variable",ln:"364",},
+	],
+},
+{tag:"basic_long_frame",ref:
+	[
+		{fp:"ofono/unit/test-mux.c",ki:"variable",ln:"244",},
+	],
+},
+{tag:"basic_long_frame_result",ref:
+	[
+		{fp:"ofono/unit/test-mux.c",ki:"variable",ln:"264",},
+	],
+},
+{tag:"basic_open",ref:
+	[
+		{fp:"ofono/unit/test-mux.c",ki:"variable",ln:"233",},
+	],
+},
+{tag:"basic_output",ref:
+	[
+		{fp:"ofono/unit/test-mux.c",ki:"variable",ln:"371",},
+	],
+},
+{tag:"batt_level",ref:
+	[
+		{fp:"ofono/plugins/phonesim.c",ki:"member",ln:"85",},
+	],
+},
+{tag:"battchg",ref:
+	[
+		{fp:"ofono/src/handsfree.c",ki:"member",ln:"56",},
+	],
+},
+{tag:"battchg_index",ref:
+	[
+		{fp:"ofono/drivers/hfpmodem/handsfree.c",ki:"member",ln:"53",},
+	],
+},
+{tag:"battery_charge",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1515",},
+	],
+},
+{tag:"bc_repeat",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1664",},
+	],
+},
+{tag:"bcc_cb",ref:
+	[
+		{fp:"ofono/plugins/hfp_hf_bluez5.c",ki:"function",ln:"371",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"bcch_ch_list",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1511",},
+	],
+},
+{tag:"bcch_channels_131",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"18341",},
+	],
+},
+{tag:"bcd_to_mccmnc",ref:
+	[
+		{fp:"ofono/gisi/iter.c",ki:"function",ln:"33",sig:"(const uint8_t *restrict bcd, char *mcc, char *mnc)",},
+	],
+},
+{tag:"bcs_notify",ref:
+	[
+		{fp:"ofono/plugins/hfp_hf_bluez5.c",ki:"function",ln:"320",sig:"(GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"bd",ref:
+	[
+		{fp:"ofono/src/cdma-smsutil.h",ki:"member",ln:"260",},
+		{fp:"ofono/src/cdma-smsutil.h",ki:"member",ln:"266",},
+	],
+},
+{tag:"BDADDR_ANY",ref:
+	[
+		{fp:"ofono/src/bluetooth.h",ki:"macro",ln:"51",},
+	],
+},
+{tag:"bdaddr_t",ref:
+	[
+		{fp:"ofono/src/bluetooth.h",ki:"typedef",ln:"49",},
+	],
+},
+{tag:"bearer",ref:
+	[
+		{fp:"ofono/src/gprs.c",ki:"member",ln:"82",},
+		{fp:"ofono/src/sms.c",ki:"member",ln:"80",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1291",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"14913",},
+	],
+},
+{tag:"bearer_class",ref:
+	[
+		{fp:"ofono/src/common.h",ki:"enum",ln:"76",},
+	],
+},
+{tag:"BEARER_CLASS_DATA",ref:
+	[
+		{fp:"ofono/src/common.h",ki:"enumerator",ln:"78",},
+	],
+},
+{tag:"BEARER_CLASS_DATA_ASYNC",ref:
+	[
+		{fp:"ofono/src/common.h",ki:"enumerator",ln:"83",},
+	],
+},
+{tag:"BEARER_CLASS_DATA_SYNC",ref:
+	[
+		{fp:"ofono/src/common.h",ki:"enumerator",ln:"82",},
+	],
+},
+{tag:"BEARER_CLASS_DEFAULT",ref:
+	[
+		{fp:"ofono/src/common.h",ki:"enumerator",ln:"80",},
+	],
+},
+{tag:"BEARER_CLASS_FAX",ref:
+	[
+		{fp:"ofono/src/common.h",ki:"enumerator",ln:"79",},
+	],
+},
+{tag:"bearer_class_lut",ref:
+	[
+		{fp:"ofono/src/common.c",ki:"variable",ln:"618",},
+	],
+},
+{tag:"BEARER_CLASS_PACKET",ref:
+	[
+		{fp:"ofono/src/common.h",ki:"enumerator",ln:"86",},
+	],
+},
+{tag:"BEARER_CLASS_PAD",ref:
+	[
+		{fp:"ofono/src/common.h",ki:"enumerator",ln:"87",},
+	],
+},
+{tag:"BEARER_CLASS_SMS",ref:
+	[
+		{fp:"ofono/src/common.h",ki:"enumerator",ln:"81",},
+	],
+},
+{tag:"BEARER_CLASS_SS_DEFAULT",ref:
+	[
+		{fp:"ofono/src/common.h",ki:"enumerator",ln:"85",},
+	],
+},
+{tag:"bearer_class_to_string",ref:
+	[
+		{fp:"ofono/src/common.c",ki:"function",ln:"629",sig:"(enum bearer_class cls)",},
+	],
+},
+{tag:"BEARER_CLASS_VOICE",ref:
+	[
+		{fp:"ofono/src/common.h",ki:"enumerator",ln:"77",},
+	],
+},
+{tag:"bearer_desc",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1306",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1557",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1698",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"15585",},
+	],
+},
+{tag:"bearer_init_callback",ref:
+	[
+		{fp:"ofono/src/sms.c",ki:"function",ln:"1890",sig:"(const struct ofono_error *error, void *data)",},
+	],
+},
+{tag:"bearer_query",ref:
+	[
+		{fp:"ofono/include/sms.h",ki:"member",ln:"57",},
+	],
+},
+{tag:"bearer_query_resp_cb",ref:
+	[
+		{fp:"ofono/drivers/isimodem/sms.c",ki:"function",ln:"593",sig:"(const GIsiMessage *msg, void *data)",},
+	],
+},
+{tag:"bearer_set",ref:
+	[
+		{fp:"ofono/include/sms.h",ki:"member",ln:"59",},
+	],
+},
+{tag:"bearer_set_callback",ref:
+	[
+		{fp:"ofono/src/sms.c",ki:"function",ln:"435",sig:"(const struct ofono_error *error, void *data)",},
+	],
+},
+{tag:"bearer_set_query_callback",ref:
+	[
+		{fp:"ofono/src/sms.c",ki:"function",ln:"416",sig:"(const struct ofono_error *error, int bearer, void *data)",},
+	],
+},
+{tag:"bearer_set_resp_cb",ref:
+	[
+		{fp:"ofono/drivers/isimodem/sms.c",ki:"function",ln:"653",sig:"(const GIsiMessage *msg, void *data)",},
+	],
+},
+{tag:"bearer_to_cs_pref",ref:
+	[
+		{fp:"ofono/drivers/isimodem/sms.c",ki:"function",ln:"111",sig:"(int bearer)",},
+	],
+},
+{tag:"bearer_to_domain",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/sms.c",ki:"function",ln:"232",sig:"(int bearer)",},
+	],
+},
+{tag:"bearer_to_ps_pref",ref:
+	[
+		{fp:"ofono/drivers/isimodem/sms.c",ki:"function",ln:"127",sig:"(int bearer)",},
+	],
+},
+{tag:"ber_tlv_builder",ref:
+	[
+		{fp:"ofono/src/simutil.h",ki:"struct",ln:"331",},
+	],
+},
+{tag:"ber_tlv_builder_get_data",ref:
+	[
+		{fp:"ofono/src/simutil.c",ki:"function",ln:"596",sig:"(struct ber_tlv_builder *builder)",},
+	],
+},
+{tag:"ber_tlv_builder_init",ref:
+	[
+		{fp:"ofono/src/simutil.c",ki:"function",ln:"497",sig:"(struct ber_tlv_builder *builder, unsigned char *pdu, unsigned int size)",},
+	],
+},
+{tag:"ber_tlv_builder_next",ref:
+	[
+		{fp:"ofono/src/simutil.c",ki:"function",ln:"556",sig:"(struct ber_tlv_builder *builder, enum ber_tlv_data_type class, enum ber_tlv_data_encoding_type encoding, unsigned int new_tag)",},
+	],
+},
+{tag:"ber_tlv_builder_optimize",ref:
+	[
+		{fp:"ofono/src/simutil.c",ki:"function",ln:"629",sig:"(struct ber_tlv_builder *builder, unsigned char **out_pdu, unsigned int *out_len)",},
+	],
+},
+{tag:"ber_tlv_builder_recurse",ref:
+	[
+		{fp:"ofono/src/simutil.c",ki:"function",ln:"601",sig:"(struct ber_tlv_builder *builder, struct ber_tlv_builder *recurse)",},
+	],
+},
+{tag:"ber_tlv_builder_recurse_comprehension",ref:
+	[
+		{fp:"ofono/src/simutil.c",ki:"function",ln:"615",sig:"(struct ber_tlv_builder *builder, struct comprehension_tlv_builder *recurse)",},
+	],
+},
+{tag:"ber_tlv_builder_set_length",ref:
+	[
+		{fp:"ofono/src/simutil.c",ki:"function",ln:"580",sig:"(struct ber_tlv_builder *builder, unsigned int new_len)",},
+	],
+},
+{tag:"ber_tlv_builder_write_header",ref:
+	[
+		{fp:"ofono/src/simutil.c",ki:"function",ln:"523",sig:"(struct ber_tlv_builder *builder)",},
+	],
+},
+{tag:"ber_tlv_data_encoding_type",ref:
+	[
+		{fp:"ofono/src/simutil.h",ki:"enum",ln:"271",},
+	],
+},
+{tag:"BER_TLV_DATA_ENCODING_TYPE_CONSTRUCTED",ref:
+	[
+		{fp:"ofono/src/simutil.h",ki:"enumerator",ln:"273",},
+	],
+},
+{tag:"BER_TLV_DATA_ENCODING_TYPE_PRIMITIVE",ref:
+	[
+		{fp:"ofono/src/simutil.h",ki:"enumerator",ln:"272",},
+	],
+},
+{tag:"ber_tlv_data_type",ref:
+	[
+		{fp:"ofono/src/simutil.h",ki:"enum",ln:"264",},
+	],
+},
+{tag:"BER_TLV_DATA_TYPE_APPLICATION",ref:
+	[
+		{fp:"ofono/src/simutil.h",ki:"enumerator",ln:"266",},
+	],
+},
+{tag:"BER_TLV_DATA_TYPE_CONTEXT_SPECIFIC",ref:
+	[
+		{fp:"ofono/src/simutil.h",ki:"enumerator",ln:"267",},
+	],
+},
+{tag:"BER_TLV_DATA_TYPE_PRIVATE",ref:
+	[
+		{fp:"ofono/src/simutil.h",ki:"enumerator",ln:"268",},
+	],
+},
+{tag:"BER_TLV_DATA_TYPE_UNIVERSAL",ref:
+	[
+		{fp:"ofono/src/simutil.h",ki:"enumerator",ln:"265",},
+	],
+},
+{tag:"ber_tlv_find_by_tag",ref:
+	[
+		{fp:"ofono/src/simutil.c",ki:"function",ln:"475",sig:"(const guint8 *pdu, guint8 in_tag, int in_len, int *out_len)",},
+	],
+},
+{tag:"ber_tlv_iter",ref:
+	[
+		{fp:"ofono/src/simutil.h",ki:"struct",ln:"320",},
+	],
+},
+{tag:"ber_tlv_iter_get_class",ref:
+	[
+		{fp:"ofono/src/simutil.c",ki:"function",ln:"329",sig:"(struct ber_tlv_iter *iter)",},
+	],
+},
+{tag:"ber_tlv_iter_get_data",ref:
+	[
+		{fp:"ofono/src/simutil.c",ki:"function",ln:"353",sig:"(struct ber_tlv_iter *iter)",},
+	],
+},
+{tag:"ber_tlv_iter_get_encoding",ref:
+	[
+		{fp:"ofono/src/simutil.c",ki:"function",ln:"335",sig:"(struct ber_tlv_iter *iter)",},
+	],
+},
+{tag:"ber_tlv_iter_get_length",ref:
+	[
+		{fp:"ofono/src/simutil.c",ki:"function",ln:"348",sig:"(struct ber_tlv_iter *iter)",},
+	],
+},
+{tag:"ber_tlv_iter_get_short_tag",ref:
+	[
+		{fp:"ofono/src/simutil.c",ki:"function",ln:"340",sig:"(struct ber_tlv_iter *iter)",},
+	],
+},
+{tag:"ber_tlv_iter_get_tag",ref:
+	[
+		{fp:"ofono/src/simutil.c",ki:"function",ln:"324",sig:"(struct ber_tlv_iter *iter)",},
+	],
+},
+{tag:"ber_tlv_iter_init",ref:
+	[
+		{fp:"ofono/src/simutil.c",ki:"function",ln:"316",sig:"(struct ber_tlv_iter *iter, const unsigned char *pdu, unsigned int len)",},
+	],
+},
+{tag:"ber_tlv_iter_next",ref:
+	[
+		{fp:"ofono/src/simutil.c",ki:"function",ln:"359",sig:"(struct ber_tlv_iter *iter)",},
+	],
+},
+{tag:"ber_tlv_iter_recurse",ref:
+	[
+		{fp:"ofono/src/simutil.c",ki:"function",ln:"455",sig:"(struct ber_tlv_iter *iter, struct ber_tlv_iter *recurse)",},
+	],
+},
+{tag:"ber_tlv_iter_recurse_comprehension",ref:
+	[
+		{fp:"ofono/src/simutil.c",ki:"function",ln:"469",sig:"(struct ber_tlv_iter *iter, struct comprehension_tlv_iter *recurse)",},
+	],
+},
+{tag:"ber_tlv_iter_recurse_simple",ref:
+	[
+		{fp:"ofono/src/simutil.c",ki:"function",ln:"463",sig:"(struct ber_tlv_iter *iter, struct simple_tlv_iter *container)",},
+	],
+},
+{tag:"best_charset",ref:
+	[
+		{fp:"ofono/drivers/atmodem/phonebook.c",ki:"function",ln:"114",sig:"(int supported)",},
+	],
+},
+{tag:"bia_cb",ref:
+	[
+		{fp:"ofono/src/emulator.c",ki:"function",ln:"777",sig:"(GAtServer *server, GAtServerRequestType type, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"BINARY",ref:
+	[
+		{fp:"ofono/src/simutil.c",ki:"macro",ln:"60",},
+	],
+},
+{tag:"binary_ef",ref:
+	[
+		{fp:"ofono/unit/test-simutil.c",ki:"variable",ln:"402",},
+	],
+},
+{tag:"binp_prefix",ref:
+	[
+		{fp:"ofono/drivers/hfpmodem/handsfree.c",ki:"variable",ln:"46",},
+	],
+},
+{tag:"bit_field",ref:
+	[
+		{fp:"ofono/src/smsutil.h",ki:"function",ln:"430",sig:"(unsigned char oct, int start, int num)",},
+	],
+},
+{tag:"bit_field_unpack",ref:
+	[
+		{fp:"ofono/src/cdma-smsutil.c",ki:"function",ln:"116",sig:"(const guint8 *buf, guint16 offset, guint8 nbit)",},
+	],
+},
+{tag:"bitmap",ref:
+	[
+		{fp:"ofono/src/simfs.c",ki:"member",ln:"86",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"368",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"402",},
+	],
+},
+{tag:"BITMAP_SIZE",ref:
+	[
+		{fp:"ofono/gatchat/gatmux.c",ki:"macro",ln:"52",},
+	],
+},
+{tag:"bits",ref:
+	[
+		{fp:"ofono/src/idmap.c",ki:"member",ln:"37",},
+	],
+},
+{tag:"BITS_PER_LONG",ref:
+	[
+		{fp:"ofono/src/idmap.c",ki:"macro",ln:"34",},
+	],
+},
+{tag:"bluetooth_connect",ref:
+	[
+		{fp:"ofono/plugins/bluez4.c",ki:"function",ln:"804",sig:"(DBusConnection *conn, void *user_data)",},
+	],
+},
+{tag:"bluetooth_create_path",ref:
+	[
+		{fp:"ofono/plugins/bluez4.c",ki:"function",ln:"68",sig:"(const char *dev_addr, const char *adapter_addr, char *buf, int size)",},
+	],
+},
+{tag:"bluetooth_device",ref:
+	[
+		{fp:"ofono/dundee/bluez4.c",ki:"struct",ln:"41",},
+		{fp:"ofono/dundee/bluez5.c",ki:"struct",ln:"38",},
+	],
+},
+{tag:"bluetooth_device_connect",ref:
+	[
+		{fp:"ofono/dundee/bluez5.c",ki:"function",ln:"200",sig:"(struct dundee_device *device, dundee_device_connect_cb_t cb, void *data)",},
+	],
+},
+{tag:"bluetooth_device_connect_callback",ref:
+	[
+		{fp:"ofono/dundee/bluez5.c",ki:"function",ln:"184",sig:"(gboolean success, gpointer user_data)",},
+	],
+},
+{tag:"bluetooth_device_create",ref:
+	[
+		{fp:"ofono/dundee/bluez5.c",ki:"function",ln:"232",sig:"(const char *path, const char *address, const char *alias)",},
+	],
+},
+{tag:"bluetooth_device_destroy",ref:
+	[
+		{fp:"ofono/dundee/bluez5.c",ki:"function",ln:"166",sig:"(gpointer user_data)",},
+	],
+},
+{tag:"bluetooth_device_disconnect",ref:
+	[
+		{fp:"ofono/dundee/bluez5.c",ki:"function",ln:"215",sig:"(struct dundee_device *device, dundee_device_disconnect_cb_t cb, void *data)",},
+	],
+},
+{tag:"bluetooth_device_register",ref:
+	[
+		{fp:"ofono/dundee/bluez5.c",ki:"function",ln:"250",sig:"(GDBusProxy *proxy)",},
+	],
+},
+{tag:"bluetooth_device_removed",ref:
+	[
+		{fp:"ofono/dundee/bluez5.c",ki:"function",ln:"345",sig:"(GDBusProxy *proxy, void *user_data)",},
+	],
+},
+{tag:"bluetooth_device_unregister",ref:
+	[
+		{fp:"ofono/dundee/bluez5.c",ki:"function",ln:"301",sig:"(const char *path)",},
+	],
+},
+{tag:"bluetooth_disconnect",ref:
+	[
+		{fp:"ofono/plugins/bluez4.c",ki:"function",ln:"816",sig:"(DBusConnection *conn, void *user_data)",},
+	],
+},
+{tag:"bluetooth_driver",ref:
+	[
+		{fp:"ofono/dundee/bluez4.c",ki:"variable",ln:"136",},
+		{fp:"ofono/dundee/bluez5.c",ki:"variable",ln:"226",},
+	],
+},
+{tag:"bluetooth_get_properties",ref:
+	[
+		{fp:"ofono/plugins/bluez4.c",ki:"function",ln:"906",},
+	],
+},
+{tag:"bluetooth_hash",ref:
+	[
+		{fp:"ofono/dundee/bluez4.c",ki:"variable",ln:"39",},
+	],
+},
+{tag:"bluetooth_parse_properties",ref:
+	[
+		{fp:"ofono/plugins/bluez4.c",ki:"function",ln:"165",sig:"(DBusMessage *reply, const char *property, ...)",},
+	],
+},
+{tag:"bluetooth_probe",ref:
+	[
+		{fp:"ofono/plugins/bluez4.c",ki:"function",ln:"264",sig:"(GSList *uuids, const char *path, const char *device, const char *adapter, const char *alias)",},
+	],
+},
+{tag:"bluetooth_profile",ref:
+	[
+		{fp:"ofono/plugins/bluez4.h",ki:"struct",ln:"39",},
+	],
+},
+{tag:"bluetooth_ref",ref:
+	[
+		{fp:"ofono/plugins/bluez4.c",ki:"function",ln:"832",sig:"(void)",},
+	],
+},
+{tag:"bluetooth_refcount",ref:
+	[
+		{fp:"ofono/plugins/bluez4.c",ki:"variable",ln:"45",},
+	],
+},
+{tag:"bluetooth_register_server",ref:
+	[
+		{fp:"ofono/plugins/bluez4.c",ki:"function",ln:"931",sig:"(guint8 channel, const char *sdp_record, ConnectFunc cb, gpointer user_data)",},
+	],
+},
+{tag:"bluetooth_register_uuid",ref:
+	[
+		{fp:"ofono/plugins/bluez4.c",ki:"function",ln:"912",sig:"(const char *uuid, struct bluetooth_profile *profile)",},
+	],
+},
+{tag:"bluetooth_remove",ref:
+	[
+		{fp:"ofono/plugins/bluez4.c",ki:"function",ln:"716",sig:"(gpointer key, gpointer value, gpointer user_data)",},
+	],
+},
+{tag:"bluetooth_sap_client_register",ref:
+	[
+		{fp:"ofono/plugins/sap.c",ki:"function",ln:"60",sig:"(struct bluetooth_sap_driver *sap, struct ofono_modem *modem)",},
+	],
+},
+{tag:"bluetooth_sap_client_unregister",ref:
+	[
+		{fp:"ofono/plugins/sap.c",ki:"function",ln:"74",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"bluetooth_sap_driver",ref:
+	[
+		{fp:"ofono/plugins/bluez4.h",ki:"struct",ln:"47",},
+	],
+},
+{tag:"bluetooth_sap_probe",ref:
+	[
+		{fp:"ofono/plugins/sap.c",ki:"function",ln:"238",sig:"(const char *device, const char *dev_addr, const char *adapter_addr, const char *alias)",},
+	],
+},
+{tag:"bluetooth_sap_remove",ref:
+	[
+		{fp:"ofono/plugins/sap.c",ki:"function",ln:"271",sig:"(const char *prefix)",},
+	],
+},
+{tag:"bluetooth_sap_set_alias",ref:
+	[
+		{fp:"ofono/plugins/sap.c",ki:"function",ln:"293",sig:"(const char *device, const char *alias)",},
+	],
+},
+{tag:"bluetooth_send_with_reply",ref:
+	[
+		{fp:"ofono/plugins/bluez4.c",ki:"function",ln:"91",sig:"(const char *path, const char *interface, const char *method, DBusPendingCall **call, DBusPendingCallNotifyFunction cb, void *user_data, DBusFreeFunction free_func, int timeout, int type, ...)",},
+	],
+},
+{tag:"bluetooth_unref",ref:
+	[
+		{fp:"ofono/plugins/bluez4.c",ki:"function",ln:"889",sig:"(void)",},
+	],
+},
+{tag:"bluetooth_unregister_server",ref:
+	[
+		{fp:"ofono/plugins/bluez4.c",ki:"function",ln:"970",sig:"(struct server *server)",},
+	],
+},
+{tag:"bluetooth_unregister_uuid",ref:
+	[
+		{fp:"ofono/plugins/bluez4.c",ki:"function",ln:"924",sig:"(const char *uuid)",},
+	],
+},
+{tag:"bluetooth_watch",ref:
+	[
+		{fp:"ofono/plugins/bluez4.c",ki:"variable",ln:"826",},
+	],
+},
+{tag:"bluez",ref:
+	[
+		{fp:"ofono/dundee/bluez5.c",ki:"variable",ln:"35",},
+		{fp:"ofono/plugins/hfp_hf_bluez5.c",ki:"variable",ln:"75",},
+	],
+},
+{tag:"BLUEZ_ADAPTER_INTERFACE",ref:
+	[
+		{fp:"ofono/plugins/bluez4.h",ki:"macro",ln:"27",},
+	],
+},
+{tag:"BLUEZ_DEVICE_INTERFACE",ref:
+	[
+		{fp:"ofono/plugins/bluez4.h",ki:"macro",ln:"28",},
+		{fp:"ofono/plugins/bluez5.h",ki:"macro",ln:"25",},
+	],
+},
+{tag:"BLUEZ_ERROR_INTERFACE",ref:
+	[
+		{fp:"ofono/plugins/bluez5.h",ki:"macro",ln:"26",},
+	],
+},
+{tag:"BLUEZ_GATEWAY_INTERFACE",ref:
+	[
+		{fp:"ofono/plugins/hfp_hf_bluez4.c",ki:"macro",ln:"53",},
+	],
+},
+{tag:"BLUEZ_MANAGER_INTERFACE",ref:
+	[
+		{fp:"ofono/plugins/bluez4.h",ki:"macro",ln:"26",},
+	],
+},
+{tag:"BLUEZ_MANAGER_PATH",ref:
+	[
+		{fp:"ofono/plugins/bluez5.h",ki:"macro",ln:"23",},
+	],
+},
+{tag:"BLUEZ_PROFILE_INTERFACE",ref:
+	[
+		{fp:"ofono/plugins/bluez5.h",ki:"macro",ln:"24",},
+	],
+},
+{tag:"BLUEZ_PROFILE_MGMT_INTERFACE",ref:
+	[
+		{fp:"ofono/plugins/bluez5.c",ki:"macro",ln:"41",},
+	],
+},
+{tag:"BLUEZ_SERIAL_INTERFACE",ref:
+	[
+		{fp:"ofono/plugins/bluez4.h",ki:"macro",ln:"30",},
+		{fp:"ofono/plugins/sap.c",ki:"macro",ln:"47",},
+	],
+},
+{tag:"BLUEZ_SERVICE",ref:
+	[
+		{fp:"ofono/plugins/bluez4.h",ki:"macro",ln:"25",},
+		{fp:"ofono/plugins/bluez5.h",ki:"macro",ln:"22",},
+	],
+},
+{tag:"BLUEZ_SERVICE_INTERFACE",ref:
+	[
+		{fp:"ofono/plugins/bluez4.h",ki:"macro",ln:"29",},
+	],
+},
+{tag:"bootstrap_current_state",ref:
+	[
+		{fp:"ofono/plugins/isiusb.c",ki:"function",ln:"186",sig:"(gpointer user)",},
+		{fp:"ofono/plugins/u8500.c",ki:"function",ln:"214",sig:"(gpointer user)",},
+	],
+},
+{tag:"bring_up",ref:
+	[
+		{fp:"ofono/gisi/netlink.c",ki:"function",ln:"82",sig:"(unsigned ifindex)",},
+	],
+},
+{tag:"broadcast_msg",ref:
+	[
+		{fp:"ofono/src/cdma-smsutil.h",ki:"member",ln:"284",},
+	],
+},
+{tag:"broadcast_network_info",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1526",},
+	],
+},
+{tag:"browser_id",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1289",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"14911",},
+	],
+},
+{tag:"browser_termination",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1691",},
+	],
+},
+{tag:"browsing_status",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1715",},
+	],
+},
+{tag:"brsf_cb",ref:
+	[
+		{fp:"ofono/drivers/hfpmodem/slc.c",ki:"function",ln:"293",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+		{fp:"ofono/src/emulator.c",ki:"function",ln:"440",sig:"(GAtServer *server, GAtServerRequestType type, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"brsf_prefix",ref:
+	[
+		{fp:"ofono/drivers/hfpmodem/slc.c",ki:"variable",ln:"44",},
+	],
+},
+{tag:"bsc",ref:
+	[
+		{fp:"ofono/drivers/isimodem/call-forwarding.c",ki:"member",ln:"52",},
+	],
+},
+{tag:"bsir_notify",ref:
+	[
+		{fp:"ofono/drivers/hfpmodem/handsfree.c",ki:"function",ln:"69",sig:"(GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"bt_ba2str",ref:
+	[
+		{fp:"ofono/src/bluetooth.h",ki:"function",ln:"71",sig:"(const bdaddr_t *ba, char *str)",},
+	],
+},
+{tag:"bt_bacmp",ref:
+	[
+		{fp:"ofono/src/bluetooth.h",ki:"function",ln:"77",sig:"(const bdaddr_t *ba1, const bdaddr_t *ba2)",},
+	],
+},
+{tag:"bt_bacpy",ref:
+	[
+		{fp:"ofono/src/bluetooth.h",ki:"function",ln:"66",sig:"(bdaddr_t *dst, const bdaddr_t *src)",},
+	],
+},
+{tag:"bt_connect",ref:
+	[
+		{fp:"ofono/dundee/bluez4.c",ki:"function",ln:"110",sig:"(struct dundee_device *device, dundee_device_connect_cb_t cb, void *data)",},
+	],
+},
+{tag:"bt_connect_profile",ref:
+	[
+		{fp:"ofono/plugins/bluez5.c",ki:"function",ln:"234",sig:"(DBusConnection *conn, const char *device, const char *uuid, bt_finish_cb cb, gpointer user_data)",},
+	],
+},
+{tag:"bt_connect_reply",ref:
+	[
+		{fp:"ofono/dundee/bluez4.c",ki:"function",ln:"65",sig:"(DBusPendingCall *call, gpointer user_data)",},
+	],
+},
+{tag:"BT_DEFER_SETUP",ref:
+	[
+		{fp:"ofono/src/bluetooth.h",ki:"macro",ln:"35",},
+	],
+},
+{tag:"bt_disconnect",ref:
+	[
+		{fp:"ofono/dundee/bluez4.c",ki:"function",ln:"53",sig:"(struct dundee_device *device, dundee_device_disconnect_cb_t cb, void *data)",},
+	],
+},
+{tag:"bt_disconnect_profile",ref:
+	[
+		{fp:"ofono/plugins/bluez5.c",ki:"function",ln:"242",sig:"(DBusConnection *conn, const char *device, const char *uuid, bt_finish_cb cb, gpointer user_data)",},
+	],
+},
+{tag:"bt_event_cb",ref:
+	[
+		{fp:"ofono/plugins/telit.c",ki:"function",ln:"118",sig:"(GIOChannel *bt_io, GIOCondition condition, gpointer userdata)",},
+	],
+},
+{tag:"bt_finish_cb",ref:
+	[
+		{fp:"ofono/plugins/bluez5.h",ki:"typedef",ln:"39",},
+	],
+},
+{tag:"BT_FLUSHABLE",ref:
+	[
+		{fp:"ofono/btio/btio.c",ki:"macro",ln:"42",},
+	],
+},
+{tag:"bt_io",ref:
+	[
+		{fp:"ofono/plugins/telit.c",ki:"member",ln:"73",},
+	],
+},
+{tag:"bt_io_accept",ref:
+	[
+		{fp:"ofono/btio/btio.c",ki:"function",ln:"1177",sig:"(GIOChannel *io, BtIOConnect connect, gpointer user_data, GDestroyNotify destroy, GError **err)",},
+	],
+},
+{tag:"bt_io_connect",ref:
+	[
+		{fp:"ofono/btio/btio.c",ki:"function",ln:"1344",sig:"(BtIOType type, BtIOConnect connect, gpointer user_data, GDestroyNotify destroy, GError **gerr, BtIOOption opt1, ...)",},
+	],
+},
+{tag:"BT_IO_ERROR",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"macro",ln:"36",},
+	],
+},
+{tag:"BT_IO_ERROR_CONNECT_FAILED",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"31",},
+	],
+},
+{tag:"BT_IO_ERROR_DISCONNECTED",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"30",},
+	],
+},
+{tag:"BT_IO_ERROR_FAILED",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"32",},
+	],
+},
+{tag:"BT_IO_ERROR_INVALID_ARGS",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"33",},
+	],
+},
+{tag:"bt_io_error_quark",ref:
+	[
+		{fp:"ofono/btio/btio.c",ki:"function",ln:"1444",sig:"(void)",},
+	],
+},
+{tag:"bt_io_get",ref:
+	[
+		{fp:"ofono/btio/btio.c",ki:"function",ln:"1242",sig:"(GIOChannel *io, BtIOType type, GError **err, BtIOOption opt1, ...)",},
+	],
+},
+{tag:"BT_IO_H",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"macro",ln:"25",},
+	],
+},
+{tag:"BT_IO_L2CAP",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"42",},
+	],
+},
+{tag:"BT_IO_L2ERTM",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"43",},
+	],
+},
+{tag:"BT_IO_L2RAW",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"41",},
+	],
+},
+{tag:"bt_io_listen",ref:
+	[
+		{fp:"ofono/btio/btio.c",ki:"function",ln:"1399",sig:"(BtIOType type, BtIOConnect connect, BtIOConfirm confirm, gpointer user_data, GDestroyNotify destroy, GError **err, BtIOOption opt1, ...)",},
+	],
+},
+{tag:"BT_IO_MODE_BASIC",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"81",},
+	],
+},
+{tag:"BT_IO_MODE_ERTM",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"84",},
+	],
+},
+{tag:"BT_IO_MODE_FLOWCTL",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"83",},
+	],
+},
+{tag:"BT_IO_MODE_RETRANS",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"82",},
+	],
+},
+{tag:"BT_IO_MODE_STREAMING",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"85",},
+	],
+},
+{tag:"BT_IO_OPT_CHANNEL",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"57",},
+	],
+},
+{tag:"BT_IO_OPT_CID",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"61",},
+	],
+},
+{tag:"BT_IO_OPT_CLASS",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"67",},
+	],
+},
+{tag:"BT_IO_OPT_DEFER_TIMEOUT",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"54",},
+	],
+},
+{tag:"BT_IO_OPT_DEST",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"52",},
+	],
+},
+{tag:"BT_IO_OPT_DEST_BDADDR",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"53",},
+	],
+},
+{tag:"BT_IO_OPT_DEST_CHANNEL",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"59",},
+	],
+},
+{tag:"BT_IO_OPT_FLUSHABLE",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"69",},
+	],
+},
+{tag:"BT_IO_OPT_HANDLE",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"66",},
+	],
+},
+{tag:"BT_IO_OPT_IMTU",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"64",},
+	],
+},
+{tag:"BT_IO_OPT_INVALID",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"49",},
+	],
+},
+{tag:"BT_IO_OPT_KEY_SIZE",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"56",},
+	],
+},
+{tag:"BT_IO_OPT_MASTER",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"65",},
+	],
+},
+{tag:"BT_IO_OPT_MODE",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"68",},
+	],
+},
+{tag:"BT_IO_OPT_MTU",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"62",},
+	],
+},
+{tag:"BT_IO_OPT_OMTU",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"63",},
+	],
+},
+{tag:"BT_IO_OPT_PRIORITY",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"70",},
+	],
+},
+{tag:"BT_IO_OPT_PSM",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"60",},
+	],
+},
+{tag:"BT_IO_OPT_SEC_LEVEL",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"55",},
+	],
+},
+{tag:"BT_IO_OPT_SOURCE",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"50",},
+	],
+},
+{tag:"BT_IO_OPT_SOURCE_BDADDR",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"51",},
+	],
+},
+{tag:"BT_IO_OPT_SOURCE_CHANNEL",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"58",},
+	],
+},
+{tag:"BT_IO_RFCOMM",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"44",},
+	],
+},
+{tag:"BT_IO_SCO",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"45",},
+	],
+},
+{tag:"BT_IO_SEC_HIGH",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"77",},
+	],
+},
+{tag:"BT_IO_SEC_LOW",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"75",},
+	],
+},
+{tag:"BT_IO_SEC_MEDIUM",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"76",},
+	],
+},
+{tag:"BT_IO_SEC_SDP",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"enumerator",ln:"74",},
+	],
+},
+{tag:"bt_io_set",ref:
+	[
+		{fp:"ofono/btio/btio.c",ki:"function",ln:"1207",sig:"(GIOChannel *io, BtIOType type, GError **err, BtIOOption opt1, ...)",},
+	],
+},
+{tag:"bt_probe",ref:
+	[
+		{fp:"ofono/dundee/bluez4.c",ki:"function",ln:"142",sig:"(const char *path, const char *dev_addr, const char *adapter_addr, const char *alias)",},
+	],
+},
+{tag:"bt_register_profile",ref:
+	[
+		{fp:"ofono/plugins/bluez5.c",ki:"function",ln:"93",sig:"(DBusConnection *conn, const char *uuid, uint16_t version, const char *name, const char *object, const char *role, uint16_t features)",},
+	],
+},
+{tag:"bt_remove",ref:
+	[
+		{fp:"ofono/dundee/bluez4.c",ki:"function",ln:"238",sig:"(const char *prefix)",},
+	],
+},
+{tag:"bt_remove_device",ref:
+	[
+		{fp:"ofono/dundee/bluez4.c",ki:"function",ln:"221",sig:"(gpointer key, gpointer value, gpointer user_data)",},
+	],
+},
+{tag:"bt_set_alias",ref:
+	[
+		{fp:"ofono/dundee/bluez4.c",ki:"function",ln:"249",sig:"(const char *path, const char *alias)",},
+	],
+},
+{tag:"bt_str2ba",ref:
+	[
+		{fp:"ofono/src/bluetooth.h",ki:"function",ln:"82",sig:"(const char *str, bdaddr_t *ba)",},
+	],
+},
+{tag:"bt_unregister_profile",ref:
+	[
+		{fp:"ofono/plugins/bluez5.c",ki:"function",ln:"138",sig:"(DBusConnection *conn, const char *object)",},
+	],
+},
+{tag:"bt_voice",ref:
+	[
+		{fp:"ofono/src/bluetooth.h",ki:"struct",ln:"39",},
+	],
+},
+{tag:"BT_VOICE",ref:
+	[
+		{fp:"ofono/src/bluetooth.h",ki:"macro",ln:"38",},
+	],
+},
+{tag:"BT_VOICE_CVSD_16BIT",ref:
+	[
+		{fp:"ofono/src/bluetooth.h",ki:"macro",ln:"44",},
+	],
+},
+{tag:"BT_VOICE_TRANSPARENT",ref:
+	[
+		{fp:"ofono/src/bluetooth.h",ki:"macro",ln:"43",},
+	],
+},
+{tag:"bt_watch",ref:
+	[
+		{fp:"ofono/plugins/telit.c",ki:"member",ln:"75",},
+	],
+},
+{tag:"bt_watch_remove",ref:
+	[
+		{fp:"ofono/plugins/telit.c",ki:"function",ln:"108",sig:"(gpointer userdata)",},
+	],
+},
+{tag:"BtIOConfirm",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"typedef",ln:"88",},
+	],
+},
+{tag:"BtIOConnect",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"typedef",ln:"90",},
+	],
+},
+{tag:"BtIOError",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"typedef",ln:"34",},
+	],
+},
+{tag:"BtIOMode",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"typedef",ln:"86",},
+	],
+},
+{tag:"BtIOOption",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"typedef",ln:"71",},
+	],
+},
+{tag:"BtIOSecLevel",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"typedef",ln:"78",},
+	],
+},
+{tag:"BtIOType",ref:
+	[
+		{fp:"ofono/btio/btio.h",ki:"typedef",ln:"46",},
+	],
+},
+{tag:"BTLV_LEN_FIELD_SIZE_NEEDED",ref:
+	[
+		{fp:"ofono/src/simutil.c",ki:"macro",ln:"513",},
+	],
+},
+{tag:"BTLV_TAG_FIELD_SIZE_NEEDED",ref:
+	[
+		{fp:"ofono/src/simutil.c",ki:"macro",ln:"519",},
+	],
+},
+{tag:"BTPROTO_SCO",ref:
+	[
+		{fp:"ofono/src/bluetooth.h",ki:"macro",ln:"27",},
+	],
+},
+{tag:"buf",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"93",},
+		{fp:"ofono/gatchat/gatio.c",ki:"member",ln:"46",},
+		{fp:"ofono/gatchat/gatmux.c",ki:"member",ln:"87",},
+		{fp:"ofono/gatchat/gatresult.h",ki:"member",ln:"41",},
+	],
+},
+{tag:"BUF_SIZE",ref:
+	[
+		{fp:"ofono/gatchat/gatserver.c",ki:"macro",ln:"36",},
+	],
+},
+{tag:"buf_size",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1307",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1558",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"15586",},
+	],
+},
+{tag:"buf_used",ref:
+	[
+		{fp:"ofono/gatchat/gatmux.c",ki:"member",ln:"88",},
+	],
+},
+{tag:"buffer",ref:
+	[
+		{fp:"ofono/gatchat/gatmux.c",ki:"member",ln:"61",},
+		{fp:"ofono/gatchat/ringbuffer.c",ki:"member",ln:"35",},
+		{fp:"ofono/src/simfs.c",ki:"member",ln:"61",},
+	],
+},
+{tag:"BUFFER_SIZE",ref:
+	[
+		{fp:"ofono/gatchat/gathdlc.c",ki:"macro",ln:"41",},
+	],
+},
+{tag:"build_cmer_string",ref:
+	[
+		{fp:"ofono/drivers/atmodem/network-registration.c",ki:"function",ln:"1547",sig:"(char *buf, int *cmer_opts, struct netreg_data *nd)",},
+	],
+},
+{tag:"build_cnmi_string",ref:
+	[
+		{fp:"ofono/drivers/atmodem/sms.c",ki:"function",ln:"794",sig:"(char *buf, int *cnmi_opts, struct sms_data *data)",},
+	],
+},
+{tag:"build_dataobj",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"5447",sig:"(struct stk_tlv_builder *tlv, dataobj_writer builder_func, ...)",},
+	],
+},
+{tag:"build_dataobj_access_technologies",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"5013",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_access_technology",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"5031",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_address",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4167",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_alpha_id",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4188",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_at_response",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4780",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_battery_state",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"5176",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_bc_repeat",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4804",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_bcch_channel_list",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4658",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_bearer_description",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4864",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_broadcast_network_information",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"5353",sig:"( struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_browser_termination_cause",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4851",sig:"( struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_browsing_status",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"5188",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_buffer_size",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4916",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_card_reader_status",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4706",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_cause",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4607",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_cbs_page",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4243",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_cc_requested_action",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4691",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_ccp",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4227",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_channel_data",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4891",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_channel_data_length",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4903",sig:"( struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_channel_status",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4928",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_datetime_timezone",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4760",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_display_parameters",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"5043",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_duration",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4274",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_eps_pdn_conn_params",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"5411",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_esn",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"5103",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_event_list",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4583",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_event_type",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4595",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_file",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4458",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_file_list",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4433",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_frames_information",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"5200",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_gsm_sms_tpdu",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4311",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_help_request",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4551",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_i_wlan_access_status",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"5283",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_imei",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4525",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_imeisv",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"5138",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_item_id",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4259",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_language",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4819",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_last_envelope",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"5307",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_location_info",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4470",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_location_status",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4622",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_meid",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"5226",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_mms_id",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"5247",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_mms_notification",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"5295",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_mms_transfer_status",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"5264",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_network_measurement_results",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4565",sig:"( struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_network_search_mode",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"5164",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_other_address",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4962",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_pdp_context_params",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"5116",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_registry_application_data",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"5321",sig:"( struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_rejection_cause_code",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"5399",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_remote_entity_address",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"5071",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_result",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4290",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_routing_area_id",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"5367",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_service_record",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"5057",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_ss_string",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4333",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_subaddress",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4212",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_text",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4354",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_timer_id",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4726",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_timer_value",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4741",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_timing_advance",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4838",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_tracking_area_id",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"5429",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_transaction_id",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4646",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_transaction_ids",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4634",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_uicc_te_interface",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4997",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_update_attach_type",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"5387",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_ussd_string",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4417",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_dataobj_ussd_text",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4392",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_empty_dataobj_location_info",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"4511",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_envelope_call_control",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"5869",sig:"( struct stk_tlv_builder *builder, const struct stk_envelope *envelope)",},
+	],
+},
+{tag:"build_envelope_dataobj_device_ids",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"5857",sig:"(struct stk_tlv_builder *tlv, const void *data, gboolean cr)",},
+	],
+},
+{tag:"build_envelope_event_download",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"5919",sig:"(struct stk_tlv_builder *builder, const struct stk_envelope *envelope)",},
+	],
+},
+{tag:"build_envelope_terminal_apps",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"6082",sig:"(struct stk_tlv_builder *builder, const struct stk_envelope *envelope)",},
+	],
+},
+{tag:"build_local_info",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"5490",sig:"(struct stk_tlv_builder *builder, const struct stk_response *response)",},
+	],
+},
+{tag:"build_open_channel",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"5632",sig:"(struct stk_tlv_builder *builder, const struct stk_response *response)",},
+	],
+},
+{tag:"BUILD_PIN_RETRIES_ARRAY",ref:
+	[
+		{fp:"ofono/drivers/atmodem/sim.c",ki:"macro",ln:"478",},
+	],
+},
+{tag:"build_receive_data",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"5654",sig:"(struct stk_tlv_builder *builder, const struct stk_response *response)",},
+	],
+},
+{tag:"build_send_data",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"5678",sig:"(struct stk_tlv_builder *builder, const struct stk_response *response)",},
+	],
+},
+{tag:"build_setup_call",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"5470",sig:"(struct stk_tlv_builder *builder, const struct stk_response *response)",},
+	],
+},
+{tag:"builtin_security_data",ref:
+	[
+		{fp:"ofono/gdbus/object.c",ki:"struct",ln:"349",},
+	],
+},
+{tag:"builtin_security_function",ref:
+	[
+		{fp:"ofono/gdbus/object.c",ki:"function",ln:"367",sig:"(DBusConnection *conn, const char *action, gboolean interaction, GDBusPendingReply pending)",},
+	],
+},
+{tag:"builtin_security_result",ref:
+	[
+		{fp:"ofono/gdbus/object.c",ki:"function",ln:"354",sig:"(dbus_bool_t authorized, void *user_data)",},
+	],
+},
+{tag:"bus",ref:
+	[
+		{fp:"ofono/src/gnssagent.c",ki:"member",ln:"40",},
+		{fp:"ofono/src/stkagent.c",ki:"member",ln:"53",},
+	],
+},
+{tag:"BUSY_ERROR",ref:
+	[
+		{fp:"ofono/src/stkagent.c",ki:"macro",ln:"73",},
+	],
+},
+{tag:"busy_notify",ref:
+	[
+		{fp:"ofono/drivers/atmodem/voicecall.c",ki:"function",ln:"980",sig:"(GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"bvra_notify",ref:
+	[
+		{fp:"ofono/drivers/hfpmodem/handsfree.c",ki:"function",ln:"86",sig:"(GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"bvra_prefix",ref:
+	[
+		{fp:"ofono/drivers/hfpmodem/handsfree.c",ki:"variable",ln:"47",},
+	],
+},
+])

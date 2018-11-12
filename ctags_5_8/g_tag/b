@@ -1,0 +1,390 @@
+([
+{tag:"BACK_REFERENCE_COUNT",ref:
+	[
+		{fp:"ctags/lregex.c",ki:"macro",ln:"45",},
+	],
+},
+{tag:"BACK_SLASH",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"237",},
+	],
+},
+{tag:"background_process",ref:
+	[
+		{fp:"ctags/argproc.c",ki:"function",ln:"468",},
+	],
+},
+{tag:"BACKSLASH",ref:
+	[
+		{fp:"ctags/read.h",ki:"enumerator",ln:"61",},
+	],
+},
+{tag:"backward",ref:
+	[
+		{fp:"ctags/options.h",ki:"member",ln:"90",},
+	],
+},
+{tag:"baseFilename",ref:
+	[
+		{fp:"ctags/routines.c",ki:"function",ln:"567",sig:"(const char *const filePath)",},
+	],
+},
+{tag:"BasicKind",ref:
+	[
+		{fp:"ctags/basic.c",ki:"typedef",ln:"38",},
+	],
+},
+{tag:"BasicKinds",ref:
+	[
+		{fp:"ctags/basic.c",ki:"variable",ln:"46",},
+	],
+},
+{tag:"BasicParser",ref:
+	[
+		{fp:"ctags/basic.c",ki:"function",ln:"192",sig:"(void)",},
+	],
+},
+{tag:"BCC",ref:
+	[
+		{fp:"ctags/mk_bc5.mak",ki:"macro",ln:"12",},
+	],
+},
+{tag:"BCCLOC",ref:
+	[
+		{fp:"ctags/mk_bc3.mak",ki:"macro",ln:"8",},
+	],
+},
+{tag:"BE",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"101",},
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"99",},
+	],
+},
+{tag:"begin_end_nest_lvl",ref:
+	[
+		{fp:"ctags/sql.c",ki:"member",ln:"165",},
+	],
+},
+{tag:"beginEtagsFile",ref:
+	[
+		{fp:"ctags/entry.c",ki:"function",ln:"544",sig:"(void)",},
+	],
+},
+{tag:"betaKind",ref:
+	[
+		{fp:"ctags/beta.c",ki:"typedef",ln:"38",},
+	],
+},
+{tag:"BetaKinds",ref:
+	[
+		{fp:"ctags/beta.c",ki:"variable",ln:"40",},
+	],
+},
+{tag:"BetaParser",ref:
+	[
+		{fp:"ctags/beta.c",ki:"function",ln:"310",sig:"(void)",},
+	],
+},
+{tag:"BIN_TREE_STORAGE_SIZE",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"460",},
+	],
+},
+{tag:"bin_tree_storage_t",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"struct",ln:"463",},
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"typedef",ln:"468",},
+	],
+},
+{tag:"bin_tree_t",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"struct",ln:"444",},
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"typedef",ln:"458",},
+	],
+},
+{tag:"bitset_clear",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"150",},
+	],
+},
+{tag:"bitset_contain",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"152",},
+	],
+},
+{tag:"bitset_copy",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"156",},
+	],
+},
+{tag:"bitset_empty",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"154",},
+	],
+},
+{tag:"bitset_mask",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"function",ln:"712",sig:"(bitset_t dest, const bitset_t src)",},
+	],
+},
+{tag:"bitset_merge",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"function",ln:"704",sig:"(bitset_t dest, const bitset_t src)",},
+	],
+},
+{tag:"bitset_not",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"function",ln:"696",sig:"(bitset_t set)",},
+	],
+},
+{tag:"bitset_set",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"148",},
+	],
+},
+{tag:"bitset_set_all",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"155",},
+	],
+},
+{tag:"bitset_t",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"typedef",ln:"144",},
+	],
+},
+{tag:"BITSET_WORD_BITS",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"141",},
+	],
+},
+{tag:"BITSET_WORD_MAX",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"139",},
+	],
+},
+{tag:"bitset_word_t",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"typedef",ln:"137",},
+	],
+},
+{tag:"BITSET_WORDS",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"143",},
+	],
+},
+{tag:"bkref_ents",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"588",},
+	],
+},
+{tag:"blitzbasic_keywords",ref:
+	[
+		{fp:"ctags/basic.c",ki:"variable",ln:"55",},
+	],
+},
+{tag:"blockName",ref:
+	[
+		{fp:"ctags/c.c",ki:"member",ln:"205",},
+	],
+},
+{tag:"boolean",ref:
+	[
+		{fp:"ctags/general.h",ki:"typedef",ln:"101",},
+		{fp:"ctags/general.h",ki:"typedef",ln:"94",},
+		{fp:"ctags/general.h",ki:"typedef",ln:"97",},
+		{fp:"ctags/main.c",ki:"macro",ln:"57",},
+		{fp:"ctags/main.c",ki:"macro",ln:"63",},
+	],
+},
+{tag:"booleanOption",ref:
+	[
+		{fp:"ctags/options.c",ki:"typedef",ln:"88",},
+	],
+},
+{tag:"BooleanOptions",ref:
+	[
+		{fp:"ctags/options.c",ki:"variable",ln:"1396",},
+	],
+},
+{tag:"booleanType",ref:
+	[
+		{fp:"ctags/general.h",ki:"typedef",ln:"93",},
+	],
+},
+{tag:"boolString",ref:
+	[
+		{fp:"ctags/c.c",ki:"macro",ln:"570",},
+	],
+},
+{tag:"BraceFormat",ref:
+	[
+		{fp:"ctags/get.c",ki:"variable",ln:"82",},
+	],
+},
+{tag:"bracket_elem_t",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"typedef",ln:"691",},
+	],
+},
+{tag:"bracket_elem_type",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"typedef",ln:"680",},
+	],
+},
+{tag:"BRACKET_NAME_BUF_SIZE",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"macro",ln:"2563",},
+	],
+},
+{tag:"branchChosen",ref:
+	[
+		{fp:"ctags/get.c",ki:"member",ln:"48",},
+	],
+},
+{tag:"breakLine",ref:
+	[
+		{fp:"ctags/options.h",ki:"member",ln:"113",},
+	],
+},
+{tag:"BUF_FIRST",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"177",},
+	],
+},
+{tag:"BUF_LAST",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"178",},
+	],
+},
+{tag:"buffer",ref:
+	[
+		{fp:"ctags/readtags.c",ki:"member",ln:"34",},
+		{fp:"ctags/vstring.h",ki:"member",ln:"57",},
+	],
+},
+{tag:"bufs_len",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"343",},
+	],
+},
+{tag:"BUGS",ref:
+	[
+		{fp:"ctags/ctags.html",ki:"anchor",ln:"1864",},
+	],
+},
+{tag:"build_charclass",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"function",ln:"3460",sig:"(RE_TRANSLATE_TYPE trans, bitset_t sbcset, re_charset_t *mbcset, int *char_class_alloc, const unsigned char *class_name, reg_syntax_t syntax)",},
+	],
+},
+{tag:"BUILD_CHARCLASS_LOOP",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"macro",ln:"3495",},
+	],
+},
+{tag:"build_charclass_op",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"function",ln:"3542",sig:"(re_dfa_t *dfa, RE_TRANSLATE_TYPE trans, const unsigned char *class_name, const unsigned char *extra, int non_match, reg_errcode_t *err)",},
+	],
+},
+{tag:"build_collating_symbol",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"function",ln:"2697",sig:"(bitset_t sbcset, re_charset_t *mbcset, int *coll_sym_alloc, const unsigned char *name)",},
+	],
+},
+{tag:"build_equiv_class",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"function",ln:"3364",sig:"(bitset_t sbcset, re_charset_t *mbcset, int *equiv_class_alloc, const unsigned char *name)",},
+	],
+},
+{tag:"BUILD_MPW_TOOL",ref:
+	[
+		{fp:"ctags/e_mac.h",ki:"macro",ln:"18",},
+	],
+},
+{tag:"build_range_exp",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"function",ln:"2576",sig:"(bitset_t sbcset, re_charset_t *mbcset, int *range_alloc, bracket_elem_t *start_elem, bracket_elem_t *end_elem)",},
+	],
+},
+{tag:"build_sifted_states",ref:
+	[
+		{fp:"ctags/gnu_regex/regexec.c",ki:"function",ln:"1647",sig:"(const re_match_context_t *mctx, re_sift_context_t *sctx, int str_idx, re_node_set *cur_dest)",},
+	],
+},
+{tag:"build_trtable",ref:
+	[
+		{fp:"ctags/gnu_regex/regexec.c",ki:"function",ln:"3299",sig:"(const re_dfa_t *dfa, re_dfastate_t *state)",},
+	],
+},
+{tag:"build_upper_buffer",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.c",ki:"function",ln:"519",sig:"(re_string_t *pstr)",},
+	],
+},
+{tag:"build_wcs_buffer",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.c",ki:"function",ln:"196",sig:"(re_string_t *pstr)",},
+	],
+},
+{tag:"build_wcs_upper_buffer",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.c",ki:"function",ln:"264",sig:"(re_string_t *pstr)",},
+	],
+},
+{tag:"buildAsmKeywordHash",ref:
+	[
+		{fp:"ctags/asm.c",ki:"function",ln:"119",sig:"(void)",},
+	],
+},
+{tag:"buildEiffelKeywordHash",ref:
+	[
+		{fp:"ctags/eiffel.c",ki:"function",ln:"217",sig:"(void)",},
+	],
+},
+{tag:"buildFlexKeywordHash",ref:
+	[
+		{fp:"ctags/flex.c",ki:"function",ln:"207",sig:"(void)",},
+	],
+},
+{tag:"buildFortranKeywordHash",ref:
+	[
+		{fp:"ctags/fortran.c",ki:"function",ln:"397",sig:"(void)",},
+	],
+},
+{tag:"buildJsKeywordHash",ref:
+	[
+		{fp:"ctags/jscript.c",ki:"function",ln:"179",sig:"(void)",},
+	],
+},
+{tag:"buildKeywordHash",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"2824",sig:"(const langType language, unsigned int idx)",},
+	],
+},
+{tag:"buildSqlKeywordHash",ref:
+	[
+		{fp:"ctags/sql.c",ki:"function",ln:"391",sig:"(void)",},
+	],
+},
+{tag:"buildTexKeywordHash",ref:
+	[
+		{fp:"ctags/tex.c",ki:"function",ln:"156",sig:"(void)",},
+	],
+},
+{tag:"BuiltInParsers",ref:
+	[
+		{fp:"ctags/parse.c",ki:"variable",ln:"33",},
+	],
+},
+{tag:"byteCount",ref:
+	[
+		{fp:"ctags/entry.h",ki:"member",ln:"43",},
+	],
+},
+{tag:"bytes",ref:
+	[
+		{fp:"ctags/main.c",ki:"member",ln:"94",},
+	],
+},
+])

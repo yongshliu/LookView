@@ -1,0 +1,438 @@
+([
+{tag:"hackReject",ref:
+	[
+		{fp:"ctags/sh.c",ki:"function",ln:"44",sig:"(const vString* const tagName)",},
+	],
+},
+{tag:"halt",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"507",},
+	],
+},
+{tag:"handleDirective",ref:
+	[
+		{fp:"ctags/get.c",ki:"function",ln:"401",sig:"(const int c)",},
+	],
+},
+{tag:"handler",ref:
+	[
+		{fp:"ctags/options.c",ki:"member",ln:"80",},
+	],
+},
+{tag:"has_backref",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"513",},
+	],
+},
+{tag:"has_constraint",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"514",},
+	],
+},
+{tag:"has_mb_node",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"652",},
+	],
+},
+{tag:"has_plural_match",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"648",},
+	],
+},
+{tag:"hasAtLiteralStrings",ref:
+	[
+		{fp:"ctags/get.c",ki:"member",ln:"66",},
+	],
+},
+{tag:"hash",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"500",},
+	],
+},
+{tag:"HASH_EXPONENT",ref:
+	[
+		{fp:"ctags/keyword.c",ki:"macro",ln:"27",},
+	],
+},
+{tag:"hashEntry",ref:
+	[
+		{fp:"ctags/keyword.c",ki:"typedef",ln:"37",},
+	],
+},
+{tag:"HashTable",ref:
+	[
+		{fp:"ctags/keyword.c",ki:"variable",ln:"43",},
+	],
+},
+{tag:"hashValue",ref:
+	[
+		{fp:"ctags/keyword.c",ki:"function",ln:"78",sig:"(const char *const string)",},
+	],
+},
+{tag:"HAVE__FINDFIRST",ref:
+	[
+		{fp:"ctags/e_msoft.h",ki:"macro",ln:"49",},
+		{fp:"ctags/e_msoft.h",ki:"macro",ln:"68",},
+	],
+},
+{tag:"HAVE_CHMOD",ref:
+	[
+		{fp:"ctags/e_riscos.h",ki:"macro",ln:"27",},
+	],
+},
+{tag:"HAVE_CHSIZE",ref:
+	[
+		{fp:"ctags/e_msoft.h",ki:"macro",ln:"30",},
+		{fp:"ctags/e_os2.h",ki:"macro",ln:"25",},
+		{fp:"ctags/e_riscos.h",ki:"macro",ln:"28",},
+	],
+},
+{tag:"HAVE_CLOCK",ref:
+	[
+		{fp:"ctags/e_amiga.h",ki:"macro",ln:"18",},
+		{fp:"ctags/e_djgpp.h",ki:"macro",ln:"30",},
+		{fp:"ctags/e_mac.h",ki:"macro",ln:"26",},
+		{fp:"ctags/e_msoft.h",ki:"macro",ln:"29",},
+		{fp:"ctags/e_os2.h",ki:"macro",ln:"24",},
+		{fp:"ctags/e_qdos.h",ki:"macro",ln:"22",},
+		{fp:"ctags/e_riscos.h",ki:"macro",ln:"29",},
+		{fp:"ctags/e_vms.h",ki:"macro",ln:"25",},
+	],
+},
+{tag:"HAVE_DIR_H",ref:
+	[
+		{fp:"ctags/e_djgpp.h",ki:"macro",ln:"17",},
+		{fp:"ctags/e_msoft.h",ki:"macro",ln:"43",},
+		{fp:"ctags/e_msoft.h",ki:"macro",ln:"66",},
+	],
+},
+{tag:"HAVE_DIRECT_H",ref:
+	[
+		{fp:"ctags/e_msoft.h",ki:"macro",ln:"50",},
+	],
+},
+{tag:"HAVE_DIRENT_H",ref:
+	[
+		{fp:"ctags/e_djgpp.h",ki:"macro",ln:"18",},
+		{fp:"ctags/e_msoft.h",ki:"macro",ln:"44",},
+		{fp:"ctags/e_msoft.h",ki:"macro",ln:"67",},
+		{fp:"ctags/e_os2.h",ki:"macro",ln:"16",},
+		{fp:"ctags/e_qdos.h",ki:"macro",ln:"14",},
+		{fp:"ctags/e_riscos.h",ki:"macro",ln:"45",},
+	],
+},
+{tag:"HAVE_DOS_H",ref:
+	[
+		{fp:"ctags/e_msoft.h",ki:"macro",ln:"22",},
+	],
+},
+{tag:"HAVE_FCNTL_H",ref:
+	[
+		{fp:"ctags/e_djgpp.h",ki:"macro",ln:"19",},
+		{fp:"ctags/e_mac.h",ki:"macro",ln:"33",},
+		{fp:"ctags/e_msoft.h",ki:"macro",ln:"23",},
+		{fp:"ctags/e_os2.h",ki:"macro",ln:"17",},
+		{fp:"ctags/e_riscos.h",ki:"macro",ln:"46",},
+		{fp:"ctags/e_vms.h",ki:"macro",ln:"21",},
+	],
+},
+{tag:"HAVE_FGETPOS",ref:
+	[
+		{fp:"ctags/e_amiga.h",ki:"macro",ln:"19",},
+		{fp:"ctags/e_djgpp.h",ki:"macro",ln:"31",},
+		{fp:"ctags/e_mac.h",ki:"macro",ln:"27",},
+		{fp:"ctags/e_msoft.h",ki:"macro",ln:"31",},
+		{fp:"ctags/e_msoft.h",ki:"macro",ln:"63",},
+		{fp:"ctags/e_os2.h",ki:"macro",ln:"26",},
+		{fp:"ctags/e_qdos.h",ki:"macro",ln:"23",},
+		{fp:"ctags/e_riscos.h",ki:"macro",ln:"30",},
+		{fp:"ctags/e_vms.h",ki:"macro",ln:"26",},
+	],
+},
+{tag:"HAVE_FINDFIRST",ref:
+	[
+		{fp:"ctags/e_msoft.h",ki:"macro",ln:"45",},
+	],
+},
+{tag:"HAVE_FINDNEXT",ref:
+	[
+		{fp:"ctags/e_msoft.h",ki:"macro",ln:"36",},
+	],
+},
+{tag:"HAVE_FNMATCH",ref:
+	[
+		{fp:"ctags/e_djgpp.h",ki:"macro",ln:"32",},
+		{fp:"ctags/e_riscos.h",ki:"macro",ln:"31",},
+	],
+},
+{tag:"HAVE_FNMATCH_H",ref:
+	[
+		{fp:"ctags/e_djgpp.h",ki:"macro",ln:"20",},
+		{fp:"ctags/e_riscos.h",ki:"macro",ln:"47",},
+	],
+},
+{tag:"HAVE_FTRUNCATE",ref:
+	[
+		{fp:"ctags/e_os2.h",ki:"macro",ln:"27",},
+		{fp:"ctags/e_qdos.h",ki:"macro",ln:"24",},
+		{fp:"ctags/e_riscos.h",ki:"macro",ln:"32",},
+	],
+},
+{tag:"HAVE_IO_H",ref:
+	[
+		{fp:"ctags/e_msoft.h",ki:"macro",ln:"24",},
+		{fp:"ctags/e_os2.h",ki:"macro",ln:"18",},
+	],
+},
+{tag:"HAVE_MKSTEMP",ref:
+	[
+		{fp:"ctags/e_djgpp.h",ki:"macro",ln:"33",},
+		{fp:"ctags/e_riscos.h",ki:"macro",ln:"33",},
+	],
+},
+{tag:"HAVE_OPENDIR",ref:
+	[
+		{fp:"ctags/e_djgpp.h",ki:"macro",ln:"34",},
+		{fp:"ctags/e_mac.h",ki:"macro",ln:"28",},
+		{fp:"ctags/e_os2.h",ki:"macro",ln:"28",},
+		{fp:"ctags/e_qdos.h",ki:"macro",ln:"25",},
+		{fp:"ctags/e_riscos.h",ki:"macro",ln:"34",},
+	],
+},
+{tag:"HAVE_PUTENV",ref:
+	[
+		{fp:"ctags/e_qdos.h",ki:"macro",ln:"26",},
+		{fp:"ctags/e_riscos.h",ki:"macro",ln:"35",},
+	],
+},
+{tag:"HAVE_REGCOMP",ref:
+	[
+		{fp:"ctags/e_djgpp.h",ki:"macro",ln:"35",},
+		{fp:"ctags/e_os2.h",ki:"macro",ln:"29",},
+		{fp:"ctags/e_riscos.h",ki:"macro",ln:"36",},
+	],
+},
+{tag:"HAVE_REGEX",ref:
+	[
+		{fp:"ctags/general.h",ki:"macro",ln:"53",},
+	],
+},
+{tag:"HAVE_REMOVE",ref:
+	[
+		{fp:"ctags/e_djgpp.h",ki:"macro",ln:"36",},
+		{fp:"ctags/e_mac.h",ki:"macro",ln:"29",},
+		{fp:"ctags/e_os2.h",ki:"macro",ln:"30",},
+		{fp:"ctags/e_qdos.h",ki:"macro",ln:"27",},
+		{fp:"ctags/e_riscos.h",ki:"macro",ln:"37",},
+	],
+},
+{tag:"HAVE_SETENV",ref:
+	[
+		{fp:"ctags/e_djgpp.h",ki:"macro",ln:"37",},
+		{fp:"ctags/e_mac.h",ki:"macro",ln:"30",},
+		{fp:"ctags/e_riscos.h",ki:"macro",ln:"38",},
+	],
+},
+{tag:"HAVE_STAT_H",ref:
+	[
+		{fp:"ctags/e_riscos.h",ki:"macro",ln:"48",},
+		{fp:"ctags/e_vms.h",ki:"macro",ln:"18",},
+	],
+},
+{tag:"HAVE_STAT_ST_INO",ref:
+	[
+		{fp:"ctags/e_djgpp.h",ki:"macro",ln:"38",},
+	],
+},
+{tag:"HAVE_STDLIB_H",ref:
+	[
+		{fp:"ctags/e_amiga.h",ki:"macro",ln:"14",},
+		{fp:"ctags/e_djgpp.h",ki:"macro",ln:"21",},
+		{fp:"ctags/e_mac.h",ki:"macro",ln:"34",},
+		{fp:"ctags/e_mac.h",ki:"macro",ln:"40",},
+		{fp:"ctags/e_msoft.h",ki:"macro",ln:"25",},
+		{fp:"ctags/e_os2.h",ki:"macro",ln:"19",},
+		{fp:"ctags/e_qdos.h",ki:"macro",ln:"15",},
+		{fp:"ctags/e_riscos.h",ki:"macro",ln:"49",},
+		{fp:"ctags/e_vms.h",ki:"macro",ln:"15",},
+	],
+},
+{tag:"HAVE_STRCASECMP",ref:
+	[
+		{fp:"ctags/e_djgpp.h",ki:"macro",ln:"39",},
+	],
+},
+{tag:"HAVE_STRERROR",ref:
+	[
+		{fp:"ctags/e_amiga.h",ki:"macro",ln:"20",},
+		{fp:"ctags/e_djgpp.h",ki:"macro",ln:"40",},
+		{fp:"ctags/e_mac.h",ki:"macro",ln:"31",},
+		{fp:"ctags/e_msoft.h",ki:"macro",ln:"35",},
+		{fp:"ctags/e_os2.h",ki:"macro",ln:"31",},
+		{fp:"ctags/e_qdos.h",ki:"macro",ln:"28",},
+		{fp:"ctags/e_riscos.h",ki:"macro",ln:"39",},
+		{fp:"ctags/e_vms.h",ki:"macro",ln:"27",},
+	],
+},
+{tag:"HAVE_STRICMP",ref:
+	[
+		{fp:"ctags/e_amiga.h",ki:"macro",ln:"21",},
+		{fp:"ctags/e_msoft.h",ki:"macro",ln:"32",},
+		{fp:"ctags/e_os2.h",ki:"macro",ln:"32",},
+		{fp:"ctags/e_riscos.h",ki:"macro",ln:"40",},
+	],
+},
+{tag:"HAVE_STRING_H",ref:
+	[
+		{fp:"ctags/e_djgpp.h",ki:"macro",ln:"22",},
+		{fp:"ctags/e_mac.h",ki:"macro",ln:"35",},
+		{fp:"ctags/e_riscos.h",ki:"macro",ln:"50",},
+	],
+},
+{tag:"HAVE_STRNCASECMP",ref:
+	[
+		{fp:"ctags/e_djgpp.h",ki:"macro",ln:"41",},
+	],
+},
+{tag:"HAVE_STRNICMP",ref:
+	[
+		{fp:"ctags/e_amiga.h",ki:"macro",ln:"22",},
+		{fp:"ctags/e_msoft.h",ki:"macro",ln:"33",},
+		{fp:"ctags/e_os2.h",ki:"macro",ln:"33",},
+		{fp:"ctags/e_riscos.h",ki:"macro",ln:"41",},
+	],
+},
+{tag:"HAVE_STRSTR",ref:
+	[
+		{fp:"ctags/e_djgpp.h",ki:"macro",ln:"42",},
+		{fp:"ctags/e_mac.h",ki:"macro",ln:"32",},
+		{fp:"ctags/e_msoft.h",ki:"macro",ln:"34",},
+		{fp:"ctags/e_os2.h",ki:"macro",ln:"34",},
+		{fp:"ctags/e_qdos.h",ki:"macro",ln:"29",},
+		{fp:"ctags/e_riscos.h",ki:"macro",ln:"42",},
+		{fp:"ctags/e_vms.h",ki:"macro",ln:"28",},
+	],
+},
+{tag:"HAVE_SYS_DIR_H",ref:
+	[
+		{fp:"ctags/e_djgpp.h",ki:"macro",ln:"23",},
+		{fp:"ctags/e_mac.h",ki:"macro",ln:"36",},
+		{fp:"ctags/e_riscos.h",ki:"macro",ln:"51",},
+	],
+},
+{tag:"HAVE_SYS_STAT_H",ref:
+	[
+		{fp:"ctags/e_amiga.h",ki:"macro",ln:"15",},
+		{fp:"ctags/e_djgpp.h",ki:"macro",ln:"24",},
+		{fp:"ctags/e_msoft.h",ki:"macro",ln:"26",},
+		{fp:"ctags/e_os2.h",ki:"macro",ln:"20",},
+		{fp:"ctags/e_qdos.h",ki:"macro",ln:"16",},
+		{fp:"ctags/e_riscos.h",ki:"macro",ln:"52",},
+		{fp:"ctags/e_vms.h",ki:"macro",ln:"22",},
+	],
+},
+{tag:"HAVE_SYS_TIMES_H",ref:
+	[
+		{fp:"ctags/e_djgpp.h",ki:"macro",ln:"25",},
+		{fp:"ctags/e_mac.h",ki:"macro",ln:"37",},
+		{fp:"ctags/e_qdos.h",ki:"macro",ln:"17",},
+		{fp:"ctags/e_riscos.h",ki:"macro",ln:"53",},
+	],
+},
+{tag:"HAVE_SYS_TYPES_H",ref:
+	[
+		{fp:"ctags/e_amiga.h",ki:"macro",ln:"16",},
+		{fp:"ctags/e_djgpp.h",ki:"macro",ln:"26",},
+		{fp:"ctags/e_msoft.h",ki:"macro",ln:"27",},
+		{fp:"ctags/e_os2.h",ki:"macro",ln:"21",},
+		{fp:"ctags/e_qdos.h",ki:"macro",ln:"18",},
+		{fp:"ctags/e_riscos.h",ki:"macro",ln:"54",},
+		{fp:"ctags/e_vms.h",ki:"macro",ln:"23",},
+	],
+},
+{tag:"HAVE_TEMPNAM",ref:
+	[
+		{fp:"ctags/e_msoft.h",ki:"macro",ln:"37",},
+	],
+},
+{tag:"HAVE_TIME_H",ref:
+	[
+		{fp:"ctags/e_amiga.h",ki:"macro",ln:"17",},
+		{fp:"ctags/e_djgpp.h",ki:"macro",ln:"27",},
+		{fp:"ctags/e_mac.h",ki:"macro",ln:"38",},
+		{fp:"ctags/e_msoft.h",ki:"macro",ln:"28",},
+		{fp:"ctags/e_os2.h",ki:"macro",ln:"22",},
+		{fp:"ctags/e_qdos.h",ki:"macro",ln:"19",},
+		{fp:"ctags/e_riscos.h",ki:"macro",ln:"55",},
+		{fp:"ctags/e_vms.h",ki:"macro",ln:"16",},
+	],
+},
+{tag:"HAVE_TIMES",ref:
+	[
+		{fp:"ctags/e_qdos.h",ki:"macro",ln:"30",},
+		{fp:"ctags/e_riscos.h",ki:"macro",ln:"43",},
+	],
+},
+{tag:"HAVE_TRUNCATE",ref:
+	[
+		{fp:"ctags/e_djgpp.h",ki:"macro",ln:"43",},
+		{fp:"ctags/e_os2.h",ki:"macro",ln:"35",},
+		{fp:"ctags/e_qdos.h",ki:"macro",ln:"31",},
+		{fp:"ctags/e_riscos.h",ki:"macro",ln:"44",},
+	],
+},
+{tag:"HAVE_TYPES_H",ref:
+	[
+		{fp:"ctags/e_mac.h",ki:"macro",ln:"39",},
+		{fp:"ctags/e_vms.h",ki:"macro",ln:"19",},
+	],
+},
+{tag:"HAVE_UNISTD_H",ref:
+	[
+		{fp:"ctags/e_djgpp.h",ki:"macro",ln:"28",},
+		{fp:"ctags/e_os2.h",ki:"macro",ln:"23",},
+		{fp:"ctags/e_qdos.h",ki:"macro",ln:"20",},
+		{fp:"ctags/e_riscos.h",ki:"macro",ln:"56",},
+		{fp:"ctags/e_vms.h",ki:"macro",ln:"29",},
+	],
+},
+{tag:"haveQualifyingName",ref:
+	[
+		{fp:"ctags/c.c",ki:"member",ln:"194",},
+	],
+},
+{tag:"headerExt",ref:
+	[
+		{fp:"ctags/options.h",ki:"member",ln:"99",},
+	],
+},
+{tag:"HeaderExtensions",ref:
+	[
+		{fp:"ctags/options.c",ki:"variable",ln:"100",},
+	],
+},
+{tag:"HEADERS",ref:
+	[
+		{fp:"ctags/mk_mpw.mak",ki:"macro",ln:"7",},
+		{fp:"ctags/mk_qdos.mak",ki:"macro",ln:"37",},
+		{fp:"ctags/source.mak",ki:"macro",ln:"5",},
+	],
+},
+{tag:"HOST_ARCH",ref:
+	[
+		{fp:"ctags/maintainer.mak",ki:"macro",ln:"60",},
+	],
+},
+{tag:"HOW",ref:
+	[
+		{fp:"TO",ki:"anchor",ln:"USE",},
+		{fp:"TO",ki:"anchor",ln:"USE",},
+		{fp:"TO",ki:"anchor",ln:"USE",},
+	],
+},
+{tag:"HtmlParser",ref:
+	[
+		{fp:"ctags/html.c",ki:"function",ln:"39",sig:"(void)",},
+	],
+},
+])

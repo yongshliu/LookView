@@ -1,0 +1,25 @@
+
+
+.main_area.scrolled{
+	padding-top:101px;
+}
+.main_area{
+	box-sizing:border-box;
+	//min-width:850px;
+	width: 1100px;
+	clear:both;
+	position:relative;
+	//height:430px;
+}
+.codearea{
+	//border:3px solid royalblue;
+	display:inline-block;	
+	vertical-align:top;
+	border-right:solid 1px #c5c5c5;
+	box-sizing:border-box;
+	float:right;
+	width:1098px;
+}
+
+
+

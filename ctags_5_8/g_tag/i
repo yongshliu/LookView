@@ -1,0 +1,984 @@
+([
+{tag:"icase",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"366",},
+	],
+},
+{tag:"id",ref:
+	[
+		{fp:"ctags/c.c",ki:"member",ln:"102",},
+		{fp:"ctags/eiffel.c",ki:"member",ln:"78",},
+		{fp:"ctags/flex.c",ki:"member",ln:"91",},
+		{fp:"ctags/fortran.c",ki:"member",ln:"141",},
+		{fp:"ctags/jscript.c",ki:"member",ln:"82",},
+		{fp:"ctags/ocaml.c",ki:"member",ln:"115",},
+		{fp:"ctags/parse.h",ki:"member",ln:"59",},
+		{fp:"ctags/sql.c",ki:"member",ln:"134",},
+		{fp:"ctags/tex.c",ki:"member",ln:"64",},
+		{fp:"ctags/vhdl.c",ki:"member",ln:"147",},
+	],
+},
+{tag:"identarray",ref:
+	[
+		{fp:"ctags/beta.c",ki:"variable",ln:"48",},
+	],
+},
+{tag:"idx",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"298",},
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"606",},
+	],
+},
+{tag:"if0",ref:
+	[
+		{fp:"ctags/options.h",ki:"member",ln:"102",},
+	],
+},
+{tag:"ifdef",ref:
+	[
+		{fp:"ctags/get.c",ki:"member",ln:"72",},
+	],
+},
+{tag:"iFileGetc",ref:
+	[
+		{fp:"ctags/read.c",ki:"function",ln:"329",sig:"(void)",},
+	],
+},
+{tag:"iFileGetLine",ref:
+	[
+		{fp:"ctags/read.c",ki:"function",ln:"386",sig:"(void)",},
+	],
+},
+{tag:"ignore",ref:
+	[
+		{fp:"ctags/options.h",ki:"member",ln:"88",},
+	],
+},
+{tag:"IGNORE_SEPARATORS",ref:
+	[
+		{fp:"ctags/options.c",ki:"macro",ln:"50",},
+	],
+},
+{tag:"ignoreAllBranches",ref:
+	[
+		{fp:"ctags/get.c",ki:"member",ln:"46",},
+	],
+},
+{tag:"ignorecase",ref:
+	[
+		{fp:"ctags/readtags.c",ki:"member",ln:"66",},
+	],
+},
+{tag:"ignoreTag",ref:
+	[
+		{fp:"ctags/flex.c",ki:"member",ln:"130",},
+		{fp:"ctags/jscript.c",ki:"member",ln:"114",},
+	],
+},
+{tag:"ignoring",ref:
+	[
+		{fp:"ctags/get.c",ki:"member",ln:"49",},
+	],
+},
+{tag:"IMP_ABSTRACT",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"182",},
+	],
+},
+{tag:"IMP_COUNT",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"185",},
+	],
+},
+{tag:"IMP_DEFAULT",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"181",},
+	],
+},
+{tag:"IMP_PURE_VIRTUAL",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"184",},
+	],
+},
+{tag:"IMP_VIRTUAL",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"183",},
+	],
+},
+{tag:"implementation",ref:
+	[
+		{fp:"ctags/c.c",ki:"member",ln:"201",},
+		{fp:"ctags/entry.h",ki:"member",ln:"71",},
+		{fp:"ctags/options.h",ki:"member",ln:"71",},
+	],
+},
+{tag:"implementationString",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"554",sig:"(const impType imp)",},
+	],
+},
+{tag:"impType",ref:
+	[
+		{fp:"ctags/c.c",ki:"typedef",ln:"186",},
+	],
+},
+{tag:"INC",ref:
+	[
+		{fp:"ctags/mk_bc3.mak",ki:"macro",ln:"10",},
+	],
+},
+{tag:"include",ref:
+	[
+		{fp:"ctags/options.h",ki:"member",ln:"86",},
+	],
+},
+{tag:"INCLUDE",ref:
+	[
+		{fp:"ctags/maintainer.mak",ki:"macro",ln:"67",},
+	],
+},
+{tag:"includeExtensionFlags",ref:
+	[
+		{fp:"ctags/entry.c",ki:"macro",ln:"56",},
+	],
+},
+{tag:"INCLUDES",ref:
+	[
+		{fp:"ctags/mk_bc5.mak",ki:"macro",ln:"9",},
+		{fp:"ctags/mk_mingw.mak",ki:"macro",ln:"12",},
+		{fp:"ctags/mk_mvc.mak",ki:"macro",ln:"9",},
+	],
+},
+{tag:"includeTag",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"915",sig:"(const tagType type, const boolean isFileScope)",},
+		{fp:"ctags/fortran.c",ki:"function",ln:"453",sig:"(const tagType type)",},
+	],
+},
+{tag:"includingDefineTags",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"474",sig:"(void)",},
+	],
+},
+{tag:"indentation",ref:
+	[
+		{fp:"ctags/python.c",ki:"member",ln:"35",},
+	],
+},
+{tag:"index",ref:
+	[
+		{fp:"ctags/e_mac.h",ki:"member",ln:"118",},
+	],
+},
+{tag:"inFunction",ref:
+	[
+		{fp:"ctags/c.c",ki:"member",ln:"198",},
+	],
+},
+{tag:"inheritance",ref:
+	[
+		{fp:"ctags/entry.h",ki:"member",ln:"72",},
+		{fp:"ctags/options.h",ki:"member",ln:"72",},
+	],
+},
+{tag:"inheritingDeclaration",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"2354",sig:"(declType decl)",},
+	],
+},
+{tag:"init_dfa",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"function",ln:"830",sig:"(re_dfa_t *dfa, size_t pat_len)",},
+	],
+},
+{tag:"init_node",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"641",},
+	],
+},
+{tag:"init_state",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"630",},
+	],
+},
+{tag:"init_state_begbuf",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"633",},
+	],
+},
+{tag:"init_state_nl",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"632",},
+	],
+},
+{tag:"init_state_word",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"631",},
+	],
+},
+{tag:"init_word_char",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"function",ln:"928",sig:"(re_dfa_t *dfa)",},
+	],
+},
+{tag:"initialize",ref:
+	[
+		{fp:"ctags/asm.c",ki:"function",ln:"359",sig:"(const langType language)",},
+		{fp:"ctags/eiffel.c",ki:"function",ln:"1230",sig:"(const langType language)",},
+		{fp:"ctags/flex.c",ki:"function",ln:"2201",sig:"(const langType language)",},
+		{fp:"ctags/fortran.c",ki:"function",ln:"2173",sig:"(const langType language)",},
+		{fp:"ctags/jscript.c",ki:"function",ln:"1530",sig:"(const langType language)",},
+		{fp:"ctags/parse.h",ki:"member",ln:"53",},
+		{fp:"ctags/readtags.c",ki:"function",ln:"440",sig:"(const char *const filePath, tagFileInfo *const info)",},
+		{fp:"ctags/sql.c",ki:"function",ln:"2082",sig:"(const langType language)",},
+		{fp:"ctags/tex.c",ki:"function",ln:"489",sig:"(const langType language)",},
+		{fp:"ctags/verilog.c",ki:"function",ln:"107",sig:"(const langType language)",},
+		{fp:"ctags/vhdl.c",ki:"function",ln:"572",sig:"(const langType language)",},
+	],
+},
+{tag:"initializeCParser",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"2836",sig:"(const langType language)",},
+	],
+},
+{tag:"initializeCppParser",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"2842",sig:"(const langType language)",},
+	],
+},
+{tag:"initializeCsharpParser",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"2848",sig:"(const langType language)",},
+	],
+},
+{tag:"initialized",ref:
+	[
+		{fp:"ctags/readtags.c",ki:"member",ln:"40",},
+	],
+},
+{tag:"initializeJavaParser",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"2854",sig:"(const langType language)",},
+	],
+},
+{tag:"initializeParsers",ref:
+	[
+		{fp:"ctags/parse.c",ki:"function",ln:"305",sig:"(void)",},
+	],
+},
+{tag:"initializeParsing",ref:
+	[
+		{fp:"ctags/parse.c",ki:"function",ln:"313",sig:"(void)",},
+	],
+},
+{tag:"initializeVeraParser",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"2860",sig:"(const langType language)",},
+	],
+},
+{tag:"initKeywordHash",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"function",ln:"180",sig:"( void )",},
+	],
+},
+{tag:"initMemberInfo",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"712",sig:"(statementInfo *const st)",},
+	],
+},
+{tag:"initOnly",ref:
+	[
+		{fp:"ctags/options.c",ki:"member",ln:"81",},
+		{fp:"ctags/options.c",ki:"member",ln:"87",},
+	],
+},
+{tag:"initOperatorTable",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"function",ln:"196",sig:"( void )",},
+	],
+},
+{tag:"initOptions",ref:
+	[
+		{fp:"ctags/options.c",ki:"function",ln:"1785",sig:"(void)",},
+	],
+},
+{tag:"initParenInfo",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"2279",sig:"(parenInfo *const info)",},
+	],
+},
+{tag:"initStack",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"function",ln:"1777",sig:"( void )",},
+	],
+},
+{tag:"initStatement",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"789",sig:"(statementInfo *const st, statementInfo *const parent)",},
+	],
+},
+{tag:"initTagEntry",ref:
+	[
+		{fp:"ctags/entry.c",ki:"function",ln:"835",sig:"(tagEntryInfo *const e, const char *const name)",},
+	],
+},
+{tag:"initToken",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"483",sig:"(tokenInfo* const token)",},
+	],
+},
+{tag:"inline",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"102",},
+	],
+},
+{tag:"ino_t",ref:
+	[
+		{fp:"ctags/e_mac.h",ki:"typedef",ln:"58",},
+	],
+},
+{tag:"input",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"571",},
+	],
+},
+{tag:"inputFile",ref:
+	[
+		{fp:"ctags/read.h",ki:"typedef",ln:"93",},
+	],
+},
+{tag:"INSIDE_NOTWORD",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"174",},
+	],
+},
+{tag:"INSIDE_WORD",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"171",},
+	],
+},
+{tag:"insideEnumBody",ref:
+	[
+		{fp:"ctags/c.c",ki:"macro",ln:"38",},
+	],
+},
+{tag:"insideInterface",ref:
+	[
+		{fp:"ctags/fortran.c",ki:"function",ln:"385",sig:"(void)",},
+	],
+},
+{tag:"installAntRegex",ref:
+	[
+		{fp:"ctags/ant.c",ki:"function",ln:"24",sig:"(const langType language)",},
+	],
+},
+{tag:"installCobolRegex",ref:
+	[
+		{fp:"ctags/cobol.c",ki:"function",ln:"23",sig:"(const langType language)",},
+	],
+},
+{tag:"installDosBatchRegex",ref:
+	[
+		{fp:"ctags/dosbatch.c",ki:"function",ln:"24",sig:"(const langType language)",},
+	],
+},
+{tag:"installHeaderListDefaults",ref:
+	[
+		{fp:"ctags/options.c",ki:"function",ln:"1217",sig:"(void)",},
+	],
+},
+{tag:"installHtmlRegex",ref:
+	[
+		{fp:"ctags/html.c",ki:"function",ln:"23",sig:"(const langType language)",},
+	],
+},
+{tag:"installLanguageMapDefault",ref:
+	[
+		{fp:"ctags/parse.c",ki:"function",ln:"210",sig:"(const langType language)",},
+	],
+},
+{tag:"installLanguageMapDefaults",ref:
+	[
+		{fp:"ctags/parse.c",ki:"function",ln:"239",sig:"(void)",},
+	],
+},
+{tag:"installMatLabRegex",ref:
+	[
+		{fp:"ctags/matlab.c",ki:"function",ln:"24",sig:"(const langType language)",},
+	],
+},
+{tag:"installPHPRegex",ref:
+	[
+		{fp:"ctags/php.c",ki:"function",ln:"65",sig:"(const langType language)",},
+	],
+},
+{tag:"installRexxRegex",ref:
+	[
+		{fp:"ctags/rexx.c",ki:"function",ln:"23",sig:"(const langType language)",},
+	],
+},
+{tag:"installSlangRegex",ref:
+	[
+		{fp:"ctags/slang.c",ki:"function",ln:"23",sig:"(const langType language)",},
+	],
+},
+{tag:"installYaccRegex",ref:
+	[
+		{fp:"ctags/yacc.c",ki:"function",ln:"24",sig:"(const langType language)",},
+	],
+},
+{tag:"internal_function",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"383",},
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"385",},
+	],
+},
+{tag:"INTERNAL_SORT",ref:
+	[
+		{fp:"ctags/e_mac.h",ki:"macro",ln:"22",},
+		{fp:"ctags/e_riscos.h",ki:"macro",ln:"22",},
+	],
+},
+{tag:"internalSortTags",ref:
+	[
+		{fp:"ctags/sort.c",ki:"function",ln:"164",sig:"(const boolean toStdout)",},
+	],
+},
+{tag:"intoken",ref:
+	[
+		{fp:"ctags/pascal.c",ki:"macro",ln:"63",},
+	],
+},
+{tag:"invalidContents",ref:
+	[
+		{fp:"ctags/c.c",ki:"member",ln:"244",},
+	],
+},
+{tag:"inveclosure",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"503",},
+	],
+},
+{tag:"inveclosures",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"628",},
+	],
+},
+{tag:"INVOCATION",ref:
+	[
+		{fp:"ctags/options.c",ki:"macro",ln:"33",},
+	],
+},
+{tag:"is_a_code_line",ref:
+	[
+		{fp:"ctags/lua.c",ki:"function",ln:"55",sig:"(const unsigned char *line)",},
+	],
+},
+{tag:"IS_BEGBUF_CONTEXT",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"477",},
+	],
+},
+{tag:"IS_ENDBUF_CONTEXT",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"478",},
+	],
+},
+{tag:"IS_EPSILON_NODE",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"318",},
+	],
+},
+{tag:"IS_NEWLINE",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"482",},
+	],
+},
+{tag:"IS_NEWLINE_CONTEXT",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"476",},
+	],
+},
+{tag:"IS_ORDINARY_CONTEXT",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"479",},
+	],
+},
+{tag:"is_utf8",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"367",},
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"653",},
+	],
+},
+{tag:"IS_WIDE_NEWLINE",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"484",},
+	],
+},
+{tag:"IS_WIDE_WORD_CHAR",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"483",},
+	],
+},
+{tag:"IS_WORD_CHAR",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"481",},
+	],
+},
+{tag:"IS_WORD_CONTEXT",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"475",},
+	],
+},
+{tag:"isAbsolutePath",ref:
+	[
+		{fp:"ctags/routines.c",ki:"function",ln:"620",sig:"(const char *const path)",},
+	],
+},
+{tag:"isAlpha",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"function",ln:"234",sig:"(char c)",},
+	],
+},
+{tag:"isAmigaDirectory",ref:
+	[
+		{fp:"ctags/routines.c",ki:"function",ln:"397",sig:"(const char *const name)",},
+	],
+},
+{tag:"isbident",ref:
+	[
+		{fp:"ctags/beta.c",ki:"macro",ln:"31",},
+	],
+},
+{tag:"isBlank",ref:
+	[
+		{fp:"ctags/fortran.c",ki:"macro",ln:"36",},
+	],
+},
+{tag:"isblank",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"59",},
+	],
+},
+{tag:"isBraceFormat",ref:
+	[
+		{fp:"ctags/get.c",ki:"function",ln:"101",sig:"(void)",},
+	],
+},
+{tag:"isClass",ref:
+	[
+		{fp:"ctags/flex.c",ki:"member",ln:"131",},
+	],
+},
+{tag:"isCmdTerm",ref:
+	[
+		{fp:"ctags/sql.c",ki:"function",ln:"332",sig:"(tokenInfo *const token)",},
+	],
+},
+{tag:"isComment",ref:
+	[
+		{fp:"ctags/get.c",ki:"function",ln:"420",sig:"(void)",},
+	],
+},
+{tag:"isCompoundOption",ref:
+	[
+		{fp:"ctags/options.c",ki:"macro",ln:"60",},
+	],
+},
+{tag:"isContextualKeyword",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"663",sig:"(const tokenInfo *const token)",},
+	],
+},
+{tag:"isContextualStatement",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"682",sig:"(const statementInfo *const st)",},
+	],
+},
+{tag:"isCtagsLine",ref:
+	[
+		{fp:"ctags/entry.c",ki:"function",ln:"271",sig:"(const char *const line)",},
+	],
+},
+{tag:"isDefineOperator",ref:
+	[
+		{fp:"ctags/asm.c",ki:"function",ln:"198",sig:"(const vString *const operator)",},
+	],
+},
+{tag:"isDestinationStdout",ref:
+	[
+		{fp:"ctags/main.c",ki:"function",ln:"125",sig:"(void)",},
+	],
+},
+{tag:"isDirectory",ref:
+	[
+		{fp:"ctags/routines.h",ki:"member",ln:"66",},
+	],
+},
+{tag:"isEtagsLine",ref:
+	[
+		{fp:"ctags/entry.c",ki:"function",ln:"311",sig:"(const char *const line)",},
+	],
+},
+{tag:"isExcludedFile",ref:
+	[
+		{fp:"ctags/options.c",ki:"function",ln:"759",sig:"(const char* const name)",},
+	],
+},
+{tag:"isExecutable",ref:
+	[
+		{fp:"ctags/routines.h",ki:"member",ln:"72",},
+	],
+},
+{tag:"isExported",ref:
+	[
+		{fp:"ctags/eiffel.c",ki:"member",ln:"111",},
+	],
+},
+{tag:"isExternCDecl",ref:
+	[
+		{fp:"ctags/c.c",ki:"macro",ln:"40",},
+	],
+},
+{tag:"isFalse",ref:
+	[
+		{fp:"ctags/options.c",ki:"function",ln:"682",sig:"(const char *parameter)",},
+	],
+},
+{tag:"isFileEntry",ref:
+	[
+		{fp:"ctags/entry.h",ki:"member",ln:"62",},
+	],
+},
+{tag:"isFileScope",ref:
+	[
+		{fp:"ctags/entry.h",ki:"member",ln:"61",},
+		{fp:"ctags/fortran.c",ki:"function",ln:"448",sig:"(const tagType type)",},
+	],
+},
+{tag:"isFreeOperatorChar",ref:
+	[
+		{fp:"ctags/eiffel.c",ki:"macro",ln:"41",},
+	],
+},
+{tag:"isGeneric",ref:
+	[
+		{fp:"ctags/eiffel.c",ki:"function",ln:"238",sig:"(tokenInfo *const token)",},
+	],
+},
+{tag:"isHeader",ref:
+	[
+		{fp:"ctags/read.h",ki:"member",ln:"90",},
+	],
+},
+{tag:"isHeaderFile",ref:
+	[
+		{fp:"ctags/read.h",ki:"macro",ln:"43",},
+	],
+},
+{tag:"isHighChar",ref:
+	[
+		{fp:"ctags/c.c",ki:"macro",ln:"45",},
+	],
+},
+{tag:"isident",ref:
+	[
+		{fp:"ctags/eiffel.c",ki:"macro",ln:"40",},
+		{fp:"ctags/fortran.c",ki:"macro",ln:"35",},
+		{fp:"ctags/get.h",ki:"macro",ln:"27",},
+	],
+},
+{tag:"isIdent",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"function",ln:"239",sig:"(char c)",},
+	],
+},
+{tag:"isident1",ref:
+	[
+		{fp:"ctags/get.h",ki:"macro",ln:"33",},
+	],
+},
+{tag:"isIdentChar",ref:
+	[
+		{fp:"ctags/flex.c",ki:"function",ln:"200",sig:"(const int c)",},
+		{fp:"ctags/jscript.c",ki:"function",ln:"172",sig:"(const int c)",},
+		{fp:"ctags/sql.c",ki:"function",ln:"325",sig:"(const int c)",},
+		{fp:"ctags/tex.c",ki:"function",ln:"149",sig:"(const int c)",},
+		{fp:"ctags/vhdl.c",ki:"function",ln:"320",sig:"(const int c)",},
+	],
+},
+{tag:"isIdentChar1",ref:
+	[
+		{fp:"ctags/sql.c",ki:"function",ln:"313",sig:"(const int c)",},
+		{fp:"ctags/vhdl.c",ki:"function",ln:"315",sig:"(const int c)",},
+	],
+},
+{tag:"isIdentifier",ref:
+	[
+		{fp:"ctags/make.c",ki:"function",ln:"71",sig:"(int c)",},
+		{fp:"ctags/perl.c",ki:"function",ln:"60",sig:"(int c)",},
+		{fp:"ctags/sml.c",ki:"function",ln:"90",sig:"(int c)",},
+	],
+},
+{tag:"isIdentifier1",ref:
+	[
+		{fp:"ctags/perl.c",ki:"function",ln:"55",sig:"(int c)",},
+	],
+},
+{tag:"isIdentifierCharacter",ref:
+	[
+		{fp:"ctags/erlang.c",ki:"function",ln:"52",sig:"(int c)",},
+		{fp:"ctags/python.c",ki:"function",ln:"129",sig:"(int c)",},
+		{fp:"ctags/verilog.c",ki:"function",ln:"169",sig:"(const int c)",},
+	],
+},
+{tag:"isIdentifierFirstCharacter",ref:
+	[
+		{fp:"ctags/erlang.c",ki:"function",ln:"47",sig:"(int c)",},
+		{fp:"ctags/python.c",ki:"function",ln:"124",sig:"(int c)",},
+	],
+},
+{tag:"isIdentifierMatch",ref:
+	[
+		{fp:"ctags/eiffel.c",ki:"function",ln:"785",sig:"( const tokenInfo *const token, const char *const name)",},
+		{fp:"ctags/vhdl.c",ki:"function",ln:"325",sig:"(const tokenInfo * const token, const vString * const name)",},
+	],
+},
+{tag:"isIgnore",ref:
+	[
+		{fp:"ctags/get.c",ki:"function",ln:"214",sig:"(void)",},
+	],
+},
+{tag:"isIgnoreBranch",ref:
+	[
+		{fp:"ctags/get.c",ki:"function",ln:"224",sig:"(void)",},
+	],
+},
+{tag:"isIgnoredDeclaration",ref:
+	[
+		{fp:"ctags/fortran.c",ki:"function",ln:"1770",sig:"(tokenInfo *const token)",},
+	],
+},
+{tag:"isIgnoreToken",ref:
+	[
+		{fp:"ctags/options.c",ki:"function",ln:"1259",sig:"( const char *const name, boolean *const pIgnoreParens, const char **const replacement)",},
+	],
+},
+{tag:"isIncludeFile",ref:
+	[
+		{fp:"ctags/options.c",ki:"function",ln:"704",sig:"(const char *const fileName)",},
+	],
+},
+{tag:"isInitialSymbolCharacter",ref:
+	[
+		{fp:"ctags/asm.c",ki:"function",ln:"141",sig:"(int c)",},
+	],
+},
+{tag:"isKeyword",ref:
+	[
+		{fp:"ctags/eiffel.c",ki:"macro",ln:"44",},
+		{fp:"ctags/flex.c",ki:"macro",ln:"41",},
+		{fp:"ctags/fortran.c",ki:"macro",ln:"38",},
+		{fp:"ctags/jscript.c",ki:"macro",ln:"40",},
+		{fp:"ctags/sql.c",ki:"macro",ln:"47",},
+		{fp:"ctags/tex.c",ki:"macro",ln:"37",},
+		{fp:"ctags/vhdl.c",ki:"macro",ln:"33",},
+	],
+},
+{tag:"isKeywordOrIdent",ref:
+	[
+		{fp:"ctags/vhdl.c",ki:"function",ln:"334",sig:"(const tokenInfo * const token, const keywordId keyword, const vString * const name)",},
+	],
+},
+{tag:"isKnrParamList",ref:
+	[
+		{fp:"ctags/c.c",ki:"member",ln:"242",},
+	],
+},
+{tag:"isLanguage",ref:
+	[
+		{fp:"ctags/read.h",ki:"macro",ln:"42",},
+	],
+},
+{tag:"isLowerAlpha",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"function",ln:"224",sig:"(char c)",},
+	],
+},
+{tag:"isMap",ref:
+	[
+		{fp:"ctags/vim.c",ki:"function",ln:"137",sig:"(const unsigned char* line)",},
+	],
+},
+{tag:"isMatchedEnd",ref:
+	[
+		{fp:"ctags/sql.c",ki:"function",ln:"362",sig:"(tokenInfo *const token, int nest_lvl)",},
+	],
+},
+{tag:"isMember",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"701",sig:"(const statementInfo *const st)",},
+	],
+},
+{tag:"isNameCandidate",ref:
+	[
+		{fp:"ctags/c.c",ki:"member",ln:"243",},
+	],
+},
+{tag:"isNormalFile",ref:
+	[
+		{fp:"ctags/routines.h",ki:"member",ln:"69",},
+	],
+},
+{tag:"isNum",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"function",ln:"220",sig:"(char c)",},
+	],
+},
+{tag:"isOneOf",ref:
+	[
+		{fp:"ctags/c.c",ki:"macro",ln:"43",},
+	],
+},
+{tag:"isOperator",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"variable",ln:"178",},
+	],
+},
+{tag:"isOption",ref:
+	[
+		{fp:"ctags/options.h",ki:"member",ln:"43",},
+	],
+},
+{tag:"isParamList",ref:
+	[
+		{fp:"ctags/c.c",ki:"member",ln:"241",},
+	],
+},
+{tag:"isPathSeparator",ref:
+	[
+		{fp:"ctags/routines.c",ki:"function",ln:"516",sig:"(const int c)",},
+	],
+},
+{tag:"isPodWord",ref:
+	[
+		{fp:"ctags/perl.c",ki:"function",ln:"65",sig:"(const char *word)",},
+	],
+},
+{tag:"isPointer",ref:
+	[
+		{fp:"ctags/c.c",ki:"member",ln:"197",},
+		{fp:"ctags/c.c",ki:"member",ln:"240",},
+	],
+},
+{tag:"isRecursiveLink",ref:
+	[
+		{fp:"ctags/routines.c",ki:"function",ln:"467",sig:"(const char* const dirName)",},
+	],
+},
+{tag:"isSameFile",ref:
+	[
+		{fp:"ctags/routines.c",ki:"function",ln:"541",sig:"(const char *const name1, const char *const name2)",},
+	],
+},
+{tag:"isSecondaryKeyword",ref:
+	[
+		{fp:"ctags/fortran.c",ki:"macro",ln:"39",},
+	],
+},
+{tag:"isSetuid",ref:
+	[
+		{fp:"ctags/routines.h",ki:"member",ln:"75",},
+	],
+},
+{tag:"isSpace",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"function",ln:"244",sig:"(char c)",},
+	],
+},
+{tag:"isspacetab",ref:
+	[
+		{fp:"ctags/get.c",ki:"macro",ln:"31",},
+	],
+},
+{tag:"isStatementEnd",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"2602",sig:"(const statementInfo *const st)",},
+	],
+},
+{tag:"isSubprogramPrefix",ref:
+	[
+		{fp:"ctags/fortran.c",ki:"function",ln:"1117",sig:"(tokenInfo *const token)",},
+	],
+},
+{tag:"isSubroutineDeclaration",ref:
+	[
+		{fp:"ctags/perl.c",ki:"function",ln:"112",sig:"(const unsigned char *cp)",},
+	],
+},
+{tag:"isSymbolCharacter",ref:
+	[
+		{fp:"ctags/asm.c",ki:"function",ln:"146",sig:"(int c)",},
+	],
+},
+{tag:"isSymbolicLink",ref:
+	[
+		{fp:"ctags/routines.h",ki:"member",ln:"63",},
+	],
+},
+{tag:"isTagFile",ref:
+	[
+		{fp:"ctags/entry.c",ki:"function",ln:"319",sig:"(const char *const filename)",},
+	],
+},
+{tag:"isTrue",ref:
+	[
+		{fp:"ctags/options.c",ki:"function",ln:"691",sig:"(const char *parameter)",},
+	],
+},
+{tag:"isType",ref:
+	[
+		{fp:"ctags/c.c",ki:"macro",ln:"37",},
+		{fp:"ctags/eiffel.c",ki:"macro",ln:"43",},
+		{fp:"ctags/flex.c",ki:"macro",ln:"40",},
+		{fp:"ctags/fortran.c",ki:"macro",ln:"37",},
+		{fp:"ctags/jscript.c",ki:"macro",ln:"39",},
+		{fp:"ctags/sql.c",ki:"macro",ln:"46",},
+		{fp:"ctags/tex.c",ki:"macro",ln:"36",},
+		{fp:"ctags/vhdl.c",ki:"macro",ln:"32",},
+	],
+},
+{tag:"isTypeSpec",ref:
+	[
+		{fp:"ctags/fortran.c",ki:"function",ln:"1094",sig:"(tokenInfo *const token)",},
+	],
+},
+{tag:"isUpperAlpha",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"function",ln:"229",sig:"(char c)",},
+	],
+},
+{tag:"isValid",ref:
+	[
+		{fp:"ctags/c.c",ki:"member",ln:"103",},
+	],
+},
+{tag:"isValidTagAddress",ref:
+	[
+		{fp:"ctags/entry.c",ki:"function",ln:"254",sig:"(const char *const excmd)",},
+	],
+},
+{tag:"isValidTypeSpecifier",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"1167",sig:"(const declType declaration)",},
+	],
+},
+{tag:"item",ref:
+	[
+		{fp:"ctags/args.h",ki:"member",ln:"33",},
+		{fp:"ctags/args.h",ki:"member",ln:"37",},
+		{fp:"ctags/args.h",ki:"member",ln:"43",},
+		{fp:"ctags/options.h",ki:"member",ln:"47",},
+	],
+},
+])

@@ -1,0 +1,149 @@
+([
+{tag:"waitedToken",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"variable",ln:"510",},
+	],
+},
+{tag:"WARNING",ref:
+	[
+		{fp:"ctags/routines.h",ki:"enumerator",ln:"53",},
+	],
+},
+{tag:"WARNINGS",ref:
+	[
+		{fp:"ctags/maintainer.mak",ki:"macro",ln:"45",},
+		{fp:"ctags/mk_bc5.mak",ki:"macro",ln:"10",},
+	],
+},
+{tag:"wch",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"689",},
+	],
+},
+{tag:"wcs",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"331",},
+	],
+},
+{tag:"weak_alias",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"function",ln:"237",},
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"function",ln:"265",},
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"function",ln:"523",},
+		{fp:"ctags/gnu_regex/regexec.c",ki:"function",ln:"590",},
+	],
+},
+{tag:"WHOLE_FILE",ref:
+	[
+		{fp:"ctags/entry.h",ki:"macro",ln:"26",},
+	],
+},
+{tag:"WIDE_NEWLINE_CHAR",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"112",},
+	],
+},
+{tag:"WIN_FILES",ref:
+	[
+		{fp:"ctags/maintainer.mak",ki:"macro",ln:"35",},
+	],
+},
+{tag:"win_version",ref:
+	[
+		{fp:"ctags/maintainer.mak",ki:"macro",ln:"59",},
+	],
+},
+{tag:"WINDOWS_DIR",ref:
+	[
+		{fp:"ctags/maintainer.mak",ki:"macro",ln:"56",},
+	],
+},
+{tag:"word_char",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"315",},
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"364",},
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"657",},
+	],
+},
+{tag:"WORD_DELIM",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"179",},
+	],
+},
+{tag:"WORD_DELIM_CONSTRAINT",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"166",},
+	],
+},
+{tag:"WORD_FIRST",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"172",},
+	],
+},
+{tag:"WORD_LAST",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"173",},
+	],
+},
+{tag:"word_ops_used",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"372",},
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"655",},
+	],
+},
+{tag:"word_trtable",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"505",},
+	],
+},
+{tag:"writeCompactSourceLine",ref:
+	[
+		{fp:"ctags/entry.c",ki:"function",ln:"608",sig:"(FILE *const fp, const char *const line)",},
+	],
+},
+{tag:"writeCtagsEntry",ref:
+	[
+		{fp:"ctags/entry.c",ki:"function",ln:"791",sig:"(const tagEntryInfo *const tag)",},
+	],
+},
+{tag:"writeEtagsEntry",ref:
+	[
+		{fp:"ctags/entry.c",ki:"function",ln:"679",sig:"(const tagEntryInfo *const tag)",},
+	],
+},
+{tag:"writeEtagsIncludes",ref:
+	[
+		{fp:"ctags/entry.c",ki:"function",ln:"509",sig:"(FILE *const fp)",},
+	],
+},
+{tag:"writeLineNumberEntry",ref:
+	[
+		{fp:"ctags/entry.c",ki:"function",ln:"786",sig:"(const tagEntryInfo *const tag)",},
+	],
+},
+{tag:"writePatternEntry",ref:
+	[
+		{fp:"ctags/entry.c",ki:"function",ln:"768",sig:"(const tagEntryInfo *const tag)",},
+	],
+},
+{tag:"writePseudoTag",ref:
+	[
+		{fp:"ctags/entry.c",ki:"function",ln:"130",sig:"( const char *const tagName, const char *const fileName, const char *const pattern)",},
+	],
+},
+{tag:"writeSortedTags",ref:
+	[
+		{fp:"ctags/sort.c",ki:"function",ln:"133",sig:"( char **const table, const size_t numTags, const boolean toStdout)",},
+	],
+},
+{tag:"writeSourceLine",ref:
+	[
+		{fp:"ctags/entry.c",ki:"function",ln:"577",sig:"(FILE *const fp, const char *const line)",},
+	],
+},
+{tag:"writeXrefEntry",ref:
+	[
+		{fp:"ctags/entry.c",ki:"function",ln:"642",sig:"(const tagEntryInfo *const tag)",},
+	],
+},
+])

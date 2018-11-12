@@ -1,0 +1,481 @@
+([
+{tag:"L_getit",ref:
+	[
+		{fp:"ctags/lisp.c",ki:"function",ln:"57",sig:"(vString *const name, const unsigned char *dbp)",},
+	],
+},
+{tag:"L_isdef",ref:
+	[
+		{fp:"ctags/lisp.c",ki:"function",ln:"40",sig:"(const unsigned char *strp)",},
+	],
+},
+{tag:"L_isquote",ref:
+	[
+		{fp:"ctags/lisp.c",ki:"function",ln:"47",sig:"(const unsigned char *strp)",},
+	],
+},
+{tag:"label",ref:
+	[
+		{fp:"ctags/entry.h",ki:"member",ln:"50",},
+	],
+},
+{tag:"Lang_asm",ref:
+	[
+		{fp:"ctags/asm.c",ki:"variable",ln:"68",},
+	],
+},
+{tag:"LANG_AUTO",ref:
+	[
+		{fp:"ctags/parse.h",ki:"macro",ln:"26",},
+	],
+},
+{tag:"Lang_c",ref:
+	[
+		{fp:"ctags/c.c",ki:"variable",ln:"255",},
+	],
+},
+{tag:"Lang_cpp",ref:
+	[
+		{fp:"ctags/c.c",ki:"variable",ln:"256",},
+	],
+},
+{tag:"Lang_csharp",ref:
+	[
+		{fp:"ctags/c.c",ki:"variable",ln:"257",},
+	],
+},
+{tag:"Lang_eiffel",ref:
+	[
+		{fp:"ctags/eiffel.c",ki:"variable",ln:"121",},
+	],
+},
+{tag:"Lang_fortran",ref:
+	[
+		{fp:"ctags/fortran.c",ki:"variable",ln:"193",},
+	],
+},
+{tag:"LANG_IGNORE",ref:
+	[
+		{fp:"ctags/parse.h",ki:"macro",ln:"27",},
+	],
+},
+{tag:"Lang_java",ref:
+	[
+		{fp:"ctags/c.c",ki:"variable",ln:"258",},
+	],
+},
+{tag:"Lang_js",ref:
+	[
+		{fp:"ctags/flex.c",ki:"variable",ln:"138",},
+		{fp:"ctags/jscript.c",ki:"variable",ln:"121",},
+		{fp:"ctags/tex.c",ki:"variable",ln:"109",},
+	],
+},
+{tag:"Lang_Ocaml",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"variable",ln:"166",},
+	],
+},
+{tag:"Lang_sql",ref:
+	[
+		{fp:"ctags/sql.c",ki:"variable",ln:"174",},
+	],
+},
+{tag:"Lang_vera",ref:
+	[
+		{fp:"ctags/c.c",ki:"variable",ln:"259",},
+	],
+},
+{tag:"Lang_verilog",ref:
+	[
+		{fp:"ctags/verilog.c",ki:"variable",ln:"60",},
+	],
+},
+{tag:"Lang_vhdl",ref:
+	[
+		{fp:"ctags/vhdl.c",ki:"variable",ln:"175",},
+	],
+},
+{tag:"langKindOption",ref:
+	[
+		{fp:"ctags/parse.c",ki:"function",ln:"405",sig:"(const langType language, const int flag)",},
+	],
+},
+{tag:"langType",ref:
+	[
+		{fp:"ctags/parse.h",ki:"typedef",ln:"32",},
+	],
+},
+{tag:"language",ref:
+	[
+		{fp:"ctags/entry.h",ki:"member",ln:"60",},
+		{fp:"ctags/keyword.c",ki:"member",ln:"35",},
+		{fp:"ctags/options.h",ki:"member",ln:"104",},
+		{fp:"ctags/options.h",ki:"member",ln:"76",},
+		{fp:"ctags/read.h",ki:"member",ln:"80",},
+		{fp:"ctags/read.h",ki:"member",ln:"91",},
+	],
+},
+{tag:"LanguageCount",ref:
+	[
+		{fp:"ctags/parse.c",ki:"variable",ln:"35",},
+	],
+},
+{tag:"languageSupportsGenerics",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"2054",sig:"(void)",},
+	],
+},
+{tag:"LanguageTable",ref:
+	[
+		{fp:"ctags/parse.c",ki:"variable",ln:"34",},
+	],
+},
+{tag:"last_node",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"581",},
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"599",},
+	],
+},
+{tag:"last_str_idx",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"600",},
+	],
+},
+{tag:"lastClass",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"variable",ln:"514",},
+	],
+},
+{tag:"lastModule",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"variable",ln:"1426",},
+	],
+},
+{tag:"lasts",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"554",},
+	],
+},
+{tag:"LD",ref:
+	[
+		{fp:"ctags/maintainer.mak",ki:"macro",ln:"74",},
+		{fp:"ctags/mk_mpw.mak",ki:"macro",ln:"106",},
+		{fp:"ctags/mk_qdos.mak",ki:"macro",ln:"16",},
+	],
+},
+{tag:"LDFLAGS",ref:
+	[
+		{fp:"ctags/maintainer.mak",ki:"macro",ln:"75",},
+		{fp:"ctags/mk_qdos.mak",ki:"macro",ln:"23",},
+	],
+},
+{tag:"left",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"447",},
+	],
+},
+{tag:"len",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"349",},
+	],
+},
+{tag:"length",ref:
+	[
+		{fp:"ctags/gnu_regex/regexec.c",ki:"variable",ln:"323",},
+		{fp:"ctags/parse.h",ki:"member",ln:"69",},
+		{fp:"ctags/vstring.h",ki:"member",ln:"55",},
+	],
+},
+{tag:"length1",ref:
+	[
+		{fp:"ctags/gnu_regex/regexec.c",ki:"variable",ln:"336",},
+		{fp:"ctags/gnu_regex/regexec.c",ki:"variable",ln:"350",},
+	],
+},
+{tag:"length2",ref:
+	[
+		{fp:"ctags/gnu_regex/regexec.c",ki:"variable",ln:"336",},
+		{fp:"ctags/gnu_regex/regexec.c",ki:"variable",ln:"350",},
+	],
+},
+{tag:"letParam",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"function",ln:"1314",sig:"(vString * const ident, ocaToken what)",},
+	],
+},
+{tag:"letter",ref:
+	[
+		{fp:"ctags/lregex.c",ki:"member",ln:"60",},
+		{fp:"ctags/parse.h",ki:"member",ln:"41",},
+	],
+},
+{tag:"levels",ref:
+	[
+		{fp:"ctags/python.c",ki:"member",ln:"42",},
+	],
+},
+{tag:"lex",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"function",ln:"387",sig:"(lexingState * st)",},
+	],
+},
+{tag:"lexingState",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"typedef",ln:"175",},
+	],
+},
+{tag:"LFLAGS",ref:
+	[
+		{fp:"ctags/mk_bc3.mak",ki:"macro",ln:"23",},
+	],
+},
+{tag:"LIB",ref:
+	[
+		{fp:"ctags/mk_bc3.mak",ki:"macro",ln:"11",},
+	],
+},
+{tag:"LIB_FILES",ref:
+	[
+		{fp:"ctags/maintainer.mak",ki:"macro",ln:"16",},
+	],
+},
+{tag:"libc_freeres_fn",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"function",ln:"718",},
+	],
+},
+{tag:"LIBS",ref:
+	[
+		{fp:"ctags/mk_mpw.mak",ki:"macro",ln:"98",},
+		{fp:"ctags/mk_qdos.mak",ki:"macro",ln:"31",},
+	],
+},
+{tag:"License1",ref:
+	[
+		{fp:"ctags/options.c",ki:"variable",ln:"280",},
+	],
+},
+{tag:"License2",ref:
+	[
+		{fp:"ctags/options.c",ki:"variable",ln:"286",},
+	],
+},
+{tag:"limited_states",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"598",},
+	],
+},
+{tag:"limits",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"601",},
+	],
+},
+{tag:"line",ref:
+	[
+		{fp:"ctags/entry.h",ki:"member",ln:"39",},
+		{fp:"ctags/read.h",ki:"member",ln:"72",},
+		{fp:"ctags/readtags.c",ki:"member",ln:"52",},
+	],
+},
+{tag:"LINE_FIRST",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"175",},
+	],
+},
+{tag:"LINE_LAST",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"176",},
+	],
+},
+{tag:"lineBreak",ref:
+	[
+		{fp:"ctags/debug.c",ki:"function",ln:"30",sig:"(void)",},
+	],
+},
+{tag:"lineDirectives",ref:
+	[
+		{fp:"ctags/options.h",ki:"member",ln:"110",},
+	],
+},
+{tag:"lineMode",ref:
+	[
+		{fp:"ctags/args.h",ki:"member",ln:"44",},
+	],
+},
+{tag:"lineNumber",ref:
+	[
+		{fp:"ctags/c.c",ki:"member",ln:"176",},
+		{fp:"ctags/entry.h",ki:"member",ln:"58",},
+		{fp:"ctags/flex.c",ki:"member",ln:"127",},
+		{fp:"ctags/fortran.c",ki:"member",ln:"185",},
+		{fp:"ctags/jscript.c",ki:"member",ln:"111",},
+		{fp:"ctags/options.h",ki:"member",ln:"77",},
+		{fp:"ctags/read.h",ki:"member",ln:"75",},
+		{fp:"ctags/read.h",ki:"member",ln:"89",},
+		{fp:"ctags/readtags.h",ki:"member",ln:"122",},
+		{fp:"ctags/sql.c",ki:"member",ln:"166",},
+		{fp:"ctags/tex.c",ki:"member",ln:"101",},
+		{fp:"ctags/vhdl.c",ki:"member",ln:"168",},
+	],
+},
+{tag:"lineNumberEntry",ref:
+	[
+		{fp:"ctags/entry.h",ki:"member",ln:"57",},
+	],
+},
+{tag:"lines",ref:
+	[
+		{fp:"ctags/main.c",ki:"member",ln:"94",},
+	],
+},
+{tag:"lineType",ref:
+	[
+		{fp:"ctags/fortran.c",ki:"typedef",ln:"60",},
+	],
+},
+{tag:"link_nfa_nodes",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"function",ln:"1375",sig:"(void *extra, bin_tree_t *node)",},
+	],
+},
+{tag:"lispKind",ref:
+	[
+		{fp:"ctags/lisp.c",ki:"typedef",ln:"26",},
+	],
+},
+{tag:"LispKinds",ref:
+	[
+		{fp:"ctags/lisp.c",ki:"variable",ln:"28",},
+	],
+},
+{tag:"LispParser",ref:
+	[
+		{fp:"ctags/lisp.c",ki:"function",ln:"126",sig:"(void)",},
+	],
+},
+{tag:"list",ref:
+	[
+		{fp:"ctags/fortran.c",ki:"member",ln:"302",},
+		{fp:"ctags/readtags.c",ki:"member",ln:"73",},
+		{fp:"ctags/readtags.h",ki:"member",ln:"137",},
+		{fp:"ctags/strlist.h",ki:"member",ln:"27",},
+	],
+},
+{tag:"list_item",ref:
+	[
+		{fp:"ctags/argproc.c",ki:"struct",ln:"51",},
+	],
+},
+{tag:"listTags",ref:
+	[
+		{fp:"ctags/readtags.c",ki:"function",ln:"849",sig:"(void)",},
+	],
+},
+{tag:"LN_DEBUG",ref:
+	[
+		{fp:"ctags/mk_manx.mak",ki:"macro",ln:"56",},
+	],
+},
+{tag:"localLet",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"function",ln:"1186",sig:"(vString * const ident, ocaToken what)",},
+	],
+},
+{tag:"localScope",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"function",ln:"1637",sig:"(vString * const ident, ocaToken what)",},
+	],
+},
+{tag:"locate",ref:
+	[
+		{fp:"ctags/options.h",ki:"member",ln:"92",},
+	],
+},
+{tag:"longOption",ref:
+	[
+		{fp:"ctags/options.h",ki:"member",ln:"44",},
+	],
+},
+{tag:"LongOptionDescription",ref:
+	[
+		{fp:"ctags/options.c",ki:"variable",ln:"160",},
+	],
+},
+{tag:"lookupKeyword",ref:
+	[
+		{fp:"ctags/keyword.c",ki:"function",ln:"155",sig:"(const char *const string, langType language)",},
+	],
+},
+{tag:"LOptions",ref:
+	[
+		{fp:"ctags/mk_mpw.mak",ki:"macro",ln:"111",},
+	],
+},
+{tag:"lower_subexp",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"function",ln:"1293",sig:"(reg_errcode_t *err, regex_t *preg, bin_tree_t *node)",},
+	],
+},
+{tag:"lower_subexps",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"function",ln:"1271",sig:"(void *extra, bin_tree_t *node)",},
+	],
+},
+{tag:"lstat",ref:
+	[
+		{fp:"ctags/e_mac.h",ki:"macro",ln:"139",},
+		{fp:"ctags/routines.c",ki:"macro",ln:"174",},
+	],
+},
+{tag:"LTYPE_COMMENT",ref:
+	[
+		{fp:"ctags/fortran.c",ki:"enumerator",ln:"55",},
+	],
+},
+{tag:"LTYPE_CONTINUATION",ref:
+	[
+		{fp:"ctags/fortran.c",ki:"enumerator",ln:"56",},
+	],
+},
+{tag:"LTYPE_EOF",ref:
+	[
+		{fp:"ctags/fortran.c",ki:"enumerator",ln:"57",},
+	],
+},
+{tag:"LTYPE_INITIAL",ref:
+	[
+		{fp:"ctags/fortran.c",ki:"enumerator",ln:"58",},
+	],
+},
+{tag:"LTYPE_INVALID",ref:
+	[
+		{fp:"ctags/fortran.c",ki:"enumerator",ln:"54",},
+	],
+},
+{tag:"LTYPE_SHORT",ref:
+	[
+		{fp:"ctags/fortran.c",ki:"enumerator",ln:"59",},
+	],
+},
+{tag:"LTYPE_UNDETERMINED",ref:
+	[
+		{fp:"ctags/fortran.c",ki:"enumerator",ln:"53",},
+	],
+},
+{tag:"luaKind",ref:
+	[
+		{fp:"ctags/lua.c",ki:"typedef",ln:"29",},
+	],
+},
+{tag:"LuaKinds",ref:
+	[
+		{fp:"ctags/lua.c",ki:"variable",ln:"31",},
+	],
+},
+{tag:"LuaParser",ref:
+	[
+		{fp:"ctags/lua.c",ki:"function",ln:"122",sig:"(void)",},
+	],
+},
+])

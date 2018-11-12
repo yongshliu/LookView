@@ -1,0 +1,2910 @@
+([
+{tag:"TABLE_SIZE",ref:
+	[
+		{fp:"ofono/src/util.c",ki:"macro",ln:"68",},
+	],
+},
+{tag:"tac",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1136",},
+	],
+},
+{tag:"tadv",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1517",},
+	],
+},
+{tag:"tag",ref:
+	[
+		{fp:"ofono/src/simutil.h",ki:"member",ln:"305",},
+		{fp:"ofono/src/simutil.h",ki:"member",ln:"314",},
+		{fp:"ofono/src/simutil.h",ki:"member",ln:"324",},
+		{fp:"ofono/src/simutil.h",ki:"member",ln:"337",},
+	],
+},
+{tag:"tai",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1721",},
+	],
+},
+{tag:"target",ref:
+	[
+		{fp:"ofono/plugins/nokia-gpio.c",ki:"member",ln:"82",},
+	],
+},
+{tag:"tc65_debug",ref:
+	[
+		{fp:"ofono/plugins/tc65.c",ki:"function",ln:"64",sig:"(const char *str, void *user_data)",},
+	],
+},
+{tag:"tc65_disable",ref:
+	[
+		{fp:"ofono/plugins/tc65.c",ki:"function",ln:"126",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"tc65_driver",ref:
+	[
+		{fp:"ofono/plugins/tc65.c",ki:"variable",ln:"222",},
+	],
+},
+{tag:"tc65_enable",ref:
+	[
+		{fp:"ofono/plugins/tc65.c",ki:"function",ln:"71",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"tc65_exit",ref:
+	[
+		{fp:"ofono/plugins/tc65.c",ki:"function",ln:"239",sig:"(void)",},
+	],
+},
+{tag:"tc65_init",ref:
+	[
+		{fp:"ofono/plugins/tc65.c",ki:"function",ln:"234",sig:"(void)",},
+	],
+},
+{tag:"tc65_post_online",ref:
+	[
+		{fp:"ofono/plugins/tc65.c",ki:"function",ln:"195",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"tc65_post_sim",ref:
+	[
+		{fp:"ofono/plugins/tc65.c",ki:"function",ln:"184",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"tc65_pre_sim",ref:
+	[
+		{fp:"ofono/plugins/tc65.c",ki:"function",ln:"169",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"tc65_probe",ref:
+	[
+		{fp:"ofono/plugins/tc65.c",ki:"function",ln:"55",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"tc65_remove",ref:
+	[
+		{fp:"ofono/plugins/tc65.c",ki:"function",ln:"60",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"tc65_set_online",ref:
+	[
+		{fp:"ofono/plugins/tc65.c",ki:"function",ln:"152",sig:"(struct ofono_modem *modem, ofono_bool_t online, ofono_modem_online_cb_t cb, void *user_data)",},
+	],
+},
+{tag:"tech",ref:
+	[
+		{fp:"ofono/drivers/atmodem/network-registration.c",ki:"member",ln:"62",},
+		{fp:"ofono/include/netreg.h",ki:"member",ln:"43",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1119",},
+	],
+},
+{tag:"tech_id",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"971",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"979",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"986",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"993",},
+	],
+},
+{tag:"tech_query",ref:
+	[
+		{fp:"ofono/drivers/atmodem/network-registration.c",ki:"struct",ln:"68",},
+	],
+},
+{tag:"technology",ref:
+	[
+		{fp:"ofono/src/network.c",ki:"member",ln:"65",},
+	],
+},
+{tag:"techs",ref:
+	[
+		{fp:"ofono/src/network.c",ki:"member",ln:"93",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1528",},
+	],
+},
+{tag:"TEL_TYPE_FAX",ref:
+	[
+		{fp:"ofono/src/phonebook.c",ki:"enumerator",ln:"50",},
+	],
+},
+{tag:"TEL_TYPE_HOME",ref:
+	[
+		{fp:"ofono/src/phonebook.c",ki:"enumerator",ln:"48",},
+	],
+},
+{tag:"TEL_TYPE_MOBILE",ref:
+	[
+		{fp:"ofono/src/phonebook.c",ki:"enumerator",ln:"49",},
+	],
+},
+{tag:"TEL_TYPE_OTHER",ref:
+	[
+		{fp:"ofono/src/phonebook.c",ki:"enumerator",ln:"52",},
+	],
+},
+{tag:"TEL_TYPE_WORK",ref:
+	[
+		{fp:"ofono/src/phonebook.c",ki:"enumerator",ln:"51",},
+	],
+},
+{tag:"telephony_error_to_str",ref:
+	[
+		{fp:"ofono/src/common.c",ki:"function",ln:"309",sig:"(const struct ofono_error *error)",},
+	],
+},
+{tag:"teleservice_id",ref:
+	[
+		{fp:"ofono/src/cdma-smsutil.h",ki:"member",ln:"258",},
+	],
+},
+{tag:"telit_ciev_notify",ref:
+	[
+		{fp:"ofono/drivers/atmodem/network-registration.c",ki:"function",ln:"810",sig:"(GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"telit_data",ref:
+	[
+		{fp:"ofono/plugins/telit.c",ki:"struct",ln:"66",},
+	],
+},
+{tag:"telit_debug",ref:
+	[
+		{fp:"ofono/plugins/telit.c",ki:"function",ln:"79",sig:"(const char *str, void *user_data)",},
+	],
+},
+{tag:"telit_disable",ref:
+	[
+		{fp:"ofono/plugins/telit.c",ki:"function",ln:"416",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"telit_driver",ref:
+	[
+		{fp:"ofono/plugins/telit.c",ki:"variable",ln:"669",},
+	],
+},
+{tag:"telit_enable",ref:
+	[
+		{fp:"ofono/plugins/telit.c",ki:"function",ln:"319",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"telit_exit",ref:
+	[
+		{fp:"ofono/plugins/telit.c",ki:"function",ln:"686",sig:"(void)",},
+	],
+},
+{tag:"telit_init",ref:
+	[
+		{fp:"ofono/plugins/telit.c",ki:"function",ln:"681",sig:"(void)",},
+	],
+},
+{tag:"telit_mode_notify",ref:
+	[
+		{fp:"ofono/drivers/atmodem/gprs.c",ki:"function",ln:"250",sig:"(GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"telit_post_online",ref:
+	[
+		{fp:"ofono/plugins/telit.c",ki:"function",ln:"603",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"telit_post_sim",ref:
+	[
+		{fp:"ofono/plugins/telit.c",ki:"function",ln:"561",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"telit_pre_sim",ref:
+	[
+		{fp:"ofono/plugins/telit.c",ki:"function",ln:"546",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"telit_probe",ref:
+	[
+		{fp:"ofono/plugins/telit.c",ki:"function",ln:"635",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"telit_qss_notify",ref:
+	[
+		{fp:"ofono/plugins/telit.c",ki:"function",ln:"258",sig:"(GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"telit_remove",ref:
+	[
+		{fp:"ofono/plugins/telit.c",ki:"function",ln:"652",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"telit_rsen_notify",ref:
+	[
+		{fp:"ofono/plugins/telit.c",ki:"function",ln:"358",sig:"(GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"telit_sap_disable",ref:
+	[
+		{fp:"ofono/plugins/telit.c",ki:"function",ln:"534",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"telit_sap_enable",ref:
+	[
+		{fp:"ofono/plugins/telit.c",ki:"function",ln:"474",sig:"(struct ofono_modem *modem, struct ofono_modem *sap_modem, int bt_fd)",},
+	],
+},
+{tag:"telit_sap_open",ref:
+	[
+		{fp:"ofono/plugins/telit.c",ki:"function",ln:"447",sig:"(void)",},
+	],
+},
+{tag:"telit_set_online",ref:
+	[
+		{fp:"ofono/plugins/telit.c",ki:"function",ln:"590",sig:"(struct ofono_modem *modem, ofono_bool_t online, ofono_modem_online_cb_t cb, void *user_data)",},
+	],
+},
+{tag:"terminal_apps",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1770",},
+	],
+},
+{tag:"terminal_response",ref:
+	[
+		{fp:"ofono/include/stk.h",ki:"member",ln:"47",},
+	],
+},
+{tag:"terminal_response_func",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"typedef",ln:"81",},
+	],
+},
+{tag:"terminal_response_test",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"struct",ln:"16212",},
+	],
+},
+{tag:"TERMINATE_ERROR",ref:
+	[
+		{fp:"ofono/src/stkagent.c",ki:"macro",ln:"72",},
+	],
+},
+{tag:"terminate_identifier",ref:
+	[
+		{fp:"ofono/gatchat/ppp_cp.c",ki:"member",ln:"180",},
+	],
+},
+{tag:"terminate_timer_data",ref:
+	[
+		{fp:"ofono/gatchat/ppp_cp.c",ki:"member",ln:"175",},
+	],
+},
+{tag:"terminator",ref:
+	[
+		{fp:"ofono/gatchat/gatchat.c",ki:"member",ln:"116",},
+	],
+},
+{tag:"terminator_blacklist",ref:
+	[
+		{fp:"ofono/gatchat/gatchat.c",ki:"member",ln:"105",},
+	],
+},
+{tag:"terminator_info",ref:
+	[
+		{fp:"ofono/gatchat/gatchat.c",ki:"struct",ln:"115",},
+	],
+},
+{tag:"terminator_list",ref:
+	[
+		{fp:"ofono/gatchat/gatchat.c",ki:"member",ln:"104",},
+	],
+},
+{tag:"terminator_table",ref:
+	[
+		{fp:"ofono/gatchat/gatchat.c",ki:"variable",ln:"471",},
+	],
+},
+{tag:"test",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"struct",ln:"84",},
+	],
+},
+{tag:"test_3g_status_data",ref:
+	[
+		{fp:"ofono/unit/test-simutil.c",ki:"function",ln:"407",sig:"(void)",},
+	],
+},
+{tag:"test_alloc",ref:
+	[
+		{fp:"ofono/unit/test-idmap.c",ki:"function",ln:"30",sig:"(void)",},
+	],
+},
+{tag:"test_alloc_next",ref:
+	[
+		{fp:"ofono/unit/test-idmap.c",ki:"function",ln:"68",sig:"(void)",},
+	],
+},
+{tag:"test_alnum_sender",ref:
+	[
+		{fp:"ofono/unit/test-sms.c",ki:"function",ln:"220",sig:"(void)",},
+	],
+},
+{tag:"test_apn",ref:
+	[
+		{fp:"ofono/unit/test-common.c",ki:"function",ln:"161",sig:"(void)",},
+	],
+},
+{tag:"test_application_entry_decode",ref:
+	[
+		{fp:"ofono/unit/test-simutil.c",ki:"function",ln:"450",sig:"(void)",},
+	],
+},
+{tag:"test_assembly",ref:
+	[
+		{fp:"ofono/unit/test-sms.c",ki:"function",ln:"1038",sig:"(void)",},
+	],
+},
+{tag:"test_basic",ref:
+	[
+		{fp:"ofono/unit/test-caif.c",ki:"function",ln:"143",sig:"(void)",},
+		{fp:"ofono/unit/test-mux.c",ki:"function",ln:"221",sig:"(void)",},
+	],
+},
+{tag:"test_ber_tlv_builder_3g_status",ref:
+	[
+		{fp:"ofono/unit/test-simutil.c",ki:"function",ln:"191",sig:"(void)",},
+	],
+},
+{tag:"test_ber_tlv_builder_efpnn",ref:
+	[
+		{fp:"ofono/unit/test-simutil.c",ki:"function",ln:"131",sig:"(void)",},
+	],
+},
+{tag:"test_ber_tlv_builder_mms",ref:
+	[
+		{fp:"ofono/unit/test-simutil.c",ki:"function",ln:"88",sig:"(void)",},
+	],
+},
+{tag:"test_ber_tlv_iter",ref:
+	[
+		{fp:"ofono/unit/test-simutil.c",ki:"function",ln:"83",sig:"(void)",},
+	],
+},
+{tag:"test_buffer",ref:
+	[
+		{fp:"ofono/unit/test-simutil.c",ki:"function",ln:"51",sig:"(const unsigned char *buf, size_t size)",},
+	],
+},
+{tag:"test_cbs_assembly",ref:
+	[
+		{fp:"ofono/unit/test-sms.c",ki:"function",ln:"1412",sig:"(void)",},
+	],
+},
+{tag:"test_cbs_encode_decode",ref:
+	[
+		{fp:"ofono/unit/test-sms.c",ki:"function",ln:"1347",sig:"(void)",},
+	],
+},
+{tag:"test_cbs_padding_character",ref:
+	[
+		{fp:"ofono/unit/test-sms.c",ki:"function",ln:"1500",sig:"(void)",},
+	],
+},
+{tag:"test_chnlat",ref:
+	[
+		{fp:"ofono/unit/test-caif.c",ki:"function",ln:"154",sig:"(void)",},
+	],
+},
+{tag:"test_close_channel",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"function",ln:"15932",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_connect",ref:
+	[
+		{fp:"ofono/unit/test-caif.c",ki:"function",ln:"105",sig:"(gboolean use_socket)",},
+	],
+},
+{tag:"test_cr_handling",ref:
+	[
+		{fp:"ofono/unit/test-util.c",ki:"function",ln:"694",sig:"(void)",},
+	],
+},
+{tag:"test_decode_encode",ref:
+	[
+		{fp:"ofono/unit/test-util.c",ki:"function",ln:"533",sig:"(void)",},
+	],
+},
+{tag:"test_deliver_encode",ref:
+	[
+		{fp:"ofono/unit/test-sms.c",ki:"function",ln:"291",sig:"(void)",},
+	],
+},
+{tag:"test_destroy",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"4407",sig:"(gpointer user_data)",},
+	],
+},
+{tag:"test_display_text",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"function",ln:"849",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_display_text_101",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1647",sig:"(DBusMessage *msg, const char *text, unsigned char icon_id, gboolean urgent)",},
+	],
+},
+{tag:"test_display_text_11",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1216",sig:"(DBusMessage *msg, const char *text, unsigned char icon_id, gboolean urgent)",},
+	],
+},
+{tag:"test_display_text_12",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1228",sig:"(DBusMessage *msg, const char *text, unsigned char icon_id, gboolean urgent)",},
+	],
+},
+{tag:"test_display_text_13",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1240",sig:"(DBusMessage *msg, const char *text, unsigned char icon_id, gboolean urgent)",},
+	],
+},
+{tag:"test_display_text_14",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1252",sig:"(DBusMessage *msg, const char *text, unsigned char icon_id, gboolean urgent)",},
+	],
+},
+{tag:"test_display_text_15",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1264",sig:"(DBusMessage *msg, const char *text, unsigned char icon_id, gboolean urgent)",},
+	],
+},
+{tag:"test_display_text_16",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1276",sig:"(DBusMessage *msg, const char *text, unsigned char icon_id, gboolean urgent)",},
+	],
+},
+{tag:"test_display_text_17",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1293",sig:"(DBusMessage *msg, const char *text, unsigned char icon_id, gboolean urgent)",},
+	],
+},
+{tag:"test_display_text_18",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1306",sig:"(DBusMessage *msg, const char *text, unsigned char icon_id, gboolean urgent)",},
+	],
+},
+{tag:"test_display_text_21",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1319",sig:"(DBusMessage *msg, const char *text, unsigned char icon_id, gboolean urgent)",},
+	],
+},
+{tag:"test_display_text_31",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1331",sig:"(DBusMessage *msg, const char *text, unsigned char icon_id, gboolean urgent)",},
+	],
+},
+{tag:"test_display_text_41",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1350",sig:"(DBusMessage *msg, const char *text, unsigned char icon_id, gboolean urgent)",},
+	],
+},
+{tag:"test_display_text_42",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1362",sig:"(DBusMessage *msg, const char *text, unsigned char icon_id, gboolean urgent)",},
+	],
+},
+{tag:"test_display_text_43",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1390",sig:"(DBusMessage *msg, const char *text, unsigned char icon_id, gboolean urgent)",},
+	],
+},
+{tag:"test_display_text_51",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1403",sig:"(DBusMessage *msg, const char *text, unsigned char icon_id, gboolean urgent)",},
+	],
+},
+{tag:"test_display_text_52",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1415",sig:"(DBusMessage *msg, const char *text, unsigned char icon_id, gboolean urgent)",},
+	],
+},
+{tag:"test_display_text_53",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1427",sig:"(DBusMessage *msg, const char *text, unsigned char icon_id, gboolean urgent)",},
+	],
+},
+{tag:"test_display_text_61",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1439",sig:"(DBusMessage *msg, const char *text, unsigned char icon_id, gboolean urgent)",},
+	],
+},
+{tag:"test_display_text_71",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1451",sig:"(DBusMessage *msg, const char *text, unsigned char icon_id, gboolean urgent)",},
+	],
+},
+{tag:"test_display_text_81",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1463",sig:"(DBusMessage *msg, const char *text, unsigned char icon_id, gboolean urgent)",},
+	],
+},
+{tag:"test_display_text_810",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1616",sig:"(DBusMessage *msg, const char *text, unsigned char icon_id, gboolean urgent)",},
+	],
+},
+{tag:"test_display_text_82",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1480",sig:"(DBusMessage *msg, const char *text, unsigned char icon_id, gboolean urgent)",},
+	],
+},
+{tag:"test_display_text_83",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1497",sig:"(DBusMessage *msg, const char *text, unsigned char icon_id, gboolean urgent)",},
+	],
+},
+{tag:"test_display_text_84",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1514",sig:"(DBusMessage *msg, const char *text, unsigned char icon_id, gboolean urgent)",},
+	],
+},
+{tag:"test_display_text_85",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1531",sig:"(DBusMessage *msg, const char *text, unsigned char icon_id, gboolean urgent)",},
+	],
+},
+{tag:"test_display_text_86",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1548",sig:"(DBusMessage *msg, const char *text, unsigned char icon_id, gboolean urgent)",},
+	],
+},
+{tag:"test_display_text_87",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1565",sig:"(DBusMessage *msg, const char *text, unsigned char icon_id, gboolean urgent)",},
+	],
+},
+{tag:"test_display_text_88",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1582",sig:"(DBusMessage *msg, const char *text, unsigned char icon_id, gboolean urgent)",},
+	],
+},
+{tag:"test_display_text_89",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1599",sig:"(DBusMessage *msg, const char *text, unsigned char icon_id, gboolean urgent)",},
+	],
+},
+{tag:"test_display_text_91",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1633",sig:"(DBusMessage *msg, const char *text, unsigned char icon_id, gboolean urgent)",},
+	],
+},
+{tag:"test_ef_db",ref:
+	[
+		{fp:"ofono/unit/test-simutil.c",ki:"function",ln:"388",sig:"(void)",},
+	],
+},
+{tag:"test_ems_udh",ref:
+	[
+		{fp:"ofono/unit/test-sms.c",ki:"function",ln:"916",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_envelope_encoding",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"function",ln:"20238",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_eons",ref:
+	[
+		{fp:"ofono/unit/test-simutil.c",ki:"function",ln:"356",sig:"(void)",},
+	],
+},
+{tag:"test_extract_advanced",ref:
+	[
+		{fp:"ofono/unit/test-mux.c",ki:"function",ln:"472",sig:"(void)",},
+	],
+},
+{tag:"test_extract_basic",ref:
+	[
+		{fp:"ofono/unit/test-mux.c",ki:"function",ln:"373",sig:"(void)",},
+	],
+},
+{tag:"test_fill_advanced",ref:
+	[
+		{fp:"ofono/unit/test-mux.c",ki:"function",ln:"332",sig:"(void)",},
+	],
+},
+{tag:"test_fill_basic",ref:
+	[
+		{fp:"ofono/unit/test-mux.c",ki:"function",ln:"285",sig:"(void)",},
+	],
+},
+{tag:"test_get_2g_path",ref:
+	[
+		{fp:"ofono/unit/test-simutil.c",ki:"function",ln:"488",sig:"(void)",},
+	],
+},
+{tag:"test_get_3g_path",ref:
+	[
+		{fp:"ofono/unit/test-simutil.c",ki:"function",ln:"477",sig:"(void)",},
+	],
+},
+{tag:"test_get_channel_status",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"function",ln:"16192",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_get_inkey",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"function",ln:"1513",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_get_inkey_101",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2136",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id)",},
+	],
+},
+{tag:"test_get_inkey_102",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2154",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id)",},
+	],
+},
+{tag:"test_get_inkey_11",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1661",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id)",},
+	],
+},
+{tag:"test_get_inkey_111",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2176",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id)",},
+	],
+},
+{tag:"test_get_inkey_12",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1678",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id)",},
+	],
+},
+{tag:"test_get_inkey_121",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2193",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id)",},
+	],
+},
+{tag:"test_get_inkey_122",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2211",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id)",},
+	],
+},
+{tag:"test_get_inkey_13",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1695",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id)",},
+	],
+},
+{tag:"test_get_inkey_131",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2233",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id)",},
+	],
+},
+{tag:"test_get_inkey_14",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1705",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id)",},
+	],
+},
+{tag:"test_get_inkey_15",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1715",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id)",},
+	],
+},
+{tag:"test_get_inkey_16",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1732",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id)",},
+	],
+},
+{tag:"test_get_inkey_21",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1753",sig:"(DBusMessage *msg, const char *text, unsigned char icon_id)",},
+	],
+},
+{tag:"test_get_inkey_31",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1762",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id)",},
+	],
+},
+{tag:"test_get_inkey_32",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1779",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id)",},
+	],
+},
+{tag:"test_get_inkey_41",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1799",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id)",},
+	],
+},
+{tag:"test_get_inkey_51a",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1816",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id)",},
+	],
+},
+{tag:"test_get_inkey_51b",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1833",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id)",},
+	],
+},
+{tag:"test_get_inkey_61",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1850",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id)",},
+	],
+},
+{tag:"test_get_inkey_62",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1867",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id)",},
+	],
+},
+{tag:"test_get_inkey_63",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1884",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id)",},
+	],
+},
+{tag:"test_get_inkey_64",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1901",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id)",},
+	],
+},
+{tag:"test_get_inkey_81",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1918",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id)",},
+	],
+},
+{tag:"test_get_inkey_91",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1928",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id)",},
+	],
+},
+{tag:"test_get_inkey_910",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2116",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id)",},
+	],
+},
+{tag:"test_get_inkey_92",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1948",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id)",},
+	],
+},
+{tag:"test_get_inkey_93",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1969",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id)",},
+	],
+},
+{tag:"test_get_inkey_94",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"1990",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id)",},
+	],
+},
+{tag:"test_get_inkey_95",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2011",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id)",},
+	],
+},
+{tag:"test_get_inkey_96",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2032",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id)",},
+	],
+},
+{tag:"test_get_inkey_97",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2053",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id)",},
+	],
+},
+{tag:"test_get_inkey_98",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2074",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id)",},
+	],
+},
+{tag:"test_get_inkey_99",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2095",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id)",},
+	],
+},
+{tag:"test_get_input",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"function",ln:"2434",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_get_input_101",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2857",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id, const char *def_input, unsigned char min, unsigned char max, gboolean hide_typing)",},
+	],
+},
+{tag:"test_get_input_102",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2881",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id, const char *def_input, unsigned char min, unsigned char max, gboolean hide_typing)",},
+	],
+},
+{tag:"test_get_input_11",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2250",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id, const char *def_input, unsigned char min, unsigned char max, gboolean hide_typing)",},
+	],
+},
+{tag:"test_get_input_110",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2462",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id, const char *def_input, unsigned char min, unsigned char max, gboolean hide_typing)",},
+	],
+},
+{tag:"test_get_input_12",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2274",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id, const char *def_input, unsigned char min, unsigned char max, gboolean hide_typing)",},
+	],
+},
+{tag:"test_get_input_121",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2916",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id, const char *def_input, unsigned char min, unsigned char max, gboolean hide_typing)",},
+	],
+},
+{tag:"test_get_input_122",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2940",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id, const char *def_input, unsigned char min, unsigned char max, gboolean hide_typing)",},
+	],
+},
+{tag:"test_get_input_13",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2298",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id, const char *def_input, unsigned char min, unsigned char max, gboolean hide_typing)",},
+	],
+},
+{tag:"test_get_input_14",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2322",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id, const char *def_input, unsigned char min, unsigned char max, gboolean hide_typing)",},
+	],
+},
+{tag:"test_get_input_15",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2347",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id, const char *def_input, unsigned char min, unsigned char max, gboolean hide_typing)",},
+	],
+},
+{tag:"test_get_input_16",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2372",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id, const char *def_input, unsigned char min, unsigned char max, gboolean hide_typing)",},
+	],
+},
+{tag:"test_get_input_17",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2389",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id, const char *def_input, unsigned char min, unsigned char max, gboolean hide_typing)",},
+	],
+},
+{tag:"test_get_input_18",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2406",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id, const char *def_input, unsigned char min, unsigned char max, gboolean hide_typing)",},
+	],
+},
+{tag:"test_get_input_19",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2438",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id, const char *def_input, unsigned char min, unsigned char max, gboolean hide_typing)",},
+	],
+},
+{tag:"test_get_input_21",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2486",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id, const char *def_input, unsigned char min, unsigned char max, gboolean hide_typing)",},
+	],
+},
+{tag:"test_get_input_31",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2503",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id, const char *def_input, unsigned char min, unsigned char max, gboolean hide_typing)",},
+	],
+},
+{tag:"test_get_input_32",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2528",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id, const char *def_input, unsigned char min, unsigned char max, gboolean hide_typing)",},
+	],
+},
+{tag:"test_get_input_41",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2555",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id, const char *def_input, unsigned char min, unsigned char max, gboolean hide_typing)",},
+	],
+},
+{tag:"test_get_input_42",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2579",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id, const char *def_input, unsigned char min, unsigned char max, gboolean hide_typing)",},
+	],
+},
+{tag:"test_get_input_51",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2605",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id, const char *def_input, unsigned char min, unsigned char max, gboolean hide_typing)",},
+	],
+},
+{tag:"test_get_input_52",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2628",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id, const char *def_input, unsigned char min, unsigned char max, gboolean hide_typing)",},
+	],
+},
+{tag:"test_get_input_61",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2655",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id, const char *def_input, unsigned char min, unsigned char max, gboolean hide_typing)",},
+	],
+},
+{tag:"test_get_input_62",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2679",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id, const char *def_input, unsigned char min, unsigned char max, gboolean hide_typing)",},
+	],
+},
+{tag:"test_get_input_63",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2703",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id, const char *def_input, unsigned char min, unsigned char max, gboolean hide_typing)",},
+	],
+},
+{tag:"test_get_input_64",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2727",sig:"(DBusMessage *msg, const char *alpha, unsigned char icon_id, const char *def_input, unsigned char min, unsigned char max, gboolean hide_typing)",},
+	],
+},
+{tag:"test_get_reader_status",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"function",ln:"12113",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_html_attr",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"function",ln:"22070",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_img_to_xpm",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"function",ln:"22298",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_invalid",ref:
+	[
+		{fp:"ofono/unit/test-common.c",ki:"function",ln:"59",sig:"(void)",},
+		{fp:"ofono/unit/test-util.c",ki:"function",ln:"344",sig:"(void)",},
+	],
+},
+{tag:"test_language_notification",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"function",ln:"14885",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_launch_browser",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"function",ln:"15545",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_limit",ref:
+	[
+		{fp:"ofono/unit/test-sms.c",ki:"function",ln:"1275",sig:"(gunichar uni, int target_size, gboolean use_16bit)",},
+	],
+},
+{tag:"test_more_time",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"function",ln:"2479",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_mux",ref:
+	[
+		{fp:"ofono/unit/test-mux.c",ki:"function",ln:"183",sig:"(void)",},
+	],
+},
+{tag:"test_no_fragmentation_7bit",ref:
+	[
+		{fp:"ofono/unit/test-sms.c",ki:"variable",ln:"1120",},
+	],
+},
+{tag:"test_offset_handling",ref:
+	[
+		{fp:"ofono/unit/test-util.c",ki:"function",ln:"798",sig:"(void)",},
+	],
+},
+{tag:"test_open_channel",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"function",ln:"15855",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_pack_size",ref:
+	[
+		{fp:"ofono/unit/test-util.c",ki:"function",ln:"632",sig:"(void)",},
+	],
+},
+{tag:"test_perform_card_apdu",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"function",ln:"12075",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_play_tone",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"function",ln:"3282",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_play_tone_11a",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2967",sig:"(DBusMessage *msg, const char *tone, const char *text, unsigned char icon_id)",},
+	],
+},
+{tag:"test_play_tone_11b",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2979",sig:"(DBusMessage *msg, const char *tone, const char *text, unsigned char icon_id)",},
+	],
+},
+{tag:"test_play_tone_11c",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"2991",sig:"(DBusMessage *msg, const char *tone, const char *text, unsigned char icon_id)",},
+	],
+},
+{tag:"test_play_tone_11d",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"3003",sig:"(DBusMessage *msg, const char *tone, const char *text, unsigned char icon_id)",},
+	],
+},
+{tag:"test_play_tone_11e",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"3015",sig:"(DBusMessage *msg, const char *tone, const char *text, unsigned char icon_id)",},
+	],
+},
+{tag:"test_play_tone_11f",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"3027",sig:"(DBusMessage *msg, const char *tone, const char *text, unsigned char icon_id)",},
+	],
+},
+{tag:"test_play_tone_11g",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"3039",sig:"(DBusMessage *msg, const char *tone, const char *text, unsigned char icon_id)",},
+	],
+},
+{tag:"test_play_tone_11h",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"3051",sig:"(DBusMessage *msg, const char *tone, const char *text, unsigned char icon_id)",},
+	],
+},
+{tag:"test_play_tone_11i",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"3063",sig:"(DBusMessage *msg, const char *tone, const char *text, unsigned char icon_id)",},
+	],
+},
+{tag:"test_play_tone_11j",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"3081",sig:"(DBusMessage *msg, const char *tone, const char *text, unsigned char icon_id)",},
+	],
+},
+{tag:"test_play_tone_11k",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"3093",sig:"(DBusMessage *msg, const char *tone, const char *text, unsigned char icon_id)",},
+	],
+},
+{tag:"test_play_tone_11l",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"3105",sig:"(DBusMessage *msg, const char *tone, const char *text, unsigned char icon_id)",},
+	],
+},
+{tag:"test_play_tone_11m",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"3117",sig:"(DBusMessage *msg, const char *tone, const char *text, unsigned char icon_id)",},
+	],
+},
+{tag:"test_play_tone_11n",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"3129",sig:"(DBusMessage *msg, const char *tone, const char *text, unsigned char icon_id)",},
+	],
+},
+{tag:"test_play_tone_11o",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"3141",sig:"(DBusMessage *msg, const char *tone, const char *text, unsigned char icon_id)",},
+	],
+},
+{tag:"test_play_tone_21",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"3153",sig:"(DBusMessage *msg, const char *tone, const char *text, unsigned char icon_id)",},
+	],
+},
+{tag:"test_play_tone_31",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"3165",sig:"(DBusMessage *msg, const char *tone, const char *text, unsigned char icon_id)",},
+	],
+},
+{tag:"test_play_tone_32",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"3177",sig:"(DBusMessage *msg, const char *tone, const char *text, unsigned char icon_id)",},
+	],
+},
+{tag:"test_play_tone_33",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"3189",sig:"(DBusMessage *msg, const char *tone, const char *text, unsigned char icon_id)",},
+	],
+},
+{tag:"test_play_tone_34",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"3201",sig:"(DBusMessage *msg, const char *tone, const char *text, unsigned char icon_id)",},
+	],
+},
+{tag:"test_play_tone_51",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"3312",sig:"(DBusMessage *msg, const char *tone, const char *text, unsigned char icon_id)",},
+	],
+},
+{tag:"test_play_tone_61a",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"3324",sig:"(DBusMessage *msg, const char *tone, const char *text, unsigned char icon_id)",},
+	],
+},
+{tag:"test_play_tone_61b",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"3336",sig:"(DBusMessage *msg, const char *tone, const char *text, unsigned char icon_id)",},
+	],
+},
+{tag:"test_play_tone_61c",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"3347",sig:"(DBusMessage *msg, const char *tone, const char *text, unsigned char icon_id)",},
+	],
+},
+{tag:"test_poll_interval",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"function",ln:"3329",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_polling_off",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"function",ln:"11655",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_prepare_7bit",ref:
+	[
+		{fp:"ofono/unit/test-sms.c",ki:"function",ln:"1125",sig:"(void)",},
+	],
+},
+{tag:"test_prepare_concat",ref:
+	[
+		{fp:"ofono/unit/test-sms.c",ki:"function",ln:"1199",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_prepare_limits",ref:
+	[
+		{fp:"ofono/unit/test-sms.c",ki:"function",ln:"1312",sig:"(void)",},
+	],
+},
+{tag:"test_provide_local_info",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"function",ln:"11741",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_range_minimizer",ref:
+	[
+		{fp:"ofono/unit/test-sms.c",ki:"function",ln:"1558",sig:"(void)",},
+	],
+},
+{tag:"test_receive_data",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"function",ln:"16003",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_refresh",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"function",ln:"11613",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_result",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"enum",ln:"61",},
+	],
+},
+{tag:"TEST_RESULT_FAILED",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"enumerator",ln:"64",},
+	],
+},
+{tag:"TEST_RESULT_NOT_RUN",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"enumerator",ln:"62",},
+	],
+},
+{tag:"TEST_RESULT_PASSED",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"enumerator",ln:"63",},
+	],
+},
+{tag:"test_run_at_command",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"function",ln:"14163",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_select_item",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"function",ln:"6238",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_send_data",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"function",ln:"16150",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_send_dtmf",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"function",ln:"14830",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_send_sms",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"function",ln:"8063",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_send_ss",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"function",ln:"9037",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_send_ussd",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"function",ln:"10271",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_serialize_assembly",ref:
+	[
+		{fp:"ofono/unit/test-sms-root.c",ki:"function",ln:"66",sig:"(void)",},
+	],
+},
+{tag:"test_server",ref:
+	[
+		{fp:"ofono/gatchat/test-server.c",ki:"function",ln:"1036",sig:"(int type)",},
+	],
+},
+{tag:"test_setup_call",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"function",ln:"11538",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_setup_event_list",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"function",ln:"11849",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_setup_idle_mode_text",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"function",ln:"13403",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_setup_menu",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"function",ln:"4589",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_setup_menu_missing_val",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"function",ln:"4621",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_setup_menu_neg",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"function",ln:"4634",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_sim",ref:
+	[
+		{fp:"ofono/unit/test-util.c",ki:"function",ln:"899",sig:"(void)",},
+	],
+},
+{tag:"test_simple_deliver",ref:
+	[
+		{fp:"ofono/unit/test-sms.c",ki:"function",ln:"149",sig:"(void)",},
+	],
+},
+{tag:"test_simple_mwi",ref:
+	[
+		{fp:"ofono/unit/test-sms.c",ki:"function",ln:"477",sig:"(void)",},
+	],
+},
+{tag:"test_simple_submit",ref:
+	[
+		{fp:"ofono/unit/test-sms.c",ki:"function",ln:"367",sig:"(void)",},
+	],
+},
+{tag:"test_sms_charset",ref:
+	[
+		{fp:"ofono/unit/test-sms.c",ki:"function",ln:"737",sig:"(gconstpointer param)",},
+	],
+},
+{tag:"test_sms_handling",ref:
+	[
+		{fp:"ofono/unit/test-util.c",ki:"function",ln:"757",sig:"(void)",},
+	],
+},
+{tag:"test_sr_assembly",ref:
+	[
+		{fp:"ofono/unit/test-sms.c",ki:"function",ln:"1591",sig:"(void)",},
+	],
+},
+{tag:"test_state",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"enum",ln:"54",},
+	],
+},
+{tag:"TEST_STATE_POWERING_DOWN",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"enumerator",ln:"58",},
+	],
+},
+{tag:"TEST_STATE_POWERING_UP",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"enumerator",ln:"55",},
+	],
+},
+{tag:"TEST_STATE_REGISTERING_AGENT",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"enumerator",ln:"56",},
+	],
+},
+{tag:"TEST_STATE_RUNNING",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"enumerator",ln:"57",},
+	],
+},
+{tag:"test_submit_encode",ref:
+	[
+		{fp:"ofono/unit/test-sms.c",ki:"function",ln:"433",sig:"(void)",},
+	],
+},
+{tag:"test_terminal_response_encoding",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"function",ln:"16218",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_timer_mgmt",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"function",ln:"12634",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_unicode_to_gsm",ref:
+	[
+		{fp:"ofono/unit/test-util.c",ki:"function",ln:"954",sig:"(void)",},
+	],
+},
+{tag:"test_valid",ref:
+	[
+		{fp:"ofono/unit/test-common.c",ki:"function",ln:"110",sig:"(void)",},
+		{fp:"ofono/unit/test-util.c",ki:"function",ln:"400",sig:"(void)",},
+	],
+},
+{tag:"test_valid_turkish",ref:
+	[
+		{fp:"ofono/unit/test-util.c",ki:"function",ln:"462",sig:"(void)",},
+	],
+},
+{tag:"test_wap_push",ref:
+	[
+		{fp:"ofono/unit/test-sms.c",ki:"function",ln:"1703",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"test_wmt_deliver",ref:
+	[
+		{fp:"ofono/unit/test-cdmasms.c",ki:"function",ln:"76",sig:"(gconstpointer data)",},
+	],
+},
+{tag:"tests",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"variable",ln:"100",},
+	],
+},
+{tag:"text",ref:
+	[
+		{fp:"ofono/src/history.c",ki:"member",ln:"50",},
+		{fp:"ofono/src/phonebook.c",ki:"member",ln:"74",},
+		{fp:"ofono/src/stkagent.h",ki:"member",ln:"33",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1140",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1149",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1157",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1262",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1458",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1470",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1481",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1486",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1552",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"711",},
+		{fp:"ofono/unit/test-cdmasms.c",ki:"member",ln:"46",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"12661",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"1547",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"22013",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"603",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"886",},
+	],
+},
+{tag:"text_attr",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1144",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1152",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1161",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1170",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1184",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1195",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1205",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1213",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1221",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1244",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1264",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1272",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1280",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1296",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1314",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1321",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1329",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1337",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1346",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1354",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1376",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1385",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"11584",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"12663",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"13439",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"14196",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"14918",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"1551",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"15593",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"15898",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"15965",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"16037",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"22014",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"2507",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"3360",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"4657",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"607",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"6282",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"8097",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"889",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"9070",},
+	],
+},
+{tag:"text_attr_call_setup",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1235",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"10310",},
+	],
+},
+{tag:"text_attr_usr_cfm",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1234",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"10309",},
+	],
+},
+{tag:"text_format_header",ref:
+	[
+		{fp:"ofono/unit/test-sms.c",ki:"struct",ln:"791",},
+	],
+},
+{tag:"text_gateway_proxy_id",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1293",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"14915",},
+	],
+},
+{tag:"text_handler",ref:
+	[
+		{fp:"ofono/drivers/stemodem/gprs-context.c",ki:"function",ln:"114",sig:"(GMarkupParseContext *context, const gchar *text, gsize text_len, gpointer user_data, GError **error)",},
+		{fp:"ofono/plugins/mbpi.c",ki:"function",ln:"114",sig:"(GMarkupParseContext *context, const gchar *text, gsize text_len, gpointer userdata, GError **error)",},
+	],
+},
+{tag:"text_handlers",ref:
+	[
+		{fp:"ofono/src/sms.c",ki:"member",ln:"88",},
+	],
+},
+{tag:"text_parser",ref:
+	[
+		{fp:"ofono/plugins/mbpi.c",ki:"variable",ln:"123",},
+	],
+},
+{tag:"text_passwd",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1300",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1311",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"14922",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"15590",},
+	],
+},
+{tag:"text_telephony_remove",ref:
+	[
+		{fp:"ofono/src/ctm.c",ki:"function",ln:"252",sig:"(struct ofono_atom *atom)",},
+	],
+},
+{tag:"text_telephony_unregister",ref:
+	[
+		{fp:"ofono/src/ctm.c",ki:"function",ln:"241",sig:"(struct ofono_atom *atom)",},
+	],
+},
+{tag:"text_usr",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1299",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1310",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"14921",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"15589",},
+	],
+},
+{tag:"TFR",ref:
+	[
+		{fp:"ofono/src/storage.h",ki:"macro",ln:"23",},
+		{fp:"ofono/src/storage.h",ki:"macro",ln:"25",},
+	],
+},
+{tag:"this_layer_down",ref:
+	[
+		{fp:"ofono/gatchat/ppp_cp.h",ki:"member",ln:"73",},
+	],
+},
+{tag:"this_layer_finished",ref:
+	[
+		{fp:"ofono/gatchat/ppp_cp.h",ki:"member",ln:"75",},
+	],
+},
+{tag:"this_layer_started",ref:
+	[
+		{fp:"ofono/gatchat/ppp_cp.h",ki:"member",ln:"74",},
+	],
+},
+{tag:"this_layer_up",ref:
+	[
+		{fp:"ofono/gatchat/ppp_cp.h",ki:"member",ln:"72",},
+	],
+},
+{tag:"throttled",ref:
+	[
+		{fp:"ofono/gatchat/gatmux.c",ki:"member",ln:"63",},
+	],
+},
+{tag:"tid",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"91",},
+	],
+},
+{tag:"time",ref:
+	[
+		{fp:"ofono/drivers/atmodem/network-registration.c",ki:"member",ln:"63",},
+		{fp:"ofono/include/call-forwarding.h",ki:"member",ln:"38",},
+	],
+},
+{tag:"time_ind_cb",ref:
+	[
+		{fp:"ofono/drivers/isimodem/network-registration.c",ki:"function",ln:"834",sig:"(const GIsiMessage *msg, void *data)",},
+	],
+},
+{tag:"time_to_str",ref:
+	[
+		{fp:"ofono/src/cdma-voicecall.c",ki:"function",ln:"83",sig:"(const time_t *t)",},
+		{fp:"ofono/src/voicecall.c",ki:"function",ln:"220",sig:"(const time_t *t)",},
+	],
+},
+{tag:"timeout",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"1512",},
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"994",},
+		{fp:"ofono/gdbus/mainloop.c",ki:"member",ln:"39",},
+		{fp:"ofono/gisi/client.c",ki:"member",ln:"37",},
+		{fp:"ofono/gisi/modem.c",ki:"member",ln:"79",},
+		{fp:"ofono/plugins/n900.c",ki:"member",ln:"75",},
+		{fp:"ofono/src/modem.c",ki:"member",ln:"77",},
+		{fp:"ofono/src/stk.c",ki:"member",ln:"65",},
+	],
+},
+{tag:"TIMEOUT",ref:
+	[
+		{fp:"ofono/plugins/bluez4.c",ki:"macro",ln:"50",},
+	],
+},
+{tag:"timeout_handler",ref:
+	[
+		{fp:"ofono/gdbus/mainloop.c",ki:"struct",ln:"37",},
+	],
+},
+{tag:"timeout_handler_dispatch",ref:
+	[
+		{fp:"ofono/gdbus/mainloop.c",ki:"function",ln:"172",sig:"(gpointer data)",},
+	],
+},
+{tag:"timeout_handler_free",ref:
+	[
+		{fp:"ofono/gdbus/mainloop.c",ki:"function",ln:"187",sig:"(void *data)",},
+	],
+},
+{tag:"timeout_source",ref:
+	[
+		{fp:"ofono/drivers/atmodem/sms.c",ki:"member",ln:"78",},
+		{fp:"ofono/gatchat/gatchat.c",ki:"member",ln:"96",},
+		{fp:"ofono/plugins/nokia-gpio.c",ki:"member",ln:"86",},
+	],
+},
+{tag:"timeout_toggled",ref:
+	[
+		{fp:"ofono/gdbus/mainloop.c",ki:"function",ln:"225",sig:"(DBusTimeout *timeout, void *data)",},
+	],
+},
+{tag:"timer",ref:
+	[
+		{fp:"ofono/gatchat/gathdlc.c",ki:"member",ln:"79",},
+		{fp:"ofono/tools/stktest.c",ki:"variable",ln:"102",},
+	],
+},
+{tag:"timer_event",ref:
+	[
+		{fp:"ofono/plugins/nokia-gpio.c",ki:"member",ln:"83",},
+	],
+},
+{tag:"timer_expiration",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1766",},
+	],
+},
+{tag:"timer_expiration_211",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"21968",},
+	],
+},
+{tag:"timer_expiration_221a",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"21990",},
+	],
+},
+{tag:"timer_expiration_cb",ref:
+	[
+		{fp:"ofono/src/stk.c",ki:"function",ln:"1016",sig:"(struct ofono_stk *stk, gboolean ok, const unsigned char *data, int len)",},
+	],
+},
+{tag:"timer_expiration_data_211",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"21973",},
+	],
+},
+{tag:"timer_expiration_data_221a",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"21995",},
+	],
+},
+{tag:"timer_id",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1257",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"12144",},
+	],
+},
+{tag:"timer_mgmt",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1430",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1597",},
+	],
+},
+{tag:"timer_mgmt_111",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12148",},
+	],
+},
+{tag:"timer_mgmt_112",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12153",},
+	],
+},
+{tag:"timer_mgmt_113",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12157",},
+	],
+},
+{tag:"timer_mgmt_114",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12162",},
+	],
+},
+{tag:"timer_mgmt_121",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12166",},
+	],
+},
+{tag:"timer_mgmt_122",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12171",},
+	],
+},
+{tag:"timer_mgmt_123",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12175",},
+	],
+},
+{tag:"timer_mgmt_124",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12180",},
+	],
+},
+{tag:"timer_mgmt_131",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12184",},
+	],
+},
+{tag:"timer_mgmt_132",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12189",},
+	],
+},
+{tag:"timer_mgmt_133",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12193",},
+	],
+},
+{tag:"timer_mgmt_134",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12198",},
+	],
+},
+{tag:"timer_mgmt_141",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12202",},
+	],
+},
+{tag:"timer_mgmt_142",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12206",},
+	],
+},
+{tag:"timer_mgmt_143",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12210",},
+	],
+},
+{tag:"timer_mgmt_144",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12214",},
+	],
+},
+{tag:"timer_mgmt_145",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12218",},
+	],
+},
+{tag:"timer_mgmt_146",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12222",},
+	],
+},
+{tag:"timer_mgmt_147",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12226",},
+	],
+},
+{tag:"timer_mgmt_148",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12230",},
+	],
+},
+{tag:"timer_mgmt_151",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12234",},
+	],
+},
+{tag:"timer_mgmt_152",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12238",},
+	],
+},
+{tag:"timer_mgmt_153",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12242",},
+	],
+},
+{tag:"timer_mgmt_154",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12246",},
+	],
+},
+{tag:"timer_mgmt_155",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12250",},
+	],
+},
+{tag:"timer_mgmt_156",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12254",},
+	],
+},
+{tag:"timer_mgmt_157",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12258",},
+	],
+},
+{tag:"timer_mgmt_158",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12262",},
+	],
+},
+{tag:"timer_mgmt_161",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12266",},
+	],
+},
+{tag:"timer_mgmt_162",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12271",},
+	],
+},
+{tag:"timer_mgmt_163",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12276",},
+	],
+},
+{tag:"timer_mgmt_164",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12281",},
+	],
+},
+{tag:"timer_mgmt_165",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12286",},
+	],
+},
+{tag:"timer_mgmt_166",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12291",},
+	],
+},
+{tag:"timer_mgmt_167",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12296",},
+	],
+},
+{tag:"timer_mgmt_168",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12301",},
+	],
+},
+{tag:"timer_mgmt_211",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12306",},
+	],
+},
+{tag:"timer_mgmt_221",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12311",},
+	],
+},
+{tag:"timer_mgmt_data_111",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12316",},
+	],
+},
+{tag:"timer_mgmt_data_112",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12326",},
+	],
+},
+{tag:"timer_mgmt_data_113",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12333",},
+	],
+},
+{tag:"timer_mgmt_data_114",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12344",},
+	],
+},
+{tag:"timer_mgmt_data_121",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12351",},
+	],
+},
+{tag:"timer_mgmt_data_122",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12363",},
+	],
+},
+{tag:"timer_mgmt_data_123",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12370",},
+	],
+},
+{tag:"timer_mgmt_data_124",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12381",},
+	],
+},
+{tag:"timer_mgmt_data_131",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12388",},
+	],
+},
+{tag:"timer_mgmt_data_132",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12398",},
+	],
+},
+{tag:"timer_mgmt_data_133",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12405",},
+	],
+},
+{tag:"timer_mgmt_data_134",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12415",},
+	],
+},
+{tag:"timer_mgmt_data_141",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12422",},
+	],
+},
+{tag:"timer_mgmt_data_142",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12429",},
+	],
+},
+{tag:"timer_mgmt_data_143",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12436",},
+	],
+},
+{tag:"timer_mgmt_data_144",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12443",},
+	],
+},
+{tag:"timer_mgmt_data_145",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12450",},
+	],
+},
+{tag:"timer_mgmt_data_146",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12457",},
+	],
+},
+{tag:"timer_mgmt_data_147",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12464",},
+	],
+},
+{tag:"timer_mgmt_data_148",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12471",},
+	],
+},
+{tag:"timer_mgmt_data_151",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12478",},
+	],
+},
+{tag:"timer_mgmt_data_152",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12485",},
+	],
+},
+{tag:"timer_mgmt_data_153",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12492",},
+	],
+},
+{tag:"timer_mgmt_data_154",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12499",},
+	],
+},
+{tag:"timer_mgmt_data_155",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12506",},
+	],
+},
+{tag:"timer_mgmt_data_156",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12513",},
+	],
+},
+{tag:"timer_mgmt_data_157",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12520",},
+	],
+},
+{tag:"timer_mgmt_data_158",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12527",},
+	],
+},
+{tag:"timer_mgmt_data_161",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12534",},
+	],
+},
+{tag:"timer_mgmt_data_162",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12544",},
+	],
+},
+{tag:"timer_mgmt_data_163",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12554",},
+	],
+},
+{tag:"timer_mgmt_data_164",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12564",},
+	],
+},
+{tag:"timer_mgmt_data_165",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12574",},
+	],
+},
+{tag:"timer_mgmt_data_166",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12584",},
+	],
+},
+{tag:"timer_mgmt_data_167",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12594",},
+	],
+},
+{tag:"timer_mgmt_data_168",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12604",},
+	],
+},
+{tag:"timer_mgmt_data_211",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12614",},
+	],
+},
+{tag:"timer_mgmt_data_221",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"12624",},
+	],
+},
+{tag:"timer_mgmt_response_111",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"18770",},
+	],
+},
+{tag:"timer_mgmt_response_112",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"18793",},
+	],
+},
+{tag:"timer_mgmt_response_114",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"18822",},
+	],
+},
+{tag:"timer_mgmt_response_121",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"18850",},
+	],
+},
+{tag:"timer_mgmt_response_122",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"18873",},
+	],
+},
+{tag:"timer_mgmt_response_124",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"18903",},
+	],
+},
+{tag:"timer_mgmt_response_131",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"18931",},
+	],
+},
+{tag:"timer_mgmt_response_132",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"18954",},
+	],
+},
+{tag:"timer_mgmt_response_134",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"18983",},
+	],
+},
+{tag:"timer_mgmt_response_141a",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19012",},
+	],
+},
+{tag:"timer_mgmt_response_141b",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19035",},
+	],
+},
+{tag:"timer_mgmt_response_142a",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19055",},
+	],
+},
+{tag:"timer_mgmt_response_143a",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19078",},
+	],
+},
+{tag:"timer_mgmt_response_144a",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19101",},
+	],
+},
+{tag:"timer_mgmt_response_145a",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19124",},
+	],
+},
+{tag:"timer_mgmt_response_146a",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19147",},
+	],
+},
+{tag:"timer_mgmt_response_147a",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19170",},
+	],
+},
+{tag:"timer_mgmt_response_148a",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19193",},
+	],
+},
+{tag:"timer_mgmt_response_151a",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19216",},
+	],
+},
+{tag:"timer_mgmt_response_151b",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19239",},
+	],
+},
+{tag:"timer_mgmt_response_152a",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19259",},
+	],
+},
+{tag:"timer_mgmt_response_153a",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19282",},
+	],
+},
+{tag:"timer_mgmt_response_154a",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19305",},
+	],
+},
+{tag:"timer_mgmt_response_155a",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19328",},
+	],
+},
+{tag:"timer_mgmt_response_156a",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19351",},
+	],
+},
+{tag:"timer_mgmt_response_157a",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19374",},
+	],
+},
+{tag:"timer_mgmt_response_158a",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19397",},
+	],
+},
+{tag:"timer_mgmt_response_163",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19420",},
+	],
+},
+{tag:"timer_mgmt_response_164",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19443",},
+	],
+},
+{tag:"timer_mgmt_response_165",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19466",},
+	],
+},
+{tag:"timer_mgmt_response_166",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19489",},
+	],
+},
+{tag:"timer_mgmt_response_167",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19512",},
+	],
+},
+{tag:"timer_mgmt_response_data_111",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"18775",},
+	],
+},
+{tag:"timer_mgmt_response_data_112",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"18799",},
+	],
+},
+{tag:"timer_mgmt_response_data_114",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"18828",},
+	],
+},
+{tag:"timer_mgmt_response_data_121",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"18855",},
+	],
+},
+{tag:"timer_mgmt_response_data_122",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"18879",},
+	],
+},
+{tag:"timer_mgmt_response_data_124",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"18909",},
+	],
+},
+{tag:"timer_mgmt_response_data_131",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"18936",},
+	],
+},
+{tag:"timer_mgmt_response_data_132",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"18960",},
+	],
+},
+{tag:"timer_mgmt_response_data_134",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"18989",},
+	],
+},
+{tag:"timer_mgmt_response_data_141a",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19017",},
+	],
+},
+{tag:"timer_mgmt_response_data_141b",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19040",},
+	],
+},
+{tag:"timer_mgmt_response_data_142a",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19060",},
+	],
+},
+{tag:"timer_mgmt_response_data_143a",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19083",},
+	],
+},
+{tag:"timer_mgmt_response_data_144a",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19106",},
+	],
+},
+{tag:"timer_mgmt_response_data_145a",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19129",},
+	],
+},
+{tag:"timer_mgmt_response_data_146a",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19152",},
+	],
+},
+{tag:"timer_mgmt_response_data_147a",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19175",},
+	],
+},
+{tag:"timer_mgmt_response_data_148a",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19198",},
+	],
+},
+{tag:"timer_mgmt_response_data_151a",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19221",},
+	],
+},
+{tag:"timer_mgmt_response_data_151b",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19244",},
+	],
+},
+{tag:"timer_mgmt_response_data_152a",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19264",},
+	],
+},
+{tag:"timer_mgmt_response_data_153a",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19287",},
+	],
+},
+{tag:"timer_mgmt_response_data_154a",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19310",},
+	],
+},
+{tag:"timer_mgmt_response_data_155a",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19333",},
+	],
+},
+{tag:"timer_mgmt_response_data_156a",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19356",},
+	],
+},
+{tag:"timer_mgmt_response_data_157a",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19379",},
+	],
+},
+{tag:"timer_mgmt_response_data_158a",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19402",},
+	],
+},
+{tag:"timer_mgmt_response_data_163",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19425",},
+	],
+},
+{tag:"timer_mgmt_response_data_164",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19448",},
+	],
+},
+{tag:"timer_mgmt_response_data_165",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19471",},
+	],
+},
+{tag:"timer_mgmt_response_data_166",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19494",},
+	],
+},
+{tag:"timer_mgmt_response_data_167",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19517",},
+	],
+},
+{tag:"timer_mgmt_test",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"struct",ln:"12140",},
+	],
+},
+{tag:"timer_value",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1258",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"12145",},
+	],
+},
+{tag:"timer_value_from_seconds",ref:
+	[
+		{fp:"ofono/src/stk.c",ki:"function",ln:"1042",sig:"(struct stk_timer_value *val, int seconds)",},
+	],
+},
+{tag:"timers",ref:
+	[
+		{fp:"ofono/src/stk.c",ki:"member",ln:"62",},
+	],
+},
+{tag:"timers_cb",ref:
+	[
+		{fp:"ofono/src/stk.c",ki:"function",ln:"1031",sig:"(gpointer user_data)",},
+	],
+},
+{tag:"timers_source",ref:
+	[
+		{fp:"ofono/src/stk.c",ki:"member",ln:"63",},
+	],
+},
+{tag:"timers_update",ref:
+	[
+		{fp:"ofono/src/stk.c",ki:"function",ln:"1052",sig:"(struct ofono_stk *stk)",},
+	],
+},
+{tag:"timezone",ref:
+	[
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"234",},
+	],
+},
+{tag:"title",ref:
+	[
+		{fp:"ofono/src/stkagent.h",ki:"member",ln:"39",},
+	],
+},
+{tag:"TLD",ref:
+	[
+		{fp:"ofono/gatchat/ppp_cp.c",ki:"enumerator",ln:"91",},
+	],
+},
+{tag:"TLF",ref:
+	[
+		{fp:"ofono/gatchat/ppp_cp.c",ki:"enumerator",ln:"93",},
+	],
+},
+{tag:"TLS",ref:
+	[
+		{fp:"ofono/gatchat/ppp_cp.c",ki:"enumerator",ln:"92",},
+	],
+},
+{tag:"tlts_notify",ref:
+	[
+		{fp:"ofono/drivers/atmodem/network-registration.c",ki:"function",ln:"863",sig:"(GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"TLU",ref:
+	[
+		{fp:"ofono/gatchat/ppp_cp.c",ki:"enumerator",ln:"90",},
+	],
+},
+{tag:"tlv",ref:
+	[
+		{fp:"ofono/src/stk.c",ki:"member",ln:"85",},
+	],
+},
+{tag:"tlv_get",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"965",sig:"(const void *data, uint16_t size, uint8_t type, uint16_t *length)",},
+	],
+},
+{tag:"tlv_len",ref:
+	[
+		{fp:"ofono/src/stk.c",ki:"member",ln:"86",},
+	],
+},
+{tag:"to",ref:
+	[
+		{fp:"ofono/src/util.c",ki:"member",ln:"73",},
+	],
+},
+{tag:"TO_BCD",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"macro",ln:"4750",},
+		{fp:"ofono/src/stkutil.c",ki:"macro",ln:"4756",},
+	],
+},
+{tag:"to_hex",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"154",sig:"(const unsigned char *data, unsigned int len)",},
+	],
+},
+{tag:"TO_MINUS",ref:
+	[
+		{fp:"ofono/gatchat/ppp_cp.c",ki:"enumerator",ln:"151",},
+	],
+},
+{tag:"TO_PLUS",ref:
+	[
+		{fp:"ofono/gatchat/ppp_cp.c",ki:"enumerator",ln:"150",},
+	],
+},
+{tag:"to_semi_oct",ref:
+	[
+		{fp:"ofono/src/simutil.c",ki:"function",ln:"853",sig:"(char in)",},
+		{fp:"ofono/src/smsutil.c",ki:"function",ln:"91",sig:"(char in)",},
+	],
+},
+{tag:"ton",ref:
+	[
+		{fp:"ofono/drivers/isimodem/call-forwarding.c",ki:"member",ln:"54",},
+	],
+},
+{tag:"ton_npi",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"653",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"732",},
+	],
+},
+{tag:"tone",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1167",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"2504",},
+	],
+},
+{tag:"tone_callback",ref:
+	[
+		{fp:"ofono/src/voicecall.c",ki:"function",ln:"2037",sig:"(int error, void *data)",},
+	],
+},
+{tag:"tone_duration",ref:
+	[
+		{fp:"ofono/drivers/atmodem/voicecall.c",ki:"member",ln:"71",},
+	],
+},
+{tag:"TONE_DURATION",ref:
+	[
+		{fp:"ofono/drivers/atmodem/voicecall.c",ki:"macro",ln:"53",},
+	],
+},
+{tag:"tone_queue",ref:
+	[
+		{fp:"ofono/src/voicecall.c",ki:"function",ln:"348",sig:"(struct ofono_voicecall *vc, const char *tone_str, ofono_voicecall_tone_cb_t cb, void *data, ofono_destroy_func destroy)",},
+	],
+},
+{tag:"tone_queue_entry",ref:
+	[
+		{fp:"ofono/src/voicecall.c",ki:"struct",ln:"104",},
+	],
+},
+{tag:"tone_request_cb",ref:
+	[
+		{fp:"ofono/src/voicecall.c",ki:"function",ln:"3784",sig:"(const struct ofono_error *error, void *data)",},
+	],
+},
+{tag:"tone_request_finish",ref:
+	[
+		{fp:"ofono/src/voicecall.c",ki:"function",ln:"391",sig:"(struct ofono_voicecall *vc, struct tone_queue_entry *entry, int error, gboolean callback)",},
+	],
+},
+{tag:"tone_request_run",ref:
+	[
+		{fp:"ofono/src/voicecall.c",ki:"function",ln:"3827",sig:"(gpointer user_data)",},
+	],
+},
+{tag:"tone_source",ref:
+	[
+		{fp:"ofono/src/voicecall.c",ki:"member",ln:"71",},
+	],
+},
+{tag:"tone_str",ref:
+	[
+		{fp:"ofono/src/voicecall.c",ki:"member",ln:"105",},
+	],
+},
+{tag:"toneq",ref:
+	[
+		{fp:"ofono/src/voicecall.c",ki:"member",ln:"70",},
+	],
+},
+{tag:"topics",ref:
+	[
+		{fp:"ofono/src/cbs.c",ki:"member",ln:"57",},
+	],
+},
+{tag:"toplevel_cdma_end",ref:
+	[
+		{fp:"ofono/plugins/mbpi.c",ki:"function",ln:"541",sig:"(GMarkupParseContext *context, const gchar *element_name, gpointer userdata, GError **error)",},
+	],
+},
+{tag:"toplevel_cdma_parser",ref:
+	[
+		{fp:"ofono/plugins/mbpi.c",ki:"variable",ln:"549",},
+	],
+},
+{tag:"toplevel_cdma_start",ref:
+	[
+		{fp:"ofono/plugins/mbpi.c",ki:"function",ln:"524",sig:"(GMarkupParseContext *context, const gchar *element_name, const gchar **atribute_names, const gchar **attribute_values, gpointer userdata, GError **error)",},
+	],
+},
+{tag:"toplevel_gsm_end",ref:
+	[
+		{fp:"ofono/plugins/mbpi.c",ki:"function",ln:"507",sig:"(GMarkupParseContext *context, const gchar *element_name, gpointer userdata, GError **error)",},
+	],
+},
+{tag:"toplevel_gsm_parser",ref:
+	[
+		{fp:"ofono/plugins/mbpi.c",ki:"variable",ln:"516",},
+	],
+},
+{tag:"toplevel_gsm_start",ref:
+	[
+		{fp:"ofono/plugins/mbpi.c",ki:"function",ln:"492",sig:"(GMarkupParseContext *context, const gchar *element_name, const gchar **atribute_names, const gchar **attribute_values, gpointer userdata, GError **error)",},
+	],
+},
+{tag:"total_mrs",ref:
+	[
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"379",},
+	],
+},
+{tag:"tp_dcs",ref:
+	[
+		{fp:"ofono/drivers/isimodem/sms.c",ki:"member",ln:"56",},
+		{fp:"ofono/drivers/isimodem/sms.c",ki:"member",ln:"70",},
+	],
+},
+{tag:"tp_pid",ref:
+	[
+		{fp:"ofono/drivers/isimodem/sms.c",ki:"member",ln:"55",},
+		{fp:"ofono/drivers/isimodem/sms.c",ki:"member",ln:"69",},
+	],
+},
+{tag:"tp_vp",ref:
+	[
+		{fp:"ofono/drivers/isimodem/sms.c",ki:"member",ln:"57",},
+		{fp:"ofono/drivers/isimodem/sms.c",ki:"member",ln:"73",},
+	],
+},
+{tag:"tpdu",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"member",ln:"74",},
+		{fp:"ofono/unit/test-cdmasms.c",ki:"member",ln:"44",},
+	],
+},
+{tag:"tpdu_len",ref:
+	[
+		{fp:"ofono/src/sms.c",ki:"member",ln:"94",},
+		{fp:"ofono/unit/test-cdmasms.c",ki:"member",ln:"45",},
+	],
+},
+{tag:"tr_func",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"member",ln:"92",},
+	],
+},
+{tag:"trace",ref:
+	[
+		{fp:"ofono/gisi/modem.c",ki:"member",ln:"70",},
+	],
+},
+{tag:"transaction",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"118",},
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"124",},
+	],
+},
+{tag:"transaction_id",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"member",ln:"85",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1671",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1676",},
+	],
+},
+{tag:"transaction_ids",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1679",},
+	],
+},
+{tag:"transfer",ref:
+	[
+		{fp:"ofono/include/voicecall.h",ki:"member",ln:"119",},
+	],
+},
+{tag:"transfer_file",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1739",},
+	],
+},
+{tag:"transfer_status",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1741",},
+	],
+},
+{tag:"transfer_status_ind_cb",ref:
+	[
+		{fp:"ofono/drivers/isimodem/gprs.c",ki:"function",ln:"158",sig:"(const GIsiMessage *msg, void *opaque)",},
+	],
+},
+{tag:"transparent_sco",ref:
+	[
+		{fp:"ofono/src/handsfree-audio.c",ki:"variable",ln:"70",},
+	],
+},
+{tag:"transport_addr",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1712",},
+	],
+},
+{tag:"transport_level",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1710",},
+	],
+},
+{tag:"trigger_interface_update",ref:
+	[
+		{fp:"ofono/src/modem.c",ki:"function",ln:"1230",sig:"(void *data)",},
+	],
+},
+{tag:"TRUE",ref:
+	[
+		{fp:"ofono/include/types.h",ki:"macro",ln:"34",},
+	],
+},
+{tag:"trying_app_id",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc-util.h",ki:"member",ln:"59",},
+	],
+},
+{tag:"trying_app_type",ref:
+	[
+		{fp:"ofono/drivers/isimodem/uicc-util.h",ki:"member",ln:"60",},
+	],
+},
+{tag:"ts",ref:
+	[
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"363",},
+	],
+},
+{tag:"tseg",ref:
+	[
+		{fp:"ofono/drivers/isimodem/sms.c",ki:"member",ln:"90",},
+	],
+},
+{tag:"tun_bytes",ref:
+	[
+		{fp:"ofono/gatchat/gatrawip.c",ki:"function",ln:"169",sig:"(struct ring_buffer *rbuf, gpointer user_data)",},
+	],
+},
+{tag:"tun_io",ref:
+	[
+		{fp:"ofono/gatchat/gatrawip.c",ki:"member",ln:"41",},
+	],
+},
+{tag:"TUN_SYSFS_DIR",ref:
+	[
+		{fp:"ofono/drivers/atmodem/gprs-context.c",ki:"macro",ln:"46",},
+		{fp:"ofono/drivers/cdmamodem/connman.c",ki:"macro",ln:"46",},
+		{fp:"ofono/drivers/ifxmodem/gprs-context.c",ki:"macro",ln:"45",},
+	],
+},
+{tag:"tun_write_buffer",ref:
+	[
+		{fp:"ofono/gatchat/gatrawip.c",ki:"member",ln:"44",},
+	],
+},
+{tag:"tun_write_data",ref:
+	[
+		{fp:"ofono/gatchat/gatrawip.c",ki:"function",ln:"136",sig:"(gpointer data)",},
+	],
+},
+{tag:"tur_ext_gsm",ref:
+	[
+		{fp:"ofono/src/util.c",ki:"variable",ln:"122",},
+	],
+},
+{tag:"tur_ext_unicode",ref:
+	[
+		{fp:"ofono/src/util.c",ki:"variable",ln:"143",},
+	],
+},
+{tag:"tur_gsm",ref:
+	[
+		{fp:"ofono/src/util.c",ki:"variable",ln:"348",},
+	],
+},
+{tag:"tur_unicode",ref:
+	[
+		{fp:"ofono/src/util.c",ki:"variable",ln:"367",},
+	],
+},
+{tag:"tx_avail",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1567",},
+	],
+},
+{tag:"tx_counter",ref:
+	[
+		{fp:"ofono/src/sms.c",ki:"member",ln:"70",},
+	],
+},
+{tag:"tx_finished",ref:
+	[
+		{fp:"ofono/src/sms.c",ki:"function",ln:"674",sig:"(const struct ofono_error *error, int mr, void *data)",},
+	],
+},
+{tag:"tx_next",ref:
+	[
+		{fp:"ofono/src/sms.c",ki:"function",ln:"750",sig:"(gpointer user_data)",},
+	],
+},
+{tag:"tx_queue_entry",ref:
+	[
+		{fp:"ofono/src/sms.c",ki:"struct",ln:"98",},
+	],
+},
+{tag:"tx_queue_entry_destroy",ref:
+	[
+		{fp:"ofono/src/sms.c",ki:"function",ln:"604",sig:"(struct tx_queue_entry *entry)",},
+	],
+},
+{tag:"tx_queue_entry_destroy_foreach",ref:
+	[
+		{fp:"ofono/src/sms.c",ki:"function",ln:"613",sig:"(gpointer _entry, gpointer unused)",},
+	],
+},
+{tag:"tx_queue_entry_new",ref:
+	[
+		{fp:"ofono/src/sms.c",ki:"function",ln:"869",sig:"(GSList *msg_list, unsigned int flags)",},
+	],
+},
+{tag:"tx_queue_entry_set_submit_notify",ref:
+	[
+		{fp:"ofono/src/sms.c",ki:"function",ln:"918",sig:"(struct tx_queue_entry *entry, ofono_sms_txq_submit_cb_t cb, void *data, ofono_destroy_func destroy)",},
+	],
+},
+{tag:"tx_source",ref:
+	[
+		{fp:"ofono/src/sms.c",ki:"member",ln:"71",},
+	],
+},
+{tag:"txq",ref:
+	[
+		{fp:"ofono/src/sms.c",ki:"member",ln:"69",},
+	],
+},
+{tag:"txq_backup_entry",ref:
+	[
+		{fp:"ofono/src/smsutil.h",ki:"struct",ln:"418",},
+	],
+},
+{tag:"TXQ_MAX_RETRIES",ref:
+	[
+		{fp:"ofono/src/sms.c",ki:"macro",ln:"50",},
+	],
+},
+{tag:"type",ref:
+	[
+		{fp:"ofono/drivers/atmodem/sim.c",ki:"member",ln:"457",},
+		{fp:"ofono/drivers/isimodem/gprs-context.c",ki:"member",ln:"77",},
+		{fp:"ofono/drivers/isimodem/sms.c",ki:"member",ln:"80",},
+		{fp:"ofono/drivers/isimodem/sms.c",ki:"member",ln:"94",},
+		{fp:"ofono/drivers/isimodem/uicc-util.h",ki:"member",ln:"36",},
+		{fp:"ofono/drivers/isimodem/ussd.c",ki:"member",ln:"52",},
+		{fp:"ofono/drivers/qmimodem/ctl.h",ki:"member",ln:"44",},
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"117",},
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"123",},
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"136",},
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"1506",},
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"69",},
+		{fp:"ofono/drivers/qmimodem/qmi.h",ki:"member",ln:"51",},
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"member",ln:"110",},
+		{fp:"ofono/drivers/stemodem/caif_socket.h",ki:"member",ln:"161",},
+		{fp:"ofono/drivers/stemodem/caif_socket.h",ki:"member",ln:"175",},
+		{fp:"ofono/dundee/dundee.h",ki:"member",ln:"39",},
+		{fp:"ofono/gatchat/ppp_cp.h",ki:"member",ln:"27",},
+		{fp:"ofono/gatchat/ppp_cp.h",ki:"member",ln:"63",},
+		{fp:"ofono/gdbus/client.c",ki:"member",ln:"81",},
+		{fp:"ofono/gdbus/gdbus.h",ki:"member",ln:"140",},
+		{fp:"ofono/gisi/modem.c",ki:"member",ln:"76",},
+		{fp:"ofono/include/gprs-provision.h",ki:"member",ln:"32",},
+		{fp:"ofono/include/location-reporting.h",ki:"member",ln:"47",},
+		{fp:"ofono/include/types.h",ki:"member",ln:"69",},
+		{fp:"ofono/include/types.h",ki:"member",ln:"78",},
+		{fp:"ofono/include/types.h",ki:"member",ln:"91",},
+		{fp:"ofono/src/call-meter.c",ki:"member",ln:"519",},
+		{fp:"ofono/src/cdma-smsutil.h",ki:"member",ln:"281",},
+		{fp:"ofono/src/emulator.c",ki:"member",ln:"1071",},
+		{fp:"ofono/src/emulator.c",ki:"member",ln:"42",},
+		{fp:"ofono/src/gprs.c",ki:"member",ln:"125",},
+		{fp:"ofono/src/gprs.c",ki:"member",ln:"135",},
+		{fp:"ofono/src/modem.c",ki:"member",ln:"104",},
+		{fp:"ofono/src/modem.c",ki:"member",ln:"114",},
+		{fp:"ofono/src/modem.c",ki:"member",ln:"118",},
+		{fp:"ofono/src/phonebook.c",ki:"member",ln:"68",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"343",},
+		{fp:"ofono/src/stkutil.c",ki:"member",ln:"2345",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1108",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1409",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1576",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1644",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1668",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1756",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"725",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"919",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"942",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"61",},
+	],
+},
+{tag:"type1",ref:
+	[
+		{fp:"ofono/gisi/pipe.c",ki:"member",ln:"43",},
+	],
+},
+{tag:"type2",ref:
+	[
+		{fp:"ofono/gisi/pipe.c",ki:"member",ln:"48",},
+	],
+},
+{tag:"TYPE_INTERNATIONAL",ref:
+	[
+		{fp:"ofono/src/phonebook.c",ki:"macro",ln:"41",},
+	],
+},
+])

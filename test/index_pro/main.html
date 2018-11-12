@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="angular-material.css">
+</head>
+<body ng-app="ProMain" ng-controller="AppCtl" class="docs-body" layout="row" ng-cloak aria-label="Lookview Index">
+
+<div >
+<md-sidenav  md-component-id="left" class="md-sidenav-left" hide-print md-is-locked-open="$mdMedia('gt-sm')">
+     <header class="nav-header">
+      <a ng-href="/" class="docs-logo">
+        <h1 md-heading">Lookview Index</h1>
+      </a>
+    </header>
+    <md-content flex role="navigation">
+	<md-list flex>
+		<md-list-item ng-repeat="item in menu" ng-click="onNav($index)">
+			<h3> {{$index}} {{ item.name }}</h3>
+		</md-list-item>
+	</md-list>      
+    </md-content>
+</md-sidenav>
+</div>
+
+<div layout="column" tabIndex="-1" role="main" flex>
+
+<md-toolbar class="md-whiteframe-glow-zl site-content-toolbar">
+	
+</md-toolbar>
+<div ng-show="currentSideItem==0"> <!-- projects -->
+<md-nav-bar md-selected-nav-item="currentNavItem">
+  <md-nav-item md-nav-click="goto('prolist')" name="prolist">所有项目 </md-nav-item>
+  <md-nav-item md-nav-click="goto('pronew')" name="pronew">添加新项目</md-nav-item>
+</md-nav-bar>
+<div ng-show="currentNavItem=='prolist'" >
+	<md-content md-scroll-y layout="column"  flex>
+	<md-list flex>
+        	<md-subheader class="md-no-sticky">项目列表</md-subheader>
+       		<md-list-item class="md-3-line" ng-repeat="item in projectlist" ng-click="null" >          
+          		<div class="md-list-item-text" layout="column">
+            		<h3>{{ item.pro_name }}</h3>
+            		<h4>{{ item.pro_prefix }}</h4>    
+			<hr ng-if="currentSideItem==$index">        		
+          		</div>
+       		 </md-list-item>
+	</md-list>  
+	</md-contrent>
+</div>
+<div ng-show="currentNavItem =='pronew'" >
+	<md-content md-scroll-y layout="column"  flex>
+		<md-input-container>
+  			<label>项目名字</label>
+  			<input  md-maxlength="30" type="text" ng-model="projectname" >
+		</md-input-container>
+		<md-input-container>
+  			<label>项目名字前缀</label>
+  			<input ng-model="projectprefix" md-maxlength="5" type="text" >
+		</md-input-container>
+		<md-button ng-click="proreset()">取消</md-button>
+		<md-button ng-click="prosave()">保存</md-button>
+	</md-contrent>
+
+
+</div>
+</div> <!-- projects end -->
+<div ng-show="currentSideItem==1"> <!-- modules -->
+<md-nav-bar md-selected-nav-item="currentNavItem">
+  <md-nav-item md-nav-click="goto('modlist')" name="modlist">所有模块 </md-nav-item>
+  <md-nav-item md-nav-click="goto('modnew')" name="modnew">添加新模块</md-nav-item>
+</md-nav-bar>
+<div ng-show="currentNavItem=='modlist'" >
+	<md-content md-scroll-y layout="column"  flex>
+	<md-list flex>
+        	<md-subheader class="md-no-sticky">模块列表</md-subheader>
+       		<md-list-item class="md-3-line" ng-repeat="item in modsall" ng-click="null">          
+          		<div class="md-list-item-text" layout="column">
+            		<h3>{{item.mod_name}}</h3>
+            		<h4>{{item.mod_path}}</h4>            		
+          		</div>
+       		 </md-list-item>
+	</md-list>  
+	</md-contrent>
+</div>
+<div ng-show="currentNavItem =='modnew'" >
+	<md-content md-scroll-y layout="column"  flex>
+		<div ng-repeat="mi in newmodule">
+		<md-input-container ng-if="mi.at" >
+  			<label>{{mi.tip}}</label>
+  			<input  md-maxlength="{{fa.limit}}" ng-required=!mi.emp type="text" ng-model="mi.val" >
+		</md-input-container>
+		</div>
+		<!-- select project -->
+		<div>
+		<md-input-container>
+         		 <label>所属项目</label>
+         		 <md-select ng-model='newmodule["pro_id"].val'>   
+			<md-option ng-value="0">空</md-option>        		 
+            		<md-option ng-repeat="pro in projectlist" ng-value="pro.id">
+             		  <sapn> {{pro.pro_name}}</span>
+            		</md-option>
+          		</md-select>
+        	</md-input-container>
+		</div>
+		<!-- modudle -->
+		<div>
+		<md-input-container>
+         		 <label>所属模块</label>
+         		 <md-select ng-model='newfunc["mod_father"].val'>     
+			<md-option ng-value="0">空</md-option>      		 
+            		<md-option ng-repeat="mod in modsall" ng-value="mod.id">
+             		  <sapn> {{mod.mod_name}}</span>
+            		</md-option>
+          		</md-select>
+        	</md-input-container>
+		</div>
+		<md-button ng-click="modreset()">取消</md-button>
+		<md-button ng-click="modsave()">保存</md-button>
+	</md-contrent>
+
+
+</div>
+</div> <!-- end of modules -->
+<div ng-show="currentSideItem==2"> <!-- funcs -->
+<md-nav-bar md-selected-nav-item="currentNavItem">
+  <md-nav-item md-nav-click="goto('funclist')" name="funclist">所有函数 </md-nav-item>
+  <md-nav-item md-nav-click="goto('funcnew')" name="funcnew">添加新函数</md-nav-item>
+</md-nav-bar>
+<div ng-show="currentNavItem=='funclist'" >
+	<md-content>
+	<md-subheader flex="100" >函数列表</md-subheader>
+	<div layout="row" layout-wrap layout-padding>        	
+       		<md-card flex="30"  ng-repeat="item in funcsall" md-colors="item.api=='y'?{background:'green'}:{background:'white'}">        
+			<md-tooltip md-direction="{{$index%3==0?'right':'left'}}">{{item.fun_des}}</md-tooltip>
+            		<a ng-href="fpage.html?id={{item.id}}"><h3>{{item.fun_name}}</h3></a>
+            		<h5>{{item.fun_path}}</h5> 
+			<h5>{{item.fun_protype}}</h5>           		
+       		 </md-card>
+	</div>  	
+	</md-contrent>
+</div>
+<div ng-show="currentNavItem =='funcnew'" >
+	<md-content md-scroll-y layout="column"  flex>
+		<div ng-repeat="fa in newfunc">
+		<md-input-container  ng-if="fa.at">
+  			<label>{{fa.tip}}</label>
+  			<input  md-maxlength="{{fa.limit}}" ng-required=!fa.emp type="text" ng-model="fa.val" >
+		</md-input-container>
+		</div>
+		<!-- api func -->
+		<div>
+		<md-input-container>
+         		 <label>api函数</label>
+         		 <md-select ng-model='newfunc["api"].val'> 
+			<md-option ng-value="'n'">不是</md-option>    
+			<md-option ng-value="'y'">是</md-option>      		 
+          		</md-select>
+        	</md-input-container>
+		</div>
+		<!-- project -->
+		<div>
+		<md-input-container>
+         		 <label>所属项目</label>
+         		 <md-select ng-model='newfunc["pro_id"].val'> 
+			<md-option ng-value="0">空</md-option>          		 
+            		<md-option ng-repeat="pro in projectlist" ng-value="pro.id">
+             		  <sapn> {{pro.pro_name}}</span>
+            		</md-option>
+          		</md-select>
+        	</md-input-container>
+		</div>
+		<!-- modudle -->
+		<div>
+		<md-input-container>
+         		 <label>所属模块</label>
+         		 <md-select ng-model='newfunc["mod_id"].val'>     
+			<md-option ng-value="0">空</md-option>      		 
+            		<md-option ng-repeat="mod in modsall" ng-value="mod.id">
+             		  <sapn> {{mod.mod_name}}</span>
+            		</md-option>
+          		</md-select>
+        	</md-input-container>
+		</div>
+		<md-button ng-click="funcreset()">取消</md-button>
+		<md-button ng-click="funcsave()">保存</md-button>
+	</md-contrent>
+
+
+</div>
+</div> <!-- end of fun -->
+
+<div ng-show="currentSideItem==3"> <!-- gv -->
+<md-nav-bar md-selected-nav-item="currentNavItem">
+  <md-nav-item md-nav-click="goto('gvlist')" name="gvlist">所有全局变量 </md-nav-item>
+  <md-nav-item md-nav-click="goto('gvnew')" name="gvnew">添加全局变量</md-nav-item>
+</md-nav-bar>
+<div ng-show="currentNavItem=='gvlist'" >
+	<md-content md-scroll-y layout="column"  flex>
+	<md-list flex>
+        	<md-subheader class="md-no-sticky">全局变量列表</md-subheader>
+       		<md-list-item class="md-3-line" ng-repeat="item in gvsall" ng-click="null">          
+          		<div class="md-list-item-text" layout="column">
+            		<h3>{{item.gv_name}}</h3>
+            		<h4>{{item.gv_path}}</h4>            		
+          		</div>
+       		 </md-list-item>
+	</md-list>  
+	</md-contrent>
+</div>
+<div ng-show="currentNavItem =='gvnew'" >
+	<md-content md-scroll-y layout="column"  flex>
+		<md-input-container ng-repeat="fa in newgv"" >
+  			<label>{{fa.tip}}</label>
+  			<input  md-maxlength="{{fa.limit}}" type="text" ng-model="fa.val" >
+		</md-input-container>
+		
+		<md-button ng-click="gvreset()">取消</md-button>
+		<md-button ng-click="gvsave()">保存</md-button>
+	</md-contrent>
+
+
+</div>
+</div> <!-- end of gv -->
+<div ng-show="currentSideItem==4"> <!-- struct -->
+<md-nav-bar md-selected-nav-item="currentNavItem">
+  <md-nav-item md-nav-click="goto('structlist')" name="structlist">所有结构体 </md-nav-item>
+  <md-nav-item md-nav-click="goto('structnew')" name="structnew">添加结构体</md-nav-item>
+</md-nav-bar>
+<div ng-show="currentNavItem=='structlist'" >
+	<md-content md-scroll-y layout="column"  flex>
+	<md-list flex>
+        	<md-subheader class="md-no-sticky">结构体列表</md-subheader>
+       		<md-list-item class="md-3-line" ng-repeat="item in structsall" ng-click="null">          
+          		<div class="md-list-item-text" layout="column">
+            		<h3>{{item.strct_name}}</h3>
+            		<h4>{{item.strct_path}}</h4>            		
+          		</div>
+       		 </md-list-item>
+	</md-list>  
+	</md-contrent>
+</div>
+<div ng-show="currentNavItem =='structnew'" >
+	<md-content md-scroll-y layout="column"  flex>
+		<md-input-container ng-repeat="fa in newstruct"" >
+  			<label>{{fa.tip}}</label>
+  			<input  md-maxlength="{{fa.limit}}" type="text" ng-model="fa.val" >
+		</md-input-container>
+		
+		<md-button ng-click="streset()">取消</md-button>
+		<md-button ng-click="stsave()">保存</md-button>
+	</md-contrent>
+
+
+</div>
+</div> <!-- end of struct -->
+<div ng-show="currentSideItem==5"> <!-- macro -->
+<md-nav-bar md-selected-nav-item="currentNavItem">
+  <md-nav-item md-nav-click="goto('maclist')" name="maclist">所有宏定义 </md-nav-item>
+  <md-nav-item md-nav-click="goto('macnew')" name="macnew">添加宏定义</md-nav-item>
+</md-nav-bar>
+<div ng-show="currentNavItem=='maclist'" >
+	<md-content md-scroll-y layout="column"  flex>
+	<md-list flex>
+        	<md-subheader class="md-no-sticky">宏定义列表</md-subheader>
+       		<md-list-item class="md-3-line" ng-repeat="item in macsall" ng-click="null">          
+          		<div class="md-list-item-text" layout="column">
+            		<h3>{{item.macro_name}}</h3>
+            		<h4>{{item.mac_path}}</h4>            		
+          		</div>
+       		 </md-list-item>
+	</md-list>  
+	</md-contrent>
+</div>
+<div ng-show="currentNavItem =='macnew'" >
+	<md-content md-scroll-y layout="column"  flex>
+		<md-input-container ng-repeat="fa in newmac"" >
+  			<label>{{fa.tip}}</label>
+  			<input  md-maxlength="{{fa.limit}}" type="text" ng-model="fa.val" >
+		</md-input-container>
+		
+		<md-button ng-click="macreset()">取消</md-button>
+		<md-button ng-click="macsave()">保存</md-button>
+	</md-contrent>
+
+
+</div>
+</div> <!-- end of macro -->
+</div>
+<script src="angular.js"></script>
+<script src="angular-aria.js"></script>
+<script src="angular-animate.js"></script>
+<script src="angular-material.js"></script>
+<script src="common.js"></script>
+<script src="fmain.js"></script>
+
+</body>
+</html>

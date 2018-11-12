@@ -1,0 +1,899 @@
+ 
+//window.onload = initForm;
+var old_on_local_symbol_border_mousemove =0xFFFFFFFF;
+var old_on_global_symbol_border_mousemove = 0xFFFFFFFF;
+var xhr = false;
+
+/* left, main, right */
+
+var frames_width_ratio = new Array(0.3, 0.4, 0.3);
+var frames_min_width = new Array(100, 300, 100);
+
+/* top, middle, bottom */
+
+var frames_height_ratio = new Array(0.2, 0.8, 0.2);
+var frames_height = new Array(3);
+
+
+var left_frame_display = false;
+var right_frame_display = false;
+
+var display_area_width = 980;
+var display_area_height = 800;
+var contents_area_height = 400;
+
+// new variable definition 
+var screen_width = 1200;
+var screen_height = 800;
+var main_contents_height = screen_height*0.6;
+var left_frame_width = screen_width*0.2;//200;
+var right_frame_width = screen_width*0.2;
+var main_code_width = screen_width * 0.6;
+var divider_border_width = 6;
+
+var header_area_width = (left_frame_width+right_frame_width+main_code_width);
+var navi_area_width = screen_width;
+var footer_area_width = header_area_width;
+var header_area_height = screen_height*0.12;
+var footer_area_height = header_area_height;
+
+// local java and ajax variables
+var fileinfo_obj = 0;
+var pageinfo_obj = 0;
+var local_gifts_obj = 0;
+var local_favors_obj = 0;
+var local_symbols_obj = 0;
+var local_comments_set = 0;
+var navi_obj;
+
+function LinkObj(){
+	this.prev = 0;
+	this.next = 0;
+	this.url = 0;
+}
+// navi object construct
+function NavObj(limit){
+	this.num=0;
+	this.cur=0;
+	this.head=0;
+	this.limit = limit;
+	this.ifnext = navi_if_next;
+	this.ifprev = navi_if_prev;
+	this.next=navi_next;
+	this.prev=navi_prev;
+	this.push=navi_push;
+}
+function debug(text){
+	show_in_test(text);
+}
+function show_in_test(text){
+	
+	$("#bottom_area").text(text);
+}
+$(window).load(initForm);
+
+var foler_index_file_name =  "lv_tag_index.htm";
+var user=0;
+var session=0;
+function check_session(){
+	se = util_get_cookie("session");
+	if( !se )
+		return;
+	url = '/initphp-master/index.php?c=user&a=sessioncheck';
+	url += '&user='+user;
+	url += '&session='+se;
+	$.post(url, function(data){
+		if( !is_json_str(data) )
+			return;
+		data_obj = eval(data);
+		if(data_obj.err == 0){
+			session = se;
+		}
+		else{
+			$("#login").text("login");
+			show_in_test("check session failed:" + data);	
+		}
+	});
+}
+$(document).ready(function(){
+	// initialize navi object
+	if( user = util_get_cookie("user") )
+		$("#login").text(user);
+	check_session();
+	navi_obj = new NavObj(30);
+	left_frame_width = $("#left_frame").css("width");
+	main_code_width = $("#codeareaID").css("width")  - left_frame_width;
+
+	//$("#show_aside_symbols").click(jq_showhidesymbols);
+
+	show_in_test(page_info);	
+	show_in_test(window.location.protocol + "->" + window.location.host);
+
+	pageinfo_obj = eval(page_info);
+	goto_url(pageinfo_obj.page);
+	//loadcomments();
+
+	$("#addabove").click(function(){
+		if($(this).text()=="addabove"){
+			$(this).text("delabove");
+			$(this).parent().parent().append("<p>hello, I am here for jquery</P>");
+		}
+		else{
+			$(this).text("addabove");
+		}
+	});
+	$("#codeareaID").resize(function(){
+		adjust_frames();
+	});
+   //initForm();
+
+	$("#login").click(on_login);
+	$("#register").click(on_reg_open);
+
+  
+  	$("#form_login").submit(function(e){
+		login_submit(e);
+	});
+	$("#page_back").click(function(e){
+		if( navi_obj.ifprev() ){
+			goto_url(navi_obj.prev(), 1);
+		}
+	});
+	$("#page_forward").click(function(e){
+		if( navi_obj.ifnext() ){
+			goto_url(navi_obj.next(),1);
+		}
+	});
+	$("#page_unfold_all").click(function(e){
+		unfold_all_comments();
+	});
+	$("#page_fold_all").click(function(e){
+		fold_all_comments();
+	});
+	$("#page_unfold_mine").click(function(e){
+		fold_my_comments();
+	});
+	$("#page_fold_mine").click(function(e){
+		unfold_my_comments();
+	});
+	/*
+	$("#ajax_test").click(function(){
+		loadcomments();
+	});
+	*/
+});
+function clean_objects(){
+	local_symbol_set = 0;
+	local_comments_set = 0;
+	local_gifts_obj = 0;
+	local_favors_obj = 0;
+	left_frame_display = false;
+	fileinfo_obj = 0;
+	//$("#left_frame").css("display", "none");
+	$("#localsymbolsaside").html("<p>Empty</p>");
+		
+}
+function goto_url(url, notpush, cb){
+	window.location.href = url;	
+	return;
+	if( !pageinfo_obj){
+		return 0;
+	}
+	clean_objects();
+	$.post(url, function(data){
+		//show_in_test(data);
+		page_content = '<div id="target_page">';
+		page_content += data;
+		page_content += '</div>';
+		$("#target_page").empty();
+		$("#target_page").replaceWith(page_content);
+		fileinfo_obj = eval(file_info);
+		loadcomments();
+		i=0;
+		if( 0 != local_symbol_set){
+			local_symbols_obj = eval(local_symbol_set);
+			lsymbol_html = ""
+			for(;local_symbols_obj[i];i++){
+				lsymbol_html += "<a class=\"a_local_symbol\" href=\"";
+				lsymbol_html += "#line"+local_symbols_obj[i].ln +"\">";
+				lsymbol_html += local_symbols_obj[i].name + "</a>";
+			}
+			$("#localsymbolsaside").html(lsymbol_html);
+		}
+		local_symbol_set = 0;
+		adjust_frames();
+		set_file_path(fileinfo_obj, pageinfo_obj);
+		document.getElementById("local_symbol_search_input").onkeyup = on_local_symbol_serach_keyup;
+/*{
+		$(".dir_content_img").click(function(e){
+			$(this).next().trigger("click");
+		});
+		$(".a_code_tag").click(overload_a);
+		$(".a_ln").click(function(e){ 
+			show_comments($(this));
+		});
+		$("#show_aside_symbols").click(jq_showhidesymbols);
+}
+*/		if(!notpush)
+		  navi_obj.push(url);
+	}); // ajax finished
+}
+function overload_click(ctl){
+	cl = $(ctl).attr("class");
+	if( cl == "dir_content_img"){
+		$(ctl).next().trigger("click");
+	} else if( cl == "a_code_tag" ){
+		goto_url("/"+fileinfo_obj.topdir + "/" + $(ctl).attr("href"));
+	} else if( cl  == "a_ln" ){
+		show_comments($(ctl));
+	} else
+		show_in_test("strange! this is an unknown class in overload_click");
+}
+function overload_a(e){
+	e.preventDefault();
+	//window.location.href = pageinfo_obj.base+fileinfo_obj.topdir + "/" + $(this).attr("href");
+	goto_url("/"+fileinfo_obj.topdir + "/" + $(this).attr("href"));
+
+}
+function set_file_path(fi, pi){
+	// fi is fileinfo, pi is pageinfo
+	//show_in_test(fi.path);
+	filepath = fi.path.split('/');
+	filepath_html ="file:";
+	filepath_link = "/" + fi.topdir;
+	for(i=0; i<filepath.length;i++){
+		filepath_link += '/' + filepath[i];
+		href = filepath_link;
+		if( i == filepath.length-1){
+			filepath_html +="<span>/" + filepath[i] + "</span>";
+		} else {
+		
+			href += '/' + foler_index_file_name;
+			filepath_html += "<span class=\"hypertext\" onclick=goto_url(\""+href+"\")>/" + filepath[i] + '</span>';	
+		}
+	}
+	$("#fpath_div").html(filepath_html);
+
+}
+function show_comments(ctl){
+	p_obj = ctl.siblings("p");
+	show_in_test(p_obj.text());
+	datainfo_txt = p_obj.attr("data-info");
+   	show_in_test(datainfo_txt);
+	 datainfo = eval(datainfo_txt);
+	show_in_test(datainfo.tp + "->" + datainfo.id + "->"+datainfo.ln);
+   	if($("#"+datainfo.id).length <= 0){
+		papa = ctl.parent();
+		ctl.before(build_comments(datainfo, datainfo_txt));
+		papa.addClass("div_line_active");
+		ctl.find("img").attr("src", "/img/close.png");
+		adjust_comment_ta();			
+   	}
+	else{
+		//$("#"+datainfo.id).empty();
+		//$("#"+datainfo.id).replaceWith($("#line"+datainfo.ln).detach());
+		$("#"+datainfo.id).parent().removeClass("div_line_active");
+		ctl.find("img").attr("src", "/img/edit.png");
+		$("#"+datainfo.id).remove();
+	}
+   	adjust_frames();
+
+}
+function on_login(){
+	if($(this).text()=="login"){		
+		user_login(function(ret){
+			if(ret.user!="" && ret.session!=""){
+				user = ret.user;
+				session = ret.session;
+				$("#login").text(user);
+
+		}
+		});
+	}
+	else{
+		window.location.href = '/initphp-master/user.php?what=myprofile';
+	}
+}
+
+function del_cookie(name){
+	util_set_cookie(eval('({'+name+':""})'), -1);
+}
+function build_comments(datainfo, di_txt){
+	ctl_div = '<div id=' + datainfo.id + ' class=linecomments_div >';
+	ctl_div += build_comments_div(datainfo, di_txt);
+	ctl_div += '</div>';
+	return ctl_div;
+
+}
+function adjust_comment_ta(){
+	tas = document.getElementsByName("commenttext_name");
+	for(i=0;i<tas.length;i++)
+		adjusttaheight(tas[i]);
+
+}
+function adjusttaheight(ctl){
+	//default height = 30px;
+	show_in_test("scrollheight:"+ctl.scrollHeight);
+	if (ctl.scrollHeight < 30 )
+		$(ctl).height(30);
+	else
+		$(ctl).height(ctl.scrollHeight);
+}
+function build_comments_div(datainfo, di_txt){
+	ctl_div = "";
+	user_commented = 0;
+	if( (local_comments_set != undefined ) && (local_comments_set["id"+datainfo.id] != undefined)){
+		for(i=0; i< local_comments_set["id"+datainfo.id].length; i++){
+		commentins =  local_comments_set["id"+datainfo.id][i];
+		commentid = local_comments_set["id"+datainfo.id][i].id;
+		// construct the comment list
+		ctl_div +=  '<div id="comdiv' + commentid + '" class="com_div">';
+		if( session && user == local_comments_set["id"+datainfo.id][i].author)
+		{
+			ctl_div += '<textarea class="commenttext_t", name="commenttext_name" id="ta'+ commentid + '" readonly=true, data-id='+commentid+' data-info='+ di_txt;
+			ctl_div +=' author="'+ commentins.author+'" onkeyup="adjusttaheight(this)">'+ commentins.comments + '</textarea>';
+			ctl_div += '<p class="comcmds">'
+			ctl_div += '<p class="com_author" onclick=com_onauthor(this)>' + commentins.author + '</p>';
+			ctl_div +='      <span class="comedit" onclick=com_edit(this)>edit</span>';
+			user_commented = 1;		
+			ctl_div+='    <span class="comdel" data-id='+commentid + ' onclick=com_del(this)>del</span>'
+			ctl_div += '</p>'; // class comcmds
+			ctl_div += '<hr>';
+		}
+		else{ // not user self
+			ctl_div += '<p class="commenttext_p", id="ta'+ commentid + '" readonly=true, data-id='+commentins.id +' data-info='+ di_txt +' onkeyup="adjusttaheight(this)" author="'+commentins.author+'">'+ commentins.comments + '</p>';
+			ctl_div += '<p class="comcmds">'
+			ctl_div += '<p class="com_author" onclick=com_onauthor(this)>' + commentins.author + '</p>';
+			ctl_div += '<span class="comgift" style="width:33%;text-align:center;" onclick=com_gift(this)>gift</span>'
+			ctl_div += '<span class="hypertext" onclick=com_favorate(this)> favorate </span>';
+			ctl_div += '</p>'; // class comcmds
+			ctl_div += '<hr>';
+
+		}
+		ctl_div += '</div>';
+		}
+		
+	}		
+	if( user_commented )
+		return ctl_div;
+	if( user && session )
+	{
+		ctl_div +=  '<div class="divadd">';
+		ctl_div += '<textarea class="commenttext_t" name="commenttext_name" placeholder="add comments..." data-info='+datainfo_txt +'></textarea>';
+ 	  	ctl_div += '<p class="comcmds"><span class="comcancel" onclick=com_cancel(this)>cancel</span>        <span class="comadd" onclick=com_add(this)>save</span></p>';
+		ctl_div += '<hr></div>';
+	}else
+	{
+		ctl_div += '<div style="display:block">please <span class="hypertext" onclick=on_login>log in</span> to comment </div>';
+	}
+	return ctl_div;
+}
+
+function loaddata(){
+	
+}
+function loadfavors(func){
+	$.post('/initphp-master/index.php?c=com&a=getfavorbyfile_json&file='+fileinfo_obj.path, function(data){
+		if( !is_json_str(data)){
+			show_in_test("getting favors failed");
+			return 0;
+		}
+		result = eval(data);
+		if( result.err == 0){
+			favors = result.ret;
+			local_favors_obj = new Array();
+			for(i=0; i<favors.length;i++){
+				if(local_favors_obj["id"+favors[i].commentid] == undefined)
+					local_favors_obj["id"+favors[i].commentid] = new Array();
+				local_favors_obj["id"+favors[i].commentid].push(favors[i]);
+			}
+		}
+		if( func != undefined )
+			func( result.err );
+		
+	});
+	return 1;
+}
+function loadgifts(func){
+	$.post('/initphp-master/index.php?c=com&a=getgiftbyfile_json&file='+fileinfo_obj.path, function(data){
+		if( !is_json_str(data)){
+			show_in_test("getting gifts failed");
+			return 0;
+		}
+		result = eval(data);
+		if( result.err == 0){
+			gifts = result.ret;
+			local_gifts_obj = new Array();
+			for(i=0; i<gifts.length;i++){
+				if(local_gifts_obj["id"+gifts[i].commentid] == undefined)
+					local_gifts_obj["id"+gifts[i].commentid] = new Array();
+				local_gifts_obj["id"+gifts[i].commentid].push(gifts[i]);
+			}
+		}
+		if( func != undefined )
+			func(result.err);
+		
+	});
+	return 1;
+}
+
+function loadcomments(func){
+	loadgifts(function(){
+		loadfavors(function(){
+			
+			$.post('/initphp-master/index.php?c=com&a=getcomments_json&file='+fileinfo_obj.path, function(data){
+				if( !is_json_str(data) ){
+					show_in_test("getting comemnts failed");
+					return;
+				}
+				result = eval(data);	
+				//show_in_test(data);
+				if( result.err ==0 ){
+					local_comments_set = new Array();
+					for(i=0; i<result.ret.length; i++){
+						if(local_comments_set["id"+ result.ret[i].lineid] == undefined){
+							local_comments_set["id"+ result.ret[i].lineid]	= new Array();
+							//local_comments_set["id"+ result.ret[i].lineid][0] = result.ret[i];
+						}
+						local_comments_set["id"+ result.ret[i].lineid].push(result.ret[i]);
+						if( func != undefined){
+							func();
+						}
+					}	
+			//show_in_test('err is ' + result.err +  '  ret number is ' + result.ret.length);
+				}
+			});
+		});
+	});	
+
+
+
+}
+
+function com_add(ctl){
+	comments_obj =  $(".commenttext_t", $(ctl).parent().parent());
+	datainfo_txt = comments_obj.attr("data-info");
+	datainfo = eval(datainfo_txt);
+	comments = comments_obj.val();
+	if( comments ==""){
+		comments_obj.attr("placeholder", "please input your comments");
+		return;
+	}
+	show_in_test(fileinfo_obj.path);
+	url = '/initphp-master/index.php?c=com&a=addcomment_json';
+	url += '&file='+fileinfo_obj.path;
+	url += '&lineno=' + datainfo.ln;
+	url += '&lineid=' + datainfo.id;
+	url += '&author=' + user;
+	url += '&comment=' + comments;
+	$.get(url, function(data){
+		show_in_test(data);
+		result = eval(data);	
+		if( result.err == 0 ){
+			;//show_in_test('err is ' + result.err +  '  ret number is ' + result.ret.length);
+			loadcomments(function(){
+				// following two method are both okay
+				//$("#"+datainfo.id).replaceWith(build_comments(datainfo, datainfo_txt));
+				papa = $("#"+datainfo.id);
+				papa.empty();
+				html = build_comments_div(datainfo, datainfo_txt);
+				$(html).appendTo(papa);
+				adjust_comment_ta();
+				adjust_frames();			
+			});
+
+		}
+	});
+	
+	
+}
+function com_close(ctl){
+	$(ctl).parent().parent().removeClass("div_line_active");
+	$(ctl).parent().remove();
+}
+function com_cancel(ctl){
+	$(".commenttext", $(ctl).parent().parent()).text("");
+	show_in_test("");
+	
+}
+function com_favorate(ctl){
+	if( user && session ){
+		comments_obj =  $(".commenttext_p", $(ctl).parent().parent());
+		datainfo_txt = comments_obj.attr("data-info");
+		datainfo = eval(datainfo_txt);
+		commentid = comments_obj.attr("data-id");
+		author = comments_obj.attr("author");
+		url = '/initphp-master/index.php?c=com&a=addfavor';
+		url += '&favorwho=' + author;
+		url += '&commentid=' + commentid;
+		url += '&project=' + fileinfo_obj.table;
+		url += '&file=' + fileinfo_obj.path;
+
+		$.post(url, function(data){
+			show_in_test(data);
+			if( is_json_str(data) ){
+				
+			}
+		});	
+	}
+}
+function com_gift(ctl){
+	if( user && session ){
+		comments_obj =  $(".commenttext_p", $(ctl).parent().parent());
+		datainfo_txt = comments_obj.attr("data-info");
+		datainfo = eval(datainfo_txt);
+		commentid = comments_obj.attr("data-id");
+		author = comments_obj.attr("author");
+		url = '/initphp-master/index.php?c=com&a=givegift';
+		url += '&authorname=' + author;
+		url += '&commentid=' + commentid;
+		url += '&project=' + fileinfo_obj.table;
+		url += '&file=' + fileinfo_obj.path;
+
+		$.post(url, function(data){
+			show_in_test(data);
+			if( is_json_str(data) ){
+				
+			}
+		});
+	}
+}
+function com_edit(ctl){
+	if($(ctl).text()=='edit'){
+		$(ctl).text("save");
+		 $(".commenttext_t", $(ctl).parent().parent()).removeAttr("readonly");
+		
+	}else{
+		comments_obj =  $(".commenttext_t", $(ctl).parent().parent());
+		datainfo_txt = comments_obj.attr("data-info");
+		datainfo = eval(datainfo_txt);
+		comments = comments_obj.val();
+		data_id = comments_obj.attr("data-id");
+		$(ctl).text("edit");
+		//com_add(ctl);
+		url = '/initphp-master/index.php?c=com&a=updatecomment_json';
+		url += '&id=' + data_id;
+		url += '&comment=' + comments;
+		$.get(url, function(data){
+			show_in_test(data);
+			result = eval(data);	
+		});
+		loadcomments(function(){
+				// following two method are both okay
+				//$("#"+datainfo.id).replaceWith(build_comments(datainfo, datainfo_txt));
+				$("#"+datainfo.id).html(build_comments_div(datainfo, datainfo_txt));
+				adjust_comment_ta();
+		});
+
+	}
+}
+function com_del(ctl){
+	data_id = $(ctl).attr("data-id");
+	if( window.confirm("are you sure to delete this id="+data_id+"?") ){
+		//com_add(ctl);
+		url = '/initphp-master/index.php?c=com&a=delcomment_json';
+		url += '&id=' + data_id;
+		$.get(url, function(data){
+			show_in_test(data);
+			result = eval(data);	
+			if(result.err == 0){
+				$("#comdiv"+data_id).remove();
+				adjust_frames();
+
+			}
+		});
+		
+		loadcomments();
+	}
+}
+
+function iamgoneclick(ctl){
+	cid = $(ctl).attr("data-info");
+	$("#"+cid).remove();
+	adjust_frames();
+}
+$(document).load(initForm);
+function on_reg_open(ctl){
+	window.location.href='/jquery/jregister.html';
+}
+
+function initForm() {
+
+
+document.getElementById("local_symbol_search_input").onkeyup = on_local_symbol_serach_keyup;
+document.getElementById("global_symbol_search_input").onkeyup = on_global_symbol_search_keyup;
+//document.getElementById("main_area").onmouseout = on_mainarea_mourseup;
+//right_frame_display = true;
+//document.getElementById("ajax_test").onclick = on_ajax_test;
+display_area_width = window.innerWidth;
+display_area_height = window.innerHeight;
+
+init_frames_size();
+init_local_symbols();
+//adjust_frames();
+
+}
+function init_local_symbols(){
+	var local_symbols_list_a = document.getElementsByName("local_symbol_p");
+	var test = "";
+	if(local_symbols_list_a.length > 0)
+	{
+		local_symbols_set = new Array(local_symbols_list_a.length*2);
+		for(i=0;i<local_symbols_list_a.length;i++)
+		{
+			local_symbols_set[i*2] = local_symbols_list_a[i].innerText;
+			local_symbols_set[i*2+1] = local_symbols_list_a[i].href;
+		}
+	}
+	
+}
+function set_local_symbols(){
+	var local_symbols_list_a = document.getElementsByName("local_symbol_p");
+	
+	
+}
+global_symbols_obj = new Object();
+function on_global_symbol_search_keyup(e)
+{
+	var input = document.getElementById("global_symbol_search_input");
+	var text = input.value;
+	text = text.trim();
+	text = text.toLowerCase();
+	var html = " ";
+	if( text.length == 0){
+		$("#global_symbols_sel_div").css("display", "none");
+		return;
+	}	
+	if( fileinfo_obj ){
+		var url;
+		var file_name = text.charAt(0).toLowerCase();
+		var filter_file = new RegExp("[a-z]");
+		if( !filter_file.test(file_name) )
+			file_name =  "other";
+		if( undefined != typeof fileinfo_obj.topdir){
+			if(fileinfo_obj.topdir.charAt(0) != "/" )
+				url = "/" + fileinfo_obj.topdir + "/g_tag/";
+			else
+				url = fileinfo_obj.topdir + "/g_tag/";
+		} 
+		else{ //  do nothing
+				show_in_test("topdir not set");
+				return;
+		}
+		url += file_name;
+		if( !global_symbols_obj[file_name] ){			
+		 
+			
+			$.post(url, function(data){
+				show_in_test(data);
+				global_symbols_obj[file_name] = eval(data);
+				display_global_symbols(text, global_symbols_obj[file_name]);
+			});
+			return;
+		}
+		display_global_symbols(text, global_symbols_obj[file_name]);
+				
+	}	
+}
+function display_global_symbols(text, symbols_obj){
+	var html = "";
+	for(var key in symbols_obj){
+		show_in_test(key);
+		symtext = key.toLowerCase();
+		if(text.length ==0  || symtext.indexOf(text) != -1){
+			// we found one
+		    html += "<a class=\"a_global_symbol\"  href=\"";
+		    html += symbols_obj[key][0].fp+"#line" + symbols_obj[key][0].line + "\">";
+		    html += key + "</a>";
+		    html += '<span>    <i>'+symbols_obj[key][0].fp + '</i></span>';
+		}
+
+	}
+	$("#global_symbols_sel_div").html(html);
+	$(".a_global_symbol").click(function(e){
+		e.preventDefault();
+		window.location.href = pageinfo_obj.base+fileinfo_obj.topdir + "/" + $(this).attr("href");
+	});
+	$("#global_symbols_sel_div").css("display", "block");
+}
+function on_local_symbol_serach_keyup(e)
+{
+	var keynum
+    var keychar
+    var numcheck
+    var input = document.getElementById("local_symbol_search_input");
+	var local
+	if(window.event) // IE
+	{
+		keynum = e.keyCode
+	}
+	else if(e.which) // Netscape/Firefox/Opera
+	{
+		keynum = e.which
+	}
+
+	keychar = String.fromCharCode(keynum);
+	numcheck = /\w/;
+	var text = input.value;
+	text = text.trim();
+	text = text.toLowerCase();
+	var html = " ";
+	
+	for(i=0;local_symbols_obj[i] ;i++)
+	{		
+		symtext = local_symbols_obj[i].name.toLowerCase();
+		if(text.length ==0  || symtext.indexOf(text) != -1){
+			// we found one
+			html = html + "<a class=\"a_local_symbol\"  href=\"";
+		    html += "#line" + local_symbols_obj[i].ln + "\">";
+		    html += local_symbols_obj[i].name+ "</a>";
+		}
+	}
+	$("#localsymbolsaside").html(html);
+	var test_block = document.getElementById("bottom_area");
+	test_block.innerText = text;
+	adjust_frames();
+	return true;// numcheck.test(keychar);
+
+}
+function init_frames_size(){
+	
+	var left_frame = document.getElementById("left_frame");
+	var left_symbol_div = document.getElementById("localsymbolsaside");
+	var left_border_div = document.getElementById("local_symbol_border");
+	var left_symbol_search_input = document.getElementById("local_symbol_search_input");
+	
+	var code_frame = document.getElementById("codeareaID");
+	
+	var right_frame = document.getElementById("right_frame");
+	var right_frame_divider = document.getElementById("right_frame_divide");
+	var right_symbol_area = document.getElementById("globalsymbolsaside");
+	
+	var heade_area = document.getElementById("header_area");
+	var footer_area = document.getElementById("bottom_area");	
+	var main_area = document.getElementById("main_area");
+	var navi_area = document.getElementById("navigator_area");
+	
+	
+}
+function adjust_frames(){
+/*
+	var middle_width = 0;
+	var ctl_codeframe = $("#codeareaID");
+	if($("#left_frame").css("display") == 'none'){
+		ctl_codeframe.css("width", 1000);//main_code_width + left_frame_width);
+	
+	}else{
+		ctl_codeframe.css("width", main_code_width);
+
+	}
+
+*/
+}
+
+function on_ajax_test(){
+	make_request("ajaxtext");
+}
+function make_request(url){
+	if(window.XMLHttpRequest){
+		xhr = new XMLHttpRequest();
+	}else{
+		if(window.ActiveXObjext){
+			try{
+				xhr = new ActiveXObjext("Microsoft.XMLHTTP");
+			}catch(e){}
+		}		
+	}
+	if(xhr){
+		xhr.onreadystatechange=ajax_ready;
+		xhr.open("GET",url, true);
+		xhr.send();
+	}else{
+		show_in_test("don't support ajax :(");
+	}
+}
+function ajax_ready(){
+	if(xhr.readyState==4){
+		if(xhr.status == 200){
+			if(xhr.responseXML && xhr.responseXML.childNodes.length>0){
+				var outmsg = getText(xhr.responseXML.getElementsByTagName("choices")[0]);
+			}else{
+				var outmsg = xhr.responseText;
+			}
+			document.getElementById("test_block").innerHTML = outmsg;
+		}else{
+			show_in_test("there was a problem with the request:" + xhr.status);
+		}
+	}
+}
+
+
+function jq_showhidesymbols(){
+	
+	var ctl_codeframe = $("#codeareaID");
+	if( $("#left_frame").css("display") == "none"){
+		ctl_codeframe.css("width", 770);//main_code_width + left_frame_width);
+		$("#left_frame").css("display", "block");
+	}else{
+		$("#left_frame").css("display", "none");
+		ctl_codeframe.css("width", 1000);
+		
+	}
+	adjust_frames();
+}
+
+function navi_push(url){
+	var cur = new LinkObj();
+	cur.url = url;
+	cur.prev = this.cur;
+	this.cur.next = cur;
+	this.cur = cur;
+	if ( !this.header ){
+		this.header = this.cur;	
+	}
+	else if( this.num >= this.limit ){
+		this.header = this.header.next;
+		this.header.prev = 0;
+		this.num--;
+	}
+	this.num++;
+	show_in_test(this.cur.url + " pushed " + this.num);
+	return this.cur.url;
+		
+}
+function navi_if_next(){
+	return this.cur.next;
+}
+function navi_if_prev(){
+	return this.cur.prev;
+}
+function navi_next(){
+
+	if( this.cur.next ){
+		this.cur = this.cur.next;
+		this.num++;
+		return this.cur.url;
+	}
+	return 0;
+}
+function navi_prev(){
+	if( this.cur.prev ){
+		this.cur = this.cur.prev;
+		this.num--;
+		return this.cur.url;
+	}
+	return 0;
+}
+
+function fold_all_comments(){
+	if( local_comments_set ){
+		for(id in local_comments_set){
+			var ctrl = document.getElementsByName("line"+local_comments_set[id][0].lineno);
+			show_in_test(ctrl.name);
+
+			if( ctrl.length >0 )
+				show_comments($(ctrl[0]));
+			else
+				show_in_test("find nothing line with :"+local_comments_set[id][0].lineno);
+		}	
+	}
+}
+function unfold_all_comments(){
+	if( local_comments_set ){
+		for(id in local_comments_set){
+			var ctrl = document.getElementsByName("line"+local_comments_set[id][0].lineno);
+			show_in_test(ctrl.name);
+
+			if( ctrl.length >0 )
+				show_comments($(ctrl[0]));
+			else
+				show_in_test("find nothing line with :"+local_comments_set[id][0].lineno);
+		}	
+	}
+
+}
+function fold_my_comments(){
+}
+function unfold_my_comments(){
+}
+

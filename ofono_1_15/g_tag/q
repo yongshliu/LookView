@@ -1,0 +1,2748 @@
+([
+{tag:"qmi_activate_primary",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/gprs-context.c",ki:"function",ln:"146",sig:"(struct ofono_gprs_context *gc, const struct ofono_gprs_primary_context *ctx, ofono_gprs_context_cb_t cb, void *user_data)",},
+	],
+},
+{tag:"qmi_attached_status",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/gprs.c",ki:"function",ln:"145",sig:"(struct ofono_gprs *gprs, ofono_gprs_status_cb_t cb, void *user_data)",},
+	],
+},
+{tag:"QMI_BAND_MASK_CLASS_0A",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"22",},
+	],
+},
+{tag:"QMI_BAND_MASK_CLASS_0B",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"23",},
+	],
+},
+{tag:"QMI_BAND_MASK_CLASS_1",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"24",},
+	],
+},
+{tag:"QMI_BAND_MASK_CLASS_10",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"36",},
+	],
+},
+{tag:"QMI_BAND_MASK_CLASS_11",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"37",},
+	],
+},
+{tag:"QMI_BAND_MASK_CLASS_12",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"50",},
+	],
+},
+{tag:"QMI_BAND_MASK_CLASS_14",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"51",},
+	],
+},
+{tag:"QMI_BAND_MASK_CLASS_15",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"52",},
+	],
+},
+{tag:"QMI_BAND_MASK_CLASS_16",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"56",},
+	],
+},
+{tag:"QMI_BAND_MASK_CLASS_17",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"57",},
+	],
+},
+{tag:"QMI_BAND_MASK_CLASS_18",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"58",},
+	],
+},
+{tag:"QMI_BAND_MASK_CLASS_19",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"59",},
+	],
+},
+{tag:"QMI_BAND_MASK_CLASS_2",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"25",},
+	],
+},
+{tag:"QMI_BAND_MASK_CLASS_3A",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"26",},
+	],
+},
+{tag:"QMI_BAND_MASK_CLASS_4",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"27",},
+	],
+},
+{tag:"QMI_BAND_MASK_CLASS_5",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"28",},
+	],
+},
+{tag:"QMI_BAND_MASK_CLASS_6",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"32",},
+	],
+},
+{tag:"QMI_BAND_MASK_CLASS_7",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"33",},
+	],
+},
+{tag:"QMI_BAND_MASK_CLASS_8",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"34",},
+	],
+},
+{tag:"QMI_BAND_MASK_CLASS_9",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"35",},
+	],
+},
+{tag:"QMI_BAND_MASK_GSM_450",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"38",},
+	],
+},
+{tag:"QMI_BAND_MASK_GSM_480",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"39",},
+	],
+},
+{tag:"QMI_BAND_MASK_GSM_750",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"40",},
+	],
+},
+{tag:"QMI_BAND_MASK_GSM_850",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"41",},
+	],
+},
+{tag:"QMI_BAND_MASK_GSM_DCS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"29",},
+	],
+},
+{tag:"QMI_BAND_MASK_GSM_EXTENDED",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"30",},
+	],
+},
+{tag:"QMI_BAND_MASK_GSM_PCS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"43",},
+	],
+},
+{tag:"QMI_BAND_MASK_GSM_PRIMARY",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"31",},
+	],
+},
+{tag:"QMI_BAND_MASK_GSM_RAILWAYS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"42",},
+	],
+},
+{tag:"QMI_BAND_MASK_WCDMA_1700_JP",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"55",},
+	],
+},
+{tag:"QMI_BAND_MASK_WCDMA_1700_US",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"47",},
+	],
+},
+{tag:"QMI_BAND_MASK_WCDMA_2100",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"44",},
+	],
+},
+{tag:"QMI_BAND_MASK_WCDMA_2600",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"53",},
+	],
+},
+{tag:"QMI_BAND_MASK_WCDMA_800",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"49",},
+	],
+},
+{tag:"QMI_BAND_MASK_WCDMA_850",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"48",},
+	],
+},
+{tag:"QMI_BAND_MASK_WCDMA_900",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"54",},
+	],
+},
+{tag:"QMI_BAND_MASK_WCDMA_DCS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"46",},
+	],
+},
+{tag:"QMI_BAND_MASK_WCDMA_PCS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"45",},
+	],
+},
+{tag:"qmi_bearer_query",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/sms.c",ki:"function",ln:"272",sig:"(struct ofono_sms *sms, ofono_sms_bearer_query_cb_t cb, void *user_data)",},
+	],
+},
+{tag:"qmi_bearer_set",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/sms.c",ki:"function",ln:"308",sig:"(struct ofono_sms *sms, int bearer, ofono_sms_bearer_set_cb_t cb, void *user_data)",},
+	],
+},
+{tag:"qmi_client_id",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/ctl.h",ki:"struct",ln:"51",},
+	],
+},
+{tag:"QMI_CLIENT_ID_SIZE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/ctl.h",ki:"macro",ln:"55",},
+	],
+},
+{tag:"qmi_control_hdr",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"struct",ln:"116",},
+	],
+},
+{tag:"QMI_CONTROL_HDR_SIZE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"macro",ln:"120",},
+	],
+},
+{tag:"qmi_create_func_t",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.h",ki:"typedef",ln:"127",},
+	],
+},
+{tag:"QMI_CTL_GET_CLIENT_ID",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/ctl.h",ki:"macro",ln:"24",},
+	],
+},
+{tag:"QMI_CTL_GET_POWER_SAVE_MODE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/ctl.h",ki:"macro",ln:"33",},
+	],
+},
+{tag:"QMI_CTL_GET_VERSION_INFO",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/ctl.h",ki:"macro",ln:"23",},
+	],
+},
+{tag:"QMI_CTL_INVALID_CLIENT_ID",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/ctl.h",ki:"macro",ln:"27",},
+	],
+},
+{tag:"QMI_CTL_RELEASE_CLIENT_ID",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/ctl.h",ki:"macro",ln:"25",},
+	],
+},
+{tag:"QMI_CTL_REVOKE_CLIENT_ID",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/ctl.h",ki:"macro",ln:"26",},
+	],
+},
+{tag:"QMI_CTL_SET_DATA_FORMAT",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/ctl.h",ki:"macro",ln:"28",},
+	],
+},
+{tag:"QMI_CTL_SET_EVENT",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/ctl.h",ki:"macro",ln:"30",},
+	],
+},
+{tag:"QMI_CTL_SET_INSTANCE_ID",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/ctl.h",ki:"macro",ln:"22",},
+	],
+},
+{tag:"QMI_CTL_SET_POWER_SAVE_CONFIG",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/ctl.h",ki:"macro",ln:"31",},
+	],
+},
+{tag:"QMI_CTL_SET_POWER_SAVE_MODE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/ctl.h",ki:"macro",ln:"32",},
+	],
+},
+{tag:"QMI_CTL_SYNC",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/ctl.h",ki:"macro",ln:"29",},
+	],
+},
+{tag:"qmi_current_operator",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/network-registration.c",ki:"function",ln:"182",sig:"(struct ofono_netreg *netreg, ofono_netreg_operator_cb_t cb, void *user_data)",},
+	],
+},
+{tag:"qmi_deactivate_primary",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/gprs-context.c",ki:"function",ln:"218",sig:"(struct ofono_gprs_context *gc, unsigned int cid, ofono_gprs_context_cb_t cb, void *user_data)",},
+	],
+},
+{tag:"qmi_debug_func_t",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.h",ki:"typedef",ln:"64",},
+	],
+},
+{tag:"qmi_destroy_func_t",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.h",ki:"typedef",ln:"59",},
+	],
+},
+{tag:"qmi_device",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"struct",ln:"42",},
+	],
+},
+{tag:"qmi_device_discover",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"1107",sig:"(struct qmi_device *device, qmi_discover_func_t func, void *user_data, qmi_destroy_func_t destroy)",},
+	],
+},
+{tag:"qmi_device_new",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"851",sig:"(int fd)",},
+	],
+},
+{tag:"qmi_device_ref",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"901",sig:"(struct qmi_device *device)",},
+	],
+},
+{tag:"qmi_device_set_close_on_unref",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"957",sig:"(struct qmi_device *device, bool do_close)",},
+	],
+},
+{tag:"qmi_device_set_debug",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"947",sig:"(struct qmi_device *device, qmi_debug_func_t func, void *user_data)",},
+	],
+},
+{tag:"qmi_device_shutdown",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"1210",sig:"(struct qmi_device *device, qmi_shutdown_func_t func, void *user_data, qmi_destroy_func_t destroy)",},
+	],
+},
+{tag:"qmi_device_unref",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"911",sig:"(struct qmi_device *device)",},
+	],
+},
+{tag:"qmi_devinfo_exit",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/devinfo.c",ki:"function",ln:"222",sig:"(void)",},
+	],
+},
+{tag:"qmi_devinfo_init",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/devinfo.c",ki:"function",ln:"217",sig:"(void)",},
+	],
+},
+{tag:"qmi_devinfo_probe",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/devinfo.c",ki:"function",ln:"176",sig:"(struct ofono_devinfo *devinfo, unsigned int vendor, void *user_data)",},
+	],
+},
+{tag:"qmi_devinfo_remove",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/devinfo.c",ki:"function",ln:"194",sig:"(struct ofono_devinfo *devinfo)",},
+	],
+},
+{tag:"qmi_discover_func_t",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.h",ki:"typedef",ln:"67",},
+	],
+},
+{tag:"QMI_DMS_DATA_CAPA_CS_ONLY",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"89",},
+	],
+},
+{tag:"QMI_DMS_DATA_CAPA_NONSIMUL_CS_PS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"92",},
+	],
+},
+{tag:"QMI_DMS_DATA_CAPA_NOT_SUPPORTED",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"88",},
+	],
+},
+{tag:"QMI_DMS_DATA_CAPA_PS_ONLY",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"90",},
+	],
+},
+{tag:"QMI_DMS_DATA_CAPA_SIMUL_CS_PS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"91",},
+	],
+},
+{tag:"qmi_dms_device_caps",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"struct",ln:"79",},
+	],
+},
+{tag:"QMI_DMS_EVENT",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"23",},
+	],
+},
+{tag:"QMI_DMS_GET_BAND_CAPS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"47",},
+	],
+},
+{tag:"QMI_DMS_GET_CAPS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"25",},
+	],
+},
+{tag:"QMI_DMS_GET_FACTORY_ID",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"48",},
+	],
+},
+{tag:"QMI_DMS_GET_ICCID",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"43",},
+	],
+},
+{tag:"QMI_DMS_GET_IDS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"30",},
+	],
+},
+{tag:"QMI_DMS_GET_IMSI",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"45",},
+	],
+},
+{tag:"QMI_DMS_GET_MANUFACTURER",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"26",},
+	],
+},
+{tag:"QMI_DMS_GET_MODEL_ID",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"27",},
+	],
+},
+{tag:"QMI_DMS_GET_MSM_ID",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"37",},
+	],
+},
+{tag:"QMI_DMS_GET_NUMBER",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"29",},
+	],
+},
+{tag:"QMI_DMS_GET_OPER_MODE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"38",},
+	],
+},
+{tag:"QMI_DMS_GET_PIN_STATUS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"36",},
+	],
+},
+{tag:"QMI_DMS_GET_POWER_STATE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"31",},
+	],
+},
+{tag:"QMI_DMS_GET_PRL_VERSION",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"41",},
+	],
+},
+{tag:"QMI_DMS_GET_REV_ID",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"28",},
+	],
+},
+{tag:"QMI_DMS_GET_SW_VERSION",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"49",},
+	],
+},
+{tag:"QMI_DMS_GET_TIME",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"40",},
+	],
+},
+{tag:"QMI_DMS_GET_UIM_STATE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"46",},
+	],
+},
+{tag:"QMI_DMS_NOTIFY_OPER_MODE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"55",},
+	],
+},
+{tag:"QMI_DMS_NOTIFY_PIN1_STATE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"53",},
+	],
+},
+{tag:"QMI_DMS_NOTIFY_PIN2_STATE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"54",},
+	],
+},
+{tag:"QMI_DMS_NOTIFY_UIM_STATE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"56",},
+	],
+},
+{tag:"QMI_DMS_OPER_MODE_FACTORY_TEST",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"65",},
+	],
+},
+{tag:"QMI_DMS_OPER_MODE_LOW_POWER",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"64",},
+	],
+},
+{tag:"QMI_DMS_OPER_MODE_OFFLINE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"66",},
+	],
+},
+{tag:"QMI_DMS_OPER_MODE_ONLINE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"63",},
+	],
+},
+{tag:"QMI_DMS_OPER_MODE_ONLY_LOW_POWER",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"70",},
+	],
+},
+{tag:"QMI_DMS_OPER_MODE_PERSIST_LOW_POWER",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"69",},
+	],
+},
+{tag:"QMI_DMS_OPER_MODE_RESET",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"67",},
+	],
+},
+{tag:"QMI_DMS_OPER_MODE_SHUTDOWN",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"68",},
+	],
+},
+{tag:"QMI_DMS_PARAM_OPER_MODE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"141",},
+	],
+},
+{tag:"QMI_DMS_PARAM_REPORT_OPER_MODE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"74",},
+	],
+},
+{tag:"QMI_DMS_PARAM_REPORT_PIN_STATUS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"73",},
+	],
+},
+{tag:"QMI_DMS_PARAM_REPORT_UIM_STATE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"75",},
+	],
+},
+{tag:"QMI_DMS_PIN_BLOCKED",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"132",},
+	],
+},
+{tag:"QMI_DMS_PIN_BLOCKED_PERMANENTLY",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"133",},
+	],
+},
+{tag:"QMI_DMS_PIN_CHANGE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"35",},
+	],
+},
+{tag:"QMI_DMS_PIN_CHANGED",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"135",},
+	],
+},
+{tag:"QMI_DMS_PIN_DISABLED",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"131",},
+	],
+},
+{tag:"QMI_DMS_PIN_ENABLED_UNVERIFIED",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"129",},
+	],
+},
+{tag:"QMI_DMS_PIN_ENABLED_VERIFIED",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"130",},
+	],
+},
+{tag:"qmi_dms_pin_status",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"struct",ln:"122",},
+	],
+},
+{tag:"QMI_DMS_PIN_UNBLOCK",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"34",},
+	],
+},
+{tag:"QMI_DMS_PIN_UNBLOCKED",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"134",},
+	],
+},
+{tag:"QMI_DMS_PIN_UNINITIALIZED",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"128",},
+	],
+},
+{tag:"QMI_DMS_PIN_VERIFY",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"33",},
+	],
+},
+{tag:"QMI_DMS_RADIO_IF_CDMA2000_1X",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"94",},
+	],
+},
+{tag:"QMI_DMS_RADIO_IF_CDMA2000_HRPD",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"95",},
+	],
+},
+{tag:"QMI_DMS_RADIO_IF_GSM",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"96",},
+	],
+},
+{tag:"QMI_DMS_RADIO_IF_LTE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"98",},
+	],
+},
+{tag:"QMI_DMS_RADIO_IF_UMTS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"97",},
+	],
+},
+{tag:"QMI_DMS_RESET",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"22",},
+	],
+},
+{tag:"QMI_DMS_RESULT_BAND_CAPS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"153",},
+	],
+},
+{tag:"QMI_DMS_RESULT_DEVICE_CAPS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"78",},
+	],
+},
+{tag:"QMI_DMS_RESULT_ESN",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"115",},
+	],
+},
+{tag:"QMI_DMS_RESULT_ICCID",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"144",},
+	],
+},
+{tag:"QMI_DMS_RESULT_IMEI",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"116",},
+	],
+},
+{tag:"QMI_DMS_RESULT_IMSI",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"147",},
+	],
+},
+{tag:"QMI_DMS_RESULT_IMSI_NUMBER",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"112",},
+	],
+},
+{tag:"QMI_DMS_RESULT_LTE_BAND_CAPS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"154",},
+	],
+},
+{tag:"QMI_DMS_RESULT_MANUFACTURER",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"101",},
+	],
+},
+{tag:"QMI_DMS_RESULT_MEID",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"117",},
+	],
+},
+{tag:"QMI_DMS_RESULT_MOBILE_ID",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"111",},
+	],
+},
+{tag:"QMI_DMS_RESULT_MODEL_ID",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"104",},
+	],
+},
+{tag:"QMI_DMS_RESULT_OPER_MODE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"138",},
+	],
+},
+{tag:"QMI_DMS_RESULT_PIN1_STATUS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"120",},
+	],
+},
+{tag:"QMI_DMS_RESULT_PIN2_STATUS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"121",},
+	],
+},
+{tag:"QMI_DMS_RESULT_REV_ID",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"107",},
+	],
+},
+{tag:"QMI_DMS_RESULT_UIM_STATE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"150",},
+	],
+},
+{tag:"QMI_DMS_RESULT_VOICE_NUMBER",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"110",},
+	],
+},
+{tag:"QMI_DMS_SET_EVENT",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"24",},
+	],
+},
+{tag:"QMI_DMS_SET_OPER_MODE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"39",},
+	],
+},
+{tag:"QMI_DMS_SET_PIN_PROTECT",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"32",},
+	],
+},
+{tag:"QMI_DMS_UIM_STATE_INIT_COMPLETE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"58",},
+	],
+},
+{tag:"QMI_DMS_UIM_STATE_INIT_FAILED",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"59",},
+	],
+},
+{tag:"QMI_DMS_UIM_STATE_INVALID",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"61",},
+	],
+},
+{tag:"QMI_DMS_UIM_STATE_NOT_PRESENT",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/dms.h",ki:"macro",ln:"60",},
+	],
+},
+{tag:"qmi_free",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"142",sig:"(void *ptr)",},
+	],
+},
+{tag:"qmi_gprs_context_exit",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/gprs-context.c",ki:"function",ln:"311",sig:"(void)",},
+	],
+},
+{tag:"qmi_gprs_context_init",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/gprs-context.c",ki:"function",ln:"306",sig:"(void)",},
+	],
+},
+{tag:"qmi_gprs_context_probe",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/gprs-context.c",ki:"function",ln:"266",sig:"(struct ofono_gprs_context *gc, unsigned int vendor, void *user_data)",},
+	],
+},
+{tag:"qmi_gprs_context_remove",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/gprs-context.c",ki:"function",ln:"283",sig:"(struct ofono_gprs_context *gc)",},
+	],
+},
+{tag:"qmi_gprs_exit",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/gprs.c",ki:"function",ln:"230",sig:"(void)",},
+	],
+},
+{tag:"qmi_gprs_init",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/gprs.c",ki:"function",ln:"225",sig:"(void)",},
+	],
+},
+{tag:"qmi_gprs_probe",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/gprs.c",ki:"function",ln:"185",sig:"(struct ofono_gprs *gprs, unsigned int vendor, void *user_data)",},
+	],
+},
+{tag:"qmi_gprs_remove",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/gprs.c",ki:"function",ln:"202",sig:"(struct ofono_gprs *gprs)",},
+	],
+},
+{tag:"qmi_list_operators",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/network-registration.c",ki:"function",ln:"277",sig:"(struct ofono_netreg *netreg, ofono_netreg_operator_list_cb_t cb, void *user_data)",},
+	],
+},
+{tag:"qmi_location_reporting_disable",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/location-reporting.c",ki:"function",ln:"172",sig:"(struct ofono_location_reporting *lr, ofono_location_reporting_disable_cb_t cb, void *user_data)",},
+	],
+},
+{tag:"qmi_location_reporting_enable",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/location-reporting.c",ki:"function",ln:"127",sig:"(struct ofono_location_reporting *lr, ofono_location_reporting_enable_cb_t cb, void *user_data)",},
+	],
+},
+{tag:"qmi_location_reporting_exit",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/location-reporting.c",ki:"function",ln:"295",},
+	],
+},
+{tag:"qmi_location_reporting_init",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/location-reporting.c",ki:"function",ln:"290",},
+	],
+},
+{tag:"qmi_location_reporting_probe",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/location-reporting.c",ki:"function",ln:"247",sig:"(struct ofono_location_reporting *lr, unsigned int vendor, void *user_data)",},
+	],
+},
+{tag:"qmi_location_reporting_remove",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/location-reporting.c",ki:"function",ln:"266",sig:"(struct ofono_location_reporting *lr)",},
+	],
+},
+{tag:"QMI_LTE_BAND_MASK_EUTRA_1",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"61",},
+	],
+},
+{tag:"QMI_LTE_BAND_MASK_EUTRA_10",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"70",},
+	],
+},
+{tag:"QMI_LTE_BAND_MASK_EUTRA_11",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"71",},
+	],
+},
+{tag:"QMI_LTE_BAND_MASK_EUTRA_12",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"72",},
+	],
+},
+{tag:"QMI_LTE_BAND_MASK_EUTRA_13",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"73",},
+	],
+},
+{tag:"QMI_LTE_BAND_MASK_EUTRA_14",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"74",},
+	],
+},
+{tag:"QMI_LTE_BAND_MASK_EUTRA_17",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"75",},
+	],
+},
+{tag:"QMI_LTE_BAND_MASK_EUTRA_18",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"76",},
+	],
+},
+{tag:"QMI_LTE_BAND_MASK_EUTRA_19",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"77",},
+	],
+},
+{tag:"QMI_LTE_BAND_MASK_EUTRA_2",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"62",},
+	],
+},
+{tag:"QMI_LTE_BAND_MASK_EUTRA_20",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"78",},
+	],
+},
+{tag:"QMI_LTE_BAND_MASK_EUTRA_21",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"79",},
+	],
+},
+{tag:"QMI_LTE_BAND_MASK_EUTRA_24",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"80",},
+	],
+},
+{tag:"QMI_LTE_BAND_MASK_EUTRA_25",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"81",},
+	],
+},
+{tag:"QMI_LTE_BAND_MASK_EUTRA_3",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"63",},
+	],
+},
+{tag:"QMI_LTE_BAND_MASK_EUTRA_33",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"82",},
+	],
+},
+{tag:"QMI_LTE_BAND_MASK_EUTRA_34",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"83",},
+	],
+},
+{tag:"QMI_LTE_BAND_MASK_EUTRA_35",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"84",},
+	],
+},
+{tag:"QMI_LTE_BAND_MASK_EUTRA_36",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"85",},
+	],
+},
+{tag:"QMI_LTE_BAND_MASK_EUTRA_37",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"86",},
+	],
+},
+{tag:"QMI_LTE_BAND_MASK_EUTRA_38",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"87",},
+	],
+},
+{tag:"QMI_LTE_BAND_MASK_EUTRA_39",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"88",},
+	],
+},
+{tag:"QMI_LTE_BAND_MASK_EUTRA_4",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"64",},
+	],
+},
+{tag:"QMI_LTE_BAND_MASK_EUTRA_40",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"89",},
+	],
+},
+{tag:"QMI_LTE_BAND_MASK_EUTRA_41",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"90",},
+	],
+},
+{tag:"QMI_LTE_BAND_MASK_EUTRA_42",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"91",},
+	],
+},
+{tag:"QMI_LTE_BAND_MASK_EUTRA_43",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"92",},
+	],
+},
+{tag:"QMI_LTE_BAND_MASK_EUTRA_5",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"65",},
+	],
+},
+{tag:"QMI_LTE_BAND_MASK_EUTRA_6",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"66",},
+	],
+},
+{tag:"QMI_LTE_BAND_MASK_EUTRA_7",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"67",},
+	],
+},
+{tag:"QMI_LTE_BAND_MASK_EUTRA_8",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"68",},
+	],
+},
+{tag:"QMI_LTE_BAND_MASK_EUTRA_9",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/common.h",ki:"macro",ln:"69",},
+	],
+},
+{tag:"qmi_message_func_t",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"typedef",ln:"39",},
+	],
+},
+{tag:"qmi_message_hdr",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"struct",ln:"128",},
+	],
+},
+{tag:"QMI_MESSAGE_HDR_SIZE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"macro",ln:"133",},
+	],
+},
+{tag:"qmi_mux_hdr",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"struct",ln:"107",},
+	],
+},
+{tag:"QMI_MUX_HDR_SIZE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"macro",ln:"114",},
+	],
+},
+{tag:"QMI_NAS_ABORT",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"23",},
+	],
+},
+{tag:"QMI_NAS_ATTACH_ACTION_ATTACH",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"119",},
+	],
+},
+{tag:"QMI_NAS_ATTACH_ACTION_DETACH",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"120",},
+	],
+},
+{tag:"QMI_NAS_ATTACH_DETACH",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"31",},
+	],
+},
+{tag:"QMI_NAS_ATTACH_STATUS_ATTACHED",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"144",},
+	],
+},
+{tag:"QMI_NAS_ATTACH_STATUS_DETACHED",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"145",},
+	],
+},
+{tag:"QMI_NAS_ATTACH_STATUS_INVALID",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"143",},
+	],
+},
+{tag:"qmi_nas_current_plmn",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"struct",ln:"134",},
+	],
+},
+{tag:"QMI_NAS_EVENT",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"24",},
+	],
+},
+{tag:"QMI_NAS_GET_HOME_INFO",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"34",},
+	],
+},
+{tag:"QMI_NAS_GET_RSSI",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"28",},
+	],
+},
+{tag:"QMI_NAS_GET_SS_INFO",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"32",},
+	],
+},
+{tag:"qmi_nas_home_network",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"struct",ln:"149",},
+	],
+},
+{tag:"qmi_nas_network_info",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"struct",ln:"77",},
+	],
+},
+{tag:"qmi_nas_network_list",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"struct",ln:"84",},
+	],
+},
+{tag:"QMI_NAS_NETWORK_MASK_GSM",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"71",},
+	],
+},
+{tag:"QMI_NAS_NETWORK_MASK_LTE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"73",},
+	],
+},
+{tag:"QMI_NAS_NETWORK_MASK_TDSCDMA",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"74",},
+	],
+},
+{tag:"QMI_NAS_NETWORK_MASK_UMTS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"72",},
+	],
+},
+{tag:"qmi_nas_network_rat",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"struct",ln:"89",},
+	],
+},
+{tag:"QMI_NAS_NETWORK_RAT_GSM",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"98",},
+	],
+},
+{tag:"QMI_NAS_NETWORK_RAT_LTE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"100",},
+	],
+},
+{tag:"QMI_NAS_NETWORK_RAT_NO_CHANGE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"102",},
+	],
+},
+{tag:"QMI_NAS_NETWORK_RAT_TDSCDMA",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"101",},
+	],
+},
+{tag:"QMI_NAS_NETWORK_RAT_UMTS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"99",},
+	],
+},
+{tag:"QMI_NAS_NOTIFY_RF_INFO",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"55",},
+	],
+},
+{tag:"QMI_NAS_NOTIFY_SIGNAL_STRENGTH",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"49",},
+	],
+},
+{tag:"QMI_NAS_PARAM_ATTACH_ACTION",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"117",},
+	],
+},
+{tag:"qmi_nas_param_event_rf_info",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"struct",ln:"45",},
+	],
+},
+{tag:"qmi_nas_param_event_signal_strength",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"struct",ln:"39",},
+	],
+},
+{tag:"QMI_NAS_PARAM_NETWORK_MASK",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"69",},
+	],
+},
+{tag:"QMI_NAS_PARAM_REGISTER_ACTION",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"105",},
+	],
+},
+{tag:"qmi_nas_param_register_manual_info",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"struct",ln:"107",},
+	],
+},
+{tag:"QMI_NAS_PARAM_REGISTER_MANUAL_INFO",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"106",},
+	],
+},
+{tag:"QMI_NAS_PARAM_REPORT_RF_INFO",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"44",},
+	],
+},
+{tag:"QMI_NAS_PARAM_REPORT_SIGNAL_STRENGTH",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"38",},
+	],
+},
+{tag:"QMI_NAS_REGISTER_ACTION_AUTO",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"113",},
+	],
+},
+{tag:"QMI_NAS_REGISTER_ACTION_MANUAL",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"114",},
+	],
+},
+{tag:"QMI_NAS_REGISTER_NET",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"30",},
+	],
+},
+{tag:"QMI_NAS_RESET",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"22",},
+	],
+},
+{tag:"QMI_NAS_RESULT_CELL_ID",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"141",},
+	],
+},
+{tag:"QMI_NAS_RESULT_CURRENT_PLMN",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"133",},
+	],
+},
+{tag:"QMI_NAS_RESULT_HOME_NETWORK",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"148",},
+	],
+},
+{tag:"QMI_NAS_RESULT_LOCATION_AREA_CODE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"140",},
+	],
+},
+{tag:"QMI_NAS_RESULT_NETWORK_LIST",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"76",},
+	],
+},
+{tag:"QMI_NAS_RESULT_NETWORK_RAT",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"88",},
+	],
+},
+{tag:"QMI_NAS_RESULT_ROAMING_STATUS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"132",},
+	],
+},
+{tag:"QMI_NAS_RESULT_SERVING_SYSTEM",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"123",},
+	],
+},
+{tag:"QMI_NAS_RESULT_SIGNAL_STRENGTH",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"66",},
+	],
+},
+{tag:"qmi_nas_rf_info",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"struct",ln:"56",},
+	],
+},
+{tag:"QMI_NAS_SCAN_NETS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"29",},
+	],
+},
+{tag:"qmi_nas_serving_system",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"struct",ln:"124",},
+	],
+},
+{tag:"QMI_NAS_SET_EVENT",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"25",},
+	],
+},
+{tag:"QMI_NAS_SET_REG_EVENT",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"26",},
+	],
+},
+{tag:"qmi_nas_signal_strength",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"struct",ln:"50",},
+	],
+},
+{tag:"QMI_NAS_SS_INFO_IND",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/nas.h",ki:"macro",ln:"33",},
+	],
+},
+{tag:"qmi_netreg_exit",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/network-registration.c",ki:"function",ln:"584",sig:"(void)",},
+	],
+},
+{tag:"qmi_netreg_init",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/network-registration.c",ki:"function",ln:"579",sig:"(void)",},
+	],
+},
+{tag:"qmi_netreg_probe",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/network-registration.c",ki:"function",ln:"526",sig:"(struct ofono_netreg *netreg, unsigned int vendor, void *user_data)",},
+	],
+},
+{tag:"qmi_netreg_remove",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/network-registration.c",ki:"function",ln:"552",sig:"(struct ofono_netreg *netreg)",},
+	],
+},
+{tag:"qmi_notify",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"struct",ln:"99",},
+	],
+},
+{tag:"qmi_param",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"struct",ln:"77",},
+	],
+},
+{tag:"qmi_param_append",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"1257",sig:"(struct qmi_param *param, uint8_t type, uint16_t length, const void *data)",},
+	],
+},
+{tag:"qmi_param_append_uint16",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"1301",sig:"(struct qmi_param *param, uint8_t type, uint16_t value)",},
+	],
+},
+{tag:"qmi_param_append_uint32",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"1309",sig:"(struct qmi_param *param, uint8_t type, uint32_t value)",},
+	],
+},
+{tag:"qmi_param_append_uint8",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"1293",sig:"(struct qmi_param *param, uint8_t type, uint8_t value)",},
+	],
+},
+{tag:"qmi_param_free",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"1248",sig:"(struct qmi_param *param)",},
+	],
+},
+{tag:"qmi_param_new",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"1237",sig:"(void)",},
+	],
+},
+{tag:"qmi_param_new_uint16",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"1335",sig:"(uint8_t type, uint16_t value)",},
+	],
+},
+{tag:"qmi_param_new_uint32",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"1351",sig:"(uint8_t type, uint32_t value)",},
+	],
+},
+{tag:"qmi_param_new_uint8",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"1319",sig:"(uint8_t type, uint8_t value)",},
+	],
+},
+{tag:"QMI_PDS_EVENT",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/pds.h",ki:"macro",ln:"23",},
+	],
+},
+{tag:"QMI_PDS_GET_AUTOTRACK",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/pds.h",ki:"macro",ln:"29",},
+	],
+},
+{tag:"QMI_PDS_GET_STATE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/pds.h",ki:"macro",ln:"26",},
+	],
+},
+{tag:"QMI_PDS_NOTIFY_NMEA",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/pds.h",ki:"macro",ln:"34",},
+	],
+},
+{tag:"QMI_PDS_NOTIFY_NMEA_DEBUG",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/pds.h",ki:"macro",ln:"35",},
+	],
+},
+{tag:"QMI_PDS_PARAM_AUTO_TRACKING",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/pds.h",ki:"macro",ln:"45",},
+	],
+},
+{tag:"QMI_PDS_PARAM_REPORT_NMEA",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/pds.h",ki:"macro",ln:"38",},
+	],
+},
+{tag:"QMI_PDS_PARAM_REPORT_NMEA_DEBUG",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/pds.h",ki:"macro",ln:"39",},
+	],
+},
+{tag:"QMI_PDS_RESET",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/pds.h",ki:"macro",ln:"22",},
+	],
+},
+{tag:"QMI_PDS_RESULT_AUTO_TRACKING",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/pds.h",ki:"macro",ln:"42",},
+	],
+},
+{tag:"QMI_PDS_SET_AUTOTRACK",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/pds.h",ki:"macro",ln:"30",},
+	],
+},
+{tag:"QMI_PDS_SET_EVENT",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/pds.h",ki:"macro",ln:"24",},
+	],
+},
+{tag:"QMI_PDS_STATE_IND",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/pds.h",ki:"macro",ln:"27",},
+	],
+},
+{tag:"qmi_query_manufacturer",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/devinfo.c",ki:"function",ln:"63",sig:"(struct ofono_devinfo *devinfo, ofono_devinfo_query_cb_t cb, void *user_data)",},
+	],
+},
+{tag:"qmi_query_model",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/devinfo.c",ki:"function",ln:"80",sig:"(struct ofono_devinfo *devinfo, ofono_devinfo_query_cb_t cb, void *user_data)",},
+	],
+},
+{tag:"qmi_query_passwd_state",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/sim-legacy.c",ki:"function",ln:"217",sig:"(struct ofono_sim *sim, ofono_sim_passwd_cb_t cb, void *user_data)",},
+		{fp:"ofono/drivers/qmimodem/sim.c",ki:"function",ln:"298",sig:"(struct ofono_sim *sim, ofono_sim_passwd_cb_t cb, void *user_data)",},
+	],
+},
+{tag:"qmi_query_pin_retries",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/sim-legacy.c",ki:"function",ln:"236",sig:"(struct ofono_sim *sim, ofono_sim_pin_retries_cb_t cb, void *user_data)",},
+		{fp:"ofono/drivers/qmimodem/sim.c",ki:"function",ln:"313",sig:"(struct ofono_sim *sim, ofono_sim_pin_retries_cb_t cb, void *user_data)",},
+	],
+},
+{tag:"qmi_query_revision",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/devinfo.c",ki:"function",ln:"97",sig:"(struct ofono_devinfo *devinfo, ofono_devinfo_query_cb_t cb, void *user_data)",},
+	],
+},
+{tag:"qmi_query_serial",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/devinfo.c",ki:"function",ln:"141",sig:"(struct ofono_devinfo *devinfo, ofono_devinfo_query_cb_t cb, void *user_data)",},
+	],
+},
+{tag:"qmi_radio_settings_exit",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/radio-settings.c",ki:"function",ln:"109",sig:"(void)",},
+	],
+},
+{tag:"qmi_radio_settings_init",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/radio-settings.c",ki:"function",ln:"104",sig:"(void)",},
+	],
+},
+{tag:"qmi_radio_settings_probe",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/radio-settings.c",ki:"function",ln:"65",sig:"(struct ofono_radio_settings *rs, unsigned int vendor, void *user_data)",},
+	],
+},
+{tag:"qmi_radio_settings_remove",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/radio-settings.c",ki:"function",ln:"83",sig:"(struct ofono_radio_settings *rs)",},
+	],
+},
+{tag:"qmi_read_attributes",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/sim.c",ki:"function",ln:"142",sig:"(struct ofono_sim *sim, int fileid, const unsigned char *path, unsigned int path_len, ofono_sim_file_info_cb_t cb, void *user_data)",},
+	],
+},
+{tag:"qmi_read_file_info",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/sim-legacy.c",ki:"function",ln:"44",sig:"(struct ofono_sim *sim, int fileid, const unsigned char *path, unsigned int path_len, ofono_sim_file_info_cb_t cb, void *user_data)",},
+	],
+},
+{tag:"qmi_read_file_transparent",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/sim-legacy.c",ki:"function",ln:"98",sig:"(struct ofono_sim *sim, int fileid, int start, int length, const unsigned char *path, unsigned int path_len, ofono_sim_read_cb_t cb, void *user_data)",},
+	],
+},
+{tag:"qmi_read_imsi",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/sim-legacy.c",ki:"function",ln:"146",sig:"(struct ofono_sim *sim, ofono_sim_imsi_cb_t cb, void *user_data)",},
+	],
+},
+{tag:"qmi_read_record",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/sim.c",ki:"function",ln:"252",sig:"(struct ofono_sim *sim, int fileid, int record, int length, const unsigned char *path, unsigned int path_len, ofono_sim_read_cb_t cb, void *user_data)",},
+	],
+},
+{tag:"qmi_read_transparent",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/sim.c",ki:"function",ln:"206",sig:"(struct ofono_sim *sim, int fileid, int start, int length, const unsigned char *path, unsigned int path_len, ofono_sim_read_cb_t cb, void *user_data)",},
+	],
+},
+{tag:"qmi_register_auto",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/network-registration.c",ki:"function",ln:"316",sig:"(struct ofono_netreg *netreg, ofono_netreg_register_cb_t cb, void *user_data)",},
+	],
+},
+{tag:"qmi_register_manual",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/network-registration.c",ki:"function",ln:"342",sig:"(struct ofono_netreg *netreg, const char *mcc, const char *mnc, ofono_netreg_register_cb_t cb, void *user_data)",},
+	],
+},
+{tag:"qmi_registration_status",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/network-registration.c",ki:"function",ln:"163",sig:"(struct ofono_netreg *netreg, ofono_netreg_status_cb_t cb, void *user_data)",},
+	],
+},
+{tag:"qmi_request",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"struct",ln:"90",},
+	],
+},
+{tag:"qmi_result",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"struct",ln:"82",},
+	],
+},
+{tag:"qmi_result_code",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/ctl.h",ki:"struct",ln:"35",},
+	],
+},
+{tag:"QMI_RESULT_CODE_SIZE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/ctl.h",ki:"macro",ln:"39",},
+	],
+},
+{tag:"qmi_result_func_t",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.h",ki:"typedef",ln:"125",},
+	],
+},
+{tag:"qmi_result_get",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"1395",sig:"(struct qmi_result *result, uint8_t type, uint16_t *length)",},
+	],
+},
+{tag:"qmi_result_get_error",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"1384",sig:"(struct qmi_result *result)",},
+	],
+},
+{tag:"qmi_result_get_string",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"1404",sig:"(struct qmi_result *result, uint8_t type)",},
+	],
+},
+{tag:"qmi_result_get_uint16",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"1438",sig:"(struct qmi_result *result, uint8_t type, uint16_t *value)",},
+	],
+},
+{tag:"qmi_result_get_uint32",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"1459",sig:"(struct qmi_result *result, uint8_t type, uint32_t *value)",},
+	],
+},
+{tag:"qmi_result_get_uint64",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"1481",sig:"(struct qmi_result *result, uint8_t type, uint64_t *value)",},
+	],
+},
+{tag:"qmi_result_get_uint8",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"1419",sig:"(struct qmi_result *result, uint8_t type, uint8_t *value)",},
+	],
+},
+{tag:"qmi_result_set_error",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"1367",sig:"(struct qmi_result *result, uint16_t *error)",},
+	],
+},
+{tag:"qmi_sca_query",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/sms.c",ki:"function",ln:"83",sig:"(struct ofono_sms *sms, ofono_sms_sca_query_cb_t cb, void *user_data)",},
+	],
+},
+{tag:"qmi_sca_set",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/sms.c",ki:"function",ln:"115",sig:"(struct ofono_sms *sms, const struct ofono_phone_number *sca, ofono_sms_sca_set_cb_t cb, void *user_data)",},
+	],
+},
+{tag:"qmi_service",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"struct",ln:"65",},
+	],
+},
+{tag:"QMI_SERVICE_AT",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.h",ki:"macro",ln:"33",},
+	],
+},
+{tag:"QMI_SERVICE_AUTH",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.h",ki:"macro",ln:"32",},
+	],
+},
+{tag:"qmi_service_cancel",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"1912",sig:"(struct qmi_service *service, uint16_t id)",},
+	],
+},
+{tag:"qmi_service_cancel_all",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"1984",sig:"(struct qmi_service *service)",},
+	],
+},
+{tag:"QMI_SERVICE_CAT",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.h",ki:"macro",ln:"35",},
+	],
+},
+{tag:"QMI_SERVICE_CAT_OLD",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.h",ki:"macro",ln:"46",},
+	],
+},
+{tag:"QMI_SERVICE_CONTROL",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.h",ki:"macro",ln:"25",},
+	],
+},
+{tag:"qmi_service_create",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"1669",sig:"(struct qmi_device *device, uint8_t type, qmi_create_func_t func, void *user_data, qmi_destroy_func_t destroy)",},
+	],
+},
+{tag:"qmi_service_create_shared",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"1705",sig:"(struct qmi_device *device, uint8_t type, qmi_create_func_t func, void *user_data, qmi_destroy_func_t destroy)",},
+	],
+},
+{tag:"QMI_SERVICE_CSD",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.h",ki:"macro",ln:"41",},
+	],
+},
+{tag:"QMI_SERVICE_DMS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.h",ki:"macro",ln:"27",},
+	],
+},
+{tag:"QMI_SERVICE_EFS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.h",ki:"macro",ln:"42",},
+	],
+},
+{tag:"qmi_service_get_identifier",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"1791",sig:"(struct qmi_service *service)",},
+	],
+},
+{tag:"qmi_service_get_version",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"1799",sig:"(struct qmi_service *service, uint16_t *major, uint16_t *minor)",},
+	],
+},
+{tag:"qmi_service_hdr",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"struct",ln:"122",},
+	],
+},
+{tag:"QMI_SERVICE_HDR_SIZE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"macro",ln:"126",},
+	],
+},
+{tag:"qmi_service_list",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/ctl.h",ki:"struct",ln:"41",},
+	],
+},
+{tag:"QMI_SERVICE_LIST_SIZE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/ctl.h",ki:"macro",ln:"49",},
+	],
+},
+{tag:"QMI_SERVICE_LOC",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.h",ki:"macro",ln:"39",},
+	],
+},
+{tag:"QMI_SERVICE_NAS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.h",ki:"macro",ln:"28",},
+	],
+},
+{tag:"QMI_SERVICE_OMA",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.h",ki:"macro",ln:"48",},
+	],
+},
+{tag:"QMI_SERVICE_PBM",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.h",ki:"macro",ln:"37",},
+	],
+},
+{tag:"QMI_SERVICE_PDC",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.h",ki:"macro",ln:"45",},
+	],
+},
+{tag:"QMI_SERVICE_PDS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.h",ki:"macro",ln:"31",},
+	],
+},
+{tag:"QMI_SERVICE_QOS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.h",ki:"macro",ln:"29",},
+	],
+},
+{tag:"qmi_service_ref",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"1752",sig:"(struct qmi_service *service)",},
+	],
+},
+{tag:"qmi_service_register",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"2007",sig:"(struct qmi_service *service, uint16_t message, qmi_result_func_t func, void *user_data, qmi_destroy_func_t destroy)",},
+	],
+},
+{tag:"QMI_SERVICE_RMS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.h",ki:"macro",ln:"47",},
+	],
+},
+{tag:"QMI_SERVICE_RMTFS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.h",ki:"macro",ln:"38",},
+	],
+},
+{tag:"QMI_SERVICE_SAR",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.h",ki:"macro",ln:"40",},
+	],
+},
+{tag:"qmi_service_send",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"1861",sig:"(struct qmi_service *service, uint16_t message, struct qmi_param *param, qmi_result_func_t func, void *user_data, qmi_destroy_func_t destroy)",},
+	],
+},
+{tag:"QMI_SERVICE_TMD",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.h",ki:"macro",ln:"44",},
+	],
+},
+{tag:"QMI_SERVICE_TS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.h",ki:"macro",ln:"43",},
+	],
+},
+{tag:"QMI_SERVICE_UIM",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.h",ki:"macro",ln:"36",},
+	],
+},
+{tag:"qmi_service_unref",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"1762",sig:"(struct qmi_service *service)",},
+	],
+},
+{tag:"qmi_service_unregister",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"2034",sig:"(struct qmi_service *service, uint16_t id)",},
+	],
+},
+{tag:"qmi_service_unregister_all",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"2057",sig:"(struct qmi_service *service)",},
+	],
+},
+{tag:"QMI_SERVICE_VOICE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.h",ki:"macro",ln:"34",},
+	],
+},
+{tag:"QMI_SERVICE_WDS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.h",ki:"macro",ln:"26",},
+	],
+},
+{tag:"QMI_SERVICE_WMS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.h",ki:"macro",ln:"30",},
+	],
+},
+{tag:"qmi_set_attached",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/gprs.c",ki:"function",ln:"93",sig:"(struct ofono_gprs *gprs, int attached, ofono_gprs_cb_t cb, void *user_data)",},
+	],
+},
+{tag:"qmi_shutdown_func_t",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.h",ki:"typedef",ln:"66",},
+	],
+},
+{tag:"qmi_signal_strength",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/network-registration.c",ki:"function",ln:"423",sig:"(struct ofono_netreg *netreg, ofono_netreg_strength_cb_t cb, void *user_data)",},
+	],
+},
+{tag:"qmi_sim_exit",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/sim.c",ki:"function",ln:"528",sig:"(void)",},
+	],
+},
+{tag:"qmi_sim_init",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/sim.c",ki:"function",ln:"523",sig:"(void)",},
+	],
+},
+{tag:"qmi_sim_legacy_exit",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/sim-legacy.c",ki:"function",ln:"398",sig:"(void)",},
+	],
+},
+{tag:"qmi_sim_legacy_init",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/sim-legacy.c",ki:"function",ln:"393",sig:"(void)",},
+	],
+},
+{tag:"qmi_sim_probe",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/sim-legacy.c",ki:"function",ln:"345",sig:"(struct ofono_sim *sim, unsigned int vendor, void *user_data)",},
+		{fp:"ofono/drivers/qmimodem/sim.c",ki:"function",ln:"473",sig:"(struct ofono_sim *sim, unsigned int vendor, void *user_data)",},
+	],
+},
+{tag:"qmi_sim_remove",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/sim-legacy.c",ki:"function",ln:"367",sig:"(struct ofono_sim *sim)",},
+		{fp:"ofono/drivers/qmimodem/sim.c",ki:"function",ln:"496",sig:"(struct ofono_sim *sim)",},
+	],
+},
+{tag:"qmi_sms_exit",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/sms.c",ki:"function",ln:"533",sig:"(void)",},
+	],
+},
+{tag:"qmi_sms_init",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/sms.c",ki:"function",ln:"528",sig:"(void)",},
+	],
+},
+{tag:"qmi_sms_probe",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/sms.c",ki:"function",ln:"485",sig:"(struct ofono_sms *sms, unsigned int vendor, void *user_data)",},
+	],
+},
+{tag:"qmi_sms_remove",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/sms.c",ki:"function",ln:"502",sig:"(struct ofono_sms *sms)",},
+	],
+},
+{tag:"qmi_submit",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/sms.c",ki:"function",ln:"181",sig:"(struct ofono_sms *sms, const unsigned char *pdu, int pdu_len, int tpdu_len, int mms, ofono_sms_submit_cb_t cb, void *user_data)",},
+	],
+},
+{tag:"qmi_tlv_hdr",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"struct",ln:"135",},
+	],
+},
+{tag:"QMI_TLV_HDR_SIZE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"macro",ln:"140",},
+	],
+},
+{tag:"qmi_uim_app_info1",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/uim.h",ki:"struct",ln:"54",},
+	],
+},
+{tag:"qmi_uim_app_info2",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/uim.h",ki:"struct",ln:"65",},
+	],
+},
+{tag:"qmi_uim_card_status",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/uim.h",ki:"struct",ln:"37",},
+	],
+},
+{tag:"QMI_UIM_EVENT_REGISTRATION",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/uim.h",ki:"macro",ln:"28",},
+	],
+},
+{tag:"qmi_uim_file_attributes",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/uim.h",ki:"struct",ln:"75",},
+	],
+},
+{tag:"QMI_UIM_GET_CARD_STATUS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/uim.h",ki:"macro",ln:"29",},
+	],
+},
+{tag:"QMI_UIM_GET_FILE_ATTRIBUTES",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/uim.h",ki:"macro",ln:"26",},
+	],
+},
+{tag:"QMI_UIM_PARAM_EVENT_MASK",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/uim.h",ki:"macro",ln:"33",},
+	],
+},
+{tag:"QMI_UIM_READ_RECORD",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/uim.h",ki:"macro",ln:"23",},
+	],
+},
+{tag:"QMI_UIM_READ_TRANSPARENT",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/uim.h",ki:"macro",ln:"22",},
+	],
+},
+{tag:"QMI_UIM_RESULT_CARD_STATUS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/uim.h",ki:"macro",ln:"36",},
+	],
+},
+{tag:"QMI_UIM_RESULT_EVENT_MASK",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/uim.h",ki:"macro",ln:"34",},
+	],
+},
+{tag:"qmi_uim_slot_info",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/uim.h",ki:"struct",ln:"45",},
+	],
+},
+{tag:"QMI_UIM_WRITE_RECORD",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/uim.h",ki:"macro",ln:"25",},
+	],
+},
+{tag:"QMI_UIM_WRITE_TRANSPARENT",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/uim.h",ki:"macro",ln:"24",},
+	],
+},
+{tag:"qmi_ussd_exit",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/ussd.c",ki:"function",ln:"107",sig:"(void)",},
+	],
+},
+{tag:"qmi_ussd_init",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/ussd.c",ki:"function",ln:"102",sig:"(void)",},
+	],
+},
+{tag:"qmi_ussd_probe",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/ussd.c",ki:"function",ln:"64",sig:"(struct ofono_ussd *ussd, unsigned int vendor, void *user_data)",},
+	],
+},
+{tag:"qmi_ussd_remove",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/ussd.c",ki:"function",ln:"83",sig:"(struct ofono_ussd *ussd)",},
+	],
+},
+{tag:"qmi_version",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.h",ki:"struct",ln:"50",},
+	],
+},
+{tag:"qmi_voicecall_exit",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/voicecall.c",ki:"function",ln:"109",sig:"(void)",},
+	],
+},
+{tag:"qmi_voicecall_init",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/voicecall.c",ki:"function",ln:"104",sig:"(void)",},
+	],
+},
+{tag:"qmi_voicecall_probe",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/voicecall.c",ki:"function",ln:"64",sig:"(struct ofono_voicecall *vc, unsigned int vendor, void *user_data)",},
+	],
+},
+{tag:"qmi_voicecall_remove",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/voicecall.c",ki:"function",ln:"83",sig:"(struct ofono_voicecall *vc)",},
+	],
+},
+{tag:"QMI_WDS_CONN_STATUS_AUTHENTICATING",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wds.h",ki:"macro",ln:"50",},
+	],
+},
+{tag:"QMI_WDS_CONN_STATUS_CONNECTED",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wds.h",ki:"macro",ln:"48",},
+	],
+},
+{tag:"QMI_WDS_CONN_STATUS_DISCONNECTED",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wds.h",ki:"macro",ln:"47",},
+	],
+},
+{tag:"QMI_WDS_CONN_STATUS_SUSPENDED",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wds.h",ki:"macro",ln:"49",},
+	],
+},
+{tag:"QMI_WDS_GET_PKT_STATUS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wds.h",ki:"macro",ln:"24",},
+	],
+},
+{tag:"QMI_WDS_GET_SETTINGS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wds.h",ki:"macro",ln:"27",},
+	],
+},
+{tag:"QMI_WDS_NOTIFY_CONN_STATUS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wds.h",ki:"macro",ln:"40",},
+	],
+},
+{tag:"qmi_wds_notify_conn_status",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wds.h",ki:"struct",ln:"41",},
+	],
+},
+{tag:"QMI_WDS_NOTIFY_IP_FAMILY",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wds.h",ki:"macro",ln:"45",},
+	],
+},
+{tag:"QMI_WDS_PARAM_APN",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wds.h",ki:"macro",ln:"31",},
+	],
+},
+{tag:"QMI_WDS_PARAM_IP_FAMILY",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wds.h",ki:"macro",ln:"32",},
+	],
+},
+{tag:"QMI_WDS_PARAM_PKT_HANDLE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wds.h",ki:"macro",ln:"37",},
+	],
+},
+{tag:"QMI_WDS_PDP_TYPE_IPV4",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wds.h",ki:"macro",ln:"60",},
+	],
+},
+{tag:"QMI_WDS_PDP_TYPE_IPV4V6",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wds.h",ki:"macro",ln:"63",},
+	],
+},
+{tag:"QMI_WDS_PDP_TYPE_IPV6",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wds.h",ki:"macro",ln:"62",},
+	],
+},
+{tag:"QMI_WDS_PDP_TYPE_PPP",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wds.h",ki:"macro",ln:"61",},
+	],
+},
+{tag:"QMI_WDS_PKT_STATUS_IND",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wds.h",ki:"macro",ln:"25",},
+	],
+},
+{tag:"QMI_WDS_RESULT_GATEWAY",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wds.h",ki:"macro",ln:"57",},
+	],
+},
+{tag:"QMI_WDS_RESULT_IP_ADDRESS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wds.h",ki:"macro",ln:"56",},
+	],
+},
+{tag:"QMI_WDS_RESULT_IP_FAMILY",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wds.h",ki:"macro",ln:"58",},
+	],
+},
+{tag:"QMI_WDS_RESULT_PDP_TYPE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wds.h",ki:"macro",ln:"53",},
+	],
+},
+{tag:"QMI_WDS_RESULT_PKT_HANDLE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wds.h",ki:"macro",ln:"34",},
+	],
+},
+{tag:"QMI_WDS_RESULT_PRIMARY_DNS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wds.h",ki:"macro",ln:"54",},
+	],
+},
+{tag:"QMI_WDS_RESULT_SECONDARY_DNS",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wds.h",ki:"macro",ln:"55",},
+	],
+},
+{tag:"QMI_WDS_START_NET",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wds.h",ki:"macro",ln:"22",},
+	],
+},
+{tag:"QMI_WDS_STOP_NET",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wds.h",ki:"macro",ln:"23",},
+	],
+},
+{tag:"QMI_WMS_ACTION_DISCARD",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"101",},
+	],
+},
+{tag:"QMI_WMS_ACTION_STORE_AND_NOTIFY",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"102",},
+	],
+},
+{tag:"QMI_WMS_ACTION_TRANSFER_AND_ACK",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"104",},
+	],
+},
+{tag:"QMI_WMS_ACTION_TRANSFER_ONLY",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"103",},
+	],
+},
+{tag:"QMI_WMS_ACTION_UNKNOWN",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"105",},
+	],
+},
+{tag:"QMI_WMS_DOMAIN_CS_ONLY",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"125",},
+	],
+},
+{tag:"QMI_WMS_DOMAIN_CS_PREFERRED",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"123",},
+	],
+},
+{tag:"QMI_WMS_DOMAIN_PS_ONLY",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"126",},
+	],
+},
+{tag:"QMI_WMS_DOMAIN_PS_PREFERRED",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"124",},
+	],
+},
+{tag:"QMI_WMS_EVENT",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"23",},
+	],
+},
+{tag:"QMI_WMS_GET_DOMAIN_PREF",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"35",},
+	],
+},
+{tag:"QMI_WMS_GET_MSG_LIST",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"28",},
+	],
+},
+{tag:"QMI_WMS_GET_MSG_LIST_MAX",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"33",},
+	],
+},
+{tag:"QMI_WMS_GET_ROUTES",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"30",},
+	],
+},
+{tag:"QMI_WMS_GET_SMSC_ADDR",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"31",},
+	],
+},
+{tag:"QMI_WMS_MESSAGE_MODE_GSMWCDMA",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"66",},
+	],
+},
+{tag:"QMI_WMS_MSG_CLASS_0",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"94",},
+	],
+},
+{tag:"QMI_WMS_MSG_CLASS_1",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"95",},
+	],
+},
+{tag:"QMI_WMS_MSG_CLASS_2",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"96",},
+	],
+},
+{tag:"QMI_WMS_MSG_CLASS_3",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"97",},
+	],
+},
+{tag:"QMI_WMS_MSG_CLASS_CDMA",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"99",},
+	],
+},
+{tag:"QMI_WMS_MSG_CLASS_NONE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"98",},
+	],
+},
+{tag:"QMI_WMS_MSG_TYPE_BROADCAST",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"92",},
+	],
+},
+{tag:"QMI_WMS_MSG_TYPE_P2P",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"91",},
+	],
+},
+{tag:"QMI_WMS_PARAM_DOMAIN",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"121",},
+	],
+},
+{tag:"qmi_wms_param_message",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"struct",ln:"51",},
+	],
+},
+{tag:"QMI_WMS_PARAM_MESSAGE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"50",},
+	],
+},
+{tag:"QMI_WMS_PARAM_MESSAGE_MODE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"60",},
+	],
+},
+{tag:"QMI_WMS_PARAM_NEW_MSG_REPORT",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"47",},
+	],
+},
+{tag:"QMI_WMS_PARAM_ROUTE_LIST",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"70",},
+	],
+},
+{tag:"QMI_WMS_PARAM_SMSC_ADDR",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"116",},
+	],
+},
+{tag:"QMI_WMS_PARAM_SMSC_ADDR_TYPE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"117",},
+	],
+},
+{tag:"QMI_WMS_PARAM_STATUS_REPORT",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"81",},
+	],
+},
+{tag:"QMI_WMS_PARAM_STORAGE_TYPE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"59",},
+	],
+},
+{tag:"QMI_WMS_RAW_SEND",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"26",},
+	],
+},
+{tag:"QMI_WMS_RESET",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"22",},
+	],
+},
+{tag:"QMI_WMS_RESULT_DOMAIN",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"120",},
+	],
+},
+{tag:"QMI_WMS_RESULT_MESSAGE",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"82",},
+	],
+},
+{tag:"qmi_wms_result_message",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"struct",ln:"83",},
+	],
+},
+{tag:"QMI_WMS_RESULT_MESSAGE_ID",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"56",},
+	],
+},
+{tag:"qmi_wms_result_new_msg_notify",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"struct",ln:"41",},
+	],
+},
+{tag:"QMI_WMS_RESULT_NEW_MSG_NOTIFY",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"40",},
+	],
+},
+{tag:"QMI_WMS_RESULT_ROUTE_LIST",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"69",},
+	],
+},
+{tag:"QMI_WMS_RESULT_SMSC_ADDR",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"108",},
+	],
+},
+{tag:"qmi_wms_result_smsc_addr",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"struct",ln:"109",},
+	],
+},
+{tag:"QMI_WMS_RESULT_STATUS_REPORT",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"80",},
+	],
+},
+{tag:"qmi_wms_route_list",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"struct",ln:"71",},
+	],
+},
+{tag:"QMI_WMS_SET_DOMAIN_PREF",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"36",},
+	],
+},
+{tag:"QMI_WMS_SET_EVENT",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"24",},
+	],
+},
+{tag:"QMI_WMS_SET_ROUTES",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"29",},
+	],
+},
+{tag:"QMI_WMS_SET_SMSC_ADDR",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"32",},
+	],
+},
+{tag:"QMI_WMS_STORAGE_TYPE_NV",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"63",},
+	],
+},
+{tag:"QMI_WMS_STORAGE_TYPE_UIM",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"62",},
+	],
+},
+{tag:"QMI_WMS_STORAGE_TYPE_UNKNOWN",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/wms.h",ki:"macro",ln:"64",},
+	],
+},
+{tag:"qmimodem_exit",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmimodem.c",ki:"function",ln:"48",sig:"(void)",},
+	],
+},
+{tag:"qmimodem_init",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmimodem.c",ki:"function",ln:"31",sig:"(void)",},
+	],
+},
+{tag:"qss_prefix",ref:
+	[
+		{fp:"ofono/plugins/he910.c",ki:"variable",ln:"62",},
+	],
+},
+{tag:"qss_query_cb",ref:
+	[
+		{fp:"ofono/plugins/he910.c",ki:"function",ln:"171",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"QUAL_PROTO",ref:
+	[
+		{fp:"ofono/gatchat/ppp_lcp.c",ki:"enumerator",ln:"54",},
+	],
+},
+{tag:"qualifier",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1410",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1577",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"821",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"832",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"10300",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"11579",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"11643",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"11678",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"11764",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"11875",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"12100",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"12143",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"12660",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"13435",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"14192",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"14859",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"14910",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"1546",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"15582",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"15894",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"15960",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"16032",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"16179",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"2469",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"2502",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"3314",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"3354",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"4650",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"602",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"6277",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"8093",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"885",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"9066",},
+	],
+},
+{tag:"query",ref:
+	[
+		{fp:"ofono/include/call-barring.h",ki:"member",ln:"46",},
+		{fp:"ofono/include/call-forwarding.h",ki:"member",ln:"66",},
+	],
+},
+{tag:"query_acm",ref:
+	[
+		{fp:"ofono/src/call-meter.c",ki:"function",ln:"229",sig:"(struct ofono_call_meter *cm)",},
+	],
+},
+{tag:"query_acm_callback",ref:
+	[
+		{fp:"ofono/src/call-meter.c",ki:"function",ln:"218",sig:"(const struct ofono_error *error, int value, void *data)",},
+	],
+},
+{tag:"query_acm_max",ref:
+	[
+		{fp:"ofono/src/call-meter.c",ki:"function",ln:"252",sig:"(struct ofono_call_meter *cm)",},
+	],
+},
+{tag:"query_acm_max_callback",ref:
+	[
+		{fp:"ofono/src/call-meter.c",ki:"function",ln:"239",sig:"(const struct ofono_error *error, int value, void *data)",},
+	],
+},
+{tag:"query_band",ref:
+	[
+		{fp:"ofono/include/radio-settings.h",ki:"member",ln:"95",},
+	],
+},
+{tag:"query_call_meter",ref:
+	[
+		{fp:"ofono/src/call-meter.c",ki:"function",ln:"206",sig:"(struct ofono_call_meter *cm)",},
+	],
+},
+{tag:"query_call_meter_callback",ref:
+	[
+		{fp:"ofono/src/call-meter.c",ki:"function",ln:"194",sig:"(const struct ofono_error *error, int value, void *data)",},
+	],
+},
+{tag:"query_cdip",ref:
+	[
+		{fp:"ofono/src/call-settings.c",ki:"function",ln:"999",sig:"(struct ofono_call_settings *cs)",},
+	],
+},
+{tag:"query_clip",ref:
+	[
+		{fp:"ofono/src/call-settings.c",ki:"function",ln:"1042",sig:"(struct ofono_call_settings *cs)",},
+	],
+},
+{tag:"query_clir",ref:
+	[
+		{fp:"ofono/src/call-settings.c",ki:"function",ln:"972",sig:"(struct ofono_call_settings *cs)",},
+	],
+},
+{tag:"query_cnap",ref:
+	[
+		{fp:"ofono/src/call-settings.c",ki:"function",ln:"1021",sig:"(struct ofono_call_settings *cs)",},
+	],
+},
+{tag:"query_cnum",ref:
+	[
+		{fp:"ofono/src/handsfree.c",ki:"function",ln:"300",sig:"(struct ofono_handsfree *hf)",},
+	],
+},
+{tag:"query_colp",ref:
+	[
+		{fp:"ofono/src/call-settings.c",ki:"function",ln:"1063",sig:"(struct ofono_call_settings *cs)",},
+	],
+},
+{tag:"query_colr",ref:
+	[
+		{fp:"ofono/src/call-settings.c",ki:"function",ln:"1084",sig:"(struct ofono_call_settings *cs)",},
+	],
+},
+{tag:"query_cw",ref:
+	[
+		{fp:"ofono/src/call-settings.c",ki:"function",ln:"1105",sig:"(struct ofono_call_settings *cs)",},
+	],
+},
+{tag:"query_end",ref:
+	[
+		{fp:"ofono/src/call-barring.c",ki:"member",ln:"54",},
+		{fp:"ofono/src/call-forwarding.c",ki:"member",ln:"64",},
+	],
+},
+{tag:"query_fast_dormancy",ref:
+	[
+		{fp:"ofono/include/radio-settings.h",ki:"member",ln:"103",},
+	],
+},
+{tag:"query_locked",ref:
+	[
+		{fp:"ofono/include/sim.h",ki:"member",ln:"173",},
+	],
+},
+{tag:"query_manufacturer",ref:
+	[
+		{fp:"ofono/include/devinfo.h",ki:"member",ln:"41",},
+		{fp:"ofono/src/modem.c",ki:"function",ln:"1457",sig:"(gpointer user)",},
+	],
+},
+{tag:"query_manufacturer_cb",ref:
+	[
+		{fp:"ofono/src/modem.c",ki:"function",ln:"1435",sig:"(const struct ofono_error *error, const char *manufacturer, void *user)",},
+	],
+},
+{tag:"query_model",ref:
+	[
+		{fp:"ofono/include/devinfo.h",ki:"member",ln:"45",},
+		{fp:"ofono/src/modem.c",ki:"function",ln:"1424",sig:"(struct ofono_devinfo *info)",},
+	],
+},
+{tag:"query_model_cb",ref:
+	[
+		{fp:"ofono/src/modem.c",ki:"function",ln:"1403",sig:"(const struct ofono_error *error, const char *model, void *user)",},
+	],
+},
+{tag:"query_next",ref:
+	[
+		{fp:"ofono/src/call-barring.c",ki:"member",ln:"55",},
+		{fp:"ofono/src/call-forwarding.c",ki:"member",ln:"63",},
+	],
+},
+{tag:"query_passwd_state",ref:
+	[
+		{fp:"ofono/include/sim.h",ki:"member",ln:"157",},
+	],
+},
+{tag:"query_pin_retries",ref:
+	[
+		{fp:"ofono/include/sim.h",ki:"member",ln:"161",},
+	],
+},
+{tag:"query_puct",ref:
+	[
+		{fp:"ofono/src/call-meter.c",ki:"function",ln:"278",sig:"(struct ofono_call_meter *cm)",},
+	],
+},
+{tag:"query_puct_callback",ref:
+	[
+		{fp:"ofono/src/call-meter.c",ki:"function",ln:"264",sig:"(const struct ofono_error *error, const char *currency, double ppu, void *data)",},
+	],
+},
+{tag:"query_rat_mode",ref:
+	[
+		{fp:"ofono/include/radio-settings.h",ki:"member",ln:"88",},
+	],
+},
+{tag:"query_resp_cb",ref:
+	[
+		{fp:"ofono/drivers/isimodem/call-barring.c",ki:"function",ln:"245",sig:"(const GIsiMessage *msg, void *data)",},
+		{fp:"ofono/drivers/isimodem/call-forwarding.c",ki:"function",ln:"318",sig:"(const GIsiMessage *msg, void *data)",},
+	],
+},
+{tag:"query_revision",ref:
+	[
+		{fp:"ofono/include/devinfo.h",ki:"member",ln:"47",},
+		{fp:"ofono/src/modem.c",ki:"function",ln:"1393",sig:"(struct ofono_devinfo *info)",},
+	],
+},
+{tag:"query_revision_cb",ref:
+	[
+		{fp:"ofono/src/modem.c",ki:"function",ln:"1372",sig:"(const struct ofono_error *error, const char *revision, void *user)",},
+	],
+},
+{tag:"query_serial",ref:
+	[
+		{fp:"ofono/include/devinfo.h",ki:"member",ln:"43",},
+		{fp:"ofono/src/modem.c",ki:"function",ln:"1364",sig:"(struct ofono_devinfo *info)",},
+	],
+},
+{tag:"query_serial_cb",ref:
+	[
+		{fp:"ofono/src/modem.c",ki:"function",ln:"1346",sig:"(const struct ofono_error *error, const char *serial, void *user)",},
+	],
+},
+{tag:"query_start",ref:
+	[
+		{fp:"ofono/src/call-barring.c",ki:"member",ln:"53",},
+	],
+},
+{tag:"query_template",ref:
+	[
+		{fp:"ofono/drivers/atmodem/call-settings.c",ki:"function",ln:"134",sig:"(const char *prefix, gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"query_tty",ref:
+	[
+		{fp:"ofono/include/ctm.h",ki:"member",ln:"43",},
+	],
+},
+{tag:"queue",ref:
+	[
+		{fp:"ofono/drivers/isimodem/voicecall.c",ki:"member",ln:"90",},
+	],
+},
+{tag:"queue_dispatch",ref:
+	[
+		{fp:"ofono/gdbus/mainloop.c",ki:"function",ln:"79",sig:"(DBusConnection *conn, DBusDispatchStatus status)",},
+	],
+},
+{tag:"quick_release",ref:
+	[
+		{fp:"ofono/drivers/isimodem/radio-settings.c",ki:"member",ln:"53",},
+	],
+},
+{tag:"quiet",ref:
+	[
+		{fp:"ofono/gatchat/gatserver.c",ki:"member",ln:"92",},
+	],
+},
+{tag:"quit_eventloop",ref:
+	[
+		{fp:"ofono/dundee/main.c",ki:"function",ln:"47",sig:"(gpointer user_data)",},
+		{fp:"ofono/gatchat/gsmdial.c",ki:"function",ln:"83",sig:"(gpointer user_data)",},
+		{fp:"ofono/src/main.c",ki:"function",ln:"46",sig:"(gpointer user_data)",},
+	],
+},
+])

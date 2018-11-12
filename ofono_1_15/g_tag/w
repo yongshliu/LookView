@@ -1,0 +1,336 @@
+([
+{tag:"waiting_number",ref:
+	[
+		{fp:"ofono/src/cdma-voicecall.c",ki:"member",ln:"43",},
+	],
+},
+{tag:"wakeup",ref:
+	[
+		{fp:"ofono/gatchat/gatchat.c",ki:"member",ln:"95",},
+	],
+},
+{tag:"wakeup_cb",ref:
+	[
+		{fp:"ofono/gatchat/gatchat.c",ki:"function",ln:"790",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"wakeup_no_response",ref:
+	[
+		{fp:"ofono/gatchat/gatchat.c",ki:"function",ln:"804",sig:"(gpointer user_data)",},
+	],
+},
+{tag:"wakeup_sent",ref:
+	[
+		{fp:"ofono/gatchat/gathdlc.c",ki:"member",ln:"73",},
+	],
+},
+{tag:"wakeup_timeout",ref:
+	[
+		{fp:"ofono/gatchat/gatchat.c",ki:"member",ln:"98",},
+	],
+},
+{tag:"wakeup_timer",ref:
+	[
+		{fp:"ofono/gatchat/gatchat.c",ki:"member",ln:"99",},
+	],
+},
+{tag:"wakeup_writer",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"638",sig:"(struct qmi_device *device)",},
+		{fp:"ofono/gatchat/gatmux.c",ki:"function",ln:"294",sig:"(GAtMux *mux)",},
+	],
+},
+{tag:"wanted_cmer",ref:
+	[
+		{fp:"ofono/drivers/atmodem/network-registration.c",ki:"function",ln:"1514",sig:"(int supported, const char *pref)",},
+	],
+},
+{tag:"wanted_cnmi",ref:
+	[
+		{fp:"ofono/drivers/atmodem/sms.c",ki:"function",ln:"761",sig:"(int supported, const char *pref)",},
+	],
+},
+{tag:"wap_push_1",ref:
+	[
+		{fp:"ofono/unit/test-sms.c",ki:"variable",ln:"1694",},
+	],
+},
+{tag:"wap_push_data",ref:
+	[
+		{fp:"ofono/unit/test-sms.c",ki:"struct",ln:"1689",},
+	],
+},
+{tag:"WAP_PUSH_DST_PORT",ref:
+	[
+		{fp:"ofono/plugins/push-notification.c",ki:"macro",ln:"45",},
+	],
+},
+{tag:"WAP_PUSH_SRC_PORT",ref:
+	[
+		{fp:"ofono/plugins/push-notification.c",ki:"macro",ln:"44",},
+	],
+},
+{tag:"warn_bad",ref:
+	[
+		{fp:"ofono/drivers/atmodem/phonebook.c",ki:"function",ln:"68",sig:"(void)",},
+	],
+},
+{tag:"watch",ref:
+	[
+		{fp:"ofono/gatchat/ppp_net.c",ki:"member",ln:"47",},
+		{fp:"ofono/gdbus/client.c",ki:"member",ln:"45",},
+		{fp:"ofono/gdbus/client.c",ki:"member",ln:"72",},
+		{fp:"ofono/gdbus/mainloop.c",ki:"member",ln:"44",},
+		{fp:"ofono/gisi/netlink.c",ki:"member",ln:"77",},
+		{fp:"ofono/src/handsfree-audio.c",ki:"member",ln:"60",},
+	],
+},
+{tag:"watch_check",ref:
+	[
+		{fp:"ofono/gatchat/gatmux.c",ki:"function",ln:"397",sig:"(GSource *source)",},
+	],
+},
+{tag:"watch_dispatch",ref:
+	[
+		{fp:"ofono/gatchat/gatmux.c",ki:"function",ln:"408",sig:"(GSource *source, GSourceFunc callback, gpointer user_data)",},
+	],
+},
+{tag:"watch_finalize",ref:
+	[
+		{fp:"ofono/gatchat/gatmux.c",ki:"function",ln:"422",sig:"(GSource *source)",},
+	],
+},
+{tag:"watch_func",ref:
+	[
+		{fp:"ofono/gdbus/mainloop.c",ki:"function",ln:"86",sig:"(GIOChannel *chan, GIOCondition cond, gpointer data)",},
+	],
+},
+{tag:"watch_funcs",ref:
+	[
+		{fp:"ofono/gatchat/gatmux.c",ki:"variable",ln:"429",},
+	],
+},
+{tag:"watch_info",ref:
+	[
+		{fp:"ofono/gdbus/mainloop.c",ki:"struct",ln:"42",},
+	],
+},
+{tag:"watch_info_free",ref:
+	[
+		{fp:"ofono/gdbus/mainloop.c",ki:"function",ln:"105",sig:"(void *data)",},
+	],
+},
+{tag:"watch_prepare",ref:
+	[
+		{fp:"ofono/gatchat/gatmux.c",ki:"function",ln:"402",sig:"(GSource *source, gint *timeout)",},
+	],
+},
+{tag:"watch_toggled",ref:
+	[
+		{fp:"ofono/gdbus/mainloop.c",ki:"function",ln:"162",sig:"(DBusWatch *watch, void *data)",},
+	],
+},
+{tag:"wavecom_debug",ref:
+	[
+		{fp:"ofono/plugins/wavecom.c",ki:"function",ln:"63",sig:"(const char *str, void *user_data)",},
+	],
+},
+{tag:"wavecom_disable",ref:
+	[
+		{fp:"ofono/plugins/wavecom.c",ki:"function",ln:"124",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"wavecom_driver",ref:
+	[
+		{fp:"ofono/plugins/wavecom.c",ki:"variable",ln:"185",},
+	],
+},
+{tag:"wavecom_enable",ref:
+	[
+		{fp:"ofono/plugins/wavecom.c",ki:"function",ln:"70",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"wavecom_exit",ref:
+	[
+		{fp:"ofono/plugins/wavecom.c",ki:"function",ln:"200",sig:"(void)",},
+	],
+},
+{tag:"wavecom_init",ref:
+	[
+		{fp:"ofono/plugins/wavecom.c",ki:"function",ln:"195",sig:"(void)",},
+	],
+},
+{tag:"wavecom_post_sim",ref:
+	[
+		{fp:"ofono/plugins/wavecom.c",ki:"function",ln:"158",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"wavecom_pre_sim",ref:
+	[
+		{fp:"ofono/plugins/wavecom.c",ki:"function",ln:"137",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"wavecom_probe",ref:
+	[
+		{fp:"ofono/plugins/wavecom.c",ki:"function",ln:"54",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"wavecom_remove",ref:
+	[
+		{fp:"ofono/plugins/wavecom.c",ki:"function",ln:"59",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"wds",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/gprs-context.c",ki:"member",ln:"38",},
+	],
+},
+{tag:"when",ref:
+	[
+		{fp:"ofono/src/history.c",ki:"member",ln:"43",},
+		{fp:"ofono/src/history.c",ki:"member",ln:"57",},
+	],
+},
+{tag:"width",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1058",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"965",},
+	],
+},
+{tag:"wms",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/sms.c",ki:"member",ln:"39",},
+	],
+},
+{tag:"wmt_deliver",ref:
+	[
+		{fp:"ofono/src/cdma-smsutil.h",ki:"member",ln:"247",},
+	],
+},
+{tag:"wmt_deliver_1",ref:
+	[
+		{fp:"ofono/unit/test-cdmasms.c",ki:"variable",ln:"50",},
+	],
+},
+{tag:"wmt_deliver_2",ref:
+	[
+		{fp:"ofono/unit/test-cdmasms.c",ki:"variable",ln:"55",},
+	],
+},
+{tag:"wmt_deliver_data_1",ref:
+	[
+		{fp:"ofono/unit/test-cdmasms.c",ki:"variable",ln:"62",},
+	],
+},
+{tag:"wmt_deliver_data_2",ref:
+	[
+		{fp:"ofono/unit/test-cdmasms.c",ki:"variable",ln:"69",},
+	],
+},
+{tag:"wmt_deliver_test",ref:
+	[
+		{fp:"ofono/unit/test-cdmasms.c",ki:"struct",ln:"43",},
+	],
+},
+{tag:"wran_client",ref:
+	[
+		{fp:"ofono/drivers/isimodem/radio-settings.c",ki:"member",ln:"51",},
+	],
+},
+{tag:"wran_object",ref:
+	[
+		{fp:"ofono/drivers/isimodem/radio-settings.c",ki:"member",ln:"52",},
+	],
+},
+{tag:"wran_reachable_cb",ref:
+	[
+		{fp:"ofono/drivers/isimodem/radio-settings.c",ki:"function",ln:"283",sig:"(const GIsiMessage *msg, void *opaque)",},
+	],
+},
+{tag:"write",ref:
+	[
+		{fp:"ofono/gatchat/gatmux.h",ki:"member",ln:"53",},
+	],
+},
+{tag:"write_buffer",ref:
+	[
+		{fp:"ofono/gatchat/gatrawip.c",ki:"member",ln:"43",},
+	],
+},
+{tag:"write_context_settings",ref:
+	[
+		{fp:"ofono/src/gprs.c",ki:"function",ln:"1812",sig:"(struct ofono_gprs *gprs, struct pri_context *context)",},
+	],
+},
+{tag:"write_data",ref:
+	[
+		{fp:"ofono/gatchat/gatio.c",ki:"member",ln:"52",},
+	],
+},
+{tag:"write_done_data",ref:
+	[
+		{fp:"ofono/gatchat/gatio.c",ki:"member",ln:"56",},
+	],
+},
+{tag:"write_done_func",ref:
+	[
+		{fp:"ofono/gatchat/gatio.c",ki:"member",ln:"55",},
+	],
+},
+{tag:"write_file",ref:
+	[
+		{fp:"ofono/plugins/calypso.c",ki:"function",ln:"346",sig:"(const char *file, gboolean on)",},
+		{fp:"ofono/src/storage.c",ki:"function",ln:"111",sig:"(const unsigned char *buffer, size_t len, mode_t mode, const char *path_fmt, ...)",},
+		{fp:"ofono/tools/tty-redirector.c",ki:"function",ln:"141",sig:"(const char *path, const char *value)",},
+	],
+},
+{tag:"write_file_cyclic",ref:
+	[
+		{fp:"ofono/include/sim.h",ki:"member",ln:"151",},
+	],
+},
+{tag:"write_file_linear",ref:
+	[
+		{fp:"ofono/include/sim.h",ki:"member",ln:"147",},
+	],
+},
+{tag:"write_file_transparent",ref:
+	[
+		{fp:"ofono/include/sim.h",ki:"member",ln:"143",},
+	],
+},
+{tag:"write_handler",ref:
+	[
+		{fp:"ofono/gatchat/gatio.c",ki:"member",ln:"51",},
+	],
+},
+{tag:"write_queue",ref:
+	[
+		{fp:"ofono/gatchat/gathdlc.c",ki:"member",ln:"59",},
+		{fp:"ofono/gatchat/gatserver.c",ki:"member",ln:"119",},
+	],
+},
+{tag:"write_queue_free",ref:
+	[
+		{fp:"ofono/gatchat/gatserver.c",ki:"function",ln:"1168",sig:"(GQueue *write_queue)",},
+	],
+},
+{tag:"write_watch",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"48",},
+		{fp:"ofono/gatchat/gatio.c",ki:"member",ln:"42",},
+		{fp:"ofono/gatchat/gatmux.c",ki:"member",ln:"77",},
+	],
+},
+{tag:"write_watch_destroy",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"function",ln:"631",sig:"(gpointer user_data)",},
+	],
+},
+{tag:"write_watcher_destroy_notify",ref:
+	[
+		{fp:"ofono/gatchat/gatio.c",ki:"function",ln:"156",sig:"(gpointer user_data)",},
+		{fp:"ofono/gatchat/gatmux.c",ki:"function",ln:"238",sig:"(gpointer user_data)",},
+	],
+},
+])

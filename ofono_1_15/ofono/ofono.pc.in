@@ -1,0 +1,18 @@
+<div class="div_line"  data-info=({id:96089,ln:1}) id=l1><div class="dl_wrapper"><a name=line1 onclick='overload_click(this)' class="a_ln">1<span class="glyphicon glyphicon-pencil"></span></a><div class="div_line_contents">prefix=@prefix@
+</div></div></div><div class="div_line"  data-info=({id:96090,ln:2}) id=l2><div class="dl_wrapper"><a name=line2 onclick='overload_click(this)' class="a_ln">2<span class="glyphicon glyphicon-pencil"></span></a><div class="div_line_contents">exec_prefix=@exec_prefix@
+</div></div></div><div class="div_line"  data-info=({id:96091,ln:3}) id=l3><div class="dl_wrapper"><a name=line3 onclick='overload_click(this)' class="a_ln">3<span class="glyphicon glyphicon-pencil"></span></a><div class="div_line_contents">libdir=@libdir@
+</div></div></div><div class="div_line"  data-info=({id:96092,ln:4}) id=l4><div class="dl_wrapper"><a name=line4 onclick='overload_click(this)' class="a_ln">4<span class="glyphicon glyphicon-pencil"></span></a><div class="div_line_contents">includedir=@includedir@
+</div></div></div><div class="div_line"  data-info=({id:96093,ln:5}) id=l5><div class="dl_wrapper"><a name=line5 onclick='overload_click(this)' class="a_ln">5<span class="glyphicon glyphicon-pencil"></span></a><div class="div_line_contents">
+</div></div></div><div class="div_line"  data-info=({id:96094,ln:6}) id=l6><div class="dl_wrapper"><a name=line6 onclick='overload_click(this)' class="a_ln">6<span class="glyphicon glyphicon-pencil"></span></a><div class="div_line_contents">plugindir=${libdir}/@PACKAGE@/plugins
+</div></div></div><div class="div_line"  data-info=({id:96095,ln:7}) id=l7><div class="dl_wrapper"><a name=line7 onclick='overload_click(this)' class="a_ln">7<span class="glyphicon glyphicon-pencil"></span></a><div class="div_line_contents">
+</div></div></div><div class="div_line"  data-info=({id:96096,ln:8}) id=l8><div class="dl_wrapper"><a name=line8 onclick='overload_click(this)' class="a_ln">8<span class="glyphicon glyphicon-pencil"></span></a><div class="div_line_contents">Name: @PACKAGE@
+</div></div></div><div class="div_line"  data-info=({id:96097,ln:9}) id=l9><div class="dl_wrapper"><a name=line9 onclick='overload_click(this)' class="a_ln">9<span class="glyphicon glyphicon-pencil"></span></a><div class="div_line_contents">Description: oFono - Open Source Telephony
+</div></div></div><div class="div_line"  data-info=({id:96098,ln:10}) id=l10><div class="dl_wrapper"><a name=line10 onclick='overload_click(this)' class="a_ln">10<span class="glyphicon glyphicon-pencil"></span></a><div class="div_line_contents">Version: @VERSION@
+</div></div></div><div class="div_line"  data-info=({id:96099,ln:11}) id=l11><div class="dl_wrapper"><a name=line11 onclick='overload_click(this)' class="a_ln">11<span class="glyphicon glyphicon-pencil"></span></a><div class="div_line_contents">Requires: glib-2.0 dbus-1
+</div></div></div><div class="div_line"  data-info=({id:96100,ln:12}) id=l12><div class="dl_wrapper"><a name=line12 onclick='overload_click(this)' class="a_ln">12<span class="glyphicon glyphicon-pencil"></span></a><div class="div_line_contents">Cflags: -I${includedir}
+</div></div></div><div class="div_line"  data-info=({id:96101,ln:13}) id=l13><div class="dl_wrapper"><a name=line13 onclick='overload_click(this)' class="a_ln">13<span class="glyphicon glyphicon-pencil"></span></a><div class="div_line_contents">Libs: -module -avoid-version -export-symbols-regex '@PACKAGE@_plugin_desc'
+</div></div></div>
+<script>
+var local_symbol_set=0;
+var file_info = '({folder:0,database:"ofono1_15", table:"comments", topdir:"ofono_1_15", path:"ofono/ofono.pc.in",version:"1_15"})';
+</script>

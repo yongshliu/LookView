@@ -1,0 +1,225 @@
+/*  
+=========================
+Le Journal
+=========================
+*/
+
+
+/* normalize.css v2.1.2 | MIT License | git.io/normalize
+    (truncated for example in book)
+---------------------------------------------------------------- */
+
+/* ::: HTML5 display definitions ::: */
+/**
+ * Correct `block` display not defined in IE 8/9.
+ */
+/*
+. is for class
+# is for id
+*/
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+  display: block;
+}
+
+.herpertext:hover{
+	cursor:pointer;
+}
+.header_area{
+	box-sizing:border-box;
+	width:800px;
+	height:50px;
+	border:3px solid;
+}
+.navigator_area{
+	box-sizing:border-box;
+	width:800px;
+	height:20px;
+	border:1px solid;
+}
+.main_area{
+	box-sizing:border-box;
+	padding:0;
+	//min-width:850px;
+	//width: 860px;
+	clear:both;
+	position:relative;
+	//height:430px;
+}
+.left_frame{
+	//clear:both;
+	//min-width:100px;
+	box-sizing:border-box;
+	width:101px;
+	//height:400px;
+	z-index:500;
+}
+#local_symbol_search_input{
+    box-sizing:border-box;
+    width:93px;
+}
+.localsymbols{
+	//float:left;
+	//position:fixed;
+	box-sizing:border-box;
+	//border:3px solid royalblue;
+	border-left:2px solid royalblue;
+	border-top:2px solid royalblue;
+	border-bottom:2px solid royalblue;
+	//top:100px;
+	width: 93px;
+	//height: 400px;
+	//margin-left:2px;
+	overflow: auto;
+}
+.a_local_symbol{
+	display:block;
+}
+.localsymbolslist{
+        box-sizing:border-box;
+        overflow:auto;
+}
+.local_symbol_border{
+	float:right;
+	box-sizing:border-box;
+    width:5px;
+	//min-width:5px;
+	//min-height:400px;	
+	//height:400px;
+	z-index:1000;
+	background-color:royalblue;	
+}
+.local_symbol_border:hover{
+	cursor:e-resize;
+}
+.right_frame{
+	box-sizing:border-box;
+	position:relative;
+	left:730px;
+	top:-800px;
+	width:100px;
+	height:400px;
+	overflow: auto;
+}
+.right_frame_divide{
+	float:left;
+    width:5px;
+	min-width:5px;
+	//min-height:400px;	
+	height:400px;
+	z-index:1000;
+    
+	background-color:royalblue;	
+}
+.globalsymbols{
+	//float:right;
+	box-sizing:border-box;
+	border-right:2px solid royalblue;
+	border-top:2px solid royalblue;
+	border-bottom:2px solid royalblue;
+	height:400px;
+	margin-left:3px;
+	overflow: auto;
+}
+.commentindicator{
+    width:5px;
+    display:inline-block;
+}
+.codearea{
+	clear:both;
+	border:3px solid royalblue;
+	box-sizing:border-box;
+	overflow:auto;
+	height:400px;
+	position:relative;
+	left:101px;
+	top:-400px;
+	width:600px;
+}
+.bottom_area{
+	box-sizing:border-box;
+	width:800px;
+	height:200px;
+	border:3px solid;
+	overflow:auto;
+}
+
+#ajax_test{
+	
+}
+/* ::: Base ::: */
+/**
+ * Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0;
+}
+
+/* ::: Links ::: */
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+a:focus {
+  outline: thin dotted;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* ::: Typography ::: */
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/* ::: Embedded content ::: */
+/**
+ * Remove border when inside `a` element in IE 8/9.
+ */
+img {
+  border: 0;
+}
+/* -- end of abridged normalize -- */
+
+
+/* WEB ICON FONT
+  (the social icons that appear
+  in the upper-right corner)
+------------------------------------------ */
+@font-face {
+  font-family: 'Social Icons';
+  src: url("font/socialico-webfont.eot");
+  src: url("font/socialico-webfont.eot?#iefix") format("embedded-opentype"), 
+        url("font/socialico-webfont.woff") format("woff"), 
+        url("font/socialico-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* GENERAL (APPLIED TO ELEMENTS)
+------------------------------------------ */
+body {
+  font: 100%/1.2 Georgia, "Times New Roman", serif;
+}
+

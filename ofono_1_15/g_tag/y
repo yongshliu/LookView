@@ -1,0 +1,14 @@
+([
+{tag:"year",ref:
+	[
+		{fp:"ofono/drivers/isimodem/network-registration.c",ki:"member",ln:"66",},
+		{fp:"ofono/include/types.h",ki:"member",ln:"107",},
+		{fp:"ofono/src/smsutil.h",ki:"member",ln:"227",},
+	],
+},
+{tag:"yesno",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1460",},
+	],
+},
+])

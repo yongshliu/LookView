@@ -1,0 +1,22 @@
+([
+{tag:"xCalloc",ref:
+	[
+		{fp:"ctags/routines.h",ki:"macro",ln:"23",},
+	],
+},
+{tag:"xMalloc",ref:
+	[
+		{fp:"ctags/routines.h",ki:"macro",ln:"22",},
+	],
+},
+{tag:"xRealloc",ref:
+	[
+		{fp:"ctags/routines.h",ki:"macro",ln:"24",},
+	],
+},
+{tag:"xref",ref:
+	[
+		{fp:"ctags/options.h",ki:"member",ln:"96",},
+	],
+},
+])

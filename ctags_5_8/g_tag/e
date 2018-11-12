@@ -1,0 +1,675 @@
+([
+{tag:"E_AMIGA_H",ref:
+	[
+		{fp:"ctags/e_amiga.h",ki:"macro",ln:"12",},
+	],
+},
+{tag:"E_DJGPP_H",ref:
+	[
+		{fp:"ctags/e_djgpp.h",ki:"macro",ln:"12",},
+	],
+},
+{tag:"E_MAC_H",ref:
+	[
+		{fp:"ctags/e_mac.h",ki:"macro",ln:"16",},
+	],
+},
+{tag:"E_MSOFT_H",ref:
+	[
+		{fp:"ctags/e_msoft.h",ki:"macro",ln:"12",},
+	],
+},
+{tag:"E_OS2_H",ref:
+	[
+		{fp:"ctags/e_os2.h",ki:"macro",ln:"12",},
+	],
+},
+{tag:"E_QDOS_H",ref:
+	[
+		{fp:"ctags/e_qdos.h",ki:"macro",ln:"12",},
+	],
+},
+{tag:"E_RISCOS_H",ref:
+	[
+		{fp:"ctags/e_riscos.h",ki:"macro",ln:"18",},
+	],
+},
+{tag:"E_VMS_H",ref:
+	[
+		{fp:"ctags/e_vms.h",ki:"macro",ln:"12",},
+	],
+},
+{tag:"eatComment",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"function",ln:"281",sig:"(lexingState * st)",},
+	],
+},
+{tag:"eatNumber",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"function",ln:"341",sig:"(lexingState * st)",},
+	],
+},
+{tag:"eatOperator",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"function",ln:"350",sig:"(lexingState * st)",},
+	],
+},
+{tag:"eatString",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"function",ln:"258",sig:"(lexingState * st)",},
+	],
+},
+{tag:"eatWhiteSpace",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"function",ln:"249",sig:"(lexingState * st)",},
+	],
+},
+{tag:"eAwkKinds",ref:
+	[
+		{fp:"ctags/awk.c",ki:"enum",ln:"26",},
+	],
+},
+{tag:"eCalloc",ref:
+	[
+		{fp:"ctags/routines.c",ki:"function",ln:"246",sig:"(const size_t count, const size_t size)",},
+	],
+},
+{tag:"eCharacters",ref:
+	[
+		{fp:"ctags/read.h",ki:"enum",ln:"49",},
+	],
+},
+{tag:"eclosures",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"627",},
+	],
+},
+{tag:"eCppLimits",ref:
+	[
+		{fp:"ctags/get.c",ki:"enum",ln:"38",},
+	],
+},
+{tag:"eDebugLevels",ref:
+	[
+		{fp:"ctags/debug.h",ki:"enum",ln:"48",},
+	],
+},
+{tag:"eDeclaration",ref:
+	[
+		{fp:"ctags/c.c",ki:"enum",ln:"136",},
+	],
+},
+{tag:"edests",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"626",},
+	],
+},
+{tag:"eErrorTypes",ref:
+	[
+		{fp:"ctags/routines.h",ki:"enum",ln:"53",},
+	],
+},
+{tag:"eException",ref:
+	[
+		{fp:"ctags/c.c",ki:"enum",ln:"53",},
+		{fp:"ctags/eiffel.c",ki:"enum",ln:"50",},
+		{fp:"ctags/flex.c",ki:"enum",ln:"47",},
+		{fp:"ctags/fortran.c",ki:"enum",ln:"46",},
+		{fp:"ctags/jscript.c",ki:"enum",ln:"46",},
+		{fp:"ctags/sql.c",ki:"enum",ln:"53",},
+		{fp:"ctags/tex.c",ki:"enum",ln:"43",},
+		{fp:"ctags/verilog.c",ki:"enum",ln:"37",},
+		{fp:"ctags/vhdl.c",ki:"enum",ln:"38",},
+	],
+},
+{tag:"eflags",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"578",},
+	],
+},
+{tag:"eFortranLineType",ref:
+	[
+		{fp:"ctags/fortran.c",ki:"enum",ln:"52",},
+	],
+},
+{tag:"eFree",ref:
+	[
+		{fp:"ctags/routines.c",ki:"function",ln:"270",sig:"(void *const ptr)",},
+	],
+},
+{tag:"EiffelKeywordTable",ref:
+	[
+		{fp:"ctags/eiffel.c",ki:"variable",ln:"150",},
+	],
+},
+{tag:"eiffelKind",ref:
+	[
+		{fp:"ctags/eiffel.c",ki:"typedef",ln:"138",},
+	],
+},
+{tag:"EiffelKinds",ref:
+	[
+		{fp:"ctags/eiffel.c",ki:"variable",ln:"140",},
+	],
+},
+{tag:"EiffelParser",ref:
+	[
+		{fp:"ctags/eiffel.c",ki:"function",ln:"1252",sig:"(void)",},
+	],
+},
+{tag:"eImplementation",ref:
+	[
+		{fp:"ctags/c.c",ki:"enum",ln:"180",},
+	],
+},
+{tag:"eKeywordId",ref:
+	[
+		{fp:"ctags/c.c",ki:"enum",ln:"60",},
+		{fp:"ctags/eiffel.c",ki:"enum",ln:"54",},
+		{fp:"ctags/flex.c",ki:"enum",ln:"57",},
+		{fp:"ctags/fortran.c",ki:"enum",ln:"64",},
+		{fp:"ctags/jscript.c",ki:"enum",ln:"56",},
+		{fp:"ctags/sql.c",ki:"enum",ln:"58",},
+		{fp:"ctags/tex.c",ki:"enum",ln:"48",},
+		{fp:"ctags/vhdl.c",ki:"enum",ln:"43",},
+	],
+},
+{tag:"EKIND_CLASS",ref:
+	[
+		{fp:"ctags/eiffel.c",ki:"enumerator",ln:"137",},
+	],
+},
+{tag:"EKIND_FEATURE",ref:
+	[
+		{fp:"ctags/eiffel.c",ki:"enumerator",ln:"137",},
+	],
+},
+{tag:"EKIND_LOCAL",ref:
+	[
+		{fp:"ctags/eiffel.c",ki:"enumerator",ln:"137",},
+	],
+},
+{tag:"EKIND_QUALIFIED_TAGS",ref:
+	[
+		{fp:"ctags/eiffel.c",ki:"enumerator",ln:"137",},
+	],
+},
+{tag:"elems",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"187",},
+	],
+},
+{tag:"eLocate",ref:
+	[
+		{fp:"ctags/options.h",ki:"enum",ln:"50",},
+	],
+},
+{tag:"EMAIL",ref:
+	[
+		{fp:"ctags/maintainer.mak",ki:"macro",ln:"52",},
+	],
+},
+{tag:"eMalloc",ref:
+	[
+		{fp:"ctags/routines.c",ki:"function",ln:"236",sig:"(const size_t size)",},
+	],
+},
+{tag:"emitRubyTag",ref:
+	[
+		{fp:"ctags/ruby.c",ki:"function",ln:"133",sig:"(vString* name, rubyKind kind)",},
+	],
+},
+{tag:"EmptyString",ref:
+	[
+		{fp:"ctags/readtags.c",ki:"variable",ln:"91",},
+	],
+},
+{tag:"enabled",ref:
+	[
+		{fp:"ctags/lregex.c",ki:"member",ln:"59",},
+		{fp:"ctags/parse.h",ki:"member",ln:"40",},
+		{fp:"ctags/parse.h",ki:"member",ln:"60",},
+	],
+},
+{tag:"enableLanguage",ref:
+	[
+		{fp:"ctags/parse.c",ki:"function",ln:"292",sig:"(const langType language, const boolean state)",},
+	],
+},
+{tag:"enableLanguageKind",ref:
+	[
+		{fp:"ctags/parse.c",ki:"function",ln:"433",sig:"( const langType language, const int kind, const boolean mode)",},
+	],
+},
+{tag:"enableLanguages",ref:
+	[
+		{fp:"ctags/parse.c",ki:"function",ln:"298",sig:"(const boolean state)",},
+	],
+},
+{tag:"enableRegexKind",ref:
+	[
+		{fp:"ctags/lregex.c",ki:"function",ln:"641",sig:"( const langType language __unused__, const int kind __unused__, const boolean mode __unused__)",},
+	],
+},
+{tag:"end",ref:
+	[
+		{fp:"ctags/gnu_regex/regex.h",ki:"member",ln:"435",},
+	],
+},
+{tag:"END_OF_RE",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"196",},
+	],
+},
+{tag:"endEtagsFile",ref:
+	[
+		{fp:"ctags/entry.c",ki:"function",ln:"550",sig:"(const char *const name)",},
+	],
+},
+{tag:"endtoken",ref:
+	[
+		{fp:"ctags/pascal.c",ki:"macro",ln:"64",},
+	],
+},
+{tag:"ent",ref:
+	[
+		{fp:"ctags/e_mac.h",ki:"member",ln:"119",},
+	],
+},
+{tag:"enterUnnamedScope",ref:
+	[
+		{fp:"ctags/ruby.c",ki:"function",ln:"267",sig:"(void)",},
+	],
+},
+{tag:"entrance_nodes",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"504",},
+	],
+},
+{tag:"ENVIRONMENT",ref:
+	[
+		{fp:"VARIABLES",ki:"anchor",ln:"ctags/ctags.html",},
+	],
+},
+{tag:"ENVIRONMENT_HEADERS",ref:
+	[
+		{fp:"ctags/source.mak",ki:"macro",ln:"62",},
+	],
+},
+{tag:"ENVIRONMENT_MAKEFILES",ref:
+	[
+		{fp:"ctags/maintainer.mak",ki:"macro",ln:"18",},
+	],
+},
+{tag:"ENVIRONMENT_SOURCES",ref:
+	[
+		{fp:"ctags/source.mak",ki:"macro",ln:"65",},
+	],
+},
+{tag:"eof",ref:
+	[
+		{fp:"ctags/read.h",ki:"member",ln:"78",},
+	],
+},
+{tag:"eOptionLimits",ref:
+	[
+		{fp:"ctags/options.c",ki:"enum",ln:"66",},
+	],
+},
+{tag:"eps_reachable_subexps_map",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"565",},
+	],
+},
+{tag:"eps_via_nodes",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"609",},
+	],
+},
+{tag:"EPSILON_BIT",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"macro",ln:"207",},
+	],
+},
+{tag:"EQUIV_CLASS",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"677",},
+	],
+},
+{tag:"equiv_classes",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"254",},
+	],
+},
+{tag:"eRealloc",ref:
+	[
+		{fp:"ctags/routines.c",ki:"function",ln:"256",sig:"(void *const ptr, const size_t size)",},
+	],
+},
+{tag:"erlangKind",ref:
+	[
+		{fp:"ctags/erlang.c",ki:"typedef",ln:"31",},
+	],
+},
+{tag:"ErlangKinds",ref:
+	[
+		{fp:"ctags/erlang.c",ki:"variable",ln:"33",},
+	],
+},
+{tag:"ErlangParser",ref:
+	[
+		{fp:"ctags/erlang.c",ki:"function",ln:"178",sig:"(void)",},
+	],
+},
+{tag:"error",ref:
+	[
+		{fp:"ctags/routines.c",ki:"function",ln:"211",sig:"( const errorSelection selection, const char *const format, ...)",},
+	],
+},
+{tag:"error_number",ref:
+	[
+		{fp:"ctags/readtags.h",ki:"member",ln:"62",},
+	],
+},
+{tag:"errorSelection",ref:
+	[
+		{fp:"ctags/routines.h",ki:"typedef",ln:"52",},
+	],
+},
+{tag:"errout",ref:
+	[
+		{fp:"ctags/e_msoft.h",ki:"macro",ln:"17",},
+		{fp:"ctags/general.h",ki:"macro",ln:"48",},
+	],
+},
+{tag:"eStat",ref:
+	[
+		{fp:"ctags/routines.c",ki:"function",ln:"418",sig:"(const char *const fileName)",},
+	],
+},
+{tag:"eState",ref:
+	[
+		{fp:"ctags/get.c",ki:"enum",ln:"52",},
+	],
+},
+{tag:"eStatFree",ref:
+	[
+		{fp:"ctags/routines.c",ki:"function",ln:"452",sig:"(fileStatus *status)",},
+	],
+},
+{tag:"eStrdup",ref:
+	[
+		{fp:"ctags/routines.c",ki:"function",ln:"321",sig:"(const char* str)",},
+	],
+},
+{tag:"eTagFile",ref:
+	[
+		{fp:"ctags/entry.h",ki:"struct",ln:"34",},
+	],
+},
+{tag:"ETAGS",ref:
+	[
+		{fp:"ctags/options.c",ki:"macro",ln:"42",},
+	],
+},
+{tag:"etags",ref:
+	[
+		{fp:"ctags/entry.h",ki:"member",ln:"44",},
+		{fp:"ctags/options.h",ki:"member",ln:"91",},
+	],
+},
+{tag:"ETAGS_ENVIRONMENT",ref:
+	[
+		{fp:"ctags/options.c",ki:"macro",ln:"36",},
+	],
+},
+{tag:"ETAGS_FILE",ref:
+	[
+		{fp:"ctags/options.c",ki:"macro",ln:"39",},
+	],
+},
+{tag:"eTagScope",ref:
+	[
+		{fp:"ctags/c.c",ki:"enum",ln:"127",},
+	],
+},
+{tag:"etagsInclude",ref:
+	[
+		{fp:"ctags/main.c",ki:"function",ln:"464",sig:"(void)",},
+		{fp:"ctags/options.h",ki:"member",ln:"100",},
+	],
+},
+{tag:"eTagType",ref:
+	[
+		{fp:"ctags/c.c",ki:"enum",ln:"213",},
+		{fp:"ctags/fortran.c",ki:"enum",ln:"160",},
+	],
+},
+{tag:"eTokenType",ref:
+	[
+		{fp:"ctags/c.c",ki:"enum",ln:"108",},
+		{fp:"ctags/eiffel.c",ki:"enum",ln:"81",},
+		{fp:"ctags/flex.c",ki:"enum",ln:"94",},
+		{fp:"ctags/fortran.c",ki:"enum",ln:"144",},
+		{fp:"ctags/jscript.c",ki:"enum",ln:"85",},
+		{fp:"ctags/sql.c",ki:"enum",ln:"137",},
+		{fp:"ctags/tex.c",ki:"enum",ln:"67",},
+		{fp:"ctags/vhdl.c",ki:"enum",ln:"150",},
+	],
+},
+{tag:"eVisibilityType",ref:
+	[
+		{fp:"ctags/c.c",ki:"enum",ln:"155",},
+	],
+},
+{tag:"EX_LINENUM",ref:
+	[
+		{fp:"ctags/options.h",ki:"enumerator",ln:"52",},
+	],
+},
+{tag:"EX_MIX",ref:
+	[
+		{fp:"ctags/options.h",ki:"enumerator",ln:"51",},
+	],
+},
+{tag:"EX_PATTERN",ref:
+	[
+		{fp:"ctags/options.h",ki:"enumerator",ln:"53",},
+	],
+},
+{tag:"Exception",ref:
+	[
+		{fp:"ctags/c.c",ki:"variable",ln:"253",},
+		{fp:"ctags/eiffel.c",ki:"variable",ln:"148",},
+		{fp:"ctags/flex.c",ki:"variable",ln:"140",},
+		{fp:"ctags/fortran.c",ki:"variable",ln:"194",},
+		{fp:"ctags/jscript.c",ki:"variable",ln:"123",},
+		{fp:"ctags/sql.c",ki:"variable",ln:"176",},
+		{fp:"ctags/tex.c",ki:"variable",ln:"111",},
+		{fp:"ctags/verilog.c",ki:"variable",ln:"61",},
+		{fp:"ctags/vhdl.c",ki:"variable",ln:"176",},
+	],
+},
+{tag:"exception_t",ref:
+	[
+		{fp:"ctags/c.c",ki:"typedef",ln:"56",},
+		{fp:"ctags/eiffel.c",ki:"typedef",ln:"50",},
+		{fp:"ctags/flex.c",ki:"typedef",ln:"47",},
+		{fp:"ctags/fortran.c",ki:"typedef",ln:"48",},
+		{fp:"ctags/jscript.c",ki:"typedef",ln:"46",},
+		{fp:"ctags/sql.c",ki:"typedef",ln:"53",},
+		{fp:"ctags/tex.c",ki:"typedef",ln:"43",},
+		{fp:"ctags/verilog.c",ki:"typedef",ln:"37",},
+		{fp:"ctags/vhdl.c",ki:"typedef",ln:"38",},
+	],
+},
+{tag:"ExceptionBraceFormattingError",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"55",},
+	],
+},
+{tag:"exceptionDecl",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"function",ln:"946",sig:"(vString * const ident, ocaToken what)",},
+	],
+},
+{tag:"ExceptionEOF",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"54",},
+		{fp:"ctags/eiffel.c",ki:"enumerator",ln:"50",},
+		{fp:"ctags/flex.c",ki:"enumerator",ln:"47",},
+		{fp:"ctags/fortran.c",ki:"enumerator",ln:"47",},
+		{fp:"ctags/jscript.c",ki:"enumerator",ln:"46",},
+		{fp:"ctags/sql.c",ki:"enumerator",ln:"53",},
+		{fp:"ctags/tex.c",ki:"enumerator",ln:"43",},
+		{fp:"ctags/verilog.c",ki:"enumerator",ln:"37",},
+		{fp:"ctags/vhdl.c",ki:"enumerator",ln:"38",},
+	],
+},
+{tag:"ExceptionFixedFormat",ref:
+	[
+		{fp:"ctags/fortran.c",ki:"enumerator",ln:"47",},
+	],
+},
+{tag:"ExceptionFormattingError",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"54",},
+	],
+},
+{tag:"ExceptionLoop",ref:
+	[
+		{fp:"ctags/fortran.c",ki:"enumerator",ln:"47",},
+	],
+},
+{tag:"ExceptionNone",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"54",},
+		{fp:"ctags/eiffel.c",ki:"enumerator",ln:"50",},
+		{fp:"ctags/flex.c",ki:"enumerator",ln:"47",},
+		{fp:"ctags/fortran.c",ki:"enumerator",ln:"47",},
+		{fp:"ctags/jscript.c",ki:"enumerator",ln:"46",},
+		{fp:"ctags/sql.c",ki:"enumerator",ln:"53",},
+		{fp:"ctags/tex.c",ki:"enumerator",ln:"43",},
+		{fp:"ctags/verilog.c",ki:"enumerator",ln:"37",},
+		{fp:"ctags/vhdl.c",ki:"enumerator",ln:"38",},
+	],
+},
+{tag:"Excluded",ref:
+	[
+		{fp:"ctags/options.c",ki:"variable",ln:"96",},
+	],
+},
+{tag:"exCmd",ref:
+	[
+		{fp:"ctags/options.h",ki:"typedef",ln:"54",},
+	],
+},
+{tag:"EXEC",ref:
+	[
+		{fp:"ctags/mk_qdos.mak",ki:"macro",ln:"27",},
+	],
+},
+{tag:"ExecutableName",ref:
+	[
+		{fp:"ctags/routines.c",ki:"variable",ln:"162",},
+	],
+},
+{tag:"ExecutableProgram",ref:
+	[
+		{fp:"ctags/routines.c",ki:"variable",ln:"161",},
+	],
+},
+{tag:"exists",ref:
+	[
+		{fp:"ctags/routines.h",ki:"member",ln:"60",},
+	],
+},
+{tag:"exit_block",ref:
+	[
+		{fp:"ctags/argproc.c",ki:"variable",ln:"369",},
+	],
+},
+{tag:"exit_control_block",ref:
+	[
+		{fp:"ctags/argproc.c",ki:"struct",ln:"362",},
+	],
+},
+{tag:"EXIT_ERR",ref:
+	[
+		{fp:"ctags/argproc.c",ki:"macro",ln:"36",},
+	],
+},
+{tag:"exit_handler",ref:
+	[
+		{fp:"ctags/argproc.c",ki:"function",ln:"334",},
+	],
+},
+{tag:"EXIT_OK",ref:
+	[
+		{fp:"ctags/argproc.c",ki:"macro",ln:"35",},
+	],
+},
+{tag:"exit_routine",ref:
+	[
+		{fp:"ctags/argproc.c",ki:"member",ln:"365",},
+	],
+},
+{tag:"exit_status",ref:
+	[
+		{fp:"ctags/argproc.c",ki:"member",ln:"368",},
+	],
+},
+{tag:"expand_bkref_cache",ref:
+	[
+		{fp:"ctags/gnu_regex/regexec.c",ki:"function",ln:"3210",sig:"(re_match_context_t *mctx, re_node_set *cur_nodes, int cur_str, int subexp_num, int type)",},
+	],
+},
+{tag:"expand_wild_cards",ref:
+	[
+		{fp:"ctags/argproc.c",ki:"function",ln:"259",},
+	],
+},
+{tag:"exportLocalInfo",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"variable",ln:"168",},
+	],
+},
+{tag:"extend_buffers",ref:
+	[
+		{fp:"ctags/gnu_regex/regexec.c",ki:"function",ln:"4069",sig:"(re_match_context_t *mctx)",},
+	],
+},
+{tag:"EXTENSION_SEPARATOR",ref:
+	[
+		{fp:"ctags/options.c",ki:"macro",ln:"47",},
+	],
+},
+{tag:"extensionFields",ref:
+	[
+		{fp:"ctags/entry.h",ki:"member",ln:"79",},
+		{fp:"ctags/options.h",ki:"member",ln:"87",},
+		{fp:"ctags/readtags.c",ki:"variable",ln:"791",},
+	],
+},
+{tag:"extensions",ref:
+	[
+		{fp:"ctags/parse.h",ki:"member",ln:"51",},
+	],
+},
+{tag:"externalSortTags",ref:
+	[
+		{fp:"ctags/sort.c",ki:"function",ln:"56",sig:"(const boolean toStdout)",},
+	],
+},
+{tag:"EXTRA_LIBS",ref:
+	[
+		{fp:"ctags/mk_bc3.mak",ki:"macro",ln:"24",},
+	],
+},
+{tag:"extract_name",ref:
+	[
+		{fp:"ctags/basic.c",ki:"function",ln:"95",sig:"(char const *pos, vString * name)",},
+		{fp:"ctags/lua.c",ki:"function",ln:"70",sig:"(const char *begin, const char *end, vString *name)",},
+	],
+},
+])

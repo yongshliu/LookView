@@ -1,0 +1,607 @@
+([
+{tag:"xapl_cb",ref:
+	[
+		{fp:"ofono/drivers/hfpmodem/siri.c",ki:"function",ln:"113",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"xapl_prefix",ref:
+	[
+		{fp:"ofono/drivers/hfpmodem/siri.c",ki:"variable",ln:"47",},
+	],
+},
+{tag:"xcallstat_notify",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/voicecall.c",ki:"function",ln:"115",sig:"(GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"xcolp_notify",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/voicecall.c",ki:"function",ln:"743",sig:"(GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"xctms_modify_cb",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/ctm.c",ki:"function",ln:"100",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"xctms_prefix",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/ctm.c",ki:"variable",ln:"44",},
+	],
+},
+{tag:"xctms_query_cb",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/ctm.c",ki:"function",ln:"50",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"xctms_support_cb",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/ctm.c",ki:"function",ln:"132",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"xdatastat_notify",ref:
+	[
+		{fp:"ofono/drivers/atmodem/gprs.c",ki:"function",ln:"178",sig:"(GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"xdns_prefix",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/gprs-context.c",ki:"variable",ln:"50",},
+	],
+},
+{tag:"xdrv_audio_mode",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enum",ln:"137",},
+	],
+},
+{tag:"XDRV_AUDIO_MODE_DUAL_MONO",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"139",},
+	],
+},
+{tag:"XDRV_AUDIO_MODE_DUAL_MONO_L",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"142",},
+	],
+},
+{tag:"XDRV_AUDIO_MODE_DUAL_MONO_R",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"141",},
+	],
+},
+{tag:"XDRV_AUDIO_MODE_MONO",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"138",},
+	],
+},
+{tag:"XDRV_AUDIO_MODE_STEREO",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"140",},
+	],
+},
+{tag:"xdrv_configure_destination",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"function",ln:"185",sig:"(GAtChat *chat, enum xdrv_destination dest, enum xdrv_i2s_clock clock, enum xdrv_i2s_mode master_slave, enum xdrv_sampling_rate sample_rate, enum xdrv_sampling_width bits, enum xdrv_i2s_transmission_mode tx_mode, enum xdrv_i2s_settings settings, enum xdrv_audio_mode mode, enum xdrv_i2s_configuration_mode config_mode, enum xdrv_dest_transducer transducer_mode)",},
+	],
+},
+{tag:"xdrv_configure_source",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"function",ln:"165",sig:"(GAtChat *chat, enum xdrv_source src, enum xdrv_i2s_clock clock, enum xdrv_i2s_mode master_slave, enum xdrv_sampling_rate sample_rate, enum xdrv_sampling_width bits, enum xdrv_i2s_transmission_mode tx_mode, enum xdrv_i2s_settings settings, enum xdrv_audio_mode mode, enum xdrv_i2s_configuration_mode config_mode, enum xdrv_source_transducer transducer_mode)",},
+	],
+},
+{tag:"xdrv_dest_transducer",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enum",ln:"127",},
+	],
+},
+{tag:"XDRV_DEST_TRANSDUCER_BACKSPEAKER",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"131",},
+	],
+},
+{tag:"XDRV_DEST_TRANSDUCER_BLUETOOTH",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"133",},
+	],
+},
+{tag:"XDRV_DEST_TRANSDUCER_DEFAULT",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"128",},
+	],
+},
+{tag:"XDRV_DEST_TRANSDUCER_HANDSET",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"129",},
+	],
+},
+{tag:"XDRV_DEST_TRANSDUCER_HEADSET",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"130",},
+	],
+},
+{tag:"XDRV_DEST_TRANSDUCER_TTY",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"132",},
+	],
+},
+{tag:"XDRV_DEST_TRANSDUCER_USER_DEFINED_15",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"134",},
+	],
+},
+{tag:"xdrv_destination",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enum",ln:"47",},
+	],
+},
+{tag:"XDRV_DESTINATION_ANALOG_OUT",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"49",},
+	],
+},
+{tag:"XDRV_DESTINATION_I2SX_TX",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"50",},
+	],
+},
+{tag:"XDRV_DESTINATION_I2SY_TX",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"51",},
+	],
+},
+{tag:"XDRV_DESTINATION_PCM_GENERAL",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"52",},
+	],
+},
+{tag:"XDRV_DESTINATION_SPEECH_TX",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"48",},
+	],
+},
+{tag:"xdrv_disable_source",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"function",ln:"157",sig:"(GAtChat *chat, enum xdrv_source src)",},
+	],
+},
+{tag:"xdrv_enable_source",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"function",ln:"149",sig:"(GAtChat *chat, enum xdrv_source src)",},
+	],
+},
+{tag:"xdrv_i2s_clock",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enum",ln:"93",},
+	],
+},
+{tag:"XDRV_I2S_CLOCK_0",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"94",},
+	],
+},
+{tag:"XDRV_I2S_CLOCK_1",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"95",},
+	],
+},
+{tag:"xdrv_i2s_configuration_mode",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enum",ln:"98",},
+	],
+},
+{tag:"XDRV_I2S_CONFIGURATION_MODE_UPDATE_ALL",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"99",},
+	],
+},
+{tag:"XDRV_I2S_CONFIGURATION_MODE_UPDATE_HW",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"100",},
+	],
+},
+{tag:"XDRV_I2S_CONFIGURATION_MODE_UPDATE_TRANSDUCER",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"101",},
+	],
+},
+{tag:"xdrv_i2s_mode",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enum",ln:"88",},
+	],
+},
+{tag:"XDRV_I2S_MODE_MASTER",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"89",},
+	],
+},
+{tag:"XDRV_I2S_MODE_SLAVE",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"90",},
+	],
+},
+{tag:"xdrv_i2s_settings",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enum",ln:"104",},
+	],
+},
+{tag:"XDRV_I2S_SETTINGS_NORMAL",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"105",},
+	],
+},
+{tag:"XDRV_I2S_SETTINGS_SPECIAL1",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"106",},
+	],
+},
+{tag:"XDRV_I2S_SETTINGS_SPECIAL2",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"107",},
+	],
+},
+{tag:"xdrv_i2s_transmission_mode",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enum",ln:"110",},
+	],
+},
+{tag:"XDRV_I2S_TRANSMISSION_MODE_NORMAL",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"112",},
+	],
+},
+{tag:"XDRV_I2S_TRANSMISSION_MODE_PCM",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"111",},
+	],
+},
+{tag:"XDRV_IS2_TRANSMISSION_MODE_PCM_BURST",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"113",},
+	],
+},
+{tag:"xdrv_prefix",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"variable",ln:"45",},
+	],
+},
+{tag:"xdrv_sampling_rate",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enum",ln:"64",},
+	],
+},
+{tag:"XDRV_SAMPLING_RATE_11KHZ",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"66",},
+	],
+},
+{tag:"XDRV_SAMPLING_RATE_12KHZ",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"67",},
+	],
+},
+{tag:"XDRV_SAMPLING_RATE_16KHZ",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"68",},
+	],
+},
+{tag:"XDRV_SAMPLING_RATE_192KHZ",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"75",},
+	],
+},
+{tag:"XDRV_SAMPLING_RATE_22KHZ",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"69",},
+	],
+},
+{tag:"XDRV_SAMPLING_RATE_24KHZ",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"70",},
+	],
+},
+{tag:"XDRV_SAMPLING_RATE_32KHZ",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"71",},
+	],
+},
+{tag:"XDRV_SAMPLING_RATE_44KHZ",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"72",},
+	],
+},
+{tag:"XDRV_SAMPLING_RATE_48KHZ",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"73",},
+	],
+},
+{tag:"XDRV_SAMPLING_RATE_8KHZ",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"65",},
+	],
+},
+{tag:"XDRV_SAMPLING_RATE_96KHZ",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"74",},
+	],
+},
+{tag:"xdrv_sampling_width",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enum",ln:"78",},
+	],
+},
+{tag:"XDRV_SAMPLING_WIDTH_16",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"79",},
+	],
+},
+{tag:"XDRV_SAMPLING_WIDTH_18",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"80",},
+	],
+},
+{tag:"XDRV_SAMPLING_WIDTH_20",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"81",},
+	],
+},
+{tag:"XDRV_SAMPLING_WIDTH_24",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"82",},
+	],
+},
+{tag:"XDRV_SAMPLING_WIDTH_32",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"83",},
+	],
+},
+{tag:"XDRV_SAMPLING_WIDTH_48",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"84",},
+	],
+},
+{tag:"XDRV_SAMPLING_WIDTH_64",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"85",},
+	],
+},
+{tag:"xdrv_set_destination_for_source",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"function",ln:"206",sig:"(GAtChat *chat, enum xdrv_source src, enum xdrv_destination dest)",},
+	],
+},
+{tag:"xdrv_set_destination_volume",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"function",ln:"216",sig:"(GAtChat *chat, enum xdrv_destination dest, int volume)",},
+	],
+},
+{tag:"xdrv_source",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enum",ln:"55",},
+	],
+},
+{tag:"XDRV_SOURCE_DIGITAL_MIC_IN",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"58",},
+	],
+},
+{tag:"XDRV_SOURCE_I2SX_RX",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"59",},
+	],
+},
+{tag:"XDRV_SOURCE_I2SY_RX",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"60",},
+	],
+},
+{tag:"XDRV_SOURCE_SIMPLE_TONES",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"61",},
+	],
+},
+{tag:"XDRV_SOURCE_SPEECH_ANALOG_IN",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"57",},
+	],
+},
+{tag:"XDRV_SOURCE_SPEECH_RX",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"56",},
+	],
+},
+{tag:"xdrv_source_transducer",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enum",ln:"116",},
+	],
+},
+{tag:"XDRV_SOURCE_TRANSDUCER_AUX",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"121",},
+	],
+},
+{tag:"XDRV_SOURCE_TRANSDUCER_BLUETOOTH",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"123",},
+	],
+},
+{tag:"XDRV_SOURCE_TRANSDUCER_DEFAULT",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"117",},
+	],
+},
+{tag:"XDRV_SOURCE_TRANSDUCER_HANDSET",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"118",},
+	],
+},
+{tag:"XDRV_SOURCE_TRANSDUCER_HEADSET",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"119",},
+	],
+},
+{tag:"XDRV_SOURCE_TRANSDUCER_HF",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"120",},
+	],
+},
+{tag:"XDRV_SOURCE_TRANSDUCER_TTY",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"122",},
+	],
+},
+{tag:"XDRV_SOURCE_TRANSDUCER_USER_DEFINED_15",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"enumerator",ln:"124",},
+	],
+},
+{tag:"xem_notify",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/voicecall.c",ki:"function",ln:"220",sig:"(GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"xgendata_prefix",ref:
+	[
+		{fp:"ofono/plugins/ifx.c",ki:"variable",ln:"83",},
+	],
+},
+{tag:"xgendata_query",ref:
+	[
+		{fp:"ofono/plugins/ifx.c",ki:"function",ln:"294",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"xlema_notify",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/voicecall.c",ki:"function",ln:"792",sig:"(GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"xlema_prefix",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/voicecall.c",ki:"variable",ln:"45",},
+	],
+},
+{tag:"xlema_read",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/voicecall.c",ki:"function",ln:"849",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"xmit_accm",ref:
+	[
+		{fp:"ofono/gatchat/gathdlc.c",ki:"member",ln:"64",},
+	],
+},
+{tag:"xmit_acfc",ref:
+	[
+		{fp:"ofono/gatchat/gatppp.c",ki:"member",ln:"88",},
+	],
+},
+{tag:"xmit_pfc",ref:
+	[
+		{fp:"ofono/gatchat/gatppp.c",ki:"member",ln:"89",},
+	],
+},
+{tag:"xpincnt_cb",ref:
+	[
+		{fp:"ofono/drivers/atmodem/sim.c",ki:"function",ln:"619",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"xpincnt_prefix",ref:
+	[
+		{fp:"ofono/drivers/atmodem/sim.c",ki:"variable",ln:"61",},
+	],
+},
+{tag:"xpm",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"22082",},
+	],
+},
+{tag:"xpm_test_1",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"22135",},
+	],
+},
+{tag:"xpm_test_2",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"22152",},
+	],
+},
+{tag:"xpm_test_3",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"22175",},
+	],
+},
+{tag:"xpm_test_4",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"22227",},
+	],
+},
+{tag:"xpm_test_5",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"22255",},
+	],
+},
+{tag:"xpm_test_6",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"22275",},
+	],
+},
+{tag:"xprogress_notify",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"function",ln:"298",sig:"(GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"xprogress_prefix",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"variable",ln:"44",},
+	],
+},
+{tag:"xprogress_support_cb",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/audio-settings.c",ki:"function",ln:"335",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"xrat_modify_cb",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/radio-settings.c",ki:"function",ln:"114",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"xrat_prefix",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/radio-settings.c",ki:"variable",ln:"44",},
+	],
+},
+{tag:"xrat_query_cb",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/radio-settings.c",ki:"function",ln:"50",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"xrat_support_cb",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/radio-settings.c",ki:"function",ln:"162",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"xsatk_prefix",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/stk.c",ki:"variable",ln:"49",},
+	],
+},
+{tag:"xsatk_support_cb",ref:
+	[
+		{fp:"ofono/drivers/ifxmodem/stk.c",ki:"function",ln:"257",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"xsim_notify",ref:
+	[
+		{fp:"ofono/plugins/ifx.c",ki:"function",ln:"172",sig:"(GAtResult *result, gpointer user_data)",},
+	],
+},
+{tag:"xsimstate_prefix",ref:
+	[
+		{fp:"ofono/plugins/ifx.c",ki:"variable",ln:"84",},
+	],
+},
+{tag:"xsimstate_query",ref:
+	[
+		{fp:"ofono/plugins/ifx.c",ki:"function",ln:"194",sig:"(gboolean ok, GAtResult *result, gpointer user_data)",},
+	],
+},
+])

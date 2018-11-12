@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="angular-material.css">
+</head>
+<body ng-app="fpageMain" ng-controller="fpageCtl" class="docs-body" layout="row" ng-cloak aria-label="Lookview Index">
+
+
+
+<div layout="column" tabIndex="-1" role="main" flex>
+
+<md-toolbar class="md-whiteframe-glow-zl site-content-toolbar">
+<a href="main.html"> Index Pro</a>	
+</md-toolbar>
+	<md-subheader class="md-primary">
+	<span>{{ funcInfo["fun_name"].val }}</span><md-button ng-click="onChange('fun_name')">修改</md-button>
+	 <span>  {{funcInfo["fun_protype"].val}}</span><md-button ng-click="onChange('fun_protype')">修改</md-button>
+	</md-subheader>
+<div md-whiteframe="3" >
+<md-card md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}" md-theme-watch >
+		<div layout="row" layout-wrap layout-padding>		
+		<div flex="10">函数路径 : </div><div flex="{{editorEnable?75:90}}">{{funcInfo["fun_path"].val?funcInfo["fun_path"].val:"空"}}</div>
+		<div ng-if="editorEnable" flex="10" layout="row" layout-align="end center">
+         		 <md-button ng-click="onChange('fun_path')">修改</md-button>
+       		 </div>
+		<div flex="10">函数返回 : </div><div flex="{{editorEnable?75:90}}">{{funcInfo["fun_ret"].val?funcInfo["fun_ret"].val:"空"}}</div>
+		<div ng-if="editorEnable" flex="10" layout="row" layout-align="end center">
+         		 <md-button ng-click="onChange('fun_ret')">修改</md-button>
+       		 </div>
+		<div flex="10">函数描述 : </div><div flex="{{editorEnable?75:90}}">{{funcInfo["fun_des"].val?funcInfo["fun_des"].val:"空"}}</div>
+		<div ng-if="editorEnable" flex="10" layout="row" layout-align="end center">
+         		 <md-button ng-click="onChange('fun_des')">修改</md-button>
+       		 </div>
+		<div flex="10">主要算法  : </div><div flex="{{editorEnable?75:90}}">{{funcInfo["fun_algorithm"].val?funcInfo["fun_algorithm"].val:"空"}}</div>
+		<div ng-if="editorEnable" flex="10" layout="row" layout-align="end center">
+         		 <md-button ng-click="onChange('fun_algorithm')">修改</md-button>
+       		 </div>
+		<div flex="{{editorEnable?15:10}}" md-colors="{background:'blue'}">{{proName}} <md-button ng-if=editorEnable ng-click="onChange('pro_id')">修改</md-button></div>
+		<div flex="{{editorEnable?15:10}}" md-colors="{background:'red'}">{{modName}} <md-button ng-if=editorEnable ng-click="onChange('mod_id')">修改</md-button></div>
+		<div flex="{{editorEnable?15:10}}" md-colors="{background:'purple'}">{{funcInfo["fun_version"].val}} <md-button ng-if=editorEnable ng-click="onChange('fun_version')">修改</md-button></div>
+		<div flex="{{editorEnable?15:10}}" md-colors="{background:'green'}">{{funcInfo["api"].val=="y"?"API函数":"非api函数"}} <md-button ng-if=editorEnable ng-click="onChange('api')">修改</md-button></div>
+		
+	</div> 
+      
+</div>
+<div md-whiteframe="3" >
+<md-card md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}" md-theme-watch >
+	<label>参数定义</label>
+	 <md-grid-list  md-cols="10" md-gutter="8px" md-row-height="fit" ng-repeat="para in paraInfo">
+    		<md-grid-tile md-rowspan="1" md-colspan="2" >{{para.type}} {{para.name}}</md-grid-tile>
+		<md-grid-tile md-rowspan="1" md-colspan="7" layout-align="left">{{para.des}}</md-grid-tile>
+		<md-grid-tile md-rowspan="1" md-colspan="1" ><md-button md-rowspan="1" md-colspan="2" ng-click="onUpdatepara($index)">修改</md-button></md-grid-tile>		
+	</md-grid-list>
+	<md-card-actions layout="row" layout-align="center">
+          <md-button ng-click="onNewpara()">添加</md-button>
+        </md-card-actions>
+</md-card>	
+</div>
+<div md-whiteframe="3" >
+<md-card md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}" md-theme-watch >
+	<label>程序片段</label>	
+	<md-grid-list  md-cols="10" md-gutter="8px" md-row-height="fit" ng-repeat="piece in snippetInfo">
+    		<md-grid-tile md-rowspan="1" md-colspan="1" >{{piece.title}}</md-grid-tile>
+		<md-grid-tile md-rowspan="1" md-colspan="4" >{{piece.chart}}</md-grid-tile>
+		<md-grid-tile md-rowspan="1" md-colspan="4" layout-align="left">{{piece.des}}</md-grid-tile>
+		<md-grid-tile md-rowspan="1" md-colspan="1" ><md-button md-rowspan="1" md-colspan="2" ng-click="onUpdatepara($index)">修改</md-button></md-grid-tile>		
+	</md-grid-list>
+	<md-card-actions layout="row" layout-align="center">
+          <md-button ng-click="onNewCodePiece()">添加</md-button>
+        </md-card-actions>
+</md-card>	
+</div>
+<div md-whiteframe="3" >
+<md-toolbar class="md-primary" ><div class="md-toolbar-tools"><h2 class="md-flex">全局变量</h2></div></md-toolbar>
+<md-content flex layout-padding>
+	<md-card  ng-repeat="gv in gvAll">
+		<md-card-title> <md-card-title-text><span class="md-headline">{{$index+1}}:{{gv.gv_protype}}</span></md-card-title-text></md-card-title>
+		<md-card-content>{{gv.gv_path}}</md-card-content>
+		<md-card-actions layout="column" layout-align="start"><md-button ng-click="onGvRemove($index)">删除</md-button></md-card-actions>
+	</md-card>
+	
+	<md-card-actions layout="row" layout-align="center">
+          <md-button ng-click="onAddSelect('gv')">添加</md-button>
+        </md-card-actions>
+</md-card>	
+</md-content>
+</div>
+<div md-whiteframe="3" >
+<md-toolbar class="md-accent" ><div class="md-toolbar-tools"><h2 class="md-flex">本函数中使用的其他函数</h2></div></md-toolbar>
+<md-content flex layout-padding>
+	<md-card  ng-repeat="callee in allCallee">
+		<md-card-title> <md-card-title-text><span class="md-headline">{{$index+1}}:<a ng-href="fpage.html?id={{callee.id}}">{{callee.fun_protype}}</a></span></md-card-title-text></md-card-title>
+		<md-card-content>{{callee.fun_path}}</md-card-content>
+		<md-card-actions layout="column" layout-align="start"><md-button ng-click="onCalleeRm($index)">删除</md-button></md-card-actions>
+	</md-card>
+	
+	<md-card-actions layout="row" layout-align="center">
+          <md-button ng-click="onAddSelect('callee')">添加</md-button>
+        </md-card-actions>
+</md-card>	
+</md-content>
+</div>
+<div md-whiteframe="3" >
+<md-toolbar class="md-warn" ><div class="md-toolbar-tools"><h2 class="md-flex">其他使用本函数</h2></div></md-toolbar>
+<md-content flex layout-padding>
+	<md-card  ng-repeat="caller in allCaller">
+		<md-card-title> <md-card-title-text><span class="md-headline">{{$index+1}}:<a ng-href="fpage.html?id={{caller.id}}">{{caller.fun_protype}}</a></span></md-card-title-text></md-card-title>
+		<md-card-content>{{caller.fun_path}}</md-card-content>
+		<md-card-actions layout="column" layout-align="start"><md-button ng-click="onCallerRm($index)">删除</md-button></md-card-actions>
+	</md-card>
+	
+	<md-card-actions layout="row" layout-align="center">
+          <md-button ng-click="onAddSelect('caller')">添加</md-button>
+        </md-card-actions>
+</md-card>	
+</md-content>
+</div>
+
+</div> <!-- root div -->
+
+<script src="angular.js"></script>
+<script src="angular-aria.js"></script>
+<script src="angular-animate.js"></script>
+<script src="angular-material.js"></script>
+<script src="common.js"></script>
+<script src="fpage.js"></script>
+
+</body>
+</html>

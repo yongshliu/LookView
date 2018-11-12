@@ -1,0 +1,458 @@
+([
+{tag:"valid_len",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"339",},
+	],
+},
+{tag:"valid_raw_len",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"341",},
+	],
+},
+{tag:"value",ref:
+	[
+		{fp:"ctags/argproc.c",ki:"member",ln:"54",},
+		{fp:"ctags/entry.h",ki:"member",ln:"51",},
+		{fp:"ctags/keyword.c",ki:"member",ln:"36",},
+		{fp:"ctags/readtags.h",ki:"member",ln:"101",},
+	],
+},
+{tag:"variableTagType",ref:
+	[
+		{fp:"ctags/fortran.c",ki:"function",ln:"1281",sig:"(void)",},
+	],
+},
+{tag:"veraKind",ref:
+	[
+		{fp:"ctags/c.c",ki:"typedef",ln:"340",},
+	],
+},
+{tag:"VeraKinds",ref:
+	[
+		{fp:"ctags/c.c",ki:"variable",ln:"342",},
+	],
+},
+{tag:"VeraParser",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"2920",sig:"(void)",},
+	],
+},
+{tag:"veraTagKind",ref:
+	[
+		{fp:"ctags/c.c",ki:"function",ln:"865",sig:"(const tagType type)",},
+	],
+},
+{tag:"verbose",ref:
+	[
+		{fp:"ctags/options.c",ki:"function",ln:"349",sig:"(const char *const format, ...)",},
+		{fp:"ctags/options.h",ki:"member",ln:"95",},
+	],
+},
+{tag:"VerilogKeywordTable",ref:
+	[
+		{fp:"ctags/verilog.c",ki:"variable",ln:"74",},
+	],
+},
+{tag:"verilogKind",ref:
+	[
+		{fp:"ctags/verilog.c",ki:"typedef",ln:"49",},
+	],
+},
+{tag:"VerilogKinds",ref:
+	[
+		{fp:"ctags/verilog.c",ki:"variable",ln:"63",},
+	],
+},
+{tag:"VerilogParser",ref:
+	[
+		{fp:"ctags/verilog.c",ki:"function",ln:"328",sig:"(void)",},
+	],
+},
+{tag:"version",ref:
+	[
+		{fp:"ctags/readtags.c",ki:"member",ln:"84",},
+		{fp:"ctags/readtags.h",ki:"member",ln:"87",},
+	],
+},
+{tag:"VERsion",ref:
+	[
+		{fp:"ctags/main.c",ki:"variable",ln:"98",},
+	],
+},
+{tag:"VERSION_FILES",ref:
+	[
+		{fp:"ctags/maintainer.mak",ki:"macro",ln:"14",},
+	],
+},
+{tag:"vGetc",ref:
+	[
+		{fp:"ctags/verilog.c",ki:"function",ln:"126",sig:"(void)",},
+	],
+},
+{tag:"VhdlKeywordTable",ref:
+	[
+		{fp:"ctags/vhdl.c",ki:"variable",ln:"208",},
+	],
+},
+{tag:"vhdlKind",ref:
+	[
+		{fp:"ctags/vhdl.c",ki:"typedef",ln:"192",},
+	],
+},
+{tag:"VhdlKinds",ref:
+	[
+		{fp:"ctags/vhdl.c",ki:"variable",ln:"194",},
+	],
+},
+{tag:"VhdlParser",ref:
+	[
+		{fp:"ctags/vhdl.c",ki:"function",ln:"823",sig:"(void)",},
+	],
+},
+{tag:"VHDLTAG_COMPONENT",ref:
+	[
+		{fp:"ctags/vhdl.c",ki:"enumerator",ln:"186",},
+	],
+},
+{tag:"VHDLTAG_CONSTANT",ref:
+	[
+		{fp:"ctags/vhdl.c",ki:"enumerator",ln:"181",},
+	],
+},
+{tag:"VHDLTAG_ENTITY",ref:
+	[
+		{fp:"ctags/vhdl.c",ki:"enumerator",ln:"185",},
+	],
+},
+{tag:"VHDLTAG_FUNCTION",ref:
+	[
+		{fp:"ctags/vhdl.c",ki:"enumerator",ln:"188",},
+	],
+},
+{tag:"VHDLTAG_LOCAL",ref:
+	[
+		{fp:"ctags/vhdl.c",ki:"enumerator",ln:"191",},
+	],
+},
+{tag:"VHDLTAG_PACKAGE",ref:
+	[
+		{fp:"ctags/vhdl.c",ki:"enumerator",ln:"190",},
+	],
+},
+{tag:"VHDLTAG_PROCEDURE",ref:
+	[
+		{fp:"ctags/vhdl.c",ki:"enumerator",ln:"189",},
+	],
+},
+{tag:"VHDLTAG_PROTOTYPE",ref:
+	[
+		{fp:"ctags/vhdl.c",ki:"enumerator",ln:"187",},
+	],
+},
+{tag:"VHDLTAG_RECORD",ref:
+	[
+		{fp:"ctags/vhdl.c",ki:"enumerator",ln:"184",},
+	],
+},
+{tag:"VHDLTAG_SUBTYPE",ref:
+	[
+		{fp:"ctags/vhdl.c",ki:"enumerator",ln:"183",},
+	],
+},
+{tag:"VHDLTAG_TYPE",ref:
+	[
+		{fp:"ctags/vhdl.c",ki:"enumerator",ln:"182",},
+	],
+},
+{tag:"VHDLTAG_UNDEFINED",ref:
+	[
+		{fp:"ctags/vhdl.c",ki:"enumerator",ln:"180",},
+	],
+},
+{tag:"vimKind",ref:
+	[
+		{fp:"ctags/vim.c",ki:"typedef",ln:"51",},
+	],
+},
+{tag:"VimKinds",ref:
+	[
+		{fp:"ctags/vim.c",ki:"variable",ln:"53",},
+	],
+},
+{tag:"VimParser",ref:
+	[
+		{fp:"ctags/vim.c",ki:"function",ln:"625",sig:"(void)",},
+	],
+},
+{tag:"VK_CLASS",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"336",},
+	],
+},
+{tag:"VK_DEFINE",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"336",},
+	],
+},
+{tag:"VK_ENUMERATION",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"337",},
+	],
+},
+{tag:"VK_ENUMERATOR",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"336",},
+	],
+},
+{tag:"VK_EXTERN_VARIABLE",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"339",},
+	],
+},
+{tag:"VK_FUNCTION",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"336",},
+	],
+},
+{tag:"VK_LOCAL",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"337",},
+	],
+},
+{tag:"VK_MEMBER",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"337",},
+	],
+},
+{tag:"VK_PROGRAM",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"337",},
+	],
+},
+{tag:"VK_PROTOTYPE",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"337",},
+	],
+},
+{tag:"VK_TASK",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"338",},
+	],
+},
+{tag:"VK_TYPEDEF",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"338",},
+	],
+},
+{tag:"VK_UNDEFINED",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"335",},
+	],
+},
+{tag:"VK_VARIABLE",ref:
+	[
+		{fp:"ctags/c.c",ki:"enumerator",ln:"338",},
+	],
+},
+{tag:"vLine",ref:
+	[
+		{fp:"ctags/entry.h",ki:"member",ln:"45",},
+	],
+},
+{tag:"VMS",ref:
+	[
+		{fp:"ctags/general.h",ki:"macro",ln:"36",},
+	],
+},
+{tag:"voidName",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"variable",ln:"516",},
+	],
+},
+{tag:"vString",ref:
+	[
+		{fp:"ctags/vstring.h",ki:"typedef",ln:"58",},
+	],
+},
+{tag:"vstring",ref:
+	[
+		{fp:"ctags/readtags.c",ki:"typedef",ln:"35",},
+	],
+},
+{tag:"VSTRING_PUTC_MACRO",ref:
+	[
+		{fp:"ctags/vstring.h",ki:"macro",ln:"27",},
+	],
+},
+{tag:"vStringAutoResize",ref:
+	[
+		{fp:"ctags/vstring.c",ki:"function",ln:"46",sig:"(vString *const string)",},
+	],
+},
+{tag:"vStringCat",ref:
+	[
+		{fp:"ctags/vstring.h",ki:"macro",ln:"41",},
+	],
+},
+{tag:"vStringCatS",ref:
+	[
+		{fp:"ctags/vstring.c",ki:"function",ln:"101",sig:"(vString *const string, const char *const s)",},
+	],
+},
+{tag:"vStringChar",ref:
+	[
+		{fp:"ctags/vstring.h",ki:"macro",ln:"45",},
+	],
+},
+{tag:"vStringChop",ref:
+	[
+		{fp:"ctags/vstring.c",ki:"function",ln:"186",sig:"(vString *const string)",},
+	],
+},
+{tag:"vStringClear",ref:
+	[
+		{fp:"ctags/vstring.c",ki:"function",ln:"59",sig:"(vString *const string)",},
+	],
+},
+{tag:"vStringCopy",ref:
+	[
+		{fp:"ctags/vstring.h",ki:"macro",ln:"43",},
+	],
+},
+{tag:"vStringCopyS",ref:
+	[
+		{fp:"ctags/vstring.c",ki:"function",ln:"195",sig:"(vString *const string, const char *const s)",},
+	],
+},
+{tag:"vStringCopyToLower",ref:
+	[
+		{fp:"ctags/vstring.c",ki:"function",ln:"208",sig:"(vString *const dest, const vString *const src)",},
+	],
+},
+{tag:"vStringDelete",ref:
+	[
+		{fp:"ctags/vstring.c",ki:"function",ln:"66",sig:"(vString *const string)",},
+	],
+},
+{tag:"vStringInitialSize",ref:
+	[
+		{fp:"ctags/vstring.c",ki:"variable",ln:"28",},
+	],
+},
+{tag:"vStringItem",ref:
+	[
+		{fp:"ctags/vstring.h",ki:"macro",ln:"37",},
+	],
+},
+{tag:"vStringLast",ref:
+	[
+		{fp:"ctags/vstring.h",ki:"macro",ln:"38",},
+	],
+},
+{tag:"vStringLength",ref:
+	[
+		{fp:"ctags/vstring.h",ki:"macro",ln:"39",},
+	],
+},
+{tag:"vStringLower",ref:
+	[
+		{fp:"ctags/vstring.h",ki:"macro",ln:"47",},
+	],
+},
+{tag:"vStringNCat",ref:
+	[
+		{fp:"ctags/vstring.h",ki:"macro",ln:"42",},
+	],
+},
+{tag:"vStringNCatS",ref:
+	[
+		{fp:"ctags/vstring.c",ki:"function",ln:"131",sig:"( vString *const string, const char *const s, const size_t length)",},
+	],
+},
+{tag:"vStringNCopy",ref:
+	[
+		{fp:"ctags/vstring.h",ki:"macro",ln:"44",},
+	],
+},
+{tag:"vStringNCopyS",ref:
+	[
+		{fp:"ctags/vstring.c",ki:"function",ln:"201",sig:"( vString *const string, const char *const s, const size_t length)",},
+	],
+},
+{tag:"vStringNew",ref:
+	[
+		{fp:"ctags/vstring.c",ki:"function",ln:"76",sig:"(void)",},
+	],
+},
+{tag:"vStringNewCopy",ref:
+	[
+		{fp:"ctags/vstring.c",ki:"function",ln:"117",sig:"(const vString *const string)",},
+	],
+},
+{tag:"vStringNewInit",ref:
+	[
+		{fp:"ctags/vstring.c",ki:"function",ln:"124",sig:"(const char *const s)",},
+	],
+},
+{tag:"vStringPut",ref:
+	[
+		{fp:"ctags/vstring.c",ki:"function",ln:"90",sig:"(vString *const string, const int c)",},
+		{fp:"ctags/vstring.h",ki:"macro",ln:"30",},
+	],
+},
+{tag:"vStringResize",ref:
+	[
+		{fp:"ctags/vstring.c",ki:"function",ln:"34",sig:"(vString *const string, const size_t newSize)",},
+	],
+},
+{tag:"vStringSetLength",ref:
+	[
+		{fp:"ctags/vstring.c",ki:"function",ln:"227",sig:"(vString *const string)",},
+	],
+},
+{tag:"vStringSize",ref:
+	[
+		{fp:"ctags/vstring.h",ki:"macro",ln:"40",},
+	],
+},
+{tag:"vStringStripLeading",ref:
+	[
+		{fp:"ctags/vstring.c",ki:"function",ln:"160",sig:"(vString *const string)",},
+	],
+},
+{tag:"vStringStripNewline",ref:
+	[
+		{fp:"ctags/vstring.c",ki:"function",ln:"148",sig:"(vString *const string)",},
+	],
+},
+{tag:"vStringStripTrailing",ref:
+	[
+		{fp:"ctags/vstring.c",ki:"function",ln:"174",sig:"(vString *const string)",},
+	],
+},
+{tag:"vStringTerminate",ref:
+	[
+		{fp:"ctags/vstring.h",ki:"macro",ln:"46",},
+	],
+},
+{tag:"vStringUpper",ref:
+	[
+		{fp:"ctags/vstring.h",ki:"macro",ln:"48",},
+	],
+},
+{tag:"vStringValue",ref:
+	[
+		{fp:"ctags/vstring.h",ki:"macro",ln:"36",},
+	],
+},
+{tag:"VTAB",ref:
+	[
+		{fp:"ctags/read.h",ki:"enumerator",ln:"56",},
+	],
+},
+{tag:"vUngetc",ref:
+	[
+		{fp:"ctags/verilog.c",ki:"function",ln:"120",sig:"(int c)",},
+	],
+},
+])

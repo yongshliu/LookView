@@ -1,0 +1,607 @@
+([
+{tag:"O_RDWR",ref:
+	[
+		{fp:"ctags/entry.c",ki:"macro",ln:"71",},
+	],
+},
+{tag:"OBJ",ref:
+	[
+		{fp:"ctags/mk_mpw.mak",ki:"macro",ln:"55",},
+	],
+},
+{tag:"OBJECTS",ref:
+	[
+		{fp:"ctags/maintainer.mak",ki:"macro",ln:"41",},
+		{fp:"ctags/mk_manx.mak",ki:"macro",ln:"7",},
+		{fp:"ctags/mk_qdos.mak",ki:"macro",ln:"42",},
+		{fp:"ctags/mk_sas.mak",ki:"macro",ln:"10",},
+		{fp:"ctags/source.mak",ki:"macro",ln:"72",},
+	],
+},
+{tag:"OBJEXT",ref:
+	[
+		{fp:"ctags/maintainer.mak",ki:"macro",ln:"8",},
+		{fp:"ctags/mk_manx.mak",ki:"macro",ln:"5",},
+		{fp:"ctags/mk_qdos.mak",ki:"macro",ln:"35",},
+		{fp:"ctags/mk_sas.mak",ki:"macro",ln:"8",},
+	],
+},
+{tag:"OcaIDENTIFIER",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"enumerator",ln:"92",},
+	],
+},
+{tag:"OcaKEYWORD_and",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"enumerator",ln:"61",},
+	],
+},
+{tag:"OcaKEYWORD_begin",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"enumerator",ln:"62",},
+	],
+},
+{tag:"OcaKEYWORD_class",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"enumerator",ln:"63",},
+	],
+},
+{tag:"OcaKEYWORD_do",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"enumerator",ln:"64",},
+	],
+},
+{tag:"OcaKEYWORD_done",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"enumerator",ln:"65",},
+	],
+},
+{tag:"OcaKEYWORD_else",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"enumerator",ln:"66",},
+	],
+},
+{tag:"OcaKEYWORD_end",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"enumerator",ln:"67",},
+	],
+},
+{tag:"OcaKEYWORD_exception",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"enumerator",ln:"68",},
+	],
+},
+{tag:"OcaKEYWORD_for",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"enumerator",ln:"69",},
+	],
+},
+{tag:"OcaKEYWORD_fun",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"enumerator",ln:"71",},
+	],
+},
+{tag:"OcaKEYWORD_functor",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"enumerator",ln:"70",},
+	],
+},
+{tag:"OcaKEYWORD_if",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"enumerator",ln:"72",},
+	],
+},
+{tag:"OcaKEYWORD_in",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"enumerator",ln:"73",},
+	],
+},
+{tag:"OcaKEYWORD_let",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"enumerator",ln:"74",},
+	],
+},
+{tag:"OcaKEYWORD_match",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"enumerator",ln:"75",},
+	],
+},
+{tag:"OcaKEYWORD_method",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"enumerator",ln:"76",},
+	],
+},
+{tag:"OcaKEYWORD_module",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"enumerator",ln:"77",},
+	],
+},
+{tag:"OcaKEYWORD_mutable",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"enumerator",ln:"78",},
+	],
+},
+{tag:"OcaKEYWORD_object",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"enumerator",ln:"79",},
+	],
+},
+{tag:"OcaKEYWORD_of",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"enumerator",ln:"80",},
+	],
+},
+{tag:"OcaKEYWORD_rec",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"enumerator",ln:"81",},
+	],
+},
+{tag:"OcaKEYWORD_sig",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"enumerator",ln:"82",},
+	],
+},
+{tag:"OcaKEYWORD_struct",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"enumerator",ln:"83",},
+	],
+},
+{tag:"OcaKEYWORD_then",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"enumerator",ln:"84",},
+	],
+},
+{tag:"OcaKEYWORD_try",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"enumerator",ln:"85",},
+	],
+},
+{tag:"OcaKEYWORD_type",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"enumerator",ln:"86",},
+	],
+},
+{tag:"OcaKEYWORD_val",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"enumerator",ln:"87",},
+	],
+},
+{tag:"OcaKEYWORD_virtual",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"enumerator",ln:"88",},
+	],
+},
+{tag:"OcaKEYWORD_while",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"enumerator",ln:"89",},
+	],
+},
+{tag:"OcaKEYWORD_with",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"enumerator",ln:"90",},
+	],
+},
+{tag:"ocaKeywordDesc",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"typedef",ln:"116",},
+	],
+},
+{tag:"OCAML_MAX_STACK_SIZE",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"macro",ln:"34",},
+	],
+},
+{tag:"ocamlContext",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"typedef",ln:"538",},
+	],
+},
+{tag:"ocamlInitialize",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"function",ln:"1823",sig:"(const langType language)",},
+	],
+},
+{tag:"ocamlKeyword",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"typedef",ln:"111",},
+	],
+},
+{tag:"OcamlKeywordTable",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"variable",ln:"120",},
+	],
+},
+{tag:"ocamlKind",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"typedef",ln:"46",},
+	],
+},
+{tag:"OcamlKinds",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"variable",ln:"48",},
+	],
+},
+{tag:"OcamlParser",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"function",ln:"1831",sig:"(void)",},
+	],
+},
+{tag:"ocaToken",ref:
+	[
+		{fp:"ctags/ocaml.c",ki:"typedef",ln:"118",},
+	],
+},
+{tag:"offsets",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"332",},
+	],
+},
+{tag:"offsets_needed",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"370",},
+	],
+},
+{tag:"OP_ALIGN",ref:
+	[
+		{fp:"ctags/asm.c",ki:"enumerator",ln:"36",},
+	],
+},
+{tag:"OP_ALT",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"210",},
+	],
+},
+{tag:"OP_BACK_REF",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"198",},
+	],
+},
+{tag:"OP_CHARSET_RANGE",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"223",},
+	],
+},
+{tag:"OP_CLOSE_BRACKET",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"222",},
+	],
+},
+{tag:"OP_CLOSE_CHAR_CLASS",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"232",},
+	],
+},
+{tag:"OP_CLOSE_COLL_ELEM",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"228",},
+	],
+},
+{tag:"OP_CLOSE_DUP_NUM",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"225",},
+	],
+},
+{tag:"OP_CLOSE_EQUIV_CLASS",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"230",},
+	],
+},
+{tag:"OP_CLOSE_SUBEXP",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"209",},
+	],
+},
+{tag:"OP_COLON_EQUAL",ref:
+	[
+		{fp:"ctags/asm.c",ki:"enumerator",ln:"37",},
+	],
+},
+{tag:"OP_DUP_ASTERISK",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"211",},
+	],
+},
+{tag:"OP_DUP_PLUS",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"219",},
+	],
+},
+{tag:"OP_DUP_QUESTION",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"220",},
+	],
+},
+{tag:"OP_END",ref:
+	[
+		{fp:"ctags/asm.c",ki:"enumerator",ln:"38",},
+	],
+},
+{tag:"OP_ENDM",ref:
+	[
+		{fp:"ctags/asm.c",ki:"enumerator",ln:"39",},
+	],
+},
+{tag:"OP_ENDMACRO",ref:
+	[
+		{fp:"ctags/asm.c",ki:"enumerator",ln:"40",},
+	],
+},
+{tag:"OP_ENDP",ref:
+	[
+		{fp:"ctags/asm.c",ki:"enumerator",ln:"41",},
+	],
+},
+{tag:"OP_ENDS",ref:
+	[
+		{fp:"ctags/asm.c",ki:"enumerator",ln:"42",},
+	],
+},
+{tag:"OP_EQU",ref:
+	[
+		{fp:"ctags/asm.c",ki:"enumerator",ln:"43",},
+	],
+},
+{tag:"OP_EQUAL",ref:
+	[
+		{fp:"ctags/asm.c",ki:"enumerator",ln:"44",},
+	],
+},
+{tag:"OP_LABEL",ref:
+	[
+		{fp:"ctags/asm.c",ki:"enumerator",ln:"45",},
+	],
+},
+{tag:"OP_LAST",ref:
+	[
+		{fp:"ctags/asm.c",ki:"enumerator",ln:"52",},
+	],
+},
+{tag:"OP_MACRO",ref:
+	[
+		{fp:"ctags/asm.c",ki:"enumerator",ln:"46",},
+	],
+},
+{tag:"OP_NON_MATCH_LIST",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"226",},
+	],
+},
+{tag:"OP_NOTSPACE",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"236",},
+	],
+},
+{tag:"OP_NOTWORD",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"234",},
+	],
+},
+{tag:"OP_OPEN_BRACKET",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"221",},
+	],
+},
+{tag:"OP_OPEN_CHAR_CLASS",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"231",},
+	],
+},
+{tag:"OP_OPEN_COLL_ELEM",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"227",},
+	],
+},
+{tag:"OP_OPEN_DUP_NUM",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"224",},
+	],
+},
+{tag:"OP_OPEN_EQUIV_CLASS",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"229",},
+	],
+},
+{tag:"OP_OPEN_SUBEXP",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"208",},
+	],
+},
+{tag:"OP_PERIOD",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"199",},
+	],
+},
+{tag:"OP_PROC",ref:
+	[
+		{fp:"ctags/asm.c",ki:"enumerator",ln:"47",},
+	],
+},
+{tag:"OP_RECORD",ref:
+	[
+		{fp:"ctags/asm.c",ki:"enumerator",ln:"48",},
+	],
+},
+{tag:"OP_SECTIONS",ref:
+	[
+		{fp:"ctags/asm.c",ki:"enumerator",ln:"49",},
+	],
+},
+{tag:"OP_SET",ref:
+	[
+		{fp:"ctags/asm.c",ki:"enumerator",ln:"50",},
+	],
+},
+{tag:"OP_SPACE",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"235",},
+	],
+},
+{tag:"OP_STRUCT",ref:
+	[
+		{fp:"ctags/asm.c",ki:"enumerator",ln:"51",},
+	],
+},
+{tag:"OP_UNDEFINED",ref:
+	[
+		{fp:"ctags/asm.c",ki:"enumerator",ln:"35",},
+	],
+},
+{tag:"OP_UTF8_PERIOD",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"202",},
+	],
+},
+{tag:"OP_WORD",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"enumerator",ln:"233",},
+	],
+},
+{tag:"open",ref:
+	[
+		{fp:"ctags/entry.c",ki:"macro",ln:"69",},
+	],
+},
+{tag:"opendir",ref:
+	[
+		{fp:"ctags/mac.c",ki:"function",ln:"75",sig:"(const char *dirname)",},
+	],
+},
+{tag:"opened",ref:
+	[
+		{fp:"ctags/readtags.h",ki:"member",ln:"59",},
+	],
+},
+{tag:"openTagFile",ref:
+	[
+		{fp:"ctags/entry.c",ki:"function",ln:"377",sig:"(void)",},
+	],
+},
+{tag:"OPERATIONAL",ref:
+	[
+		{fp:"DETAILS",ki:"anchor",ln:"ctags/ctags.html",},
+	],
+},
+{tag:"operator",ref:
+	[
+		{fp:"ctags/asm.c",ki:"member",ln:"56",},
+	],
+},
+{tag:"operatorKind",ref:
+	[
+		{fp:"ctags/asm.c",ki:"function",ln:"181",sig:"( const vString *const operator, boolean *const found)",},
+	],
+},
+{tag:"opKeyword",ref:
+	[
+		{fp:"ctags/asm.c",ki:"typedef",ln:"53",},
+	],
+},
+{tag:"opKind",ref:
+	[
+		{fp:"ctags/asm.c",ki:"typedef",ln:"63",},
+	],
+},
+{tag:"OpKinds",ref:
+	[
+		{fp:"ctags/asm.c",ki:"variable",ln:"96",},
+	],
+},
+{tag:"opr",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"300",},
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"690",},
+	],
+},
+{tag:"OPT",ref:
+	[
+		{fp:"ctags/maintainer.mak",ki:"macro",ln:"72",},
+		{fp:"ctags/mk_bc5.mak",ki:"macro",ln:"15",},
+		{fp:"ctags/mk_mingw.mak",ki:"macro",ln:"15",},
+		{fp:"ctags/mk_mingw.mak",ki:"macro",ln:"16",},
+		{fp:"ctags/mk_mvc.mak",ki:"macro",ln:"10",},
+	],
+},
+{tag:"opt_subexp",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"308",},
+	],
+},
+{tag:"OPTIMIZE",ref:
+	[
+		{fp:"ctags/mk_bc3.mak",ki:"macro",ln:"20",},
+	],
+},
+{tag:"optimize_subexps",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"function",ln:"1240",sig:"(void *extra, bin_tree_t *node)",},
+	],
+},
+{tag:"optimize_utf8",ref:
+	[
+		{fp:"ctags/gnu_regex/regcomp.c",ki:"function",ln:"1042",sig:"(re_dfa_t *dfa)",},
+	],
+},
+{tag:"Option",ref:
+	[
+		{fp:"ctags/options.c",ki:"variable",ln:"104",},
+	],
+},
+{tag:"OPTION_LONG",ref:
+	[
+		{fp:"ctags/options.h",ki:"enumerator",ln:"36",},
+	],
+},
+{tag:"OPTION_NONE",ref:
+	[
+		{fp:"ctags/options.h",ki:"enumerator",ln:"36",},
+	],
+},
+{tag:"OPTION_SHORT",ref:
+	[
+		{fp:"ctags/options.h",ki:"enumerator",ln:"36",},
+	],
+},
+{tag:"OPTION_WRITE",ref:
+	[
+		{fp:"ctags/options.c",ki:"macro",ln:"25",},
+		{fp:"ctags/parse.c",ki:"macro",ln:"23",},
+	],
+},
+{tag:"optionDescription",ref:
+	[
+		{fp:"ctags/options.c",ki:"typedef",ln:"74",},
+	],
+},
+{tag:"OptionFiles",ref:
+	[
+		{fp:"ctags/options.c",ki:"variable",ln:"95",},
+	],
+},
+{tag:"OPTIONS",ref:
+	[
+		{fp:"ctags/ctags.html",ki:"anchor",ln:"130",},
+		{fp:"ctags/mk_manx.mak",ki:"macro",ln:"52",},
+	],
+},
+{tag:"optionType",ref:
+	[
+		{fp:"ctags/options.h",ki:"typedef",ln:"36",},
+	],
+},
+{tag:"optionValues",ref:
+	[
+		{fp:"ctags/options.h",ki:"typedef",ln:"115",},
+	],
+},
+{tag:"org_indices",ref:
+	[
+		{fp:"ctags/gnu_regex/regex_internal.h",ki:"member",ln:"625",},
+	],
+},
+{tag:"OUTPUT_PATH_SEPARATOR",ref:
+	[
+		{fp:"ctags/routines.h",ki:"macro",ln:"40",},
+		{fp:"ctags/routines.h",ki:"macro",ln:"42",},
+	],
+},
+])

@@ -1,0 +1,1228 @@
+([
+{tag:"l",ref:
+	[
+		{fp:"ofono/gatchat/gatresult.h",ki:"member",ln:"40",},
+		{fp:"ofono/gatchat/gatserver.c",ki:"member",ln:"97",},
+		{fp:"ofono/gatchat/ppp.h",ki:"member",ln:"56",},
+	],
+},
+{tag:"l2cap_bind",ref:
+	[
+		{fp:"ofono/btio/btio.c",ki:"function",ln:"260",sig:"(int sock, const bdaddr_t *src, uint16_t psm, uint16_t cid, GError **err)",},
+	],
+},
+{tag:"l2cap_connect",ref:
+	[
+		{fp:"ofono/btio/btio.c",ki:"function",ln:"283",sig:"(int sock, const bdaddr_t *dst, uint16_t psm, uint16_t cid)",},
+	],
+},
+{tag:"l2cap_get",ref:
+	[
+		{fp:"ofono/btio/btio.c",ki:"function",ln:"840",sig:"(int sock, GError **err, BtIOOption opt1, va_list args)",},
+	],
+},
+{tag:"l2cap_get_flushable",ref:
+	[
+		{fp:"ofono/btio/btio.c",ki:"function",ln:"811",sig:"(int sock, gboolean *flushable)",},
+	],
+},
+{tag:"l2cap_get_info",ref:
+	[
+		{fp:"ofono/btio/btio.c",ki:"function",ln:"793",sig:"(int sock, uint16_t *handle, uint8_t *dev_class)",},
+	],
+},
+{tag:"l2cap_get_lm",ref:
+	[
+		{fp:"ofono/btio/btio.c",ki:"function",ln:"421",sig:"(int sock, int *sec_level)",},
+	],
+},
+{tag:"l2cap_set",ref:
+	[
+		{fp:"ofono/btio/btio.c",ki:"function",ln:"529",sig:"(int sock, int sec_level, uint16_t imtu, uint16_t omtu, uint8_t mode, int master, int flushable, uint32_t priority, GError **err)",},
+	],
+},
+{tag:"l2cap_set_flushable",ref:
+	[
+		{fp:"ofono/btio/btio.c",ki:"function",ln:"495",sig:"(int sock, gboolean flushable)",},
+	],
+},
+{tag:"l2cap_set_lm",ref:
+	[
+		{fp:"ofono/btio/btio.c",ki:"function",ln:"354",sig:"(int sock, int level)",},
+	],
+},
+{tag:"l2cap_set_master",ref:
+	[
+		{fp:"ofono/btio/btio.c",ki:"function",ln:"304",sig:"(int sock, int master)",},
+	],
+},
+{tag:"l_features",ref:
+	[
+		{fp:"ofono/src/emulator.c",ki:"member",ln:"46",},
+	],
+},
+{tag:"label",ref:
+	[
+		{fp:"ofono/plugins/udevng.c",ki:"member",ln:"56",},
+		{fp:"ofono/src/simutil.h",ki:"member",ln:"298",},
+	],
+},
+{tag:"lac",ref:
+	[
+		{fp:"ofono/drivers/atmodem/network-registration.c",ki:"member",ln:"70",},
+		{fp:"ofono/drivers/isimodem/network-registration.c",ki:"member",ln:"53",},
+		{fp:"ofono/src/cbs.c",ki:"member",ln:"73",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1128",},
+	],
+},
+{tag:"lac_tac",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"759",},
+	],
+},
+{tag:"lac_tac_high",ref:
+	[
+		{fp:"ofono/src/simutil.c",ki:"member",ln:"52",},
+	],
+},
+{tag:"lac_tac_low",ref:
+	[
+		{fp:"ofono/src/simutil.c",ki:"member",ln:"51",},
+	],
+},
+{tag:"language",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1285",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1514",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"14860",},
+	],
+},
+{tag:"language_notification",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1434",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1601",},
+	],
+},
+{tag:"language_notification_111",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"14863",},
+	],
+},
+{tag:"language_notification_121",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"14868",},
+	],
+},
+{tag:"language_notification_data_111",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"14872",},
+	],
+},
+{tag:"language_notification_data_121",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"14879",},
+	],
+},
+{tag:"language_notification_response_111",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19728",},
+	],
+},
+{tag:"language_notification_response_121",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19749",},
+	],
+},
+{tag:"language_notification_response_data_111",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19734",},
+	],
+},
+{tag:"language_notification_response_data_121",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19755",},
+	],
+},
+{tag:"language_notification_test",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"struct",ln:"14856",},
+	],
+},
+{tag:"language_prefs",ref:
+	[
+		{fp:"ofono/src/sim.c",ki:"member",ln:"57",},
+	],
+},
+{tag:"language_prefs_update",ref:
+	[
+		{fp:"ofono/src/sim.c",ki:"member",ln:"60",},
+	],
+},
+{tag:"language_selection",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1688",},
+	],
+},
+{tag:"last",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1746",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1752",},
+	],
+},
+{tag:"last_context_id",ref:
+	[
+		{fp:"ofono/src/gprs.c",ki:"member",ln:"85",},
+	],
+},
+{tag:"last_line",ref:
+	[
+		{fp:"ofono/gatchat/gatserver.c",ki:"member",ln:"123",},
+	],
+},
+{tag:"last_result",ref:
+	[
+		{fp:"ofono/gatchat/gatserver.c",ki:"member",ln:"125",},
+	],
+},
+{tag:"last_utid",ref:
+	[
+		{fp:"ofono/gisi/modem.c",ki:"member",ln:"51",},
+	],
+},
+{tag:"launch_browser",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1435",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1602",},
+	],
+},
+{tag:"launch_browser_111",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"14925",},
+	],
+},
+{tag:"launch_browser_121",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"14932",},
+	],
+},
+{tag:"launch_browser_131",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"14940",},
+	],
+},
+{tag:"launch_browser_141",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"14945",},
+	],
+},
+{tag:"launch_browser_211",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"14953",},
+	],
+},
+{tag:"launch_browser_221",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"14960",},
+	],
+},
+{tag:"launch_browser_231",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"14967",},
+	],
+},
+{tag:"launch_browser_311",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"14971",},
+	],
+},
+{tag:"launch_browser_411",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"14980",},
+	],
+},
+{tag:"launch_browser_421",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"14988",},
+	],
+},
+{tag:"launch_browser_5101",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15179",},
+	],
+},
+{tag:"launch_browser_5102",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15187",},
+	],
+},
+{tag:"launch_browser_511",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"14996",},
+	],
+},
+{tag:"launch_browser_512",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15004",},
+	],
+},
+{tag:"launch_browser_521",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15011",},
+	],
+},
+{tag:"launch_browser_522",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15019",},
+	],
+},
+{tag:"launch_browser_531",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15026",},
+	],
+},
+{tag:"launch_browser_532",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15034",},
+	],
+},
+{tag:"launch_browser_541",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15041",},
+	],
+},
+{tag:"launch_browser_542",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15049",},
+	],
+},
+{tag:"launch_browser_543",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15057",},
+	],
+},
+{tag:"launch_browser_551",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15064",},
+	],
+},
+{tag:"launch_browser_552",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15072",},
+	],
+},
+{tag:"launch_browser_553",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15080",},
+	],
+},
+{tag:"launch_browser_561",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15087",},
+	],
+},
+{tag:"launch_browser_562",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15095",},
+	],
+},
+{tag:"launch_browser_563",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15103",},
+	],
+},
+{tag:"launch_browser_571",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15110",},
+	],
+},
+{tag:"launch_browser_572",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15118",},
+	],
+},
+{tag:"launch_browser_573",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15126",},
+	],
+},
+{tag:"launch_browser_581",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15133",},
+	],
+},
+{tag:"launch_browser_582",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15141",},
+	],
+},
+{tag:"launch_browser_583",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15149",},
+	],
+},
+{tag:"launch_browser_591",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15156",},
+	],
+},
+{tag:"launch_browser_592",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15164",},
+	],
+},
+{tag:"launch_browser_593",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15172",},
+	],
+},
+{tag:"launch_browser_611",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15194",},
+	],
+},
+{tag:"launch_browser_711",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15199",},
+	],
+},
+{tag:"launch_browser_data_111",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15204",},
+	],
+},
+{tag:"launch_browser_data_121",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15211",},
+	],
+},
+{tag:"launch_browser_data_131",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15219",},
+	],
+},
+{tag:"launch_browser_data_141",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15225",},
+	],
+},
+{tag:"launch_browser_data_211",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15236",},
+	],
+},
+{tag:"launch_browser_data_221",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15243",},
+	],
+},
+{tag:"launch_browser_data_231",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15250",},
+	],
+},
+{tag:"launch_browser_data_311",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15256",},
+	],
+},
+{tag:"launch_browser_data_411",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15263",},
+	],
+},
+{tag:"launch_browser_data_421",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15274",},
+	],
+},
+{tag:"launch_browser_data_5101",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15513",},
+	],
+},
+{tag:"launch_browser_data_5102",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15524",},
+	],
+},
+{tag:"launch_browser_data_511",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15285",},
+	],
+},
+{tag:"launch_browser_data_512",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15296",},
+	],
+},
+{tag:"launch_browser_data_521",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15303",},
+	],
+},
+{tag:"launch_browser_data_522",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15314",},
+	],
+},
+{tag:"launch_browser_data_531",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15321",},
+	],
+},
+{tag:"launch_browser_data_532",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15332",},
+	],
+},
+{tag:"launch_browser_data_541",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15339",},
+	],
+},
+{tag:"launch_browser_data_542",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15350",},
+	],
+},
+{tag:"launch_browser_data_543",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15361",},
+	],
+},
+{tag:"launch_browser_data_551",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15368",},
+	],
+},
+{tag:"launch_browser_data_552",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15379",},
+	],
+},
+{tag:"launch_browser_data_553",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15390",},
+	],
+},
+{tag:"launch_browser_data_561",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15397",},
+	],
+},
+{tag:"launch_browser_data_562",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15408",},
+	],
+},
+{tag:"launch_browser_data_563",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15419",},
+	],
+},
+{tag:"launch_browser_data_571",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15426",},
+	],
+},
+{tag:"launch_browser_data_572",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15437",},
+	],
+},
+{tag:"launch_browser_data_573",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15448",},
+	],
+},
+{tag:"launch_browser_data_581",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15455",},
+	],
+},
+{tag:"launch_browser_data_582",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15466",},
+	],
+},
+{tag:"launch_browser_data_583",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15477",},
+	],
+},
+{tag:"launch_browser_data_591",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15484",},
+	],
+},
+{tag:"launch_browser_data_592",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15495",},
+	],
+},
+{tag:"launch_browser_data_593",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15506",},
+	],
+},
+{tag:"launch_browser_data_611",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15531",},
+	],
+},
+{tag:"launch_browser_data_711",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"15538",},
+	],
+},
+{tag:"launch_browser_response_111",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19770",},
+	],
+},
+{tag:"launch_browser_response_211",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19790",},
+	],
+},
+{tag:"launch_browser_response_221",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19810",},
+	],
+},
+{tag:"launch_browser_response_231",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19830",},
+	],
+},
+{tag:"launch_browser_response_411b",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19852",},
+	],
+},
+{tag:"launch_browser_response_data_111",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19775",},
+	],
+},
+{tag:"launch_browser_response_data_211",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19795",},
+	],
+},
+{tag:"launch_browser_response_data_221",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19815",},
+	],
+},
+{tag:"launch_browser_response_data_231",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19835",},
+	],
+},
+{tag:"launch_browser_response_data_411b",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"variable",ln:"19857",},
+	],
+},
+{tag:"launch_browser_test",ref:
+	[
+		{fp:"ofono/unit/test-stkutil.c",ki:"struct",ln:"14907",},
+	],
+},
+{tag:"layout",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1044",},
+	],
+},
+{tag:"lc",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"865",},
+	],
+},
+{tag:"lcp",ref:
+	[
+		{fp:"ofono/gatchat/gatppp.c",ki:"member",ln:"63",},
+	],
+},
+{tag:"lcp_data",ref:
+	[
+		{fp:"ofono/gatchat/ppp_lcp.c",ki:"struct",ln:"69",},
+	],
+},
+{tag:"lcp_down",ref:
+	[
+		{fp:"ofono/gatchat/ppp_lcp.c",ki:"function",ln:"140",sig:"(struct pppcp_data *pppcp)",},
+	],
+},
+{tag:"lcp_finished",ref:
+	[
+		{fp:"ofono/gatchat/ppp_lcp.c",ki:"function",ln:"153",sig:"(struct pppcp_data *pppcp)",},
+	],
+},
+{tag:"lcp_free",ref:
+	[
+		{fp:"ofono/gatchat/ppp_lcp.c",ki:"function",ln:"367",sig:"(struct pppcp_data *pppcp)",},
+	],
+},
+{tag:"lcp_generate_config_options",ref:
+	[
+		{fp:"ofono/gatchat/ppp_lcp.c",ki:"function",ln:"77",sig:"(struct lcp_data *lcp)",},
+	],
+},
+{tag:"lcp_new",ref:
+	[
+		{fp:"ofono/gatchat/ppp_lcp.c",ki:"function",ln:"375",sig:"(GAtPPP *ppp, gboolean is_server)",},
+	],
+},
+{tag:"lcp_options",ref:
+	[
+		{fp:"ofono/gatchat/ppp_lcp.c",ki:"enum",ln:"49",},
+	],
+},
+{tag:"lcp_proto",ref:
+	[
+		{fp:"ofono/gatchat/ppp_lcp.c",ki:"variable",ln:"354",},
+	],
+},
+{tag:"LCP_PROTOCOL",ref:
+	[
+		{fp:"ofono/gatchat/ppp.h",ki:"macro",ln:"24",},
+	],
+},
+{tag:"lcp_rca",ref:
+	[
+		{fp:"ofono/gatchat/ppp_lcp.c",ki:"function",ln:"158",sig:"(struct pppcp_data *pppcp, const struct pppcp_packet *packet)",},
+	],
+},
+{tag:"lcp_rcn_nak",ref:
+	[
+		{fp:"ofono/gatchat/ppp_lcp.c",ki:"function",ln:"184",sig:"(struct pppcp_data *pppcp, const struct pppcp_packet *packet)",},
+	],
+},
+{tag:"lcp_rcn_rej",ref:
+	[
+		{fp:"ofono/gatchat/ppp_lcp.c",ki:"function",ln:"216",sig:"(struct pppcp_data *pppcp, const struct pppcp_packet *packet)",},
+	],
+},
+{tag:"lcp_rcr",ref:
+	[
+		{fp:"ofono/gatchat/ppp_lcp.c",ki:"function",ln:"222",sig:"(struct pppcp_data *pppcp, const struct pppcp_packet *packet, guint8 **new_options, guint16 *new_len)",},
+	],
+},
+{tag:"lcp_reset_config_options",ref:
+	[
+		{fp:"ofono/gatchat/ppp_lcp.c",ki:"function",ln:"122",sig:"(struct lcp_data *lcp)",},
+	],
+},
+{tag:"lcp_set_acfc_enabled",ref:
+	[
+		{fp:"ofono/gatchat/ppp_lcp.c",ki:"function",ln:"398",sig:"(struct pppcp_data *pppcp, gboolean enabled)",},
+	],
+},
+{tag:"lcp_set_pfc_enabled",ref:
+	[
+		{fp:"ofono/gatchat/ppp_lcp.c",ki:"function",ln:"415",sig:"(struct pppcp_data *pppcp, gboolean enabled)",},
+	],
+},
+{tag:"LCP_SUPPORTED_CODES",ref:
+	[
+		{fp:"ofono/gatchat/ppp_lcp.c",ki:"macro",ln:"37",},
+	],
+},
+{tag:"lcp_up",ref:
+	[
+		{fp:"ofono/gatchat/ppp_lcp.c",ki:"function",ln:"132",sig:"(struct pppcp_data *pppcp)",},
+	],
+},
+{tag:"le",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"868",},
+	],
+},
+{tag:"left",ref:
+	[
+		{fp:"ofono/src/voicecall.c",ki:"member",ln:"106",},
+	],
+},
+{tag:"len",ref:
+	[
+		{fp:"ofono/drivers/isimodem/sms.c",ki:"member",ln:"100",},
+		{fp:"ofono/drivers/isimodem/sms.c",ki:"member",ln:"95",},
+		{fp:"ofono/drivers/isimodem/ussd.c",ki:"member",ln:"53",},
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"94",},
+		{fp:"ofono/gatchat/gatchat.c",ki:"member",ln:"117",},
+		{fp:"ofono/gatchat/ppp_cp.h",ki:"member",ln:"64",},
+		{fp:"ofono/gisi/message.h",ki:"member",ln:"45",},
+		{fp:"ofono/src/cdma-smsutil.c",ki:"member",ln:"50",},
+		{fp:"ofono/src/simutil.h",ki:"member",ln:"306",},
+		{fp:"ofono/src/simutil.h",ki:"member",ln:"316",},
+		{fp:"ofono/src/simutil.h",ki:"member",ln:"327",},
+		{fp:"ofono/src/simutil.h",ki:"member",ln:"340",},
+		{fp:"ofono/src/simutil.h",ki:"member",ln:"347",},
+		{fp:"ofono/src/stkutil.c",ki:"member",ln:"49",},
+		{fp:"ofono/src/stkutil.c",ki:"member",ln:"56",},
+		{fp:"ofono/src/stkutil.c",ki:"member",ln:"73",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1018",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1024",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1035",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1046",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1060",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1075",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1084",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1093",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1102",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1121",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1472",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"648",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"673",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"689",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"695",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"740",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"752",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"774",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"783",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"791",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"801",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"834",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"853",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"878",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"929",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"959",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"974",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"981",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"988",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"995",},
+		{fp:"ofono/unit/test-sms.c",ki:"member",ln:"1691",},
+		{fp:"ofono/unit/test-sms.c",ki:"member",ln:"792",},
+		{fp:"ofono/unit/test-sms.c",ki:"member",ln:"801",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"22078",},
+	],
+},
+{tag:"LEN_MAX",ref:
+	[
+		{fp:"ofono/src/phonebook.c",ki:"macro",ln:"40",},
+	],
+},
+{tag:"length",ref:
+	[
+		{fp:"ofono/drivers/isimodem/sim.c",ki:"member",ln:"60",},
+		{fp:"ofono/drivers/isimodem/sim.c",ki:"member",ln:"76",},
+		{fp:"ofono/drivers/isimodem/uicc-util.h",ki:"member",ln:"38",},
+		{fp:"ofono/drivers/isimodem/uicc.c",ki:"member",ln:"75",},
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"109",},
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"130",},
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"137",},
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"79",},
+		{fp:"ofono/drivers/qmimodem/qmi.c",ki:"member",ln:"87",},
+		{fp:"ofono/gatchat/ppp_auth.c",ki:"member",ln:"41",},
+		{fp:"ofono/gatchat/ppp_auth.c",ki:"member",ln:"60",},
+		{fp:"ofono/gatchat/ppp_cp.h",ki:"member",ln:"28",},
+		{fp:"ofono/gatchat/ppp_cp.h",ki:"member",ln:"55",},
+		{fp:"ofono/src/simfs.c",ki:"member",ln:"66",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1529",},
+	],
+},
+{tag:"line_pos",ref:
+	[
+		{fp:"ofono/gatchat/gatresult.h",ki:"member",ln:"42",},
+	],
+},
+{tag:"lines",ref:
+	[
+		{fp:"ofono/gatchat/gatresult.h",ki:"member",ln:"30",},
+	],
+},
+{tag:"link",ref:
+	[
+		{fp:"ofono/plugins/isiusb.c",ki:"member",ln:"67",},
+		{fp:"ofono/plugins/nokia-gpio.c",ki:"member",ln:"76",},
+		{fp:"ofono/plugins/u8500.c",ki:"member",ln:"68",},
+	],
+},
+{tag:"link_conf_cb",ref:
+	[
+		{fp:"ofono/drivers/isimodem/gprs-context.c",ki:"function",ln:"417",sig:"(const GIsiMessage *msg, void *opaque)",},
+	],
+},
+{tag:"linkstate",ref:
+	[
+		{fp:"ofono/plugins/isiusb.c",ki:"member",ln:"68",},
+		{fp:"ofono/plugins/u8500.c",ki:"member",ln:"69",},
+	],
+},
+{tag:"linktop_data",ref:
+	[
+		{fp:"ofono/plugins/linktop.c",ki:"struct",ln:"53",},
+	],
+},
+{tag:"linktop_debug",ref:
+	[
+		{fp:"ofono/plugins/linktop.c",ki:"function",ln:"84",sig:"(const char *str, void *user_data)",},
+	],
+},
+{tag:"linktop_disable",ref:
+	[
+		{fp:"ofono/plugins/linktop.c",ki:"function",ln:"182",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"linktop_driver",ref:
+	[
+		{fp:"ofono/plugins/linktop.c",ki:"variable",ln:"283",},
+	],
+},
+{tag:"linktop_enable",ref:
+	[
+		{fp:"ofono/plugins/linktop.c",ki:"function",ln:"142",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"linktop_exit",ref:
+	[
+		{fp:"ofono/plugins/linktop.c",ki:"function",ln:"300",sig:"(void)",},
+	],
+},
+{tag:"linktop_init",ref:
+	[
+		{fp:"ofono/plugins/linktop.c",ki:"function",ln:"295",sig:"(void)",},
+	],
+},
+{tag:"linktop_post_online",ref:
+	[
+		{fp:"ofono/plugins/linktop.c",ki:"function",ln:"265",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"linktop_post_sim",ref:
+	[
+		{fp:"ofono/plugins/linktop.c",ki:"function",ln:"245",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"linktop_pre_sim",ref:
+	[
+		{fp:"ofono/plugins/linktop.c",ki:"function",ln:"231",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"linktop_probe",ref:
+	[
+		{fp:"ofono/plugins/linktop.c",ki:"function",ln:"58",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"linktop_remove",ref:
+	[
+		{fp:"ofono/plugins/linktop.c",ki:"function",ln:"73",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"linktop_set_online",ref:
+	[
+		{fp:"ofono/plugins/linktop.c",ki:"function",ln:"213",sig:"(struct ofono_modem *modem, ofono_bool_t online, ofono_modem_online_cb_t cb, void *user_data)",},
+	],
+},
+{tag:"list",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1034",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1059",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1750",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"773",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"782",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"800",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"833",},
+	],
+},
+{tag:"list_apps",ref:
+	[
+		{fp:"ofono/include/sim-auth.h",ki:"member",ln:"43",},
+	],
+},
+{tag:"list_handler_for_type",ref:
+	[
+		{fp:"ofono/src/stkutil.c",ki:"function",ln:"2332",sig:"(enum stk_data_object_type type)",},
+	],
+},
+{tag:"list_operators",ref:
+	[
+		{fp:"ofono/include/netreg.h",ki:"member",ln:"80",},
+	],
+},
+{tag:"listen_again",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"function",ln:"589",sig:"(gpointer user_data)",},
+	],
+},
+{tag:"LISTEN_PORT",ref:
+	[
+		{fp:"ofono/tools/stktest.c",ki:"macro",ln:"50",},
+	],
+},
+{tag:"listener_id",ref:
+	[
+		{fp:"ofono/gdbus/watch.c",ki:"variable",ln:"43",},
+	],
+},
+{tag:"listeners",ref:
+	[
+		{fp:"ofono/gdbus/watch.c",ki:"variable",ln:"44",},
+	],
+},
+{tag:"listing",ref:
+	[
+		{fp:"ofono/gatchat/gatchat.c",ki:"member",ln:"56",},
+	],
+},
+{tag:"load_context",ref:
+	[
+		{fp:"ofono/src/gprs.c",ki:"function",ln:"2766",sig:"(struct ofono_gprs *gprs, const char *group)",},
+	],
+},
+{tag:"loc_info",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1120",},
+	],
+},
+{tag:"local",ref:
+	[
+		{fp:"ofono/src/handsfree-audio.c",ki:"member",ln:"49",},
+		{fp:"ofono/src/history.c",ki:"member",ln:"54",},
+	],
+},
+{tag:"local_addr",ref:
+	[
+		{fp:"ofono/gatchat/ppp_ipcp.c",ki:"member",ln:"72",},
+		{fp:"ofono/gatchat/ppp_ipv6cp.c",ki:"member",ln:"67",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1309",},
+		{fp:"ofono/unit/test-stkutil.c",ki:"member",ln:"15588",},
+	],
+},
+{tag:"local_connection",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1713",},
+	],
+},
+{tag:"local_options",ref:
+	[
+		{fp:"ofono/gatchat/ppp_cp.c",ki:"member",ln:"182",},
+	],
+},
+{tag:"local_options_len",ref:
+	[
+		{fp:"ofono/gatchat/ppp_cp.c",ki:"member",ln:"183",},
+	],
+},
+{tag:"local_release",ref:
+	[
+		{fp:"ofono/drivers/atmodem/voicecall.c",ki:"member",ln:"67",},
+		{fp:"ofono/drivers/hfpmodem/voicecall.c",ki:"member",ln:"61",},
+		{fp:"ofono/drivers/ifxmodem/voicecall.c",ki:"member",ln:"49",},
+		{fp:"ofono/drivers/stemodem/voicecall.c",ki:"member",ln:"61",},
+	],
+},
+{tag:"localhfp_disable",ref:
+	[
+		{fp:"ofono/plugins/phonesim.c",ki:"function",ln:"941",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"localhfp_driver",ref:
+	[
+		{fp:"ofono/plugins/phonesim.c",ki:"variable",ln:"964",},
+	],
+},
+{tag:"localhfp_enable",ref:
+	[
+		{fp:"ofono/plugins/phonesim.c",ki:"function",ln:"894",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"localhfp_pre_sim",ref:
+	[
+		{fp:"ofono/plugins/phonesim.c",ki:"function",ln:"951",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"localhfp_probe",ref:
+	[
+		{fp:"ofono/plugins/phonesim.c",ki:"function",ln:"851",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"localhfp_remove",ref:
+	[
+		{fp:"ofono/plugins/phonesim.c",ki:"function",ln:"866",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"location",ref:
+	[
+		{fp:"ofono/drivers/isimodem/sms.c",ki:"member",ln:"67",},
+		{fp:"ofono/src/network.c",ki:"member",ln:"63",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1507",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1631",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1659",},
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1719",},
+	],
+},
+{tag:"location_data",ref:
+	[
+		{fp:"ofono/drivers/qmimodem/location-reporting.c",ki:"struct",ln:"39",},
+	],
+},
+{tag:"location_infos",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1534",},
+	],
+},
+{tag:"location_reporting_disable_cb",ref:
+	[
+		{fp:"ofono/src/location-reporting.c",ki:"function",ln:"144",sig:"(const struct ofono_error *error, void *data)",},
+	],
+},
+{tag:"location_reporting_enable_cb",ref:
+	[
+		{fp:"ofono/src/location-reporting.c",ki:"function",ln:"167",sig:"(const struct ofono_error *error, int fd, void *data)",},
+	],
+},
+{tag:"location_reporting_get_properties",ref:
+	[
+		{fp:"ofono/src/location-reporting.c",ki:"function",ln:"65",sig:"(DBusConnection *conn, DBusMessage *msg, void *data)",},
+	],
+},
+{tag:"LOCATION_REPORTING_INTERFACE",ref:
+	[
+		{fp:"ofono/tools/get-location.c",ki:"macro",ln:"26",},
+	],
+},
+{tag:"location_reporting_methods",ref:
+	[
+		{fp:"ofono/src/location-reporting.c",ki:"variable",ln:"242",},
+	],
+},
+{tag:"location_reporting_release",ref:
+	[
+		{fp:"ofono/src/location-reporting.c",ki:"function",ln:"214",sig:"(DBusConnection *conn, DBusMessage *msg, void *data)",},
+	],
+},
+{tag:"location_reporting_remove",ref:
+	[
+		{fp:"ofono/src/location-reporting.c",ki:"function",ln:"302",sig:"(struct ofono_atom *atom)",},
+	],
+},
+{tag:"location_reporting_request",ref:
+	[
+		{fp:"ofono/src/location-reporting.c",ki:"function",ln:"196",sig:"(DBusConnection *conn, DBusMessage *msg, void *data)",},
+	],
+},
+{tag:"location_reporting_signals",ref:
+	[
+		{fp:"ofono/src/location-reporting.c",ki:"variable",ln:"254",},
+	],
+},
+{tag:"location_reporting_type_to_string",ref:
+	[
+		{fp:"ofono/src/location-reporting.c",ki:"function",ln:"54",sig:"( enum ofono_location_reporting_type type)",},
+	],
+},
+{tag:"location_reporting_unregister",ref:
+	[
+		{fp:"ofono/src/location-reporting.c",ki:"function",ln:"290",sig:"(struct ofono_atom *atom)",},
+	],
+},
+{tag:"location_status",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1686",},
+	],
+},
+{tag:"location_watch",ref:
+	[
+		{fp:"ofono/src/cbs.c",ki:"member",ln:"64",},
+	],
+},
+{tag:"locations",ref:
+	[
+		{fp:"ofono/src/stkutil.h",ki:"member",ln:"1533",},
+	],
+},
+{tag:"lock",ref:
+	[
+		{fp:"ofono/gdbus/watch.c",ki:"member",ln:"77",},
+		{fp:"ofono/include/sim.h",ki:"member",ln:"170",},
+	],
+},
+{tag:"lock_code_to_mmi",ref:
+	[
+		{fp:"ofono/drivers/isimodem/call-barring.c",ki:"function",ln:"52",sig:"(const char *lock)",},
+	],
+},
+{tag:"lock_owner",ref:
+	[
+		{fp:"ofono/src/modem.c",ki:"member",ln:"75",},
+	],
+},
+{tag:"lock_watch",ref:
+	[
+		{fp:"ofono/src/modem.c",ki:"member",ln:"76",},
+	],
+},
+{tag:"lockdown",ref:
+	[
+		{fp:"ofono/src/modem.c",ki:"member",ln:"74",},
+	],
+},
+{tag:"lockdown_disconnect",ref:
+	[
+		{fp:"ofono/src/modem.c",ki:"function",ln:"952",sig:"(DBusConnection *conn, void *user_data)",},
+	],
+},
+{tag:"lockdown_remove",ref:
+	[
+		{fp:"ofono/src/modem.c",ki:"function",ln:"899",sig:"(struct ofono_modem *modem)",},
+	],
+},
+{tag:"locked_pins",ref:
+	[
+		{fp:"ofono/src/sim.c",ki:"member",ln:"63",},
+	],
+},
+{tag:"locking_g",ref:
+	[
+		{fp:"ofono/src/util.c",ki:"member",ln:"86",},
+	],
+},
+{tag:"locking_lang",ref:
+	[
+		{fp:"ofono/unit/test-sms.c",ki:"member",ln:"581",},
+	],
+},
+{tag:"locking_len_u",ref:
+	[
+		{fp:"ofono/src/util.c",ki:"member",ln:"79",},
+	],
+},
+{tag:"locking_u",ref:
+	[
+		{fp:"ofono/src/util.c",ki:"member",ln:"78",},
+	],
+},
+{tag:"long_ci",ref:
+	[
+		{fp:"ofono/src/simutil.h",ki:"member",ln:"278",},
+	],
+},
+{tag:"longhdr",ref:
+	[
+		{fp:"ofono/gisi/iter.h",ki:"member",ln:"36",},
+	],
+},
+{tag:"longname",ref:
+	[
+		{fp:"ofono/src/simutil.h",ki:"member",ln:"277",},
+	],
+},
+{tag:"lookup_apn",ref:
+	[
+		{fp:"ofono/tools/lookup-apn.c",ki:"function",ln:"36",sig:"(const char *match_mcc, const char *match_mnc, gboolean allow_duplicates)",},
+	],
+},
+{tag:"lookup_cdma_provider_name",ref:
+	[
+		{fp:"ofono/tools/lookup-provider-name.c",ki:"function",ln:"36",sig:"(const char *match_sid)",},
+	],
+},
+{tag:"lr",ref:
+	[
+		{fp:"ofono/plugins/mbm.c",ki:"member",ln:"69",},
+	],
+},
+])

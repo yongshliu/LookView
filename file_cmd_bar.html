@@ -1,0 +1,58 @@
+<nav class="navbar navbar-default" id="page_nav_bar">
+		<div class="container-fluid">
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">本地变量<span class="caret"></span></a>
+						<ul class="dropdown-menu" id="ls_dd_container">
+							<div class="input-group" id="local_symbol_search">
+  								<span class="input-group-addon"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></span>
+  								<input type="text" class="form-control" id="lss_input" placeholder="本地变量">
+							</div>
+							<div class="panel panel-default" id="lss_list_div">
+								<div class="panel-body">空</div>
+							</div>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">项目文件<span class="caret"></span></a>
+
+						<div class="dropdown-menu" id="pf_dd_container">
+								<div><a role="button" href="#" id="show-code-tree">查看代码树</a></div>
+							<div class="input-group" id="prject_file_search">
+  								<span class="input-group-addon"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></span>
+  								<input type="text" class="form-control" id="pfs_input" placeholder="查找文件">
+							</div>
+							<div id="pf_pageer">
+							</div>
+							<div class="panel panel-default" id="pf_list_div">
+								<div class="panel-body"></div>
+							</div>
+						</div>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">评论<span class="caret"></span></a>
+
+						<ul class="dropdown-menu" id="comments-cmd-btn">
+							<li><a role="button" href="#" id="page_unfold_all">显示所有评论</a></li>
+							<li><a role="button" href="#" id="page_fold_all">隐藏所有评论</a></li>
+						</ul>
+					</li>
+					<div class="global_symbol_search">
+					<div class="input-group" id="global_symbol_div_id">
+  						<span class="input-group-addon"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></span>
+  						<input type="text" class="form-control" id="global_symbol_search_input" placeholder="全局变量">
+						<span class="input-group-addon"><button type="button" class="close" id="gsi_clear" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<div id="global_symbols_sel_div" class="global_symbols_sel_div"></div>
+
+					</div>
+					</div>
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+<div id="file_path_div">
+</div>
+
+
